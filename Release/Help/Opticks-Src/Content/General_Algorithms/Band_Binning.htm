@@ -1,0 +1,119 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" MadCap:lastBlockDepth="5" MadCap:lastHeight="2239" MadCap:lastWidth="1224">
+    <head>
+        <link href="../Resources/TableStyles/Opticks_Table.css" rel="stylesheet" MadCap:stylesheetType="table" /><title>Band Binning</title>
+    </head>
+    <body>
+        <h1>Band Binning</h1>
+        <p class="BodyText">
+            <MadCap:keyword term="band binning" />The Band Binning algorithm enables you transform an image by removing and/or combining bands. This can be useful to reduce the dimensionality of the image such as taking the average of the "red" bands and combining them into a single band in the output. </p>
+        <p class="BodyText">Bad values are removed from the calculation. The algorithm runs much faster when either all bad values are removed from the data prior to processing or when all bad values are uniform across all layers to be averaged. Although the algorithm will process data of any interleave, it will usually work fastest with BIP data. Interleave conversion is possible on import through <a href="../Importers_Exporters/Options/Import_Data_Options.htm">Import Options</a>. The results will be displayed in a new window and will have the same data type (such as signed 2-byte integers). Integer data types will be truncated when necessary. For example, “(5 + 6)/2” will result in an output of 5.
+
+   </p>
+        <p class="BodyText">Band groups can be thought of as a range from the first band to the last band. This means that a bin defined as “from band 2 to band 4” will assign the average of bands 2, 3, and 4 to the corresponding output band. </p>
+        <p class="BodyText">It is possible to remove bands from the output by not including them in any groups.
+   It is also possible to include a band in more than one group such as “from band 3 to band 6” and “from band 5 to band 7”.
+   A group can contain only one band such as “from band 7 to band 7”.
+   However, it is not possible to have gaps in the bins such as “from band 7 to band 10, excluding band 8”.
+
+   </p>
+        <p class="BodyText">The Band Binning algorithm is available through the General Algorithms Toolbar. It is also available on the <a href="../Wizard_Builder/Using_the_Wizard_Builder.htm">Wizard Builder</a> in both batch and interactive mode.</p>
+        <p class="BodyText"><b>To run the Band Binning algorithm:</b>
+        </p>
+        <ol>
+            <li>Go to the General Algorithms Toolbar and select Band Binning.</li>
+        </ol>
+        <p class="BodyTextIndent">The Band Binning Window is displayed.</p>
+        <p class="BodyTextIndent">
+            <img src="../Resources/Images/Band_Binning_Dialog.gif" />
+        </p>
+        <ol MadCap:continue="true">
+            <li style="margin-top: 9pt;margin-bottom: 9pt;">Enter the first and last input band numbers for each bin number or load a binning file. Use the buttons at the bottom of the window to manage the bins or load a file.</li>
+            <li style="margin-top: 9pt;margin-bottom: 9pt;">When your inputs are entered, click the <b>OK</b> button.</li>
+        </ol>
+        <p class="BodyText">The algorithm runs and the image is displayed in a new window.</p>
+        <h2>Example</h2>
+        <p class="BodyText">The example below is as follows:</p>
+        <ul style="list-style-type: square;">
+            <li style="margin-top: 9pt;margin-bottom: 9pt;">The values in bands 1 though 7 will be averaged and placed in the new image as Band 1.</li>
+            <li style="margin-top: 9pt;margin-bottom: 9pt;">The values in Bands 3 though 9 will be averaged and placed in the new image as Band 2.</li>
+            <li style="margin-top: 9pt;margin-bottom: 9pt;">The values in Bands 12 through 15 will be averaged and placed in the new image as Band 3.</li>
+        </ul>
+        <p class="BodyText">
+            <img src="../Resources/Images/Select_Band_Bins.gif">
+            </img>
+        </p>
+        <h2>Buttons</h2>
+        <table style="mc-table-style: url('../Resources/TableStyles/Opticks_Table.css');margin-left: 0;margin-right: auto;caption-side: top;" class="TableStyle_Opticks_Table" cellspacing="0">
+            <col />
+            <col />
+            <thead>
+                <tr>
+                    <th class="TableStyle_Opticks_Table_Head_0_0_RowSep_ColSep">Button</th>
+                    <th class="TableStyle_Opticks_Table_Head_0_0_RowSep_ColEnd">What it does</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td class="TableStyle_Opticks_Table_Body_0_0_RowSep_ColSep">
+                        <img src="../Resources/Images/Open_Button.png" />
+                    </td>
+                    <td class="TableStyle_Opticks_Table_Body_0_0_RowSep_ColEnd">Opens a binning file.</td>
+                </tr>
+                <tr>
+                    <td class="TableStyle_Opticks_Table_Body_0_0_RowSep_ColSep">
+                        <img src="../Resources/Images/Save_button.png" />
+                    </td>
+                    <td class="TableStyle_Opticks_Table_Body_0_0_RowSep_ColEnd">Saves the selections to a binning file.</td>
+                </tr>
+                <tr>
+                    <td class="TableStyle_Opticks_Table_Body_0_0_RowSep_ColSep">
+                        <img src="../Resources/Images/Add_Bin_Button.gif" />
+                    </td>
+                    <td class="TableStyle_Opticks_Table_Body_0_0_RowSep_ColEnd">Adds a bin.</td>
+                </tr>
+                <tr>
+                    <td class="TableStyle_Opticks_Table_Body_0_0_RowSep_ColSep">
+                        <img src="../Resources/Images/Delete_Bin_Button.gif" />
+                    </td>
+                    <td class="TableStyle_Opticks_Table_Body_0_0_RowSep_ColEnd">Removes the selected bin.</td>
+                </tr>
+                <tr>
+                    <td class="TableStyle_Opticks_Table_Body_0_0_RowSep_ColSep">
+                        <img src="../Resources/Images/Delete_Button.png" />
+                    </td>
+                    <td class="TableStyle_Opticks_Table_Body_0_0_RowSep_ColEnd">Clears all bins.</td>
+                </tr>
+                <tr>
+                    <td class="TableStyle_Opticks_Table_Body_0_0_RowSep_ColSep">
+                        <img src="../Resources/Images/Reset_Bins_Button.gif" />
+                    </td>
+                    <td class="TableStyle_Opticks_Table_Body_0_0_RowSep_ColEnd">Resets the bins to default values.</td>
+                </tr>
+                <tr>
+                    <td class="TableStyle_Opticks_Table_Body_0_0_RowSep_ColSep">
+                        <img src="../Resources/Images/Increase_Order_Button.png" />
+                    </td>
+                    <td class="TableStyle_Opticks_Table_Body_0_0_RowSep_ColEnd">Moves the selected bin(s) up.</td>
+                </tr>
+                <tr>
+                    <td class="TableStyle_Opticks_Table_Body_0_0_RowEnd_ColSep">
+                        <img src="../Resources/Images/Decrease_Order_Button.png" />
+                    </td>
+                    <td class="TableStyle_Opticks_Table_Body_0_0_RowEnd_ColEnd">Moves the selected bin(s) down.</td>
+                </tr>
+            </tbody>
+        </table>
+        <h2>Binning Files</h2>
+        <p class="BodyText">You can save band bins to a .txt file and load it again for later use. If you run the Band Binning algorithm from a wizard in batch mode, the file is required. In interactive mode, the file is optional and is used to initialize the GUI.</p>
+        <p class="BodyTextIndent">The band binning values in this Select Band Bins window:</p>
+        <p class="BodyTextIndent">
+            <img src="../Resources/Images/Select_Band_Bins.gif" />
+        </p>
+        <p class="BodyTextIndent">will look like this if you save them to a .txt file:</p>
+        <p class="BodyTextIndent">1 7</p>
+        <p class="BodyTextIndent">3 9</p>
+        <p class="BodyTextIndent">12 15</p>
+        <p class="BodyText">You can modify the values directly in the .txt file by opening a text editor and making the changes.</p>
+    </body>
+</html>

@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" MadCap:lastBlockDepth="4" MadCap:lastHeight="313" MadCap:lastWidth="599">
+    <head>
+    </head>
+    <body>
+        <p>There are three ways to access the toolbars:</p>
+        <ul style="list-style: disc;list-style-type: square;" type="disc">
+            <li class="BodyText">Go to the <b>View</b> drop down menu and select <b>Toolbars</b>. The list of toolbars is displayed. Active toolbars have a checkmark in front of them. Select the toolbar name to toggle it on or off.</li>
+        </ul>
+        <p class="BodyTextIndent"><i>OR</i>
+        </p>
+        <ul style="list-style: disc;list-style-type: square;" type="disc">
+            <li class="BodyText">Using your mouse, move the pointer to the toolbar area of the Opticks main application window. Right-click the mouse. The list of windows and toolbars is displayed. Active toolbars have a checkmark in front of them. Select the toolbar name to toggle it on or off.</li>
+        </ul>
+        <p class="BodyTextIndent"><i>OR</i>
+        </p>
+        <ul style="list-style-type: square;">
+            <li class="BodyText">In the Session Explorer Window, make sure the Windows tab is selected. Click <b>Toolbars</b>. Click the checkbox in front of the toolbar you want to display.</li>
+        </ul>
+    </body>
+</html>

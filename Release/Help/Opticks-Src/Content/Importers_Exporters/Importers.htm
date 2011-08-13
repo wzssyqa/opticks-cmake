@@ -1,0 +1,78 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" MadCap:id="Importers" MadCap:timeEstimate="0" MadCap:priority="0" MadCap:status="In Progress" class="" MadCap:lastBlockDepth="5" MadCap:lastHeight="971" MadCap:lastWidth="1149">
+    <head><title>Importers</title>
+        <link rel="StyleSheet" href="../Opticks_Styles.css" />
+    </head>
+    <body>
+        <div placeholder="" id="header" style="width: 100%;position: relative;">
+        </div>
+        <h1>
+            <MadCap:keyword term="Importers" />Importers</h1>
+        <p class="BodyText">Importers are used to load and display data in Opticks. 
+ Importers can determine if the selected file is in the importer’s 
+ recognized format.</p>
+        <p class="BodyText">When you <a href="Import_Data.htm">import a data file</a>, 
+ you can select from the following list of importers:</p>
+        <ul style="list-style-type: square;">
+            <li class="BulletList" style="font-weight: bold;"><b>ASPAM Importer</b>. <span style="font-weight: normal;">Loads ASPAM and PAR files that follow the official ASPAM and 
+ PAR specifications as well as files that deviate from the standard in 
+ certain well-defined ways. See <a href="Import_ASPAM_File.htm">Import ASPAM File</a>.</span></li>
+        </ul>
+        <ul>
+            <li class="BulletList"><span style="font-weight: bold;">Auto Importer</span>. Allows you to import a data set without knowing 
+ which importer to use. Based on the file you choose, Opticks automatically 
+ selects the importer. If Opticks can’t 
+ find an importer, it automatically uses the Generic Importer.</li>
+            <li class="BulletList"><span style="font-weight: bold;">CGM Importer</span>. Loads CGM objects into an annotation layer.</li>
+            <li class="BulletList"><span style="font-weight: bold;">DTED 
+ Importer</span>. Allows you to load data in DTED format.</li>
+            <li class="BulletList"><span style="font-weight: bold;">ENVI 
+ Importer</span>. Allows you to load spectral data that has an associated 
+ header file in <MadCap:popup><MadCap:popupHead style="color: #008000;font-weight: bold;" class="popupspot">ENVI</MadCap:popupHead><MadCap:popupBody class="popupBody_1">ENvironment for Visualizing Images</MadCap:popupBody></MadCap:popup> 
+ format. For more information, see <a href="ENVI_Importer.htm" id="a1">ENVI Importer</a>.</li>
+            <li class="BulletList"><b>ENVI Library Importer</b>. The ENVI Library Importer is a signature importer, not 
+ a data importer. It is similar to the ENVI Importer but loads one or more 
+ signatures (as part of a spectral library) instead of a data set. See also <a href="ENVI_Library_Importer.htm">ENVI Library Importer</a>.</li>
+            <li class="BulletList"><b>Generic GDAL Importer</b>. Allows you to import Geospatial Data Abstraction Library (GDAL) data. For more information on GDAL, see <a href="http://www.gdal.org/">www.gdal.org</a>.</li>
+            <li class="BulletList"><b>Generic HDF5 Importer</b>.</li>
+            <li class="BulletList"><span style="font-weight: bold;">Generic 
+ Importer</span>. Allows you to import a data set without knowing the format. 
+ If you use the Generic Importer, you have to enter the values in the <a href="Options/Import_Data_Options.htm">Import Data Options</a>. Click 
+ on the <b>Options</b> button to display the Import Options window. Be 
+ sure you enter the appropriate values in the Spectral 
+ Cube Properties.</li>
+            <li class="BulletList"><span style="font-weight: bold;">GeoTIFF 
+ Importer</span>. Allows you to load <MadCap:popup><MadCap:popupHead style="color: #008000;font-weight: bold;" class="popupspot">TIFF</MadCap:popupHead><MadCap:popupBody class="popupBody_1">Tagged Image File Format</MadCap:popupBody></MadCap:popup> 
+ and GeoTIFF files that include geocoordinates (latitude/longitude) information. It also 
+ loads tiled TIFF&#160;and GeoTIFF&#160;files as well as plain TIF files. The GeoTIFF Importer imports TIFF&#160;and GeoTIFF tags into the metadata.</li>
+            <li class="BulletList"><b>Geographic Feature Layer Importer</b>.</li>
+            <li class="BulletList"><b>Hyperion Importer</b>.</li>
+            <li class="BulletList"><b>Ice Importer</b>. Allows you to load data in Opticks' native format. A data set must have already been exported with the Ice Exporter in order for a file to exist that you can load with this 
+ importer.</li>
+            <li class="BulletList"><b>Ice Pseudocolor Layer Importer</b>. Allows you to import an already created pseudocolor layer and load it on the current image.</li>
+            <li class="BulletList"><b>Jpeg2000 Importer.</b> Allows you to import Jpeg2000 files (*.jp2, *.j2k).</li>
+            <li class="BulletList"><b>Layer Importer</b>.</li>
+            <li class="BulletList"><b>Model Importer.</b>
+            </li>
+            <li class="BulletList"><span style="font-weight: bold;">NITF 
+ Importer</span>. Enables you to load data in NITF format. See <a href="NITF_Importer.htm">NITF Importer</a>.</li>
+            <li class="BulletList"><span style="font-weight: bold;">SIO Importer</span>. </li>
+            <li class="BulletList"><b>Shape File Importer</b>. The Shape File Importer enables ESRI shape files to be 
+ loaded into the current data set. See <a href="Import_Shape_File.htm">Import Shape File</a>.</li>
+            <li class="BulletList"><b>Wavelength Metadata Importer</b>. (*.wmd) XML format, saves units.</li>
+            <li class="BulletList"><b>Wavelength Text Importer</b>. Loads wavelength values from a wavelengths file (*.wav, *.wave) to associate them with a data set. See <a href="../Wavelengths/Wavelength_File_Format.htm">Wavelength Text Importer File Format Specifications</a>.</li>
+        </ul>
+        <p class="BodyText">Other importers might also be available, depending on 
+ the plug-ins you have loaded.</p>
+        <hr style="float: aligncenter;width: 50%;" align="center" width="50%" size="4" />
+        <h2>Related Topics</h2>
+        <p class="BodyText"><a href="Import_Shape_File.htm">Import Shape File</a>
+        </p>
+        <p class="BodyText"><a href="../about_opticks_suite_data_files.htm">About Opticks 
+ Suite Data Files</a>
+        </p>
+        <p class="BodyText">
+            <p>&#160;</p>
+        </p>
+    </body>
+</html>

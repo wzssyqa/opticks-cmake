@@ -1,0 +1,83 @@
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svnroot/opticks/!svn/ver/13604/releases/4.7.0/trunk/Code/application/PlugIns/src/BandMath
+END
+BandMath.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/svnroot/opticks/!svn/ver/13604/releases/4.7.0/trunk/Code/application/PlugIns/src/BandMath/BandMath.cpp
+END
+BandMath.vcxproj.filters
+K 25
+svn:wc:ra_dav:version-url
+V 115
+/svnroot/opticks/!svn/ver/13604/releases/4.7.0/trunk/Code/application/PlugIns/src/BandMath/BandMath.vcxproj.filters
+END
+bm.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/svnroot/opticks/!svn/ver/13604/releases/4.7.0/trunk/Code/application/PlugIns/src/BandMath/bm.cpp
+END
+bm.ui.h
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/svnroot/opticks/!svn/ver/13604/releases/4.7.0/trunk/Code/application/PlugIns/src/BandMath/bm.ui.h
+END
+bmathfuncs.h
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/svnroot/opticks/!svn/ver/13604/releases/4.7.0/trunk/Code/application/PlugIns/src/BandMath/bmathfuncs.h
+END
+ModuleManager.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/svnroot/opticks/!svn/ver/13604/releases/4.7.0/trunk/Code/application/PlugIns/src/BandMath/ModuleManager.cpp
+END
+BandMath.h
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/svnroot/opticks/!svn/ver/13604/releases/4.7.0/trunk/Code/application/PlugIns/src/BandMath/BandMath.h
+END
+bm.h
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svnroot/opticks/!svn/ver/13604/releases/4.7.0/trunk/Code/application/PlugIns/src/BandMath/bm.h
+END
+mbox.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/svnroot/opticks/!svn/ver/13604/releases/4.7.0/trunk/Code/application/PlugIns/src/BandMath/mbox.cpp
+END
+SConscript
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/svnroot/opticks/!svn/ver/13604/releases/4.7.0/trunk/Code/application/PlugIns/src/BandMath/SConscript
+END
+BandMath.vcxproj
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/svnroot/opticks/!svn/ver/13604/releases/4.7.0/trunk/Code/application/PlugIns/src/BandMath/BandMath.vcxproj
+END
+bmathfuncs.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/svnroot/opticks/!svn/ver/13604/releases/4.7.0/trunk/Code/application/PlugIns/src/BandMath/bmathfuncs.cpp
+END
+mbox.h
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/svnroot/opticks/!svn/ver/13604/releases/4.7.0/trunk/Code/application/PlugIns/src/BandMath/mbox.h
+END

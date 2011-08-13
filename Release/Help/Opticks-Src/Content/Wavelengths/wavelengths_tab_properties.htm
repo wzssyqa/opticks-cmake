@@ -1,0 +1,60 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html MadCap:ignoredWords="AOI;AOIs;GeoTiff;RGB;Homomorphic;Differencing;Pseudocolor;misregistration;Misregistration;RMS;differencing;ACD;IKONOS;NAIC;NADCA;Endmember;Coregistration;MSI;HSI;AVIRIS;CASI;NVIS;Boresight;GeoCorrection;GCP;Geo;ETM;IR;CEM;ModFull;NIDA;HYDICE;nm;IARR;MODTRAN;NSEC;*.sig;*.elm;SignatureScriptWizard.wiz;SupportFiles;SigScriptPrototype.bat;SigScriptPrototype.csh;Wavefile;FWHM;wavefile;dataset;ROI;Steradian;µm;modh2o;CoRegistration;GCPs;coregistering;coregistration;geocoordinates;CADRG;ADRG;x²;y²;c²;C²;resampled;spline;Resmini;NSIG;nsig;sdb;CSV;ENVI;csv;sig;slb;XML;NASIC;IDD;Opticks’s;sli;hdr;wav" MadCap:lastBlockDepth="4" MadCap:lastHeight="2965" MadCap:lastWidth="957" class="" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd">
+    <head><title>Wavelengths Tab: Properties Window</title>
+        <link rel="StyleSheet" href="../Opticks_Styles.css" />
+    </head>
+    <body>
+        <div placeholder="" id="header" style="width: 100%;position: relative;">
+        </div>
+        <h1>
+            <MadCap:keyword term="Wavelengths Tab;Wavelengths Tab:Properties Window;properties:Wavelengths Tab" />Wavelengths Tab: Properties Window</h1>
+        <p class="BodyText">The Wavelengths Tab on the <a href="../Properties/Data_Elements_Properties.htm">Properties</a> Window provides the capability to load or save wavelengths in a file and to assign wavelengths to a loaded data set. </p>
+        <p class="BodyText">The Wavelengths Tab is only available for raster data sets.</p>
+        <p class="BodyText">For input, this tool takes a wavelengths file or the wavelengths included in a data cube and writes an output wave file or writes the wavelengths to the current data cube.</p>
+        <p class="BodyText">The Wavelengths Tab functionality should be executed before running any plug-in that requires wavelength data to run. The Wavelengths Tab also can be used to review the wavelengths of a specific dataset. </p>
+        <p class="BodyText">If the dataset already contains all required wavelength information (start, end, and center channel wavelengths), the Wavelengths Tab is not needed. </p>
+        <h2>Using the Wavelengths Tab</h2>
+        <p class="BodyText">The Wavelengths Tab appears in the Import Options dialog box and the Data Elements Properties dialog box. It cannot be displayed independently from a raster element.</p>
+        <p class="BodyText">When you open the Wavelengths Tab, you can open it with  a data cube already open. If you open it with the data cube already open, you can also open a wavelength file associated with the data cube and output any changes to the wavelengths directly back to the opened data cube.</p>
+        <MadCap:snippetBlock src="../Resources/Snippets/Wavelengths.flsnp" />
+        <h3><b>To assign wavelengths to a loaded data set:</b>
+        </h3>
+        <ol>
+            <li style="margin-top: 7pt;margin-bottom: 7pt;">Go to the <b>Session Explorer</b> and select the <b>Elements</b> tab.</li>
+            <li style="margin-top: 7pt;margin-bottom: 7pt;">Select the raster element of the desired data set.</li>
+            <li style="margin-top: 7pt;margin-bottom: 7pt;">Right-click and select <b>Properties</b>. The Wavelengths Tab appears on the properties dialog box. See also <a href="../Properties/Data_Elements_Properties.htm">Data Elements Properties</a>.</li>
+        </ol>
+        <p class="BodyText">
+            <img src="../Resources/Images/Properties_Wavelengths.gif" />
+        </p>
+        <p class="BodyText">The <b>From Element</b> button allows you to assign the wavelengths of another data set to this data set. The data sets must have the same number of bands.</p>
+        <h3><b>To input the wavelengths from a wavelength file:</b>
+        </h3>
+        <ol>
+            <li style="margin-top: 7pt;margin-bottom: 7pt;">On the Wavelengths tab of the Properties window, click the <b>Load</b> button. </li>
+            <li style="margin-top: 7pt;margin-bottom: 7pt;">Navigate to and open the wavelength file. Wavelength files have the extension .wav, .wave, or .wmd. The wavelengths are automatically loaded into the wavelengths table. </li>
+        </ol>
+        <p class="BodyTextIndent">
+            <img src="../Resources/Images/Loaded_Wavelengths.gif" />
+        </p>
+        <p class="BodyTextIndent">The <span style="font-weight: bold;">Units</span> field displays the loaded wavelengths in various units. </p>
+        <ol MadCap:continue="true">
+            <li>If you choose to multiple the wavelength values by a specified factor, click the <b>Scale</b> button. This activates a text entry box. Type in the desired factor and then select <b>OK</b>. The wavelength values are updated with the new values.</li>
+        </ol>
+        <p class="BodyTextIndent">If the collected data does not contain a Full Width Half Max value, one can be calculated based on a specified constant to derive the Minimum and Maximum Channel Wavelengths. To compute the minimum and maximum channel wavelengths, set the FWHM constant by clicking the <b>FWHM</b> button, button, type in a factor in the <span style="font-weight: bold;">FWHM Constant</span> text field (the default value is 1.0), and select the <b>O</b><span style="font-weight: bold;">K</span> button. The minimum and maximum channel wavelength columns are filled in with the computed values.</p>
+        <p class="BodyText"><b>To output the wavelengths to a new wavelength file:</b>
+        </p>
+        <ol>
+            <li style="margin-top: 7pt;margin-bottom: 7pt;">Click the <b>S</b><span style="font-weight: bold;">ave...</span> button. </li>
+            <li style="margin-top: 7pt;margin-bottom: 7pt;">Navigate to the desired directory and either enter a new filename or select a current wavelength file. If you choose to overwrite a current file, a warning dialog is displayed asking if you want to overwrite the file. The new wavelength file will have the extension .wav, .wave, or .wmd based on the selected wavelength exporter.</li>
+        </ol>
+        <p class="BodyText">When you are ready to write the wavelength values to the data set, click the <span style="font-weight: bold;">O</span><b>K</b> button. </p>
+        <p class="BodyTextIndent">&#160;</p>
+        <hr width="100%" size="4" align="center" />
+        <h2>Related Topic</h2>
+        <p class="BodyText"><a href="Wavelengths_Tab_Algorithm_Information.htm">Wavelengths Tab Algorithm Information</a>
+        </p>
+        <div placeholder="" id="footer" style="width: 100%;position: relative;">
+        </div>
+    </body>
+</html>

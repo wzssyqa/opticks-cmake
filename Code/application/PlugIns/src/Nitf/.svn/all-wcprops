@@ -1,0 +1,143 @@
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svnroot/opticks/!svn/ver/13604/releases/4.7.0/trunk/Code/application/PlugIns/src/Nitf
+END
+NitfExporter.h
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/svnroot/opticks/!svn/ver/13604/releases/4.7.0/trunk/Code/application/PlugIns/src/Nitf/NitfExporter.h
+END
+OssimServices.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/svnroot/opticks/!svn/ver/13604/releases/4.7.0/trunk/Code/application/PlugIns/src/Nitf/OssimServices.cpp
+END
+RpcGeoreference.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/svnroot/opticks/!svn/ver/13604/releases/4.7.0/trunk/Code/application/PlugIns/src/Nitf/RpcGeoreference.cpp
+END
+RpcGui.h
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svnroot/opticks/!svn/ver/13604/releases/4.7.0/trunk/Code/application/PlugIns/src/Nitf/RpcGui.h
+END
+RpcGeoreference.h
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/svnroot/opticks/!svn/ver/13604/releases/4.7.0/trunk/Code/application/PlugIns/src/Nitf/RpcGeoreference.h
+END
+OssimAppMemorySource.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 111
+/svnroot/opticks/!svn/ver/13604/releases/4.7.0/trunk/Code/application/PlugIns/src/Nitf/OssimAppMemorySource.cpp
+END
+OptionsNitfExporter.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/svnroot/opticks/!svn/ver/13604/releases/4.7.0/trunk/Code/application/PlugIns/src/Nitf/OptionsNitfExporter.cpp
+END
+SConscript
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/svnroot/opticks/!svn/ver/13604/releases/4.7.0/trunk/Code/application/PlugIns/src/Nitf/SConscript
+END
+NitfUnknownTreParser.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 111
+/svnroot/opticks/!svn/ver/13604/releases/4.7.0/trunk/Code/application/PlugIns/src/Nitf/NitfUnknownTreParser.cpp
+END
+NitfPropertiesManager.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 112
+/svnroot/opticks/!svn/ver/13604/releases/4.7.0/trunk/Code/application/PlugIns/src/Nitf/NitfPropertiesManager.cpp
+END
+Nitf.vcxproj
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/svnroot/opticks/!svn/ver/13604/releases/4.7.0/trunk/Code/application/PlugIns/src/Nitf/Nitf.vcxproj
+END
+OptionsNitfExporter.h
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/svnroot/opticks/!svn/ver/13604/releases/4.7.0/trunk/Code/application/PlugIns/src/Nitf/OptionsNitfExporter.h
+END
+OssimAppMemorySource.h
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/svnroot/opticks/!svn/ver/13604/releases/4.7.0/trunk/Code/application/PlugIns/src/Nitf/OssimAppMemorySource.h
+END
+NitfUnknownTreParser.h
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/svnroot/opticks/!svn/ver/13604/releases/4.7.0/trunk/Code/application/PlugIns/src/Nitf/NitfUnknownTreParser.h
+END
+NitfPropertiesManager.h
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/svnroot/opticks/!svn/ver/13604/releases/4.7.0/trunk/Code/application/PlugIns/src/Nitf/NitfPropertiesManager.h
+END
+NitfPager.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/svnroot/opticks/!svn/ver/13604/releases/4.7.0/trunk/Code/application/PlugIns/src/Nitf/NitfPager.cpp
+END
+Nitf.vcxproj.filters
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/svnroot/opticks/!svn/ver/13604/releases/4.7.0/trunk/Code/application/PlugIns/src/Nitf/Nitf.vcxproj.filters
+END
+ModuleManager.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/svnroot/opticks/!svn/ver/13604/releases/4.7.0/trunk/Code/application/PlugIns/src/Nitf/ModuleManager.cpp
+END
+NitfImporter.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/svnroot/opticks/!svn/ver/13604/releases/4.7.0/trunk/Code/application/PlugIns/src/Nitf/NitfImporter.cpp
+END
+NitfPager.h
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/svnroot/opticks/!svn/ver/13604/releases/4.7.0/trunk/Code/application/PlugIns/src/Nitf/NitfPager.h
+END
+NitfImporter.h
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/svnroot/opticks/!svn/ver/13604/releases/4.7.0/trunk/Code/application/PlugIns/src/Nitf/NitfImporter.h
+END
+NitfExporter.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/svnroot/opticks/!svn/ver/13604/releases/4.7.0/trunk/Code/application/PlugIns/src/Nitf/NitfExporter.cpp
+END
+RpcGui.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/svnroot/opticks/!svn/ver/13604/releases/4.7.0/trunk/Code/application/PlugIns/src/Nitf/RpcGui.cpp
+END

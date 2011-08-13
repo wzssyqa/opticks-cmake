@@ -1,0 +1,53 @@
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svnroot/opticks/!svn/ver/13604/releases/4.7.0/trunk/Code/application/PlugIns/src/ObjectFinding
+END
+ObjectFinding.vcxproj
+K 25
+svn:wc:ra_dav:version-url
+V 117
+/svnroot/opticks/!svn/ver/13604/releases/4.7.0/trunk/Code/application/PlugIns/src/ObjectFinding/ObjectFinding.vcxproj
+END
+ModuleManager.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/svnroot/opticks/!svn/ver/13604/releases/4.7.0/trunk/Code/application/PlugIns/src/ObjectFinding/ModuleManager.cpp
+END
+QtClusterGui.h
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/svnroot/opticks/!svn/ver/13604/releases/4.7.0/trunk/Code/application/PlugIns/src/ObjectFinding/QtClusterGui.h
+END
+ObjectFinding.vcxproj.filters
+K 25
+svn:wc:ra_dav:version-url
+V 125
+/svnroot/opticks/!svn/ver/13604/releases/4.7.0/trunk/Code/application/PlugIns/src/ObjectFinding/ObjectFinding.vcxproj.filters
+END
+QtCluster.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/svnroot/opticks/!svn/ver/13604/releases/4.7.0/trunk/Code/application/PlugIns/src/ObjectFinding/QtCluster.cpp
+END
+SConscript
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/svnroot/opticks/!svn/ver/13604/releases/4.7.0/trunk/Code/application/PlugIns/src/ObjectFinding/SConscript
+END
+QtCluster.h
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/svnroot/opticks/!svn/ver/13604/releases/4.7.0/trunk/Code/application/PlugIns/src/ObjectFinding/QtCluster.h
+END
+QtClusterGui.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 112
+/svnroot/opticks/!svn/ver/13604/releases/4.7.0/trunk/Code/application/PlugIns/src/ObjectFinding/QtClusterGui.cpp
+END

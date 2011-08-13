@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" MadCap:lastBlockDepth="2" MadCap:lastHeight="204" MadCap:lastWidth="585">
+    <head>
+    </head>
+    <body>
+        <p class="BodyText">If the <b>Use View Resolution</b> checkbox is checked, the default export will use the view resolution of the currently active view.</p>
+        <p class="BodyText">To set default values, uncheck the Use View Resolution checkbox. This enables the other image size fields.</p>
+        <p class="BodyText">Enter the <b>Width</b> and <b>Height</b> in pixels.</p>
+        <p class="BodyText">Under Copy Method, if you select Fixed Size, the image is exported using the width and height specified in those fields.</p>
+        <p class="BodyText">If you select Bounding Box, the largest image possible is fit into the bounding box and aspect ratio of the current view is exported.</p>
+    </body>
+</html>

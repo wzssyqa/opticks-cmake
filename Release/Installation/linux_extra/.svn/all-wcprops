@@ -1,0 +1,53 @@
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svnroot/opticks/!svn/ver/13604/releases/4.7.0/trunk/Release/Installation/linux_extra
+END
+Environment
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/svnroot/opticks/!svn/ver/13604/releases/4.7.0/trunk/Release/Installation/linux_extra/Environment
+END
+opticks.desktop
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/svnroot/opticks/!svn/ver/13604/releases/4.7.0/trunk/Release/Installation/linux_extra/opticks.desktop
+END
+prerm
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svnroot/opticks/!svn/ver/13604/releases/4.7.0/trunk/Release/Installation/linux_extra/prerm
+END
+copyright
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svnroot/opticks/!svn/ver/13604/releases/4.7.0/trunk/Release/Installation/linux_extra/copyright
+END
+.dummy
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svnroot/opticks/!svn/ver/13604/releases/4.7.0/trunk/Release/Installation/linux_extra/.dummy
+END
+3-ApplicationTempDir.cfg.in
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/svnroot/opticks/!svn/ver/13604/releases/4.7.0/trunk/Release/Installation/linux_extra/3-ApplicationTempDir.cfg.in
+END
+Opticks
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svnroot/opticks/!svn/ver/13604/releases/4.7.0/trunk/Release/Installation/linux_extra/Opticks
+END
+OpticksBatch
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/svnroot/opticks/!svn/ver/13604/releases/4.7.0/trunk/Release/Installation/linux_extra/OpticksBatch
+END

@@ -1,0 +1,87 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" MadCap:id="Export_Results_Matrix" MadCap:timeEstimate="0" MadCap:priority="0" MadCap:status="In Progress" MadCap:lastBlockDepth="6" MadCap:lastHeight="2534" MadCap:lastWidth="563" class="">
+    <head><title>Export Results</title>
+        <link rel="StyleSheet" href="../Opticks_Styles.css" />
+    </head>
+    <body>
+        <div placeholder="" id="header" style="width: 100%;position: relative;">
+        </div>
+        <h1>
+            <MadCap:keyword term="results:export" />
+            <MadCap:keyword term="export:results" />Export Results</h1>
+        <p class="BodyText" style="font-weight: normal;">The results exporter exports algorithm 
+ results. This is separate from <a href="Export_Data_Set.htm">exporting a data set</a>. The results can be appended to an existing results file or can replace 
+ the contents of an existing results file. You can also create a new file.</p>
+        <p class="BodyText" style="font-weight: bold;"><span style="font-weight: normal;">To use 
+ the results exporter, you must have algorithm results to save. The exported results file (*.rls) is an ASCII text file 
+ listing pixels and their results values that pass a user-defined threshold.</span>
+        </p>
+        <p class="BodyText" style="font-weight: bold;">To export results:</p>
+        <ol>
+            <li class="NumberList">On the Session Explorer window, right-click on the name of the results element on the Elements tab.</li>
+            <li class="NumberList">Select the <b>Export</b> command on the context menu.</li>
+            <li class="NumberList">In the Export window, go to <b>Exporter</b> and select <b>Results Exporter</b> from the drop-down list.</li>
+            <li class="NumberList">Enter the output 
+ <span style="font-weight: bold;">File name</span> <![CDATA[ ]]>to navigate to the directory where you want to save the file. You can 
+ enter a new file name or select an existing one.</li>
+            <li class="NumberList">Click the <b>Options...</b> button. The Export Options window is displayed.</li>
+        </ol>
+        <h2>Subset Tab</h2>
+        <p>On the Subset tab, you can specify a subset of the results by specifying rows, columns, and bands.</p>
+        <p class="BodyTextIndent">
+            <img src="../Resources/Images/Results_Exporter_Options_1.gif" />
+        </p>
+        <MadCap:snippetBlock src="../Resources/Snippets/SubsetTab.flsnp" />
+        <h2>Results Exporter Tab</h2>
+        <p class="BodyText">On the Results Exporter tab, you can specify the results you want to export.</p>
+        <p class="BodyTextIndent">
+            <img src="../Resources/Images/Results_Exporter_Options_2.gif" />
+        </p>
+        <ol>
+            <li>Using the <span style="font-weight: bold;">Pass 
+ Area</span> and <span style="font-weight: bold;">First Threshold</span> 
+ fields, select the threshold for pixel information written to the file. 
+ The options are:</li>
+        </ol>
+        <p class="BodyTextIndent">
+            <ul style="list-style: decimal;" type="1">
+                <li class="BulletList"><span style="font-weight: bold;">Less 
+ Than</span>. All pixels with a results value less than the threshold value 
+ are exported.</li>
+            </ul>
+            <ul style="list-style: decimal;" type="1">
+                <li class="BulletList"><span style="font-weight: bold;">Greater 
+ Than</span>. All pixels with a results value greater than the threshold 
+ value are exported.</li>
+            </ul>
+            <ul style="list-style: decimal;" type="1">
+                <li class="BulletList"><span style="font-weight: bold;">Between</span>. 
+ All pixels with a results value greater than the first threshold and less 
+ than the second threshold are exported. When you select <span style="font-weight: bold;">Between</span> 
+ from the drop-down list, the <span style="font-weight: bold;">Second Threshold</span> 
+ field is enabled.</li>
+            </ul>
+            <ul style="list-style: decimal;" type="1">
+                <li class="BulletList"><span style="font-weight: bold;">Outside</span>. 
+ All pixels with a results value less than the first threshold and greater 
+ than the second threshold are exported. When you select <span style="font-weight: bold;">Outside</span> 
+ from the drop-down list, the <span style="font-weight: bold;">Second Threshold</span> 
+ field is enabled.</li>
+            </ul>
+        </p>
+        <ol MadCap:continue="true">
+            <li>If the data set has 
+ been <a href="../Geo/Georeference.htm">georeferenced</a>, you can select 
+ a <span style="font-weight: bold;">Coordinate Type</span> for the pixel 
+ location (latitude/longitude, UTM, or MGRS). If the data set is not georeferenced 
+ the pixel row and column coordinate is exported instead. </li>
+            <li class="NumberList">Check the <span style="font-weight: bold;">Save 
+ Metadata</span> checkbox to save any metadata associated with the results.</li>
+            <li class="NumberList">Check the <span style="font-weight: bold;">Append 
+ to File</span> checkbox to append the results to an existing file.</li>
+            <li class="NumberList">Click <span style="font-weight: bold;">OK</span>.</li>
+        </ol>
+        <div placeholder="" id="footer" style="width: 100%;position: relative;">
+        </div>
+    </body>
+</html>

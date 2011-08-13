@@ -1,0 +1,41 @@
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svnroot/opticks/!svn/ver/13604/releases/4.7.0/trunk/Code/application/PlugIns/src/Generic
+END
+GenericImporter.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/svnroot/opticks/!svn/ver/13604/releases/4.7.0/trunk/Code/application/PlugIns/src/Generic/GenericImporter.cpp
+END
+ModuleManager.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/svnroot/opticks/!svn/ver/13604/releases/4.7.0/trunk/Code/application/PlugIns/src/Generic/ModuleManager.cpp
+END
+GenericImporter.h
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/svnroot/opticks/!svn/ver/13604/releases/4.7.0/trunk/Code/application/PlugIns/src/Generic/GenericImporter.h
+END
+Generic.vcxproj
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/svnroot/opticks/!svn/ver/13604/releases/4.7.0/trunk/Code/application/PlugIns/src/Generic/Generic.vcxproj
+END
+SConscript
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/svnroot/opticks/!svn/ver/13604/releases/4.7.0/trunk/Code/application/PlugIns/src/Generic/SConscript
+END
+Generic.vcxproj.filters
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/svnroot/opticks/!svn/ver/13604/releases/4.7.0/trunk/Code/application/PlugIns/src/Generic/Generic.vcxproj.filters
+END

@@ -1,0 +1,380 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:v="http://UnknownNamespace.xsd" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" MadCap:conditions="" class="" MadCap:lastBlockDepth="8" MadCap:lastHeight="12275" MadCap:lastWidth="1435">
+    <head><title>Tutorial: Wizard Builder</title>
+        <meta name="Originator" content="ImportDoc" />
+        <meta name="OriginalFile" content="C:\Ball\COMET\Tutorials\scenario6.doc" />
+        <link rel="StyleSheet" href="Tutorials.css" />
+        <style>
+a:visited
+{
+	color: #800080;
+}
+a:link
+{
+	color: #0000ee;
+}
+
+</style>
+        <link href="../Resources/TableStyles/Inner.css" rel="stylesheet" MadCap:stylesheetType="table" />
+        <link href="../Resources/TableStyles/Note.css" rel="stylesheet" MadCap:stylesheetType="table" />
+        <link href="../Resources/TableStyles/Opticks_Table.css" rel="stylesheet" MadCap:stylesheetType="table" />
+    </head>
+    <body lang="EN-US">
+        <div placeholder="" id="header" style="width: 100%;position: relative;">
+        </div>
+        <h1>
+            <MadCap:keyword term="Wizard Builder;tutorials" />Tutorial: Wizard Builder</h1>
+        <p class="BodyText"><b style="font-weight: bold;"><MadCap:keyword term="tutorials" />Learning Objective</b>: 
+ When finished with this tutorial, you will be familiar with using Wizard 
+ Builder to perform automated and semi-automated processing in Opticks.</p>
+        <p class="BodyText">In this tutorial, you will perform these functions:</p>
+        <ul>
+            <li class="BulletList">Start Wizard Builder</li>
+            <li class="BulletList">Add wizard items</li>
+            <li class="BulletList">Connect algorithms 
+ and processes</li>
+            <li class="BulletList">Change Value Item 
+ number</li>
+            <li class="BulletList">Add menu location</li>
+            <li class="BulletList">Save wizard</li>
+        </ul>
+        <p class="BodyText"><b style="font-weight: bold;">Lesson</b>: The <b>Wizard 
+ Builder</b> allows you to link algorithms and processes together to perform 
+ batch processing in Opticks. This gives you the ability to automate, either 
+ partially or fully, repetitive tasks. The Wizard Builder provides an easy-to-use 
+ graphical interface that can be learned quickly. </p>
+        <p class="BodyText">One thing to remember when using Wizard Builder is that 
+ it works on the concept of data flow instead of process flow. This means 
+ that the steps in the Wizard Builder are not organized according to order 
+ of operations, but according to what state the data is in.</p>
+        <p class="BodyText">There are several types of items that can be inserted into 
+ a wizard. <b>"Wizard" items</b> obtain 
+ values from you when executed or handle the inputs and outputs of Opticks. 
+ <b>Plug-in items</b> contain the algorithms or processes that are executed 
+ in Opticks. <b>Value items</b> are simple interfaces that can become part 
+ of an algorithm or process. This value can be a Boolean (true or false), 
+ string, or number.</p>
+        <p class="BodyText">Each of these item types appears as a block within the 
+ Wizard Builder window. The items are connected together with visible lines 
+ and assigned an order number. The algorithms and processes are executed 
+ according to the order number assigned them, regardless of how they are 
+ connected with the visible lines.</p>
+        <p class="BodyText" style="font-weight: bold;">Toolbars used in this tutorial:</p>
+        <p class="BodyTextIndent"><a href="../Wizard_Builder/Wizard_Builder_Toolbar.htm">Wizard 
+ Builder Toolbar</a>
+        </p>
+        <p class="BodyText">To access the toolbar, go to the <b>View</b> drop-down menu in the Wizard Builder and select <b>Toolbars</b>. The list of toolbars is displayed. Active toolbars have a checkmark in front of them. Select the toolbar name to toggle it on or off.</p>
+        <MadCap:snippetBlock src="../Resources/Snippets/SampleFiles.flsnp" />
+        <h2>Start</h2>
+        <ol>
+            <li class="NumberList">From the Opticks menu 
+ bar, select <b>Tools</b>, <b>Wizard Builder...</b>. The Wizard Builder window 
+ is displayed.</li>
+        </ol>
+        <p class="BodyTextIndent">
+            <img src="../Resources/Images/Wizard_Builder.png" style="border: none;border-style: none;border-style: none;" border="0" />
+        </p>
+        <h2>Add a Wizard Item</h2>
+        <ol start="2" style="list-style: decimal;list-style-type: decimal;">
+            <li>In the Wizard section of the Wizard Item Palette doc window, select the <b>Import Data Set</b> item. Click and drag the item onto the display area.</li>
+        </ol>
+        <p class="BodyTextIndent">The wizard item is displayed at the drop location in the Wizard Builder display area.</p>
+        <p class="BodyTextIndent">
+            <img src="../Resources/Images/Add_Wizard_Item.gif" style="border: none;border-style: none;border-style: none;" border="0" />
+        </p>
+        <h2>Add Plug-in Item</h2>
+        <ol>
+            <li class="NumberList">In the Algorithm section of the Wizard Item Palette doc window, 
+ select <span style="font-weight: bold;">Band Math</span>. 
+ Click and drag the item onto the display area.</li>
+        </ol>
+        <p class="BodyTextIndent">The plug-in item 
+ is displayed at the drop location in the Wizard Builder display area.</p>
+        <p class="BodyTextIndent">
+            <img src="../Resources/Images/Add_Band_Math.gif" style="border: none;border-style: none;border-style: none;" border="0" />
+        </p>
+        <ol start="7" style="list-style: decimal;list-style-type: decimal;" MadCap:continue="true">
+            <li class="NumberList">Be sure the Band 
+ Math icon is still selected. Change the <b>Execution Mode</b> to <b>Batch</b> in the Wizard Item Properties dock window. </li>
+        </ol>
+        <p class="BodyTextIndent">The selected graphic is outlined in red. This indicates 
+ that the item will run without user interaction. The graphic also expands 
+ because more information is needed to run it in batch mode.</p>
+        <p class="BodyTextIndent">
+            <img src="../Resources/Images/Change_Exec_Mode.gif" style="border: none;border-style: none;border-style: none;" border="0" />
+        </p>
+        <h2>Add Value Item</h2>
+        <ol>
+            <li>In the Value section of the Wizard Item Palette dock window, click and drag the "string" item onto the display area. The Wizard Value 
+ Item dialog box is displayed.</li>
+        </ol>
+        <p class="BodyTextIndent">
+            <img src="../Resources/Images/Wizard_Value_Item.png" style="border: none;border-style: none;border-style: none;" border="0" />
+        </p>
+        <ol start="9" MadCap:continue="true">
+            <li class="NumberList">In the <span style="font-weight: bold;">Name</span> 
+ field, enter: <span style="font-weight: bold;">expression</span></li>
+            <li class="NumberList">In the <span style="font-weight: bold;">Type</span> 
+ list, be sure that "string" is selected. </li>
+            <li class="NumberList">In the <span style="font-weight: bold;">Value</span> 
+ field, enter <b>(b4-b3)/(b4+b3).</b></li>
+        </ol>
+        <p class="BodyTextIndent">
+            <img src="../Resources/Images/Wizard_Value_Item_3.gif" style="border: none;border-style: none;border-style: none;" border="0" />
+        </p>
+        <ol start="12" style="list-style: decimal;list-style-type: decimal;" MadCap:continue="true">
+            <li class="NumberList">Click the <b>OK</b> 
+ button.</li>
+        </ol>
+        <p class="BodyTextIndent">The Value-expression item is displayed at the drop location in the Wizard Builder display area.</p>
+        <p class="BodyTextIndent">
+            <img src="../Resources/Images/Add_Value_Item_2.gif" style="border: none;border-style: none;border-style: none;" border="0" />
+        </p>
+        <ol MadCap:continue="true">
+            <li class="NumberList">In the Value section of the Wizard Item Palette dock window, click and drag the "bool" item onto the display area. The Wizard Value Item dialog box is displayed
+.</li>
+            <li class="NumberList">In the<b> Name</b> field, enter: <b>display</b></li>
+        </ol>
+        <ol MadCap:continue="true">
+            <li class="NumberList">In the <b>Type</b> list, be sure that "bool" is selected.
+</li>
+            <li class="NumberList">In the <b>Value</b> field, select <b>True</b>.
+ </li>
+            <li class="NumberList">Click the <b>OK</b> button. The Value-display item is displayed at the drop location in the Wizard Builder display area.</li>
+        </ol>
+        <p class="BodyTextIndent">
+            <img src="../Resources/Images/Add_Value_Item_3.gif" />
+        </p>
+        <h2>About Wizard Items</h2>
+        <p class="BodyText">Here is a brief explanation of the meaning of the wizard 
+ item icons. If you want a more complete explanation, see <a href="../Wizard_Builder/Items/Wizard_Items.htm">Wizard 
+ Items</a>.</p>
+        <p class="BodyText">The <span style="font-weight: bold;">number</span> at 
+ the top of each icon represents the order the algorithms or processes 
+ will be run.</p>
+        <p class="BodyText">The <span style="font-weight: bold;">colored dots</span> 
+ on the left and right side of each icon represent the inputs and outputs 
+ of each algorithm or process. If you hold the mouse pointer over the top 
+ of the dot, the name and type of the input or output will be displayed. 
+ The type of output must match the type of input for each connected pair 
+ of algorithms or processes. The Wizard Builder will not allow two unlike 
+ types to be connected.</p>
+        <p class="BodyText">Some input and output values support multiple types. 
+ These dots are represented with a down arrow next to the dot. Clicking 
+ the down arrow cycles the current type through all of its valid types. 
+ When you hold the mouse pointer over the top of the dot, the current type 
+ and a list of valid types are displayed along with the original type required 
+ by the item. </p>
+        <p class="BodyText">For example, if you wanted to attach the Data Set output of the Import Data Set item to the Data Element input on the Band Math plug-in, the Wizard Builder would not let you because the types are Data Element and Raster Element, and don't match exactly. However, the Band Math input supports multiple types, including Data Element. So, to connect these nodes, simply click the arrow next to the Band Math node until its type matches the type of the Import Data Set node.</p>
+        <p class="BodyText">To connect inputs and outputs, select the output by clicking your (left) mouse button and dragging the mouse to the input. Release the mouse button.</p>
+        <h2>Connect Algorithms and Processes</h2>
+        <ol>
+            <li class="NumberList">Use the table below to connect output to input. Note that the 
+ order numbers of the Band Math and Value-Expression wizard items may change.</li>
+        </ol>
+        <table style="border: none;x-border-left: 1px table-solid;x-border-top: 1px table-solid;x-border-right: 1px table-solid;x-border-bottom: 1px table-solid;border-collapse: separate;border-spacing: 0px;caption-side: top;border-left-style: solid;border-left-width: 1px;border-right-style: solid;border-right-width: 1px;border-top-style: solid;border-top-width: 1px;border-bottom-style: solid;border-bottom-width: 1px;margin-left: 0;margin-right: auto;mc-table-style: url('../Resources/TableStyles/Opticks_Table.css');" cellspacing="0" class="TableStyle_Opticks_Table">
+            <col />
+            <col />
+            <col />
+            <col />
+            <tr>
+                <td colspan="2" style="padding: 0in 5.4pt 0in 5.4pt;background-color: #008080;border-left-style: solid;border-left-width: 1px;border-left-color: #000000;border-right-style: solid;border-right-width: 1px;border-right-color: #000000;border-top-style: solid;border-top-width: 1px;border-top-color: #000000;border-bottom-style: solid;border-bottom-width: 1px;border-bottom-color: #000000;padding-left: 3px;padding-right: 3px;padding-top: 3px;padding-bottom: 3px;" bgcolor="#008080" valign="top" class="TableStyle_Opticks_Table_Body_0_0_RowSep_ColSep">
+                    <p style="margin-top: 3pt;margin-bottom: 3pt;"><b style="font-weight: bold;"><span style="color: #ffffff;font-family: Verdana, sans-serif;font-size: 10pt;">OUTPUT</span></b>
+                    </p>
+                </td>
+                <td colspan="2" style="padding: 0in 5.4pt 0in 5.4pt;background-color: #008080;border-left-style: solid;border-left-width: 1px;border-left-color: #000000;border-right-style: solid;border-right-width: 1px;border-right-color: #000000;border-top-style: solid;border-top-width: 1px;border-top-color: #000000;border-bottom-style: solid;border-bottom-width: 1px;border-bottom-color: #000000;padding-left: 3px;padding-right: 3px;padding-top: 3px;padding-bottom: 3px;" bgcolor="#008080" valign="top" class="TableStyle_Opticks_Table_Body_0_0_RowSep_ColSep">
+                    <p style="margin-top: 3pt;margin-bottom: 3pt;"><b style="font-weight: bold;"><span style="color: #ffffff;font-family: Verdana, sans-serif;font-size: 10pt;">INPUT</span></b>
+                    </p>
+                </td>
+            </tr>
+            <tr>
+                <td style="padding: 0in 5.4pt 0in 5.4pt;border-left-style: solid;border-left-width: 1px;border-left-color: #000000;border-right-style: solid;border-right-width: 1px;border-right-color: #000000;border-top-style: solid;border-top-width: 1px;border-top-color: #000000;border-bottom-style: solid;border-bottom-width: 1px;border-bottom-color: #000000;padding-left: 3px;padding-right: 3px;padding-top: 3px;padding-bottom: 3px;" valign="top" class="TableStyle_Opticks_Table_Body_0_0_RowSep_ColSep">
+                    <p style="margin-top: 3pt;margin-bottom: 3pt;"><span style="font-family: Verdana, sans-serif;font-size: 10pt;">ITEM</span>
+                    </p>
+                </td>
+                <td style="padding: 0in 5.4pt 0in 5.4pt;border-left-style: solid;border-left-width: 1px;border-left-color: #000000;border-right-style: solid;border-right-width: 1px;border-right-color: #000000;border-top-style: solid;border-top-width: 1px;border-top-color: #000000;border-bottom-style: solid;border-bottom-width: 1px;border-bottom-color: #000000;padding-left: 3px;padding-right: 3px;padding-top: 3px;padding-bottom: 3px;" valign="top" class="TableStyle_Opticks_Table_Body_0_0_RowSep_ColSep">
+                    <p style="margin-top: 3pt;margin-bottom: 3pt;"><span style="font-family: Verdana, sans-serif;font-size: 10pt;">NAME</span>
+                    </p>
+                </td>
+                <td style="padding: 0in 5.4pt 0in 5.4pt;border-left-style: solid;border-left-width: 1px;border-left-color: #000000;border-right-style: solid;border-right-width: 1px;border-right-color: #000000;border-top-style: solid;border-top-width: 1px;border-top-color: #000000;border-bottom-style: solid;border-bottom-width: 1px;border-bottom-color: #000000;padding-left: 3px;padding-right: 3px;padding-top: 3px;padding-bottom: 3px;" valign="top" class="TableStyle_Opticks_Table_Body_0_0_RowSep_ColSep">
+                    <p style="margin-top: 3pt;margin-bottom: 3pt;"><span style="font-family: Verdana, sans-serif;font-size: 10pt;">ITEM</span>
+                    </p>
+                </td>
+                <td style="padding: 0in 5.4pt 0in 5.4pt;border-left-style: solid;border-left-width: 1px;border-left-color: #000000;border-right-style: solid;border-right-width: 1px;border-right-color: #000000;border-top-style: solid;border-top-width: 1px;border-top-color: #000000;border-bottom-style: solid;border-bottom-width: 1px;border-bottom-color: #000000;padding-left: 3px;padding-right: 3px;padding-top: 3px;padding-bottom: 3px;" valign="top" class="TableStyle_Opticks_Table_Body_0_0_RowSep_ColEnd">
+                    <p style="margin-top: 3pt;margin-bottom: 3pt;"><span style="font-family: Verdana, sans-serif;font-size: 10pt;">NAME</span>
+                    </p>
+                </td>
+            </tr>
+            <tr>
+                <td style="border: solid #000000 .5pt;border-top: none;padding: 0in 5.4pt 0in 5.4pt;border-left-style: solid;border-left-width: 1px;border-left-color: #000000;border-right-style: solid;border-right-width: 1px;border-right-color: #000000;border-top-style: solid;border-top-width: 1px;border-top-color: #000000;border-bottom-style: solid;border-bottom-width: 1px;border-bottom-color: #000000;padding-left: 3px;padding-right: 3px;padding-top: 3px;padding-bottom: 3px;" valign="top" class="TableStyle_Opticks_Table_Body_0_0_RowSep_ColSep">
+                    <p style="margin-top: 3pt;margin-bottom: 3pt;"><span style="font-family: Verdana, sans-serif;font-size: 10pt;">Import 
+ Data Set</span>
+                    </p>
+                </td>
+                <td style="border-top: none;border-left: none;border-bottom: solid #000000 .5pt;border-right: solid #000000 .5pt;padding: 0in 5.4pt 0in 5.4pt;border-left-style: solid;border-left-width: 1px;border-left-color: #000000;border-right-style: solid;border-right-width: 1px;border-right-color: #000000;border-top-style: solid;border-top-width: 1px;border-top-color: #000000;border-bottom-style: solid;border-bottom-width: 1px;border-bottom-color: #000000;padding-left: 3px;padding-right: 3px;padding-top: 3px;padding-bottom: 3px;" valign="top" class="TableStyle_Opticks_Table_Body_0_0_RowSep_ColSep">
+                    <p style="margin-top: 3pt;margin-bottom: 3pt;"><span style="font-family: Verdana, sans-serif;font-size: 10pt;">Data 
+ Set </span>
+                    </p>
+                </td>
+                <td style="border-top: none;border-left: none;border-bottom: solid #000000 .5pt;border-right: solid #000000 .5pt;padding: 0in 5.4pt 0in 5.4pt;border-left-style: solid;border-left-width: 1px;border-left-color: #000000;border-right-style: solid;border-right-width: 1px;border-right-color: #000000;border-top-style: solid;border-top-width: 1px;border-top-color: #000000;border-bottom-style: solid;border-bottom-width: 1px;border-bottom-color: #000000;padding-left: 3px;padding-right: 3px;padding-top: 3px;padding-bottom: 3px;" valign="top" class="TableStyle_Opticks_Table_Body_0_0_RowSep_ColSep">
+                    <p style="margin-top: 3pt;margin-bottom: 3pt;"><span style="font-family: Verdana, sans-serif;font-size: 10pt;">Band 
+ Math</span>
+                    </p>
+                </td>
+                <td style="border-top: none;border-left: none;border-bottom: solid #000000 .5pt;border-right: solid #000000 .5pt;padding: 0in 5.4pt 0in 5.4pt;border-left-style: solid;border-left-width: 1px;border-left-color: #000000;border-right-style: solid;border-right-width: 1px;border-right-color: #000000;border-top-style: solid;border-top-width: 1px;border-top-color: #000000;border-bottom-style: solid;border-bottom-width: 1px;border-bottom-color: #000000;padding-left: 3px;padding-right: 3px;padding-top: 3px;padding-bottom: 3px;" valign="top" class="TableStyle_Opticks_Table_Body_0_0_RowSep_ColEnd">
+                    <p style="margin-top: 3pt;margin-bottom: 3pt;"><span style="font-family: Verdana, sans-serif;font-size: 10pt;">Data Element (Note: You may have to use the drop-down arrow to change the input type. Be sure the input/output dots are the same color.)</span>
+                    </p>
+                </td>
+            </tr>
+            <tr>
+                <td style="border: solid #000000 .5pt;border-top: none;padding: 0in 5.4pt 0in 5.4pt;border-left-style: solid;border-left-width: 1px;border-left-color: #000000;border-right-style: solid;border-right-width: 1px;border-right-color: #000000;border-top-style: solid;border-top-width: 1px;border-top-color: #000000;border-bottom-style: solid;border-bottom-width: 1px;border-bottom-color: #000000;padding-left: 3px;padding-right: 3px;padding-top: 3px;padding-bottom: 3px;" valign="top" class="TableStyle_Opticks_Table_Body_0_0_RowSep_ColSep">
+                    <p style="margin-top: 3pt;margin-bottom: 3pt;"><span style="font-family: Verdana, sans-serif;font-size: 10pt;">Value-expression</span>
+                    </p>
+                </td>
+                <td style="border-top: none;border-left: none;border-bottom: solid #000000 .5pt;border-right: solid #000000 .5pt;padding: 0in 5.4pt 0in 5.4pt;border-left-style: solid;border-left-width: 1px;border-left-color: #000000;border-right-style: solid;border-right-width: 1px;border-right-color: #000000;border-top-style: solid;border-top-width: 1px;border-top-color: #000000;border-bottom-style: solid;border-bottom-width: 1px;border-bottom-color: #000000;padding-left: 3px;padding-right: 3px;padding-top: 3px;padding-bottom: 3px;" valign="top" class="TableStyle_Opticks_Table_Body_0_0_RowSep_ColSep">
+                    <p style="margin-top: 3pt;margin-bottom: 3pt;"><span style="font-family: Verdana, sans-serif;font-size: 10pt;">Expression</span>
+                    </p>
+                </td>
+                <td style="border-top: none;border-left: none;border-bottom: solid #000000 .5pt;border-right: solid #000000 .5pt;padding: 0in 5.4pt 0in 5.4pt;border-left-style: solid;border-left-width: 1px;border-left-color: #000000;border-right-style: solid;border-right-width: 1px;border-right-color: #000000;border-top-style: solid;border-top-width: 1px;border-top-color: #000000;border-bottom-style: solid;border-bottom-width: 1px;border-bottom-color: #000000;padding-left: 3px;padding-right: 3px;padding-top: 3px;padding-bottom: 3px;" valign="top" class="TableStyle_Opticks_Table_Body_0_0_RowSep_ColSep">
+                    <p style="margin-top: 3pt;margin-bottom: 3pt;"><span style="font-family: Verdana, sans-serif;font-size: 10pt;">Band 
+ Math</span>
+                    </p>
+                </td>
+                <td style="border-top: none;border-left: none;border-bottom: solid #000000 .5pt;border-right: solid #000000 .5pt;padding: 0in 5.4pt 0in 5.4pt;border-left-style: solid;border-left-width: 1px;border-left-color: #000000;border-right-style: solid;border-right-width: 1px;border-right-color: #000000;border-top-style: solid;border-top-width: 1px;border-top-color: #000000;border-bottom-style: solid;border-bottom-width: 1px;border-bottom-color: #000000;padding-left: 3px;padding-right: 3px;padding-top: 3px;padding-bottom: 3px;" valign="top" class="TableStyle_Opticks_Table_Body_0_0_RowSep_ColEnd">
+                    <p style="margin-top: 3pt;margin-bottom: 3pt;"><span style="font-family: Verdana, sans-serif;font-size: 10pt;">Input 
+ Expression (first green input)</span>
+                    </p>
+                </td>
+            </tr>
+        </table>
+        <p class="BodyTextIndent">
+            <img src="../Resources/Images/Wizard_Builder_Connected.png" style="border: none;border-style: none;border-style: none;" border="0" />
+        </p>
+        <table style="width: 100%; mc-table-style: url('../Resources/TableStyles/Note.css'); margin-left: 0; margin-right: auto;" class="TableStyle_Note" cellspacing="0">
+            <tbody>
+                <tr>
+                    <td class="TableStyle_Note_Body_0_0_RowEnd_ColEnd"><b>Note: </b>If you make an incorrect connection, you 
+ can eliminate the connection by clicking the misconnection line and clicking 
+ on the Remove Item button on the Wizard Builder Toolbar or hitting the 
+ <b>Delete</b> key.</td>
+                </tr>
+            </tbody>
+        </table>
+        <h2>Change Value Item Number</h2>
+        <ol>
+            <li>Select the Value-expression 
+ item. </li>
+            <li class="NumberList">Click the Down button 
+ on the Wizard Builder Toolbar. <img src="../Resources/Images/Decrease_Order_Button.png" style="border: none;width: 22px;height: 21px;border-style: none;border-style: none;" width="22" height="21" border="0" /> Notice that execution number 
+ changes to 1.</li>
+            <li class="NumberList">Click the Up button. 
+ <img src="../Resources/Images/Increase_Order_Button.png" style="border: none;width: 22px;height: 21px;border-style: none;border-style: none;" width="22" height="21" border="0" /> The execution number returns to 2.</li>
+        </ol>
+        <p class="BodyTextIndent">The value items must have a earlier execution 
+ number (lower number) than all of the connected plug-ins and desktop items. An item 
+ with an execution number of 1 is executed first and so on. Since value 
+ items only have a single output they must be executed before the item(s) 
+ they are connected to. This means the value items will always have a lower 
+ numeric number than the connected item(s). </p>
+        <ol start="17" style="list-style: decimal;list-style-type: decimal;" MadCap:continue="true">
+            <li class="NumberList">Click the Up button 
+ again twice. The execution number does not change; the Wizard Builder will not 
+ allow the number to be 4.</li>
+        </ol>
+        <p class="BodyTextIndent">Make sure items are numbered as follows:</p>
+        <p class="BodyTextIndent" style="margin-left: 80px;">1. Import Data Set</p>
+        <p class="BodyTextIndent" style="margin-left: 80px;">2. Value-expression </p>
+        <p class="BodyTextIndent" style="margin-left: 80px;">3. Value-display</p>
+        <p class="BodyTextIndent" style="margin-left: 80px;">4. Band Math</p>
+        <p class="BodyTextIndent">
+            <img src="../Resources/Images/Execution_Numbers.png" style="border: none;border-style: none;border-style: none;" border="0" />
+        </p>
+        <h2>Add Menu Location</h2>
+        <p class="BodyText">You can indicate the name and location of created Wizards 
+ by using the Menu Location field in the Wizard Properties dock window. The name of the Wizard appears as it was 
+ typed in the Menu location box. </p>
+        <p class="BodyTextIndent">
+            <img src="../Resources/Images/Save_Menu_Location.gif" />
+        </p>
+        <p class="BodyText">The way the name is formatted dictates where the Wizards 
+ will appear in the Opticks menu structure: </p>
+        <ul>
+            <li class="BulletList">Bracket characters 
+ ([,]) specify a toolbar.</li>
+            <li class="BulletList">A slash (/) indicates 
+ submenu levels.</li>
+            <li class="BulletList">An ampersand (&amp;) 
+ indicates an existing menu location. </li>
+        </ul>
+        <p class="BodyText">The toolbar name must come first in the string. A slash 
+ immediately following the toolbar name specifies that the submenus and 
+ command should be added to the default toolbar menu, which has the same 
+ name as the toolbar. If a slash does not follow the toolbar name, the 
+ menus and command are added directly to the toolbar. If the string does 
+ not include a toolbar name, the menus and command are added to the main 
+ menu bar. The string cannot end with a slash, and the name after the last 
+ slash indicates the command name. </p>
+        <p class="BodyText">Below are a four examples of menu locations and how to 
+ type them in the Menu Location box.</p>
+        <p class="BodyText"><b style="font-weight: bold;">Example 1</b>: Adding the 
+ Wizard to the end of the top level menu.</p>
+        <p class="BodyTextIndent">Type <b>MyWizard</b> in the Menu Location box.</p>
+        <p class="BodyTextIndent">
+            <img src="../Resources/Images/Wizard_Example_1.gif" v:shapes="_x0000_i1039" style="border-style: none;border-style: none;" border="0" />
+        </p>
+        <p class="BodyText"><b style="font-weight: bold;">Example 2</b>: Adding the 
+ Wizard to a new toolbar.</p>
+        <p class="BodyTextIndent">Type <b>[Wizards]/MyWizard</b> 
+ in the Menu Location box.</p>
+        <p class="BodyTextIndent">
+            <img src="../Resources/Images/Wizard_Example_2.gif" v:shapes="_x0000_i1040" style="border-style: none;border-style: none;" border="0" />
+        </p>
+        <p class="BodyText"><b style="font-weight: bold;">Example 3</b>: Adding to 
+ an existing menu location.</p>
+        <p class="BodyTextIndent">Type <b>&amp;Help/MyWizard</b> in the Menu Location 
+ box.</p>
+        <p class="BodyTextIndent">
+            <img src="../Resources/Images/Wizard_Example_3.gif" v:shapes="_x0000_i1041" style="border-style: none;border-style: none;" border="0" />
+        </p>
+        <p class="BodyText"><b style="font-weight: bold;">Example 4</b>: Adding to 
+ an existing toolbar.</p>
+        <p class="BodyTextIndent">Type <b>[Geo]/MyWizard</b> in the Menu Location 
+ box.</p>
+        <p class="BodyTextIndent">
+            <img src="../Resources/Images/Wizard_Example_4.gif" v:shapes="_x0000_i1042" style="border-style: none;border-style: none;" border="0" />
+        </p>
+        <p class="Note"><b>Note:</b> We recommend that you save all custom wizards on 
+ a custom toolbar, as shown in Example 2 above.</p>
+        <p class="BodyText">Note that the Wizard location does not go into effect until you save the wizard and update the wizard list. (On the Opticks window, go to <b>Tools, Update Wizard List</b>.)</p>
+        <h2>Save Wizard</h2>
+        <ol>
+            <li class="NumberList">Save the wizard by 
+ selecting <b>File</b>, <b>Save</b>. Save the file (MyWizard.wiz) to the default location. 
+ If you do not save the file to the default location, Opticks will not be 
+ able to add the wizard to your Opticks menu structure.</li>
+            <li class="NumberList">Test the wizard by 
+ clicking the <b>Execute</b> button in the Wizard Properties dock window. The wizard runs automatically. As part of running, the wizard will open the Opticks import window. Select the <b>AST_LIB_00305042006183231_05082006132132_TIR_Swath.tif</b> file.</li>
+        </ol>
+        <p class="BodyTextIndent">
+            <img src="../Resources/Images/Execute_Wizard.gif" style="border: none;border-style: none;border-style: none;" border="0" />
+        </p>
+        <ol start="21" style="list-style: decimal;list-style-type: decimal;" MadCap:continue="true">
+            <li class="NumberList">Close the Wizard 
+ Builder by selecting <b>File</b>, <b>Close</b>. The display window will 
+ show two data images.</li>
+        </ol>
+        <p class="BodyTextIndent">
+            <img src="../Resources/Images/Wizard_results.gif" style="border: none;border-style: none;border-style: none;" border="0" />
+        </p>
+        <ol start="22" MadCap:continue="true">
+            <li class="NumberList">Add the wizard to 
+ a menu location by selecting <b>Tools</b>, <b>Update Wizard List</b> from 
+ the main Opticks menu bar.</li>
+            <li class="NumberList"><b style="font-weight: bold;">Close</b> 
+ all files.</li>
+        </ol>
+        <p class="BodyText"><b style="font-weight: bold;">Summary/Review</b>: You 
+ should now be familiar with the procedures for using Wizard Builder to 
+ perform automated and semi-automated processing in Opticks.</p>
+    </body>
+</html>

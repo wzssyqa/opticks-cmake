@@ -1,0 +1,675 @@
+/* MadCap Table Style: */
+
+/*<meta />*/
+
+mcTableStyle {
+	name: Opticks_Table; 
+	border-collapse: collapse; 
+	border-left-style: solid; 
+	border-left-width: 1px; 
+	border-left-color: #000000; 
+	border-right-style: solid; 
+	border-right-width: 1px; 
+	border-right-color: #000000; 
+	border-top-style: solid; 
+	border-top-width: 1px; 
+	border-top-color: #000000; 
+	border-bottom-style: solid; 
+	border-bottom-width: 1px; 
+	border-bottom-color: #000000; 
+	cell-padding-left: 3px; 
+	cell-padding-right: 3px; 
+	cell-padding-top: 3px; 
+	cell-padding-bottom: 3px; 
+}
+
+mcTableColumnStyle {
+	span: 1; 
+	separator-style: solid; 
+	separator-width: 1px; 
+	separator-color: #000000; 
+	vertical-align: top; 
+}
+
+mcTableHeadStyle {
+	span: 1; 
+	separator-style: solid; 
+	separator-width: 1px; 
+	separator-color: #000000; 
+	vertical-align: top; 
+	background-color: #008b8b; 
+	color: #ffffff; 
+	font-weight: bold; 
+	font-style: normal; 
+	font-family: Verdana; 
+	font-size: 10pt; 
+}
+
+mcTableBodyStyle {
+	span: 1; 
+	font-weight: normal; 
+	separator-style: solid; 
+	separator-width: 1px; 
+	separator-color: #000000; 
+	vertical-align: top; 
+	font-family: Verdana; 
+	color: #000000; 
+	font-size: 10pt; 
+}
+
+mcTableFootStyle {
+	span: 1; 
+	separator-style: solid; 
+	separator-width: 1px; 
+	separator-color: #000000; 
+}
+
+ 
+ 
+/* Cell Styles: */
+ 
+.TableStyle_Opticks_Table
+{
+	border-left-style: solid;
+	border-left-color: #000000;
+	border-left-width: 1px;
+	border-right-style: solid;
+	border-right-color: #000000;
+	border-right-width: 1px;
+	border-top-style: solid;
+	border-top-color: #000000;
+	border-top-width: 1px;
+	border-bottom-style: solid;
+	border-bottom-color: #000000;
+	border-bottom-width: 1px;
+	border-collapse: collapse;
+	border-spacing: 0px 0px;
+	mc-cell-padding: 3px 3px 3px 3px;
+}
+
+.TableStyle_Opticks_Table_Head_0_0
+{
+	font-family: Verdana;
+	font-size: 10pt;
+	font-weight: bold;
+	font-style: normal;
+	background-color: #008b8b;
+	color: #ffffff;
+	vertical-align: top;
+	padding-left: 3px;
+	padding-right: 3px;
+	padding-top: 3px;
+	padding-bottom: 3px;
+}
+
+.TableStyle_Opticks_Table_Head_0_0 p
+{
+	font-family: Verdana;
+	font-size: 10pt;
+	font-weight: bold;
+	font-style: normal;
+	color: #ffffff;
+}
+
+.TableStyle_Opticks_Table_Head_0_0_RowSep_ColSep
+{
+	font-family: Verdana;
+	font-size: 10pt;
+	font-weight: bold;
+	font-style: normal;
+	background-color: #008b8b;
+	color: #ffffff;
+	border-bottom-width: 1px;
+	border-bottom-color: #000000;
+	border-bottom-style: solid;
+	vertical-align: top;
+	padding-left: 3px;
+	padding-right: 3px;
+	padding-top: 3px;
+	padding-bottom: 3px;
+	border-right-width: 1px;
+	border-right-color: #000000;
+	border-right-style: solid;
+}
+
+.TableStyle_Opticks_Table_Head_0_0_RowSep_ColSep p
+{
+	font-family: Verdana;
+	font-size: 10pt;
+	font-weight: bold;
+	font-style: normal;
+	color: #ffffff;
+}
+
+.TableStyle_Opticks_Table_Head_0_0_RowSep
+{
+	font-family: Verdana;
+	font-size: 10pt;
+	font-weight: bold;
+	font-style: normal;
+	background-color: #008b8b;
+	color: #ffffff;
+	border-bottom-width: 1px;
+	border-bottom-color: #000000;
+	border-bottom-style: solid;
+	vertical-align: top;
+	padding-left: 3px;
+	padding-right: 3px;
+	padding-top: 3px;
+	padding-bottom: 3px;
+}
+
+.TableStyle_Opticks_Table_Head_0_0_RowSep p
+{
+	font-family: Verdana;
+	font-size: 10pt;
+	font-weight: bold;
+	font-style: normal;
+	color: #ffffff;
+}
+
+.TableStyle_Opticks_Table_Head_0_0_ColSep
+{
+	font-family: Verdana;
+	font-size: 10pt;
+	font-weight: bold;
+	font-style: normal;
+	background-color: #008b8b;
+	color: #ffffff;
+	vertical-align: top;
+	padding-left: 3px;
+	padding-right: 3px;
+	padding-top: 3px;
+	padding-bottom: 3px;
+	border-right-width: 1px;
+	border-right-color: #000000;
+	border-right-style: solid;
+}
+
+.TableStyle_Opticks_Table_Head_0_0_ColSep p
+{
+	font-family: Verdana;
+	font-size: 10pt;
+	font-weight: bold;
+	font-style: normal;
+	color: #ffffff;
+}
+
+.TableStyle_Opticks_Table_Head_0_0_RowSep_ColEnd
+{
+	font-family: Verdana;
+	font-size: 10pt;
+	font-weight: bold;
+	font-style: normal;
+	background-color: #008b8b;
+	color: #ffffff;
+	border-bottom-width: 1px;
+	border-bottom-color: #000000;
+	border-bottom-style: solid;
+	vertical-align: top;
+	padding-left: 3px;
+	padding-right: 3px;
+	padding-top: 3px;
+	padding-bottom: 3px;
+}
+
+.TableStyle_Opticks_Table_Head_0_0_RowSep_ColEnd p
+{
+	font-family: Verdana;
+	font-size: 10pt;
+	font-weight: bold;
+	font-style: normal;
+	color: #ffffff;
+}
+
+.TableStyle_Opticks_Table_Head_0_0_RowEnd
+{
+	font-family: Verdana;
+	font-size: 10pt;
+	font-weight: bold;
+	font-style: normal;
+	background-color: #008b8b;
+	color: #ffffff;
+	vertical-align: top;
+	padding-left: 3px;
+	padding-right: 3px;
+	padding-top: 3px;
+	padding-bottom: 3px;
+}
+
+.TableStyle_Opticks_Table_Head_0_0_RowEnd p
+{
+	font-family: Verdana;
+	font-size: 10pt;
+	font-weight: bold;
+	font-style: normal;
+	color: #ffffff;
+}
+
+.TableStyle_Opticks_Table_Head_0_0_RowEnd_ColSep
+{
+	font-family: Verdana;
+	font-size: 10pt;
+	font-weight: bold;
+	font-style: normal;
+	background-color: #008b8b;
+	color: #ffffff;
+	vertical-align: top;
+	padding-left: 3px;
+	padding-right: 3px;
+	padding-top: 3px;
+	padding-bottom: 3px;
+	border-right-width: 1px;
+	border-right-color: #000000;
+	border-right-style: solid;
+}
+
+.TableStyle_Opticks_Table_Head_0_0_RowEnd_ColSep p
+{
+	font-family: Verdana;
+	font-size: 10pt;
+	font-weight: bold;
+	font-style: normal;
+	color: #ffffff;
+}
+
+.TableStyle_Opticks_Table_Head_0_0_RowEnd_ColEnd
+{
+	font-family: Verdana;
+	font-size: 10pt;
+	font-weight: bold;
+	font-style: normal;
+	background-color: #008b8b;
+	color: #ffffff;
+	vertical-align: top;
+	padding-left: 3px;
+	padding-right: 3px;
+	padding-top: 3px;
+	padding-bottom: 3px;
+}
+
+.TableStyle_Opticks_Table_Head_0_0_RowEnd_ColEnd p
+{
+	font-family: Verdana;
+	font-size: 10pt;
+	font-weight: bold;
+	font-style: normal;
+	color: #ffffff;
+}
+
+.TableStyle_Opticks_Table_Head_0_0_ColEnd
+{
+	font-family: Verdana;
+	font-size: 10pt;
+	font-weight: bold;
+	font-style: normal;
+	background-color: #008b8b;
+	color: #ffffff;
+	vertical-align: top;
+	padding-left: 3px;
+	padding-right: 3px;
+	padding-top: 3px;
+	padding-bottom: 3px;
+}
+
+.TableStyle_Opticks_Table_Head_0_0_ColEnd p
+{
+	font-family: Verdana;
+	font-size: 10pt;
+	font-weight: bold;
+	font-style: normal;
+	color: #ffffff;
+}
+
+.TableStyle_Opticks_Table_Body_0_0
+{
+	font-family: Verdana;
+	font-size: 10pt;
+	font-weight: normal;
+	color: #000000;
+	vertical-align: top;
+	padding-left: 3px;
+	padding-right: 3px;
+	padding-top: 3px;
+	padding-bottom: 3px;
+}
+
+.TableStyle_Opticks_Table_Body_0_0 p
+{
+	font-family: Verdana;
+	font-size: 10pt;
+	font-weight: normal;
+	color: #000000;
+}
+
+.TableStyle_Opticks_Table_Body_0_0_RowSep_ColSep
+{
+	font-family: Verdana;
+	font-size: 10pt;
+	font-weight: normal;
+	color: #000000;
+	border-bottom-width: 1px;
+	border-bottom-color: #000000;
+	border-bottom-style: solid;
+	vertical-align: top;
+	padding-left: 3px;
+	padding-right: 3px;
+	padding-top: 3px;
+	padding-bottom: 3px;
+	border-right-width: 1px;
+	border-right-color: #000000;
+	border-right-style: solid;
+}
+
+.TableStyle_Opticks_Table_Body_0_0_RowSep_ColSep p
+{
+	font-family: Verdana;
+	font-size: 10pt;
+	font-weight: normal;
+	color: #000000;
+}
+
+.TableStyle_Opticks_Table_Body_0_0_RowSep
+{
+	font-family: Verdana;
+	font-size: 10pt;
+	font-weight: normal;
+	color: #000000;
+	border-bottom-width: 1px;
+	border-bottom-color: #000000;
+	border-bottom-style: solid;
+	vertical-align: top;
+	padding-left: 3px;
+	padding-right: 3px;
+	padding-top: 3px;
+	padding-bottom: 3px;
+}
+
+.TableStyle_Opticks_Table_Body_0_0_RowSep p
+{
+	font-family: Verdana;
+	font-size: 10pt;
+	font-weight: normal;
+	color: #000000;
+}
+
+.TableStyle_Opticks_Table_Body_0_0_ColSep
+{
+	font-family: Verdana;
+	font-size: 10pt;
+	font-weight: normal;
+	color: #000000;
+	vertical-align: top;
+	padding-left: 3px;
+	padding-right: 3px;
+	padding-top: 3px;
+	padding-bottom: 3px;
+	border-right-width: 1px;
+	border-right-color: #000000;
+	border-right-style: solid;
+}
+
+.TableStyle_Opticks_Table_Body_0_0_ColSep p
+{
+	font-family: Verdana;
+	font-size: 10pt;
+	font-weight: normal;
+	color: #000000;
+}
+
+.TableStyle_Opticks_Table_Body_0_0_RowSep_ColEnd
+{
+	font-family: Verdana;
+	font-size: 10pt;
+	font-weight: normal;
+	color: #000000;
+	border-bottom-width: 1px;
+	border-bottom-color: #000000;
+	border-bottom-style: solid;
+	vertical-align: top;
+	padding-left: 3px;
+	padding-right: 3px;
+	padding-top: 3px;
+	padding-bottom: 3px;
+}
+
+.TableStyle_Opticks_Table_Body_0_0_RowSep_ColEnd p
+{
+	font-family: Verdana;
+	font-size: 10pt;
+	font-weight: normal;
+	color: #000000;
+}
+
+.TableStyle_Opticks_Table_Body_0_0_RowEnd
+{
+	font-family: Verdana;
+	font-size: 10pt;
+	font-weight: normal;
+	color: #000000;
+	vertical-align: top;
+	padding-left: 3px;
+	padding-right: 3px;
+	padding-top: 3px;
+	padding-bottom: 3px;
+}
+
+.TableStyle_Opticks_Table_Body_0_0_RowEnd p
+{
+	font-family: Verdana;
+	font-size: 10pt;
+	font-weight: normal;
+	color: #000000;
+}
+
+.TableStyle_Opticks_Table_Body_0_0_RowEnd_ColSep
+{
+	font-family: Verdana;
+	font-size: 10pt;
+	font-weight: normal;
+	color: #000000;
+	vertical-align: top;
+	padding-left: 3px;
+	padding-right: 3px;
+	padding-top: 3px;
+	padding-bottom: 3px;
+	border-right-width: 1px;
+	border-right-color: #000000;
+	border-right-style: solid;
+}
+
+.TableStyle_Opticks_Table_Body_0_0_RowEnd_ColSep p
+{
+	font-family: Verdana;
+	font-size: 10pt;
+	font-weight: normal;
+	color: #000000;
+}
+
+.TableStyle_Opticks_Table_Body_0_0_RowEnd_ColEnd
+{
+	font-family: Verdana;
+	font-size: 10pt;
+	font-weight: normal;
+	color: #000000;
+	vertical-align: top;
+	padding-left: 3px;
+	padding-right: 3px;
+	padding-top: 3px;
+	padding-bottom: 3px;
+}
+
+.TableStyle_Opticks_Table_Body_0_0_RowEnd_ColEnd p
+{
+	font-family: Verdana;
+	font-size: 10pt;
+	font-weight: normal;
+	color: #000000;
+}
+
+.TableStyle_Opticks_Table_Body_0_0_ColEnd
+{
+	font-family: Verdana;
+	font-size: 10pt;
+	font-weight: normal;
+	color: #000000;
+	vertical-align: top;
+	padding-left: 3px;
+	padding-right: 3px;
+	padding-top: 3px;
+	padding-bottom: 3px;
+}
+
+.TableStyle_Opticks_Table_Body_0_0_ColEnd p
+{
+	font-family: Verdana;
+	font-size: 10pt;
+	font-weight: normal;
+	color: #000000;
+}
+
+.TableStyle_Opticks_Table_Foot_0_0
+{
+	vertical-align: top;
+	padding-left: 3px;
+	padding-right: 3px;
+	padding-top: 3px;
+	padding-bottom: 3px;
+}
+
+.TableStyle_Opticks_Table_Foot_0_0 p
+{
+	
+}
+
+.TableStyle_Opticks_Table_Foot_0_0_RowSep_ColSep
+{
+	border-top-width: 1px;
+	border-top-color: #000000;
+	border-top-style: solid;
+	vertical-align: top;
+	padding-left: 3px;
+	padding-right: 3px;
+	padding-top: 3px;
+	padding-bottom: 3px;
+	border-right-width: 1px;
+	border-right-color: #000000;
+	border-right-style: solid;
+}
+
+.TableStyle_Opticks_Table_Foot_0_0_RowSep_ColSep p
+{
+	
+}
+
+.TableStyle_Opticks_Table_Foot_0_0_RowSep
+{
+	border-top-width: 1px;
+	border-top-color: #000000;
+	border-top-style: solid;
+	vertical-align: top;
+	padding-left: 3px;
+	padding-right: 3px;
+	padding-top: 3px;
+	padding-bottom: 3px;
+}
+
+.TableStyle_Opticks_Table_Foot_0_0_RowSep p
+{
+	
+}
+
+.TableStyle_Opticks_Table_Foot_0_0_ColSep
+{
+	vertical-align: top;
+	padding-left: 3px;
+	padding-right: 3px;
+	padding-top: 3px;
+	padding-bottom: 3px;
+	border-right-width: 1px;
+	border-right-color: #000000;
+	border-right-style: solid;
+}
+
+.TableStyle_Opticks_Table_Foot_0_0_ColSep p
+{
+	
+}
+
+.TableStyle_Opticks_Table_Foot_0_0_RowSep_ColEnd
+{
+	border-top-width: 1px;
+	border-top-color: #000000;
+	border-top-style: solid;
+	vertical-align: top;
+	padding-left: 3px;
+	padding-right: 3px;
+	padding-top: 3px;
+	padding-bottom: 3px;
+}
+
+.TableStyle_Opticks_Table_Foot_0_0_RowSep_ColEnd p
+{
+	
+}
+
+.TableStyle_Opticks_Table_Foot_0_0_RowEnd
+{
+	vertical-align: top;
+	padding-left: 3px;
+	padding-right: 3px;
+	padding-top: 3px;
+	padding-bottom: 3px;
+}
+
+.TableStyle_Opticks_Table_Foot_0_0_RowEnd p
+{
+	
+}
+
+.TableStyle_Opticks_Table_Foot_0_0_RowEnd_ColSep
+{
+	vertical-align: top;
+	padding-left: 3px;
+	padding-right: 3px;
+	padding-top: 3px;
+	padding-bottom: 3px;
+	border-right-width: 1px;
+	border-right-color: #000000;
+	border-right-style: solid;
+}
+
+.TableStyle_Opticks_Table_Foot_0_0_RowEnd_ColSep p
+{
+	
+}
+
+.TableStyle_Opticks_Table_Foot_0_0_RowEnd_ColEnd
+{
+	vertical-align: top;
+	padding-left: 3px;
+	padding-right: 3px;
+	padding-top: 3px;
+	padding-bottom: 3px;
+}
+
+.TableStyle_Opticks_Table_Foot_0_0_RowEnd_ColEnd p
+{
+	
+}
+
+.TableStyle_Opticks_Table_Foot_0_0_ColEnd
+{
+	vertical-align: top;
+	padding-left: 3px;
+	padding-right: 3px;
+	padding-top: 3px;
+	padding-bottom: 3px;
+}
+
+.TableStyle_Opticks_Table_Foot_0_0_ColEnd p
+{
+	
+}
+
+

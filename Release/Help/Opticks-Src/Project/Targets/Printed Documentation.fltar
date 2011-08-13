@@ -1,0 +1,8 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<CatapultTarget Version="1" DefaultUrl="/Content/Welcome.htm" OutputFile="OpticksHelpPrintVersion" Type="MsWord" MasterToc="/Project/TOCs/Primary.fltoc" GlossaryTermConversion="marked" OutputFolder="\\daytonfile\users$\mmasset\My Documents\Opticks Print Version" ConditionTagExpression="include[&quot;Primary.Opticks Only&quot;] exclude[&quot;Primary.COMET Only&quot; or &quot;Primary.Release 4 OUT&quot;] ">
+    <Variables />
+    <ConditionTags />
+    <Glossaries>
+        <Glossary Link="/Project/Glossaries/Primary.flglo" />
+    </Glossaries>
+</CatapultTarget>

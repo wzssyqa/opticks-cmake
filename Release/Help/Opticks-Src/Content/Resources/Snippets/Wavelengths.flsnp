@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" MadCap:lastBlockDepth="2" MadCap:lastHeight="517" MadCap:lastWidth="673">
+    <head>
+    </head>
+    <body>
+        <h3>Wavelengths Table</h3>
+        <p class="BodyText">The Wavelengths Table displays the wavelengths that will be associated with the imported data set. Bands in bold text will be imported. Bands in regular text will not be included in the import. </p>
+        <p class="BodyText">You can manually enter wavelength values by clicking in the desired table cell and typing in the value. The value should be in the units displayed in the drop-down box.</p>
+        <h3>Units</h3>
+        <p class="BodyText">This drop-down converts wavelengths between different units of measure.</p>
+        <h3>From Element...</h3>
+        <p class="BodyText">The From Element... button retrieves wavelengths from an already imported data set with the same number of bands.</p>
+        <h3>Load...</h3>
+        <p class="BodyText">The Load... button loads wavelengths from a file.</p>
+        <h3>Save...</h3>
+        <p class="BodyText">The Save button saves wavelengths to a file.</p>
+        <h3>FWHM...</h3>
+        <p class="BodyText">The FWHM... button calculated the Full Width Half Minimum (FWHM) constants for wavelengths.</p>
+        <h3>Scale...</h3>
+        <p class="BodyText">The Scale... button scales wavelength values without adjusting the units to correct errors.</p>
+    </body>
+</html>

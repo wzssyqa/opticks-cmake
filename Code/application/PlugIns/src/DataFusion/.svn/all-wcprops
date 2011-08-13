@@ -1,0 +1,191 @@
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svnroot/opticks/!svn/ver/13604/releases/4.7.0/trunk/Code/application/PlugIns/src/DataFusion
+END
+FusionPage.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/svnroot/opticks/!svn/ver/13604/releases/4.7.0/trunk/Code/application/PlugIns/src/DataFusion/FusionPage.cpp
+END
+DataFusion.h
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/svnroot/opticks/!svn/ver/13604/releases/4.7.0/trunk/Code/application/PlugIns/src/DataFusion/DataFusion.h
+END
+ImageAdjustWidget.h
+K 25
+svn:wc:ra_dav:version-url
+V 112
+/svnroot/opticks/!svn/ver/13604/releases/4.7.0/trunk/Code/application/PlugIns/src/DataFusion/ImageAdjustWidget.h
+END
+Vector.h
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/svnroot/opticks/!svn/ver/13604/releases/4.7.0/trunk/Code/application/PlugIns/src/DataFusion/Vector.h
+END
+FlickerControls.h
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/svnroot/opticks/!svn/ver/13604/releases/4.7.0/trunk/Code/application/PlugIns/src/DataFusion/FlickerControls.h
+END
+Matrix.h
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/svnroot/opticks/!svn/ver/13604/releases/4.7.0/trunk/Code/application/PlugIns/src/DataFusion/Matrix.h
+END
+FusionAlgorithmInputsPage.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 122
+/svnroot/opticks/!svn/ver/13604/releases/4.7.0/trunk/Code/application/PlugIns/src/DataFusion/FusionAlgorithmInputsPage.cpp
+END
+DataFusionTools.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 112
+/svnroot/opticks/!svn/ver/13604/releases/4.7.0/trunk/Code/application/PlugIns/src/DataFusion/DataFusionTools.cpp
+END
+ModuleManager.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/svnroot/opticks/!svn/ver/13604/releases/4.7.0/trunk/Code/application/PlugIns/src/DataFusion/ModuleManager.cpp
+END
+DataFusionTests.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 112
+/svnroot/opticks/!svn/ver/13604/releases/4.7.0/trunk/Code/application/PlugIns/src/DataFusion/DataFusionTests.cpp
+END
+Polywarp.h
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/svnroot/opticks/!svn/ver/13604/releases/4.7.0/trunk/Code/application/PlugIns/src/DataFusion/Polywarp.h
+END
+FusionLayersSelectPage.h
+K 25
+svn:wc:ra_dav:version-url
+V 117
+/svnroot/opticks/!svn/ver/13604/releases/4.7.0/trunk/Code/application/PlugIns/src/DataFusion/FusionLayersSelectPage.h
+END
+DatasetPage.h
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/svnroot/opticks/!svn/ver/13604/releases/4.7.0/trunk/Code/application/PlugIns/src/DataFusion/DatasetPage.h
+END
+DataFusionDlg.h
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/svnroot/opticks/!svn/ver/13604/releases/4.7.0/trunk/Code/application/PlugIns/src/DataFusion/DataFusionDlg.h
+END
+TiePointPage.h
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/svnroot/opticks/!svn/ver/13604/releases/4.7.0/trunk/Code/application/PlugIns/src/DataFusion/TiePointPage.h
+END
+DataFusion.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/svnroot/opticks/!svn/ver/13604/releases/4.7.0/trunk/Code/application/PlugIns/src/DataFusion/DataFusion.cpp
+END
+ImageAdjustWidget.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 114
+/svnroot/opticks/!svn/ver/13604/releases/4.7.0/trunk/Code/application/PlugIns/src/DataFusion/ImageAdjustWidget.cpp
+END
+FlickerControls.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 112
+/svnroot/opticks/!svn/ver/13604/releases/4.7.0/trunk/Code/application/PlugIns/src/DataFusion/FlickerControls.cpp
+END
+FusionPage.h
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/svnroot/opticks/!svn/ver/13604/releases/4.7.0/trunk/Code/application/PlugIns/src/DataFusion/FusionPage.h
+END
+SConscript
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/svnroot/opticks/!svn/ver/13604/releases/4.7.0/trunk/Code/application/PlugIns/src/DataFusion/SConscript
+END
+DataFusion.vcxproj
+K 25
+svn:wc:ra_dav:version-url
+V 111
+/svnroot/opticks/!svn/ver/13604/releases/4.7.0/trunk/Code/application/PlugIns/src/DataFusion/DataFusion.vcxproj
+END
+DataFusion.vcxproj.filters
+K 25
+svn:wc:ra_dav:version-url
+V 119
+/svnroot/opticks/!svn/ver/13604/releases/4.7.0/trunk/Code/application/PlugIns/src/DataFusion/DataFusion.vcxproj.filters
+END
+Poly2D.h
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/svnroot/opticks/!svn/ver/13604/releases/4.7.0/trunk/Code/application/PlugIns/src/DataFusion/Poly2D.h
+END
+FusionAlgorithmInputsPage.h
+K 25
+svn:wc:ra_dav:version-url
+V 120
+/svnroot/opticks/!svn/ver/13604/releases/4.7.0/trunk/Code/application/PlugIns/src/DataFusion/FusionAlgorithmInputsPage.h
+END
+FusionLayersSelectPage.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 119
+/svnroot/opticks/!svn/ver/13604/releases/4.7.0/trunk/Code/application/PlugIns/src/DataFusion/FusionLayersSelectPage.cpp
+END
+DatasetPage.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/svnroot/opticks/!svn/ver/13604/releases/4.7.0/trunk/Code/application/PlugIns/src/DataFusion/DatasetPage.cpp
+END
+DataFusionTools.h
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/svnroot/opticks/!svn/ver/13604/releases/4.7.0/trunk/Code/application/PlugIns/src/DataFusion/DataFusionTools.h
+END
+DataFusionDlg.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/svnroot/opticks/!svn/ver/13604/releases/4.7.0/trunk/Code/application/PlugIns/src/DataFusion/DataFusionDlg.cpp
+END
+DataFusionTests.h
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/svnroot/opticks/!svn/ver/13604/releases/4.7.0/trunk/Code/application/PlugIns/src/DataFusion/DataFusionTests.h
+END
+FusionException.h
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/svnroot/opticks/!svn/ver/13604/releases/4.7.0/trunk/Code/application/PlugIns/src/DataFusion/FusionException.h
+END
+TiePointPage.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/svnroot/opticks/!svn/ver/13604/releases/4.7.0/trunk/Code/application/PlugIns/src/DataFusion/TiePointPage.cpp
+END

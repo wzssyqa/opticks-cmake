@@ -1,0 +1,107 @@
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/svnroot/opticks/!svn/ver/13604/releases/4.7.0/trunk/Code/application/PlugIns/src/ShapeFileExporter
+END
+ShapeFileExporter.h
+K 25
+svn:wc:ra_dav:version-url
+V 119
+/svnroot/opticks/!svn/ver/13604/releases/4.7.0/trunk/Code/application/PlugIns/src/ShapeFileExporter/ShapeFileExporter.h
+END
+ShapeFile.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/svnroot/opticks/!svn/ver/13604/releases/4.7.0/trunk/Code/application/PlugIns/src/ShapeFileExporter/ShapeFile.cpp
+END
+Feature.h
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/svnroot/opticks/!svn/ver/13604/releases/4.7.0/trunk/Code/application/PlugIns/src/ShapeFileExporter/Feature.h
+END
+AddFeatureDlg.h
+K 25
+svn:wc:ra_dav:version-url
+V 115
+/svnroot/opticks/!svn/ver/13604/releases/4.7.0/trunk/Code/application/PlugIns/src/ShapeFileExporter/AddFeatureDlg.h
+END
+ShapeFileExporter.vcxproj
+K 25
+svn:wc:ra_dav:version-url
+V 125
+/svnroot/opticks/!svn/ver/13604/releases/4.7.0/trunk/Code/application/PlugIns/src/ShapeFileExporter/ShapeFileExporter.vcxproj
+END
+ShapeFile.h
+K 25
+svn:wc:ra_dav:version-url
+V 111
+/svnroot/opticks/!svn/ver/13604/releases/4.7.0/trunk/Code/application/PlugIns/src/ShapeFileExporter/ShapeFile.h
+END
+SConscript
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/svnroot/opticks/!svn/ver/13604/releases/4.7.0/trunk/Code/application/PlugIns/src/ShapeFileExporter/SConscript
+END
+ShapeFileExporter.vcxproj.filters
+K 25
+svn:wc:ra_dav:version-url
+V 133
+/svnroot/opticks/!svn/ver/13604/releases/4.7.0/trunk/Code/application/PlugIns/src/ShapeFileExporter/ShapeFileExporter.vcxproj.filters
+END
+ShapeFileOptionsWidget.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 126
+/svnroot/opticks/!svn/ver/13604/releases/4.7.0/trunk/Code/application/PlugIns/src/ShapeFileExporter/ShapeFileOptionsWidget.cpp
+END
+ModuleManager.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 117
+/svnroot/opticks/!svn/ver/13604/releases/4.7.0/trunk/Code/application/PlugIns/src/ShapeFileExporter/ModuleManager.cpp
+END
+AddFieldDlg.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 115
+/svnroot/opticks/!svn/ver/13604/releases/4.7.0/trunk/Code/application/PlugIns/src/ShapeFileExporter/AddFieldDlg.cpp
+END
+ShapeFileOptionsWidget.h
+K 25
+svn:wc:ra_dav:version-url
+V 124
+/svnroot/opticks/!svn/ver/13604/releases/4.7.0/trunk/Code/application/PlugIns/src/ShapeFileExporter/ShapeFileOptionsWidget.h
+END
+AddFieldDlg.h
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/svnroot/opticks/!svn/ver/13604/releases/4.7.0/trunk/Code/application/PlugIns/src/ShapeFileExporter/AddFieldDlg.h
+END
+ShapeFileExporter.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 121
+/svnroot/opticks/!svn/ver/13604/releases/4.7.0/trunk/Code/application/PlugIns/src/ShapeFileExporter/ShapeFileExporter.cpp
+END
+ShapeFileTypes.h
+K 25
+svn:wc:ra_dav:version-url
+V 116
+/svnroot/opticks/!svn/ver/13604/releases/4.7.0/trunk/Code/application/PlugIns/src/ShapeFileExporter/ShapeFileTypes.h
+END
+Feature.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 111
+/svnroot/opticks/!svn/ver/13604/releases/4.7.0/trunk/Code/application/PlugIns/src/ShapeFileExporter/Feature.cpp
+END
+AddFeatureDlg.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 117
+/svnroot/opticks/!svn/ver/13604/releases/4.7.0/trunk/Code/application/PlugIns/src/ShapeFileExporter/AddFeatureDlg.cpp
+END

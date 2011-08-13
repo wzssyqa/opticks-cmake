@@ -1,0 +1,623 @@
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svnroot/opticks/!svn/ver/13604/releases/4.7.0/trunk/Code/application/Desktop/Plot
+END
+StatisticsWidget.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/svnroot/opticks/!svn/ver/13604/releases/4.7.0/trunk/Code/application/Desktop/Plot/StatisticsWidget.cpp
+END
+PlotGroupImp.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/svnroot/opticks/!svn/ver/13604/releases/4.7.0/trunk/Code/application/Desktop/Plot/PlotGroupImp.cpp
+END
+CurveCollectionAdapter.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/svnroot/opticks/!svn/ver/13604/releases/4.7.0/trunk/Code/application/Desktop/Plot/CurveCollectionAdapter.cpp
+END
+SignaturePlotAdapter.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/svnroot/opticks/!svn/ver/13604/releases/4.7.0/trunk/Code/application/Desktop/Plot/SignaturePlotAdapter.cpp
+END
+Legend.h
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svnroot/opticks/!svn/ver/13604/releases/4.7.0/trunk/Code/application/Desktop/Plot/Legend.h
+END
+HistogramAdapter.h
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/svnroot/opticks/!svn/ver/13604/releases/4.7.0/trunk/Code/application/Desktop/Plot/HistogramAdapter.h
+END
+LocatorAdapter.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/svnroot/opticks/!svn/ver/13604/releases/4.7.0/trunk/Code/application/Desktop/Plot/LocatorAdapter.cpp
+END
+AxisAdapter.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/svnroot/opticks/!svn/ver/13604/releases/4.7.0/trunk/Code/application/Desktop/Plot/AxisAdapter.cpp
+END
+HistogramPlotImp.h
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/svnroot/opticks/!svn/ver/13604/releases/4.7.0/trunk/Code/application/Desktop/Plot/HistogramPlotImp.h
+END
+PlotViewAdapter.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/svnroot/opticks/!svn/ver/13604/releases/4.7.0/trunk/Code/application/Desktop/Plot/PlotViewAdapter.cpp
+END
+PlotObjectImp.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/svnroot/opticks/!svn/ver/13604/releases/4.7.0/trunk/Code/application/Desktop/Plot/PlotObjectImp.cpp
+END
+CartesianGridlinesAdapter.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 112
+/svnroot/opticks/!svn/ver/13604/releases/4.7.0/trunk/Code/application/Desktop/Plot/CartesianGridlinesAdapter.cpp
+END
+CurveCollectionImp.h
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/svnroot/opticks/!svn/ver/13604/releases/4.7.0/trunk/Code/application/Desktop/Plot/CurveCollectionImp.h
+END
+SignaturePlotImp.h
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/svnroot/opticks/!svn/ver/13604/releases/4.7.0/trunk/Code/application/Desktop/Plot/SignaturePlotImp.h
+END
+AxisImp.h
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svnroot/opticks/!svn/ver/13604/releases/4.7.0/trunk/Code/application/Desktop/Plot/AxisImp.h
+END
+PointSetImp.h
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svnroot/opticks/!svn/ver/13604/releases/4.7.0/trunk/Code/application/Desktop/Plot/PointSetImp.h
+END
+RegionObjectAdapter.h
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/svnroot/opticks/!svn/ver/13604/releases/4.7.0/trunk/Code/application/Desktop/Plot/RegionObjectAdapter.h
+END
+RegionObjectImp.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/svnroot/opticks/!svn/ver/13604/releases/4.7.0/trunk/Code/application/Desktop/Plot/RegionObjectImp.cpp
+END
+GridlinesAdapter.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/svnroot/opticks/!svn/ver/13604/releases/4.7.0/trunk/Code/application/Desktop/Plot/GridlinesAdapter.cpp
+END
+PolarPlotAdapter.h
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/svnroot/opticks/!svn/ver/13604/releases/4.7.0/trunk/Code/application/Desktop/Plot/PolarPlotAdapter.h
+END
+PolarPlotImp.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/svnroot/opticks/!svn/ver/13604/releases/4.7.0/trunk/Code/application/Desktop/Plot/PolarPlotImp.cpp
+END
+PlotWidgetAdapter.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/svnroot/opticks/!svn/ver/13604/releases/4.7.0/trunk/Code/application/Desktop/Plot/PlotWidgetAdapter.cpp
+END
+PolygonPlotObjectAdapter.h
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/svnroot/opticks/!svn/ver/13604/releases/4.7.0/trunk/Code/application/Desktop/Plot/PolygonPlotObjectAdapter.h
+END
+CartesianGridlinesImp.h
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/svnroot/opticks/!svn/ver/13604/releases/4.7.0/trunk/Code/application/Desktop/Plot/CartesianGridlinesImp.h
+END
+CurveAdapter.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/svnroot/opticks/!svn/ver/13604/releases/4.7.0/trunk/Code/application/Desktop/Plot/CurveAdapter.cpp
+END
+GridlinesImp.h
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/svnroot/opticks/!svn/ver/13604/releases/4.7.0/trunk/Code/application/Desktop/Plot/GridlinesImp.h
+END
+PlotGroupAdapter.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/svnroot/opticks/!svn/ver/13604/releases/4.7.0/trunk/Code/application/Desktop/Plot/PlotGroupAdapter.cpp
+END
+PlotWidgetImp.h
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/svnroot/opticks/!svn/ver/13604/releases/4.7.0/trunk/Code/application/Desktop/Plot/PlotWidgetImp.h
+END
+CurveImp.h
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svnroot/opticks/!svn/ver/13604/releases/4.7.0/trunk/Code/application/Desktop/Plot/CurveImp.h
+END
+PointAdapter.h
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/svnroot/opticks/!svn/ver/13604/releases/4.7.0/trunk/Code/application/Desktop/Plot/PointAdapter.h
+END
+HistogramWindowImp.h
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/svnroot/opticks/!svn/ver/13604/releases/4.7.0/trunk/Code/application/Desktop/Plot/HistogramWindowImp.h
+END
+StatisticsWidget.h
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/svnroot/opticks/!svn/ver/13604/releases/4.7.0/trunk/Code/application/Desktop/Plot/StatisticsWidget.h
+END
+HistogramImp.h
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/svnroot/opticks/!svn/ver/13604/releases/4.7.0/trunk/Code/application/Desktop/Plot/HistogramImp.h
+END
+LocatorAdapter.h
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/svnroot/opticks/!svn/ver/13604/releases/4.7.0/trunk/Code/application/Desktop/Plot/LocatorAdapter.h
+END
+PointSetImp.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/svnroot/opticks/!svn/ver/13604/releases/4.7.0/trunk/Code/application/Desktop/Plot/PointSetImp.cpp
+END
+RegionObjectAdapter.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/svnroot/opticks/!svn/ver/13604/releases/4.7.0/trunk/Code/application/Desktop/Plot/RegionObjectAdapter.cpp
+END
+PolarPlotAdapter.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/svnroot/opticks/!svn/ver/13604/releases/4.7.0/trunk/Code/application/Desktop/Plot/PolarPlotAdapter.cpp
+END
+PlotViewAdapter.h
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/svnroot/opticks/!svn/ver/13604/releases/4.7.0/trunk/Code/application/Desktop/Plot/PlotViewAdapter.h
+END
+PolarGridlinesAdapter.h
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/svnroot/opticks/!svn/ver/13604/releases/4.7.0/trunk/Code/application/Desktop/Plot/PolarGridlinesAdapter.h
+END
+PolarGridlinesImp.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/svnroot/opticks/!svn/ver/13604/releases/4.7.0/trunk/Code/application/Desktop/Plot/PolarGridlinesImp.cpp
+END
+RegionObjectImp.h
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/svnroot/opticks/!svn/ver/13604/releases/4.7.0/trunk/Code/application/Desktop/Plot/RegionObjectImp.h
+END
+PolarPlotImp.h
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/svnroot/opticks/!svn/ver/13604/releases/4.7.0/trunk/Code/application/Desktop/Plot/PolarPlotImp.h
+END
+PolygonPlotObjectImp.h
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/svnroot/opticks/!svn/ver/13604/releases/4.7.0/trunk/Code/application/Desktop/Plot/PolygonPlotObjectImp.h
+END
+TextAdapter.h
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svnroot/opticks/!svn/ver/13604/releases/4.7.0/trunk/Code/application/Desktop/Plot/TextAdapter.h
+END
+TextImp.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svnroot/opticks/!svn/ver/13604/releases/4.7.0/trunk/Code/application/Desktop/Plot/TextImp.cpp
+END
+HistogramWindowImp.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/svnroot/opticks/!svn/ver/13604/releases/4.7.0/trunk/Code/application/Desktop/Plot/HistogramWindowImp.cpp
+END
+PlotSetImp.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/svnroot/opticks/!svn/ver/13604/releases/4.7.0/trunk/Code/application/Desktop/Plot/PlotSetImp.cpp
+END
+PlotSetAdapter.h
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/svnroot/opticks/!svn/ver/13604/releases/4.7.0/trunk/Code/application/Desktop/Plot/PlotSetAdapter.h
+END
+ArrowImp.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svnroot/opticks/!svn/ver/13604/releases/4.7.0/trunk/Code/application/Desktop/Plot/ArrowImp.cpp
+END
+ArrowAdapter.h
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/svnroot/opticks/!svn/ver/13604/releases/4.7.0/trunk/Code/application/Desktop/Plot/ArrowAdapter.h
+END
+PlotGroupAdapter.h
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/svnroot/opticks/!svn/ver/13604/releases/4.7.0/trunk/Code/application/Desktop/Plot/PlotGroupAdapter.h
+END
+HistogramImp.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/svnroot/opticks/!svn/ver/13604/releases/4.7.0/trunk/Code/application/Desktop/Plot/HistogramImp.cpp
+END
+PointImp.h
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svnroot/opticks/!svn/ver/13604/releases/4.7.0/trunk/Code/application/Desktop/Plot/PointImp.h
+END
+PointSetAdapter.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/svnroot/opticks/!svn/ver/13604/releases/4.7.0/trunk/Code/application/Desktop/Plot/PointSetAdapter.cpp
+END
+PlotObjectAdapter.h
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/svnroot/opticks/!svn/ver/13604/releases/4.7.0/trunk/Code/application/Desktop/Plot/PlotObjectAdapter.h
+END
+PlotWindowAdapter.h
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/svnroot/opticks/!svn/ver/13604/releases/4.7.0/trunk/Code/application/Desktop/Plot/PlotWindowAdapter.h
+END
+PlotWindowImp.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/svnroot/opticks/!svn/ver/13604/releases/4.7.0/trunk/Code/application/Desktop/Plot/PlotWindowImp.cpp
+END
+LocatorImp.h
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svnroot/opticks/!svn/ver/13604/releases/4.7.0/trunk/Code/application/Desktop/Plot/LocatorImp.h
+END
+CartesianPlotImp.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/svnroot/opticks/!svn/ver/13604/releases/4.7.0/trunk/Code/application/Desktop/Plot/CartesianPlotImp.cpp
+END
+CartesianPlotAdapter.h
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/svnroot/opticks/!svn/ver/13604/releases/4.7.0/trunk/Code/application/Desktop/Plot/CartesianPlotAdapter.h
+END
+PolarGridlinesAdapter.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/svnroot/opticks/!svn/ver/13604/releases/4.7.0/trunk/Code/application/Desktop/Plot/PolarGridlinesAdapter.cpp
+END
+PolygonPlotObjectImp.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/svnroot/opticks/!svn/ver/13604/releases/4.7.0/trunk/Code/application/Desktop/Plot/PolygonPlotObjectImp.cpp
+END
+PlotViewImp.h
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svnroot/opticks/!svn/ver/13604/releases/4.7.0/trunk/Code/application/Desktop/Plot/PlotViewImp.h
+END
+TextAdapter.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/svnroot/opticks/!svn/ver/13604/releases/4.7.0/trunk/Code/application/Desktop/Plot/TextAdapter.cpp
+END
+HistogramWindowAdapter.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/svnroot/opticks/!svn/ver/13604/releases/4.7.0/trunk/Code/application/Desktop/Plot/HistogramWindowAdapter.cpp
+END
+PolarGridlinesImp.h
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/svnroot/opticks/!svn/ver/13604/releases/4.7.0/trunk/Code/application/Desktop/Plot/PolarGridlinesImp.h
+END
+PlotSetAdapter.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/svnroot/opticks/!svn/ver/13604/releases/4.7.0/trunk/Code/application/Desktop/Plot/PlotSetAdapter.cpp
+END
+ArrowAdapter.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/svnroot/opticks/!svn/ver/13604/releases/4.7.0/trunk/Code/application/Desktop/Plot/ArrowAdapter.cpp
+END
+Legend.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svnroot/opticks/!svn/ver/13604/releases/4.7.0/trunk/Code/application/Desktop/Plot/Legend.cpp
+END
+HistogramAdapter.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/svnroot/opticks/!svn/ver/13604/releases/4.7.0/trunk/Code/application/Desktop/Plot/HistogramAdapter.cpp
+END
+PointImp.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svnroot/opticks/!svn/ver/13604/releases/4.7.0/trunk/Code/application/Desktop/Plot/PointImp.cpp
+END
+TextImp.h
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svnroot/opticks/!svn/ver/13604/releases/4.7.0/trunk/Code/application/Desktop/Plot/TextImp.h
+END
+HistogramPlotImp.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/svnroot/opticks/!svn/ver/13604/releases/4.7.0/trunk/Code/application/Desktop/Plot/HistogramPlotImp.cpp
+END
+HistogramPlotAdapter.h
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/svnroot/opticks/!svn/ver/13604/releases/4.7.0/trunk/Code/application/Desktop/Plot/HistogramPlotAdapter.h
+END
+PlotSetImp.h
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svnroot/opticks/!svn/ver/13604/releases/4.7.0/trunk/Code/application/Desktop/Plot/PlotSetImp.h
+END
+ArrowImp.h
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svnroot/opticks/!svn/ver/13604/releases/4.7.0/trunk/Code/application/Desktop/Plot/ArrowImp.h
+END
+PlotGroupImp.h
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/svnroot/opticks/!svn/ver/13604/releases/4.7.0/trunk/Code/application/Desktop/Plot/PlotGroupImp.h
+END
+CurveCollectionAdapter.h
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/svnroot/opticks/!svn/ver/13604/releases/4.7.0/trunk/Code/application/Desktop/Plot/CurveCollectionAdapter.h
+END
+CurveCollectionImp.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/svnroot/opticks/!svn/ver/13604/releases/4.7.0/trunk/Code/application/Desktop/Plot/CurveCollectionImp.cpp
+END
+SignaturePlotAdapter.h
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/svnroot/opticks/!svn/ver/13604/releases/4.7.0/trunk/Code/application/Desktop/Plot/SignaturePlotAdapter.h
+END
+SignaturePlotImp.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/svnroot/opticks/!svn/ver/13604/releases/4.7.0/trunk/Code/application/Desktop/Plot/SignaturePlotImp.cpp
+END
+PlotWindowAdapter.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/svnroot/opticks/!svn/ver/13604/releases/4.7.0/trunk/Code/application/Desktop/Plot/PlotWindowAdapter.cpp
+END
+LocatorImp.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/svnroot/opticks/!svn/ver/13604/releases/4.7.0/trunk/Code/application/Desktop/Plot/LocatorImp.cpp
+END
+CartesianPlotAdapter.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/svnroot/opticks/!svn/ver/13604/releases/4.7.0/trunk/Code/application/Desktop/Plot/CartesianPlotAdapter.cpp
+END
+AxisImp.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svnroot/opticks/!svn/ver/13604/releases/4.7.0/trunk/Code/application/Desktop/Plot/AxisImp.cpp
+END
+AxisAdapter.h
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svnroot/opticks/!svn/ver/13604/releases/4.7.0/trunk/Code/application/Desktop/Plot/AxisAdapter.h
+END
+PointSetAdapter.h
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/svnroot/opticks/!svn/ver/13604/releases/4.7.0/trunk/Code/application/Desktop/Plot/PointSetAdapter.h
+END
+PolygonPlotObjectAdapter.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 111
+/svnroot/opticks/!svn/ver/13604/releases/4.7.0/trunk/Code/application/Desktop/Plot/PolygonPlotObjectAdapter.cpp
+END
+PlotViewImp.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/svnroot/opticks/!svn/ver/13604/releases/4.7.0/trunk/Code/application/Desktop/Plot/PlotViewImp.cpp
+END
+PlotObjectImp.h
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/svnroot/opticks/!svn/ver/13604/releases/4.7.0/trunk/Code/application/Desktop/Plot/PlotObjectImp.h
+END
+CartesianGridlinesImp.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/svnroot/opticks/!svn/ver/13604/releases/4.7.0/trunk/Code/application/Desktop/Plot/CartesianGridlinesImp.cpp
+END
+CartesianGridlinesAdapter.h
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/svnroot/opticks/!svn/ver/13604/releases/4.7.0/trunk/Code/application/Desktop/Plot/CartesianGridlinesAdapter.h
+END
+PlotWindowImp.h
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/svnroot/opticks/!svn/ver/13604/releases/4.7.0/trunk/Code/application/Desktop/Plot/PlotWindowImp.h
+END
+CartesianPlotImp.h
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/svnroot/opticks/!svn/ver/13604/releases/4.7.0/trunk/Code/application/Desktop/Plot/CartesianPlotImp.h
+END
+GridlinesAdapter.h
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/svnroot/opticks/!svn/ver/13604/releases/4.7.0/trunk/Code/application/Desktop/Plot/GridlinesAdapter.h
+END
+GridlinesImp.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/svnroot/opticks/!svn/ver/13604/releases/4.7.0/trunk/Code/application/Desktop/Plot/GridlinesImp.cpp
+END
+PlotWidgetImp.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/svnroot/opticks/!svn/ver/13604/releases/4.7.0/trunk/Code/application/Desktop/Plot/PlotWidgetImp.cpp
+END
+PlotWidgetAdapter.h
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/svnroot/opticks/!svn/ver/13604/releases/4.7.0/trunk/Code/application/Desktop/Plot/PlotWidgetAdapter.h
+END
+CurveAdapter.h
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/svnroot/opticks/!svn/ver/13604/releases/4.7.0/trunk/Code/application/Desktop/Plot/CurveAdapter.h
+END
+CurveImp.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svnroot/opticks/!svn/ver/13604/releases/4.7.0/trunk/Code/application/Desktop/Plot/CurveImp.cpp
+END
+PointAdapter.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/svnroot/opticks/!svn/ver/13604/releases/4.7.0/trunk/Code/application/Desktop/Plot/PointAdapter.cpp
+END
+HistogramWindowAdapter.h
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/svnroot/opticks/!svn/ver/13604/releases/4.7.0/trunk/Code/application/Desktop/Plot/HistogramWindowAdapter.h
+END
+HistogramPlotAdapter.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/svnroot/opticks/!svn/ver/13604/releases/4.7.0/trunk/Code/application/Desktop/Plot/HistogramPlotAdapter.cpp
+END

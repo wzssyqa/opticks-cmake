@@ -1,0 +1,677 @@
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svnroot/opticks/!svn/ver/13604/releases/4.7.0/trunk/Code/application/Model
+END
+RasterDataDescriptorAdapter.h
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/svnroot/opticks/!svn/ver/13604/releases/4.7.0/trunk/Code/application/Model/RasterDataDescriptorAdapter.h
+END
+DataElementGroupAdapter.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/svnroot/opticks/!svn/ver/13604/releases/4.7.0/trunk/Code/application/Model/DataElementGroupAdapter.cpp
+END
+ClassificationImp.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/svnroot/opticks/!svn/ver/13604/releases/4.7.0/trunk/Code/application/Model/ClassificationImp.cpp
+END
+MemoryMappedPage.h
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svnroot/opticks/!svn/ver/13604/releases/4.7.0/trunk/Code/application/Model/MemoryMappedPage.h
+END
+AnyImp.h
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svnroot/opticks/!svn/ver/13604/releases/4.7.0/trunk/Code/application/Model/AnyImp.h
+END
+BitMaskImp.h
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svnroot/opticks/!svn/ver/13604/releases/4.7.0/trunk/Code/application/Model/BitMaskImp.h
+END
+RasterFileDescriptorAdapter.h
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/svnroot/opticks/!svn/ver/13604/releases/4.7.0/trunk/Code/application/Model/RasterFileDescriptorAdapter.h
+END
+ConvertToBilPage.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svnroot/opticks/!svn/ver/13604/releases/4.7.0/trunk/Code/application/Model/ConvertToBilPage.cpp
+END
+SignatureAdapter.h
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svnroot/opticks/!svn/ver/13604/releases/4.7.0/trunk/Code/application/Model/SignatureAdapter.h
+END
+DataElementGroupImp.h
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/svnroot/opticks/!svn/ver/13604/releases/4.7.0/trunk/Code/application/Model/DataElementGroupImp.h
+END
+ConvertToBipPage.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svnroot/opticks/!svn/ver/13604/releases/4.7.0/trunk/Code/application/Model/ConvertToBipPage.cpp
+END
+GcpListImp.h
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svnroot/opticks/!svn/ver/13604/releases/4.7.0/trunk/Code/application/Model/GcpListImp.h
+END
+MemoryMappedPager.h
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svnroot/opticks/!svn/ver/13604/releases/4.7.0/trunk/Code/application/Model/MemoryMappedPager.h
+END
+SignatureSetImp.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svnroot/opticks/!svn/ver/13604/releases/4.7.0/trunk/Code/application/Model/SignatureSetImp.cpp
+END
+MemoryMappedMatrixView.h
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/svnroot/opticks/!svn/ver/13604/releases/4.7.0/trunk/Code/application/Model/MemoryMappedMatrixView.h
+END
+LibrarySignatureAdapter.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/svnroot/opticks/!svn/ver/13604/releases/4.7.0/trunk/Code/application/Model/LibrarySignatureAdapter.cpp
+END
+GraphicElementAdapter.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/svnroot/opticks/!svn/ver/13604/releases/4.7.0/trunk/Code/application/Model/GraphicElementAdapter.cpp
+END
+DataRequestImp.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svnroot/opticks/!svn/ver/13604/releases/4.7.0/trunk/Code/application/Model/DataRequestImp.cpp
+END
+AoiElementImp.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svnroot/opticks/!svn/ver/13604/releases/4.7.0/trunk/Code/application/Model/AoiElementImp.cpp
+END
+AoiElementAdapter.h
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svnroot/opticks/!svn/ver/13604/releases/4.7.0/trunk/Code/application/Model/AoiElementAdapter.h
+END
+DataElementAdapter.h
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svnroot/opticks/!svn/ver/13604/releases/4.7.0/trunk/Code/application/Model/DataElementAdapter.h
+END
+MemoryMappedMatrix.h
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svnroot/opticks/!svn/ver/13604/releases/4.7.0/trunk/Code/application/Model/MemoryMappedMatrix.h
+END
+EndianSwapPage.h
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svnroot/opticks/!svn/ver/13604/releases/4.7.0/trunk/Code/application/Model/EndianSwapPage.h
+END
+InMemoryPage.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svnroot/opticks/!svn/ver/13604/releases/4.7.0/trunk/Code/application/Model/InMemoryPage.cpp
+END
+ClassificationAdapter.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/svnroot/opticks/!svn/ver/13604/releases/4.7.0/trunk/Code/application/Model/ClassificationAdapter.cpp
+END
+SignatureLibraryAdapter.h
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/svnroot/opticks/!svn/ver/13604/releases/4.7.0/trunk/Code/application/Model/SignatureLibraryAdapter.h
+END
+SignatureLibraryImp.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/svnroot/opticks/!svn/ver/13604/releases/4.7.0/trunk/Code/application/Model/SignatureLibraryImp.cpp
+END
+AnyImp.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svnroot/opticks/!svn/ver/13604/releases/4.7.0/trunk/Code/application/Model/AnyImp.cpp
+END
+TiePointListAdapter.h
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/svnroot/opticks/!svn/ver/13604/releases/4.7.0/trunk/Code/application/Model/TiePointListAdapter.h
+END
+LibrarySignatureImp.h
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/svnroot/opticks/!svn/ver/13604/releases/4.7.0/trunk/Code/application/Model/LibrarySignatureImp.h
+END
+RasterDataDescriptorImp.h
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/svnroot/opticks/!svn/ver/13604/releases/4.7.0/trunk/Code/application/Model/RasterDataDescriptorImp.h
+END
+ConvertToBsqPager.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/svnroot/opticks/!svn/ver/13604/releases/4.7.0/trunk/Code/application/Model/ConvertToBsqPager.cpp
+END
+UnitsImp.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svnroot/opticks/!svn/ver/13604/releases/4.7.0/trunk/Code/application/Model/UnitsImp.cpp
+END
+ModelServicesImp.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svnroot/opticks/!svn/ver/13604/releases/4.7.0/trunk/Code/application/Model/ModelServicesImp.cpp
+END
+RasterFileDescriptorImp.h
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/svnroot/opticks/!svn/ver/13604/releases/4.7.0/trunk/Code/application/Model/RasterFileDescriptorImp.h
+END
+GcpListImp.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svnroot/opticks/!svn/ver/13604/releases/4.7.0/trunk/Code/application/Model/GcpListImp.cpp
+END
+SignatureImp.h
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svnroot/opticks/!svn/ver/13604/releases/4.7.0/trunk/Code/application/Model/SignatureImp.h
+END
+InMemoryPager.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svnroot/opticks/!svn/ver/13604/releases/4.7.0/trunk/Code/application/Model/InMemoryPager.cpp
+END
+DataDescriptorImp.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/svnroot/opticks/!svn/ver/13604/releases/4.7.0/trunk/Code/application/Model/DataDescriptorImp.cpp
+END
+DataDescriptorAdapter.h
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/svnroot/opticks/!svn/ver/13604/releases/4.7.0/trunk/Code/application/Model/DataDescriptorAdapter.h
+END
+SignatureSetAdapter.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/svnroot/opticks/!svn/ver/13604/releases/4.7.0/trunk/Code/application/Model/SignatureSetAdapter.cpp
+END
+MemoryMappedMatrixView.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/svnroot/opticks/!svn/ver/13604/releases/4.7.0/trunk/Code/application/Model/MemoryMappedMatrixView.cpp
+END
+AoiElementAdapter.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/svnroot/opticks/!svn/ver/13604/releases/4.7.0/trunk/Code/application/Model/AoiElementAdapter.cpp
+END
+FileDescriptorImp.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/svnroot/opticks/!svn/ver/13604/releases/4.7.0/trunk/Code/application/Model/FileDescriptorImp.cpp
+END
+FileDescriptorAdapter.h
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/svnroot/opticks/!svn/ver/13604/releases/4.7.0/trunk/Code/application/Model/FileDescriptorAdapter.h
+END
+SignatureLibraryAdapter.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/svnroot/opticks/!svn/ver/13604/releases/4.7.0/trunk/Code/application/Model/SignatureLibraryAdapter.cpp
+END
+AnyAdapter.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svnroot/opticks/!svn/ver/13604/releases/4.7.0/trunk/Code/application/Model/AnyAdapter.cpp
+END
+AnnotationElementImp.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/svnroot/opticks/!svn/ver/13604/releases/4.7.0/trunk/Code/application/Model/AnnotationElementImp.cpp
+END
+AnnotationElementAdapter.h
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/svnroot/opticks/!svn/ver/13604/releases/4.7.0/trunk/Code/application/Model/AnnotationElementAdapter.h
+END
+GraphicElementAdapter.h
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/svnroot/opticks/!svn/ver/13604/releases/4.7.0/trunk/Code/application/Model/GraphicElementAdapter.h
+END
+DataRequestImp.h
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svnroot/opticks/!svn/ver/13604/releases/4.7.0/trunk/Code/application/Model/DataRequestImp.h
+END
+AoiElementImp.h
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svnroot/opticks/!svn/ver/13604/releases/4.7.0/trunk/Code/application/Model/AoiElementImp.h
+END
+DataElementImp.h
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svnroot/opticks/!svn/ver/13604/releases/4.7.0/trunk/Code/application/Model/DataElementImp.h
+END
+RasterDataDescriptorImp.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/svnroot/opticks/!svn/ver/13604/releases/4.7.0/trunk/Code/application/Model/RasterDataDescriptorImp.cpp
+END
+StatisticsImp.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svnroot/opticks/!svn/ver/13604/releases/4.7.0/trunk/Code/application/Model/StatisticsImp.cpp
+END
+InMemoryPage.h
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svnroot/opticks/!svn/ver/13604/releases/4.7.0/trunk/Code/application/Model/InMemoryPage.h
+END
+ClassificationAdapter.h
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/svnroot/opticks/!svn/ver/13604/releases/4.7.0/trunk/Code/application/Model/ClassificationAdapter.h
+END
+SignatureLibraryImp.h
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/svnroot/opticks/!svn/ver/13604/releases/4.7.0/trunk/Code/application/Model/SignatureLibraryImp.h
+END
+TiePointListImp.h
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svnroot/opticks/!svn/ver/13604/releases/4.7.0/trunk/Code/application/Model/TiePointListImp.h
+END
+RasterFileDescriptorImp.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/svnroot/opticks/!svn/ver/13604/releases/4.7.0/trunk/Code/application/Model/RasterFileDescriptorImp.cpp
+END
+GcpListAdapter.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svnroot/opticks/!svn/ver/13604/releases/4.7.0/trunk/Code/application/Model/GcpListAdapter.cpp
+END
+SignatureImp.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svnroot/opticks/!svn/ver/13604/releases/4.7.0/trunk/Code/application/Model/SignatureImp.cpp
+END
+DataDescriptorAdapter.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/svnroot/opticks/!svn/ver/13604/releases/4.7.0/trunk/Code/application/Model/DataDescriptorAdapter.cpp
+END
+ConvertToBsqPager.h
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svnroot/opticks/!svn/ver/13604/releases/4.7.0/trunk/Code/application/Model/ConvertToBsqPager.h
+END
+UnitsImp.h
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svnroot/opticks/!svn/ver/13604/releases/4.7.0/trunk/Code/application/Model/UnitsImp.h
+END
+FileDescriptorAdapter.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/svnroot/opticks/!svn/ver/13604/releases/4.7.0/trunk/Code/application/Model/FileDescriptorAdapter.cpp
+END
+ModelServicesImp.h
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svnroot/opticks/!svn/ver/13604/releases/4.7.0/trunk/Code/application/Model/ModelServicesImp.h
+END
+RasterElementAdapter.h
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/svnroot/opticks/!svn/ver/13604/releases/4.7.0/trunk/Code/application/Model/RasterElementAdapter.h
+END
+RasterElementImp.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svnroot/opticks/!svn/ver/13604/releases/4.7.0/trunk/Code/application/Model/RasterElementImp.cpp
+END
+InMemoryPager.h
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svnroot/opticks/!svn/ver/13604/releases/4.7.0/trunk/Code/application/Model/InMemoryPager.h
+END
+DataDescriptorImp.h
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svnroot/opticks/!svn/ver/13604/releases/4.7.0/trunk/Code/application/Model/DataDescriptorImp.h
+END
+SignatureSetAdapter.h
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/svnroot/opticks/!svn/ver/13604/releases/4.7.0/trunk/Code/application/Model/SignatureSetAdapter.h
+END
+AnnotationElementAdapter.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/svnroot/opticks/!svn/ver/13604/releases/4.7.0/trunk/Code/application/Model/AnnotationElementAdapter.cpp
+END
+ConvertToBsqPage.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svnroot/opticks/!svn/ver/13604/releases/4.7.0/trunk/Code/application/Model/ConvertToBsqPage.cpp
+END
+FileDescriptorImp.h
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svnroot/opticks/!svn/ver/13604/releases/4.7.0/trunk/Code/application/Model/FileDescriptorImp.h
+END
+DataElementImp.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svnroot/opticks/!svn/ver/13604/releases/4.7.0/trunk/Code/application/Model/DataElementImp.cpp
+END
+RasterDataDescriptorAdapter.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/svnroot/opticks/!svn/ver/13604/releases/4.7.0/trunk/Code/application/Model/RasterDataDescriptorAdapter.cpp
+END
+MemoryMappedPage.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svnroot/opticks/!svn/ver/13604/releases/4.7.0/trunk/Code/application/Model/MemoryMappedPage.cpp
+END
+AnyAdapter.h
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svnroot/opticks/!svn/ver/13604/releases/4.7.0/trunk/Code/application/Model/AnyAdapter.h
+END
+TiePointListImp.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svnroot/opticks/!svn/ver/13604/releases/4.7.0/trunk/Code/application/Model/TiePointListImp.cpp
+END
+ConvertToBilPager.h
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svnroot/opticks/!svn/ver/13604/releases/4.7.0/trunk/Code/application/Model/ConvertToBilPager.h
+END
+AnnotationElementImp.h
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/svnroot/opticks/!svn/ver/13604/releases/4.7.0/trunk/Code/application/Model/AnnotationElementImp.h
+END
+BitMaskImp.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svnroot/opticks/!svn/ver/13604/releases/4.7.0/trunk/Code/application/Model/BitMaskImp.cpp
+END
+RasterFileDescriptorAdapter.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/svnroot/opticks/!svn/ver/13604/releases/4.7.0/trunk/Code/application/Model/RasterFileDescriptorAdapter.cpp
+END
+GraphicElementImp.h
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svnroot/opticks/!svn/ver/13604/releases/4.7.0/trunk/Code/application/Model/GraphicElementImp.h
+END
+ConvertToBipPager.h
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svnroot/opticks/!svn/ver/13604/releases/4.7.0/trunk/Code/application/Model/ConvertToBipPager.h
+END
+SignatureAdapter.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svnroot/opticks/!svn/ver/13604/releases/4.7.0/trunk/Code/application/Model/SignatureAdapter.cpp
+END
+StatisticsImp.h
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svnroot/opticks/!svn/ver/13604/releases/4.7.0/trunk/Code/application/Model/StatisticsImp.h
+END
+DataElementGroupImp.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/svnroot/opticks/!svn/ver/13604/releases/4.7.0/trunk/Code/application/Model/DataElementGroupImp.cpp
+END
+DataElementGroupAdapter.h
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/svnroot/opticks/!svn/ver/13604/releases/4.7.0/trunk/Code/application/Model/DataElementGroupAdapter.h
+END
+ClassificationImp.h
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svnroot/opticks/!svn/ver/13604/releases/4.7.0/trunk/Code/application/Model/ClassificationImp.h
+END
+SConscript
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svnroot/opticks/!svn/ver/13604/releases/4.7.0/trunk/Code/application/Model/SConscript
+END
+Model.vcxproj
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svnroot/opticks/!svn/ver/13604/releases/4.7.0/trunk/Code/application/Model/Model.vcxproj
+END
+GcpListAdapter.h
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svnroot/opticks/!svn/ver/13604/releases/4.7.0/trunk/Code/application/Model/GcpListAdapter.h
+END
+RasterElementAdapter.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/svnroot/opticks/!svn/ver/13604/releases/4.7.0/trunk/Code/application/Model/RasterElementAdapter.cpp
+END
+ConvertToBilPage.h
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svnroot/opticks/!svn/ver/13604/releases/4.7.0/trunk/Code/application/Model/ConvertToBilPage.h
+END
+MemoryMappedPager.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/svnroot/opticks/!svn/ver/13604/releases/4.7.0/trunk/Code/application/Model/MemoryMappedPager.cpp
+END
+ConvertToBipPage.h
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svnroot/opticks/!svn/ver/13604/releases/4.7.0/trunk/Code/application/Model/ConvertToBipPage.h
+END
+Model.vcxproj.filters
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/svnroot/opticks/!svn/ver/13604/releases/4.7.0/trunk/Code/application/Model/Model.vcxproj.filters
+END
+SignatureLibrary.rationale
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/svnroot/opticks/!svn/ver/13604/releases/4.7.0/trunk/Code/application/Model/SignatureLibrary.rationale
+END
+DataElementAdapter.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/svnroot/opticks/!svn/ver/13604/releases/4.7.0/trunk/Code/application/Model/DataElementAdapter.cpp
+END
+MemoryMappedMatrix.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/svnroot/opticks/!svn/ver/13604/releases/4.7.0/trunk/Code/application/Model/MemoryMappedMatrix.cpp
+END
+RasterElementImp.h
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svnroot/opticks/!svn/ver/13604/releases/4.7.0/trunk/Code/application/Model/RasterElementImp.h
+END
+EndianSwapPage.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svnroot/opticks/!svn/ver/13604/releases/4.7.0/trunk/Code/application/Model/EndianSwapPage.cpp
+END
+SignatureSetImp.h
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svnroot/opticks/!svn/ver/13604/releases/4.7.0/trunk/Code/application/Model/SignatureSetImp.h
+END
+TiePointListAdapter.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/svnroot/opticks/!svn/ver/13604/releases/4.7.0/trunk/Code/application/Model/TiePointListAdapter.cpp
+END
+ConvertToBilPager.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/svnroot/opticks/!svn/ver/13604/releases/4.7.0/trunk/Code/application/Model/ConvertToBilPager.cpp
+END
+ConvertToBsqPage.h
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svnroot/opticks/!svn/ver/13604/releases/4.7.0/trunk/Code/application/Model/ConvertToBsqPage.h
+END
+LibrarySignatureAdapter.h
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/svnroot/opticks/!svn/ver/13604/releases/4.7.0/trunk/Code/application/Model/LibrarySignatureAdapter.h
+END
+LibrarySignatureImp.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/svnroot/opticks/!svn/ver/13604/releases/4.7.0/trunk/Code/application/Model/LibrarySignatureImp.cpp
+END
+GraphicElementImp.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/svnroot/opticks/!svn/ver/13604/releases/4.7.0/trunk/Code/application/Model/GraphicElementImp.cpp
+END
+ConvertToBipPager.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/svnroot/opticks/!svn/ver/13604/releases/4.7.0/trunk/Code/application/Model/ConvertToBipPager.cpp
+END

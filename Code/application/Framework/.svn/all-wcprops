@@ -1,0 +1,71 @@
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svnroot/opticks/!svn/ver/13604/releases/4.7.0/trunk/Code/application/Framework
+END
+ArgumentList.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svnroot/opticks/!svn/ver/13604/releases/4.7.0/trunk/Code/application/Framework/ArgumentList.cpp
+END
+CopyrightInformation.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/svnroot/opticks/!svn/ver/13604/releases/4.7.0/trunk/Code/application/Framework/CopyrightInformation.cpp
+END
+InteractiveApplication.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/svnroot/opticks/!svn/ver/13604/releases/4.7.0/trunk/Code/application/Framework/InteractiveApplication.cpp
+END
+Application.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svnroot/opticks/!svn/ver/13604/releases/4.7.0/trunk/Code/application/Framework/Application.cpp
+END
+ArgumentList.h
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svnroot/opticks/!svn/ver/13604/releases/4.7.0/trunk/Code/application/Framework/ArgumentList.h
+END
+CopyrightInformation.h
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/svnroot/opticks/!svn/ver/13604/releases/4.7.0/trunk/Code/application/Framework/CopyrightInformation.h
+END
+Framework.vcxproj
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/svnroot/opticks/!svn/ver/13604/releases/4.7.0/trunk/Code/application/Framework/Framework.vcxproj
+END
+InteractiveApplication.h
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/svnroot/opticks/!svn/ver/13604/releases/4.7.0/trunk/Code/application/Framework/InteractiveApplication.h
+END
+SConscript
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svnroot/opticks/!svn/ver/13604/releases/4.7.0/trunk/Code/application/Framework/SConscript
+END
+Application.h
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svnroot/opticks/!svn/ver/13604/releases/4.7.0/trunk/Code/application/Framework/Application.h
+END
+Framework.vcxproj.filters
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/svnroot/opticks/!svn/ver/13604/releases/4.7.0/trunk/Code/application/Framework/Framework.vcxproj.filters
+END

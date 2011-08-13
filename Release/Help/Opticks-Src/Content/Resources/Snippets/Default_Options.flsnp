@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" MadCap:lastBlockDepth="3" MadCap:lastHeight="93" MadCap:lastWidth="572">
+    <head>
+        <link href="../TableStyles/Information.css" rel="stylesheet" MadCap:stylesheetType="table" />
+    </head>
+    <body>
+        <table class="TableStyle_Information" style="mc-table-style: url('../TableStyles/Information.css'); margin-left: 0; margin-right: auto;" cellspacing="0">
+            <col style="width: 100%;" />
+            <tbody>
+                <tr>
+                    <td class="TableStyle_Information_Body_0_0_RowEnd_ColEnd">Options identified as "Default" options are applied only when you load data. Changing these options does not affect images that have already been loaded. Options that are not identified as "Default" options are applied immediately.</td>
+                </tr>
+            </tbody>
+        </table>
+    </body>
+</html>

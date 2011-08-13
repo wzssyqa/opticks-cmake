@@ -1,0 +1,624 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" MadCap:conditions="" class="" conditions="" MadCap:lastBlockDepth="8" MadCap:lastHeight="21313" MadCap:lastWidth="1185">
+    <head><title>Tutorial: Georeference, Measurement Tool, Band Math</title>
+        <meta name="Originator" content="ImportDoc" />
+        <meta name="OriginalFile" content="C:\Ball\COMET\Tutorials\scenario2.doc" />
+        <link rel="stylesheet" href="Tutorials.css" />
+        <link href="../Resources/TableStyles/Inner.css" rel="stylesheet" MadCap:stylesheetType="table" />
+    </head>
+    <body lang="EN-US">
+        <div placeholder="" id="header" style="width: 100%;position: relative;">
+        </div>
+        <h1>
+            <MadCap:keyword term="band math" />
+            <MadCap:keyword term="georeference" />
+            <MadCap:keyword term="export" />
+            <MadCap:keyword term="layer information;tutorials" />Tutorial: Georeference, Measurement Tool, Band Math, Linking 
+ Displays, Layer Information/Annotations, Export JPEG Product</h1>
+        <p class="BodyText"><b style="font-weight: bold;"><MadCap:keyword term="tutorials" />Learning Objective</b>
+            <MadCap:keyword term="Measurement Toolbar" />: 
+ When finished with this tutorial, you will be able to perform manual georeferencing,  measure a distance using the measurement toolbar, execute the band math 
+ algorithm, link two images, annotate the image, and export it as a JPEG 
+ product.</p>
+        <p class="BodyText">In this tutorial, you’ll 
+ manipulate and export data using the following functions:</p>
+        <ul>
+            <li class="BulletList">Open a file</li>
+            <li class="BulletList">Georeference the 
+ image</li>
+            <li class="BulletList">Use the Measurement 
+ Toolbar</li>
+            <li class="BulletList">Perform band math</li>
+            <li class="BulletList">
+                <MadCap:keyword term="link displays" />Link displays</li>
+            <li class="BulletList">Manipulate layer 
+ information/annotations</li>
+            <li class="BulletList">Export JPEG product</li>
+        </ul>
+        <p class="BodyText"><b style="font-weight: bold;">Lesson</b>: The <b>georeference</b> 
+ process enables you to assign latitude and longitude coordinates to each 
+ data pixel based on selected ground control points (GCPs). GCPs match 
+ a point on the data set to be georeferenced with a latitude/longitude 
+ coordinate.</p>
+        <p class="BodyText">The <b>Measurement Tool</b> can be used both before and 
+ after georeferencing. If the tool is used before georeferencing, distances 
+ can only be displayed in unitless pixel lengths where one unit is equivalent 
+ to the length on a single pixel. Once georeferenced, distances will be 
+ automatically calculated and displayed in the specified units. </p>
+        <p class="BodyText"><b style="font-weight: bold;">Band math</b> enables you 
+ to compute various mathematical functions for single and multiple bands 
+ or a complete data cube. When performed as a band math function, a single 
+ output band is created. When performed as cube math functions, an entirely 
+ new data cube is formed. This lesson uses a standard ratio called the 
+ Normalized Difference Vegetation Index (NDVI) that is used to classify 
+ vegetation for spectral data within a scene. This ratio relies on vegetation’s 
+ low reflectance in the visible region and high reflectance in the near-IR 
+ region to separate it from other materials.</p>
+        <p class="BodyText">The <b>Link</b> function enables you to link two displays 
+ of the same spatial extent so that changes in the zoom level or pan location 
+ in one image will also affect the other. </p>
+        <p class="BodyText">The <b>Session&#160;Explorer Window</b> enables you 
+ to turn displayed layers on and off, change the order of displayed layers, 
+ delete layers, and derive or convert layers into new layers. </p>
+        <p class="BodyText"><b style="font-weight: bold;">Annotation</b> is an additional 
+ layer overlaying the data set and processing results layers. Objects created 
+ by using the annotation tools can be saved as an object and reused for 
+ annotation of other scenes. Examples of annotation objects include legend 
+ keys, scale bars, and possible target callouts.</p>
+        <p class="BodyText">The <b><MadCap:keyword term="JPEG Exporter" />JPEG Exporter</b> enables you to export a product 
+ as a JPEG file.</p>
+        <p class="BodyText" style="font-weight: bold;">Toolbars used in this tutorial:</p>
+        <p class="BodyText" style="margin-left: 40px;"><a href="../Toolbars/Geo_Toolbar.htm"><span style="font-weight: normal;">Geo Toolbar</span></a>
+        </p>
+        <p class="BodyText" style="margin-left: 40px;"><a href="../Toolbars/Measurement_Toolbar.htm"><span style="font-weight: normal;">Measurement Toolbar</span></a>
+        </p>
+        <p class="BodyText" style="margin-left: 40px;"><a href="../Toolbars/Toolbox_Toolbar.htm"><span style="font-weight: normal;">Toolbox Toolbar</span></a>
+        </p>
+        <p class="BodyText" style="margin-left: 40px;"><a href="../Toolbars/Display_Toolbar.htm"><span style="font-weight: normal;">Display Toolbar</span></a>
+        </p>
+        <p class="BodyText" style="margin-left: 40px;font-weight: normal;"><a href="../Toolbars/Annotation_Toolbar.htm" style="font-weight: normal;">Annotation 
+ Toolbar</a>
+        </p>
+        <p class="BodyText" style="margin-left: 40px;"><a href="../Toolbars/General_Algorithms_Toolbar.htm">General 
+ Algorithms Toolbar</a>
+        </p>
+        <MadCap:snippetBlock src="../Resources/Snippets/Access_Toolbars.flsnp" />
+        <MadCap:snippetBlock src="../Resources/Snippets/SampleFiles.flsnp" />
+        <h2>Turn Off "Automatically georeference on import" Option</h2>
+        <p class="BodyText">Opticks has an import option that automatically georeferences data sets on import. The first thing you'll do is turn off that option.</p>
+        <ol>
+            <li class="NumberList">On the Opticks Main Application Window, go to the <b>Tools</b> menu and select <b>Options...</b>.</li>
+            <li class="NumberList">In the structure tree on the left side of the Options window, click the plus sign (+) next to Import. Select <b>Raster Element</b>.</li>
+            <li>Uncheck the <b>Automatically georeference on import</b> checkbox. </li>
+        </ol>
+        <p class="BodyTextIndent">
+            <img src="../Resources/Images/Auto_Georef_Option.gif" />
+        </p>
+        <h2>Import Data</h2>
+        <ol>
+            <li class="NumberList" style="font-style: normal;">On the Opticks menu 
+ bar, go to the <span style="font-weight: bold;">File </span>menu and select<span style="font-weight: bold;"> Import Data...</span>. </li>
+            <li class="NumberList" style="font-style: normal;">Navigate 
+ to and select the <i style="font-style: normal;font-weight: bold;">p014r033_7t10000923_z18_spectral.re.ice.h5</i> 
+ data set. </li>
+            <li class="NumberList" style="font-style: normal;">Click <b>Open</b>.</li>
+            <li class="NumberList" style="font-style: normal;">Resize the data set window so it fills most of the display area.</li>
+            <li class="NumberList" style="font-style: normal;">On the Display Toolbar, click the Zoom to Fit button. <img src="../Zoom_to_fit.gif" /></li>
+        </ol>
+        <p class="BodyText">
+            <img src="../Resources/Images/Imported_Image_Georef.gif" />
+        </p>
+        <h2>Georeference Data</h2>
+        <p class="BodyText">There are two ways to manually georeference data. </p>
+        <h3><i><span style="font-style: normal;">Manual Georeference Option 1</span></i>
+        </h3>
+        <ol>
+            <li class="NumberList">Activate the Geo 
+ Toolbar by right-clicking in the toolbar area and selecting <b>Geo</b>.</li>
+        </ol>
+        <ol start="3" style="list-style: decimal;list-style-type: decimal;" MadCap:continue="true">
+            <li class="NumberList">On the Geo Toolbar, 
+ select the <b>Geo <span style="font-weight: normal;">button. Select</span></b> <![CDATA[ ]]><b>Georeference <span style="font-weight: normal;">from the drop-down 
+ menu.</span></b></li>
+        </ol>
+        <p class="BodyTextIndent">
+            <img src="../Resources/Images/Georef_Tutorial_1.gif" style="border: none;border-style: none;border-style: none;" border="0" />
+        </p>
+        <ol start="4" style="list-style: decimal;list-style-type: decimal;" MadCap:continue="true">
+            <li class="NumberList">The Georeference 
+ dialog box is displayed. </li>
+        </ol>
+        <p class="BodyTextIndent" style="font-family: Tahoma;">
+            <img src="../Resources/Images/Georef_Dialog.gif" style="border: none;border-style: none;border-style: none;" border="0" />
+        </p>
+        <p class="BodyTextIndent">Be sure the Georeference Plug-In selected is <b>GCP Georeference</b>.</p>
+        <p class="BodyTextIndent"><span style="font-family: Tahoma;">In</span> the 
+ <span style="font-weight: bold;">GCP List</span> drop-down, be sure that 
+ the <b>Corner Coordinates</b> option is selected. These are the coordinates 
+ that automatically load from the metadata contained in the header for 
+ this Landsat data set. Notice that only three Ground Control Points are 
+ required to perform a georeference. There are five coordinates in this 
+ particular image, which will ensure a more accurate georeferencing. (More 
+ points don’t always ensure better accuracy if the selected points are 
+ inaccurate.) </p>
+        <p class="BodyTextIndent">In the Georeference dialog box, go to the <span style="font-weight: bold;">Coordinate Type</span> field and select <b>Latitude/Longitude</b> 
+ from the drop-down menu. The other options for Coordinate Type include 
+ UTM and MGRS, two other common coordinate systems. (See also <a href="More_About_Georeferencing.htm">More 
+ About Georeferencing</a>.)</p>
+        <ol start="5" style="list-style: decimal;list-style-type: decimal;" MadCap:continue="true">
+            <li class="NumberList">Select <b>OK</b> 
+ to start the Georeferencing process. This starts the georeferencing calculations. 
+ (If the Georeference dialog box is displayed, click <span style="font-weight: bold;">Close</span>.)</li>
+        </ol>
+        <p class="BodyTextIndent">Latitude/Longitude grid is now displayed over the 
+ dataset. If necessary, adjust the zoom percentage. Notice the coordinates are displayed on the status bar at the 
+ bottom right of the window as the mouse is moved from pixel to pixel. 
+ </p>
+        <p class="BodyTextIndent">
+            <img src="../Resources/Images/Georef_Tutorial_2.gif" style="border: none;border-style: none;border-style: none;" border="0" />
+        </p>
+        <h3 style="text-underline: none;font-style: normal;font-family: Verdana, sans-serif;"><i style="font-style: normal;">GCP 
+ Editor</i>
+        </h3>
+        <ol>
+            <li class="NumberList">To activate the GCP 
+ Editor tool, go to the Opticks menu bar and select <b>Tools</b>, <b>GCP 
+ Editor.</b></li>
+        </ol>
+        <p class="BodyTextIndent" style="font-weight: normal;"><b><span style="font-weight: normal;">OR</span></b>
+        </p>
+        <p class="BodyTextIndent">Click the GCP Editor button <span style="font-family: Tahoma, sans-serif;"><img src="../Open_GCP_Editor_Button.gif" style="border: none;width: 26px;height: 22px;border-style: none;border-style: none;" width="26" height="22" border="0" /></span> on the Geo Toolbar. </p>
+        <p class="BodyTextIndent">
+            <img src="../Resources/Images/Georef_Tutorial_3.gif" style="border: none;border-style: none;border-style: none;" border="0" />
+        </p>
+        <ol start="7" style="list-style: decimal;list-style-type: decimal;" MadCap:continue="true">
+            <li class="NumberList">The&#160;GCP Editor 
+ shows the corner coordinates that came with the Landsat scene, as well 
+ as the RMS error for each&#160;GCP. You must interpret whether the RMS 
+ error shown is acceptable. (See also <a href="More_About_Georeferencing.htm">More 
+ About Georeferencing</a>.) </li>
+        </ol>
+        <p class="BodyTextIndent">
+            <img src="../Resources/Images/Georef_Tutorial_4.gif" style="border: none;border-style: none;border-style: none;" border="0" />
+        </p>
+        <ol start="8" style="list-style: decimal;list-style-type: decimal;" MadCap:continue="true">
+            <li class="NumberList"><b style="font-weight: bold;">Close</b> 
+ the GCP Editor dialog window. </li>
+            <li class="NumberList"><b style="font-weight: bold;">Close</b> 
+ the georeferenced data set and select <b>No</b> if asked to save the project. 
+ </li>
+        </ol>
+        <h3><i style="font-style: normal;">Manual Georeference Option 2</i>
+        </h3>
+        <ol>
+            <li class="NumberList">Reopen the <i style="font-style: normal;font-weight: bold;"><i style="font-style: normal;font-weight: bold;">p014r033_7t10000923_z18_spectral.re.ice.h5</i></i> data set. Notice that 
+ the gridlines do not automatically reappear. </li>
+            <li class="NumberList">Resize the window and click the Zoom to Fit button.</li>
+            <li class="NumberList">On the Opticks menu 
+ bar, select <b>Tools</b>, <b>GCP Editor</b>. </li>
+        </ol>
+        <p class="BodyTextIndent">The GCP Editor dialog box is displayed.</p>
+        <p class="BodyTextIndent">
+            <img src="../Resources/Images/Georef_Tutorial_4.gif" style="border: none;border-style: none;border-style: none;" border="0" />
+        </p>
+        <ol MadCap:continue="true">
+            <li>In the GCP Editor 
+ dialog box, in the Ground Control Points table, select <span style="font-weight: bold;">GCP 
+ 1</span>, hold down the Shift key, and select <span style="font-weight: bold;">GCP 
+ 5</span>. Be sure all five GCPs are selected.</li>
+        </ol>
+        <p class="BodyTextIndent">Click the <b>Delete</b> button. </p>
+        <p class="BodyTextIndent">Click the <b>Apply <span style="font-weight: normal;">button</span>.</b></p>
+        <p class="BodyTextIndent"><b style="font-weight: bold;"><span style="font-weight: normal;">Click 
+ the</span> Close</b> button on the dialog box. In the confirmation dialog box, click <b>Yes</b>.</p>
+        <p class="BodyTextIndent">The green GCP symbols are removed from the data 
+ set display.</p>
+        <p class="BodyTextIndent">
+            <img src="../Resources/Images/Georef_Tutorial_5.gif" style="border: none;border-style: none;border-style: none;" border="0" />
+        </p>
+        <ol start="14" style="list-style: decimal;list-style-type: decimal;" MadCap:continue="true">
+            <li class="NumberList">From the Opticks menu 
+ bar, select <b>Tools</b>, <b>GCP Editor.</b></li>
+        </ol>
+        <p class="BodyTextIndent">OR</p>
+        <p class="BodyTextIndent">Click the GCP Editor button <span style="font-family: Tahoma, sans-serif;"><img src="../Open_GCP_Editor_Button.gif" style="border: none;width: 26px;height: 22px;border-style: none;border-style: none;" width="26" height="22" border="0" /></span>on the Geo Toolbar. </p>
+        <p class="BodyTextIndent">The GCP Editor dialog box is displayed.</p>
+        <p class="BodyTextIndent">
+            <img src="../Resources/Images/Georef_Tutorial_6.gif" style="border: none;border-style: none;border-style: none;" border="0" />
+        </p>
+        <ol start="15" style="list-style: decimal;list-style-type: decimal;" MadCap:continue="true">
+            <li class="NumberList">In the GCP Editor 
+ dialog box, click the <span style="font-weight: bold;">New</span> button 
+ to add GCP 1. </li>
+            <li class="NumberList">In the 
+ X Reference box for GCP 1, leave the value 1. </li>
+        </ol>
+        <p class="BodyTextIndent">Double-click on the Y Reference box and enter <b>7842</b>. 
+ These values tell Opticks which pixel in the image should correspond to 
+ the GCP coordinates. If the dialog box is displayed that asks you if you want to apply the changes, click <b>Yes</b>.</p>
+        <p class="BodyTextIndent">
+            <img src="../Resources/Images/Georef_Tutorial_7.gif" style="border: none;border-style: none;border-style: none;" border="0" />
+        </p>
+        <ol start="17" style="list-style: decimal;list-style-type: decimal;" MadCap:continue="true">
+            <li class="NumberList">Double-click on the 
+ Latitude box containing the value <span style="font-weight: bold;">0°</span>. 
+ Replace the 0 with <b>N37</b>. Do not delete the degree symbol. Skip it and enter 
+ 9'8.529" (where ' and " denote minutes and seconds). The full 
+ entry should read <b>N37°52'</b>". Press the <b>Enter</b> key on your keyboard.</li>
+        </ol>
+        <p class="Note"><b>Note:</b> If you accidentally delete the degree symbol, 
+ you can enter another one by holding down the Alt key and typing in the 
+ number 0176. When entering symbols, you <span style="font-weight: bold;font-style: italic;">must</span> 
+ use the number keypad with the <b>NumLock</b> on. <span style="font-weight: bold;font-style: italic;">Do 
+ not</span> use the number keys across the top of the keyboard. The degree, minute, and second symbols can also be entered as the letters <b>d</b>,<b> m</b>, and <b>s</b>. South and West can also be specified by using the minus sign (<b>-</b>). For example, W 107°46'37.798" can be entered as: <br /><br />-107d46m37.798s</p>
+        <p class="BodyTextIndent">
+            <img src="../Resources/Images/Georef_Tutorial_8.gif" style="border: none;border-style: none;border-style: none;" border="0" />
+        </p>
+        <ol start="18" style="list-style: decimal;list-style-type: decimal;" MadCap:continue="true">
+            <li class="NumberList">Double-click the 
+ Longitude box containing the value <span style="font-weight: bold;">0°</span>. 
+ Replace this with <b>W76°46"</b>. Press <b>Enter</b>.</li>
+        </ol>
+        <p class="BodyTextIndent">
+            <img src="../Resources/Images/Georef_Tutorial_9.gif" style="border: none;border-style: none;border-style: none;" border="0" />
+        </p>
+        <ol start="19" style="list-style: decimal;list-style-type: decimal;" MadCap:continue="true">
+            <li class="NumberList">Create two more GCPs with the following information:</li>
+        </ol>
+        <div align="center">
+            <table style="width: 100%;float: aligncenter;border-spacing: 0px;border-spacing: 0px;" cellspacing="0" width="100%">
+                <col style="width: 20%;" />
+                <col style="width: 20%;" />
+                <col style="width: 20%;" />
+                <col style="width: 20%;" />
+                <col style="width: 20%;" />
+                <tr valign="top">
+                    <td colspan="1" rowspan="1" style="width: 20%;text-indent: 0;padding-left: 3px;padding-right: 3px;padding-top: 3pt;padding-bottom: 3pt;border-left-style: solid;border-left-width: 1px;border-left-color: #a9a9a9;border-right-style: solid;border-right-width: 1px;border-right-color: #a9a9a9;border-top-style: solid;border-top-width: 1px;border-top-color: #a9a9a9;border-bottom-style: solid;border-bottom-width: 1px;border-bottom-color: #a9a9a9;" width="20%">
+                        <p style="margin-top: 3pt;margin-bottom: 3pt;font-family: Verdana, sans-serif;font-size: 10pt;font-weight: bold;margin-left: 0.36in;">Name</p>
+                    </td>
+                    <td style="width: 20%;border-left-style: solid;border-left-width: 1px;border-left-color: #a9a9a9;border-right-style: solid;border-right-width: 1px;border-right-color: #a9a9a9;border-top-style: solid;border-top-width: 1px;border-top-color: #a9a9a9;border-bottom-style: solid;border-bottom-width: 1px;border-bottom-color: #a9a9a9;padding-left: 10px;padding-right: 10px;padding-top: 3pt;padding-bottom: 3pt;" width="20%">
+                        <p style="margin-top: 3pt;margin-bottom: 3pt;font-family: Verdana, sans-serif;font-size: 10pt;font-weight: bold;">X-Reference</p>
+                    </td>
+                    <td style="width: 20%;border-left-style: solid;border-left-width: 1px;border-left-color: #a9a9a9;border-right-style: solid;border-right-width: 1px;border-right-color: #a9a9a9;border-top-style: solid;border-top-width: 1px;border-top-color: #a9a9a9;border-bottom-style: solid;border-bottom-width: 1px;border-bottom-color: #a9a9a9;padding-left: 10px;padding-right: 10px;padding-top: 3pt;padding-bottom: 3pt;" width="20%">
+                        <p style="margin-top: 3pt;margin-bottom: 3pt;font-family: Verdana, sans-serif;font-size: 10pt;font-weight: bold;">Y-Reference</p>
+                    </td>
+                    <td style="width: 20%;border-left-style: solid;border-left-width: 1px;border-left-color: #a9a9a9;border-right-style: solid;border-right-width: 1px;border-right-color: #a9a9a9;border-top-style: solid;border-top-width: 1px;border-top-color: #a9a9a9;border-bottom-style: solid;border-bottom-width: 1px;border-bottom-color: #a9a9a9;padding-left: 10px;padding-right: 10px;padding-top: 3pt;padding-bottom: 3pt;" width="20%">
+                        <p style="margin-top: 3pt;margin-bottom: 3pt;font-family: Verdana, sans-serif;font-size: 10pt;font-weight: bold;">Latitude</p>
+                    </td>
+                    <td style="width: 20%;border-left-style: solid;border-left-width: 1px;border-left-color: #a9a9a9;border-right-style: solid;border-right-width: 1px;border-right-color: #a9a9a9;border-top-style: solid;border-top-width: 1px;border-top-color: #a9a9a9;border-bottom-style: solid;border-bottom-width: 1px;border-bottom-color: #a9a9a9;padding-left: 10px;padding-right: 10px;padding-top: 3pt;padding-bottom: 3pt;" width="20%">
+                        <p style="margin-top: 3pt;margin-bottom: 3pt;font-family: Verdana, sans-serif;font-size: 10pt;font-weight: bold;">Longitude</p>
+                    </td>
+                </tr>
+                <tr valign="top">
+                    <td colspan="1" rowspan="1" style="width: 20%;text-indent: 0;padding-left: 3px;padding-right: 3px;padding-top: 3pt;padding-bottom: 3pt;border-left-style: solid;border-left-width: 1px;border-left-color: #a9a9a9;border-right-style: solid;border-right-width: 1px;border-right-color: #a9a9a9;border-top-style: solid;border-top-width: 1px;border-top-color: #a9a9a9;border-bottom-style: solid;border-bottom-width: 1px;border-bottom-color: #a9a9a9;" width="20%">
+                        <p style="margin-top: 3pt;margin-bottom: 3pt;margin-left: 0.36in;"><span style="font-family: Verdana, sans-serif;font-size: 10pt;">GCP 
+ 2</span>
+                        </p>
+                    </td>
+                    <td style="width: 20%;border-left-style: solid;border-left-width: 1px;border-left-color: #a9a9a9;border-right-style: solid;border-right-width: 1px;border-right-color: #a9a9a9;border-top-style: solid;border-top-width: 1px;border-top-color: #a9a9a9;border-bottom-style: solid;border-bottom-width: 1px;border-bottom-color: #a9a9a9;padding-left: 10px;padding-right: 10px;padding-top: 3pt;padding-bottom: 3pt;" width="20%">
+                        <p style="margin-top: 3pt;margin-bottom: 3pt;"><span style="font-family: Verdana, sans-serif;font-size: 10pt;">1</span>
+                        </p>
+                    </td>
+                    <td style="width: 20%;border-left-style: solid;border-left-width: 1px;border-left-color: #a9a9a9;border-right-style: solid;border-right-width: 1px;border-right-color: #a9a9a9;border-top-style: solid;border-top-width: 1px;border-top-color: #a9a9a9;border-bottom-style: solid;border-bottom-width: 1px;border-bottom-color: #a9a9a9;padding-left: 10px;padding-right: 10px;padding-top: 3pt;padding-bottom: 3pt;" width="20%">
+                        <p style="margin-top: 3pt;margin-bottom: 3pt;"><span style="font-family: Verdana, sans-serif;font-size: 10pt;">1</span>
+                        </p>
+                    </td>
+                    <td style="width: 20%;border-left-style: solid;border-left-width: 1px;border-left-color: #a9a9a9;border-right-style: solid;border-right-width: 1px;border-right-color: #a9a9a9;border-top-style: solid;border-top-width: 1px;border-top-color: #a9a9a9;border-bottom-style: solid;border-bottom-width: 1px;border-bottom-color: #a9a9a9;padding-left: 10px;padding-right: 10px;padding-top: 3pt;padding-bottom: 3pt;" width="20%">
+                        <p style="margin-top: 3pt;margin-bottom: 3pt;"><span style="font-family: Verdana, sans-serif;font-size: 10pt;">N37°43'&#160;</span>
+                        </p>
+                    </td>
+                    <td style="width: 20%;border-left-style: solid;border-left-width: 1px;border-left-color: #a9a9a9;border-right-style: solid;border-right-width: 1px;border-right-color: #a9a9a9;border-top-style: solid;border-top-width: 1px;border-top-color: #a9a9a9;border-bottom-style: solid;border-bottom-width: 1px;border-bottom-color: #a9a9a9;padding-left: 10px;padding-right: 10px;padding-top: 3pt;padding-bottom: 3pt;" width="20%">
+                        <p style="margin-top: 3pt;margin-bottom: 3pt;"><span style="font-family: Verdana, sans-serif;font-size: 10pt;">W76°47'&#160;</span>
+                        </p>
+                    </td>
+                </tr>
+                <tr valign="top">
+                    <td colspan="1" rowspan="1" style="width: 20%;text-indent: 0;padding-left: 3px;padding-right: 3px;padding-top: 3pt;padding-bottom: 3pt;border-left-style: solid;border-left-width: 1px;border-left-color: #a9a9a9;border-right-style: solid;border-right-width: 1px;border-right-color: #a9a9a9;border-top-style: solid;border-top-width: 1px;border-top-color: #a9a9a9;border-bottom-style: solid;border-bottom-width: 1px;border-bottom-color: #a9a9a9;" width="20%">
+                        <p style="margin-top: 3pt;margin-bottom: 3pt;margin-left: 0.36in;"><span style="font-family: Verdana, sans-serif;font-size: 10pt;">GCP 
+ 3</span>
+                        </p>
+                    </td>
+                    <td style="width: 20%;border-left-style: solid;border-left-width: 1px;border-left-color: #a9a9a9;border-right-style: solid;border-right-width: 1px;border-right-color: #a9a9a9;border-top-style: solid;border-top-width: 1px;border-top-color: #a9a9a9;border-bottom-style: solid;border-bottom-width: 1px;border-bottom-color: #a9a9a9;padding-left: 10px;padding-right: 10px;padding-top: 3pt;padding-bottom: 3pt;" width="20%">
+                        <p style="margin-top: 3pt;margin-bottom: 3pt;"><span style="font-family: Verdana, sans-serif;font-size: 10pt;">8732</span>
+                        </p>
+                    </td>
+                    <td style="width: 20%;border-left-style: solid;border-left-width: 1px;border-left-color: #a9a9a9;border-right-style: solid;border-right-width: 1px;border-right-color: #a9a9a9;border-top-style: solid;border-top-width: 1px;border-top-color: #a9a9a9;border-bottom-style: solid;border-bottom-width: 1px;border-bottom-color: #a9a9a9;padding-left: 10px;padding-right: 10px;padding-top: 3pt;padding-bottom: 3pt;" width="20%">7842</td>
+                    <td style="width: 20%;border-left-style: solid;border-left-width: 1px;border-left-color: #a9a9a9;border-right-style: solid;border-right-width: 1px;border-right-color: #a9a9a9;border-top-style: solid;border-top-width: 1px;border-top-color: #a9a9a9;border-bottom-style: solid;border-bottom-width: 1px;border-bottom-color: #a9a9a9;padding-left: 10px;padding-right: 10px;padding-top: 3pt;padding-bottom: 3pt;" width="20%">
+                        <p style="margin-top: 3pt;margin-bottom: 3pt;"><span style="font-family: Verdana, sans-serif;font-size: 10pt;">N37°53'</span>
+                        </p>
+                    </td>
+                    <td style="width: 20%;border-left-style: solid;border-left-width: 1px;border-left-color: #a9a9a9;border-right-style: solid;border-right-width: 1px;border-right-color: #a9a9a9;border-top-style: solid;border-top-width: 1px;border-top-color: #a9a9a9;border-bottom-style: solid;border-bottom-width: 1px;border-bottom-color: #a9a9a9;padding-left: 10px;padding-right: 10px;padding-top: 3pt;padding-bottom: 3pt;" width="20%">
+                        <p style="margin-top: 3pt;margin-bottom: 3pt;"><span style="font-family: Verdana, sans-serif;font-size: 10pt;">W73°54</span>
+                        </p>
+                    </td>
+                </tr>
+            </table>
+        </div>
+        <p class="BodyTextIndent">The GCP Editor dialog box should now like this:</p>
+        <p class="BodyTextIndent">
+            <img src="../Resources/Images/Georef_Tutorial_10.gif" style="border: none;border-style: none;border-style: none;" border="0" />
+        </p>
+        <ol start="21" MadCap:continue="true">
+            <li class="NumberList">Click the <b>Apply</b> 
+ button. Click the <b>Close <span style="font-weight: normal;">button. 
+ T</span></b>he data cube is displayed with three GCPs. This is the minimum 
+ requirement for Georeferencing data.</li>
+            <li class="NumberList">Georeference the 
+ data again by going to the Geo Toolbar and clicking the <b>Geo<span style="font-weight: normal;"> 
+ button. </span></b><b><span style="font-weight: normal;">Select</span></b> <![CDATA[ ]]><b>Georeference</b> from the drop-down list.</li>
+            <li class="NumberList">In the Georeference 
+ dialog box, click <span style="font-weight: bold;">OK</span>.</li>
+        </ol>
+        <p class="BodyTextIndent">The latitude/longitude pairings should now appear.</p>
+        <ol MadCap:continue="true">
+            <li>Close the image.</li>
+        </ol>
+        <h2>Measurement Toolbar</h2>
+        <ol>
+            <li style="margin-top: 9pt;margin-bottom: 9pt;">Reopen the <i style="font-style: normal;font-weight: bold;">p014r033_7t10000923_z18_spectral.re.ice.h5</i> data set. </li>
+            <li style="margin-top: 9pt;margin-bottom: 9pt;">Resize the window and click the Zoom to Fit button.</li>
+            <li style="margin-top: 9pt;margin-bottom: 9pt;">Georeference the data set again. To do this, go to the Georeference Toolbar and select <b>Geo, Georeference</b>. Accept the defaults and click <b>OK</b>.</li>
+            <li style="margin-top: 9pt;margin-bottom: 9pt;">Zoom in to the brown area in the upper right portion of the image. (For zoom options, see <a href="../Toolbars/Display_Toolbar.htm">Display Toolbar</a>.)</li>
+        </ol>
+        <p class="BodyTextIndent">
+            <img src="../Resources/Images/Georef_Tutorial_11.gif" style="border: none;border-style: none;border-style: none;" border="0" />
+        </p>
+        <ol MadCap:continue="true">
+            <li>To activate the Measurement 
+ Toolbar, on the Opticks main application window right-click next to the 
+ toolbars and select <span style="font-weight: bold;">Measurement</span>.</li>
+            <li class="NumberList">On the Measurement 
+ Toolbar, select the Measurement Mode button. <img src="../Measurement_Mode_Button.gif" style="border: none;border-style: none;border-style: none;" border="0" /> The cursor 
+ should change to the shape of a ruler.</li>
+        </ol>
+        <p class="BodyTextIndent">
+            <img src="../Resources/Images/Georef_Tutorial_12.gif" style="border: none;border-style: none;border-style: none;" border="0" />
+        </p>
+        <ol start="28" style="list-style: decimal;list-style-type: decimal;" MadCap:continue="true">
+            <li class="NumberList">Click and drag from 
+ one side of the brown area to another to find its length. The diameter 
+ should measure approximately 1016 meters.</li>
+        </ol>
+        <p class="BodyTextIndent">
+            <img src="../Resources/Images/Georef_Tutorial_13.gif" style="border: none;border-style: none;border-style: none;" border="0" />
+        </p>
+        <ol start="29" style="list-style: decimal;list-style-type: decimal;" MadCap:continue="true">
+            <p>&#160;</p>
+            <li>On the Measurement 
+ Toolbar, be sure the distance unit is meters.</li>
+            <p class="BodyTextIndent">
+                <img src="../Resources/Images/Measurement_Units.gif" style="border: none;border-style: none;border-style: none;" border="0" />
+            </p>
+            <li class="NumberList">Delete the measurement 
+ by pressing the <span style="font-weight: bold;">Delete</span> key your 
+ the keyboard.</li>
+        </ol>
+        <h2>Run Band Math </h2>
+        <ol>
+            <li class="NumberList">To activate the General 
+ Algorithms Toolbar, go to the Opticks menu bar and select <b>View</b>, <b>Toolbars</b>, 
+ <span style="font-weight: bold;">General Algorithms</span><b>.</b></li>
+            <li class="NumberList">On the <span style="font-weight: bold;">General 
+ Algorithms</span> Toolbar, select <b>Band Math</b>. </li>
+        </ol>
+        <p class="BodyTextIndent">
+            <img src="../Resources/Images/Run_Band_Math.gif" style="border: none;" border="0" />
+        </p>
+        <p class="BodyTextIndent">The Band Math dialog box is displayed.</p>
+        <p class="BodyTextIndent">
+            <img src="../Resources/Images/Run_Band_Math_2.gif" style="border: none;border-style: none;border-style: none;" border="0" />
+        </p>
+        <p class="BodyTextIndent">Using the six bands displayed in the Bands section 
+ of the Band Math dialog,&#160;you can perform a variety of mathematical 
+ operations. For example, the formula for calculating the Normalized Difference 
+ Vegetation Index (NDVI) for a Landsat 5 scene is as follows:&#160;</p>
+        <p class="BodyTextIndent">(NIR-Red)/(NIR+Red)</p>
+        <p class="BodyTextIndent">OR </p>
+        <p class="BodyTextIndent">(b4-b3)/(b4+b3). </p>
+        <ol start="32" style="list-style: decimal;list-style-type: decimal;" MadCap:continue="true">
+            <li class="NumberList">Click the parentheses 
+ button. <img src="../Insert_Parens_Button.gif" style="border: none;width: 40px;height: 40px;border-style: none;border-style: none;" width="40" height="40" border="0" /></li>
+        </ol>
+        <p class="BodyTextIndent">Double-click <b>Band 4</b>. </p>
+        <p class="BodyTextIndent">(b4) should now appear in the script line at the 
+ bottom of the Band Math dialog. </p>
+        <ol start="33" style="list-style: decimal;list-style-type: decimal;" MadCap:continue="true">
+            <li class="NumberList">Click the subtraction 
+ button. <img src="../Subtract_Button.gif" style="border: none;width: 40px;height: 40px;border-style: none;border-style: none;" width="40" height="40" border="0" />&#160;</li>
+        </ol>
+        <p class="BodyTextIndent">Double-click <b>Band 3</b>. </p>
+        <p class="BodyTextIndent">The script line should now read (b4-b3).</p>
+        <ol start="34" MadCap:continue="true">
+            <li class="NumberList">Click the exit 
+ parentheses button.&#160;<img src="../Exit_Parens_Button.gif" style="border: none;width: 40px;height: 40px;border-style: none;border-style: none;" width="40" height="40" border="0" /></li>
+            <li class="NumberList">Click the division 
+ button. <img src="../Divide_Button.gif" style="border: none;width: 40px;height: 40px;border-style: none;border-style: none;" width="40" height="40" border="0" /></li>
+            <li class="NumberList">Click the <b style="font-weight: normal;">parentheses</b> 
+ button. <img src="../Insert_Parens_Button.gif" style="border: none;width: 40px;height: 40px;border-style: none;border-style: none;" width="40" height="40" border="0" /></li>
+        </ol>
+        <p class="BodyTextIndent">Double-click <b>Band 4</b>.</p>
+        <ol start="37" style="list-style: decimal;list-style-type: decimal;" MadCap:continue="true">
+            <li class="NumberList">Click the addition 
+ button. <img src="../Resources/Images/Add_Button.gif" style="border: none;width: 40px;height: 40px;border-style: none;border-style: none;" width="40" height="40" border="0" />&#160;</li>
+        </ol>
+        <p class="BodyTextIndent">Double-click <b>Band 3</b>. </p>
+        <ol start="38" style="list-style: decimal;list-style-type: decimal;" MadCap:continue="true">
+            <li class="NumberList">Be sure the formula 
+ is correct. It should now read:</li>
+        </ol>
+        <p class="BodyTextIndent">(b4-b3)/(b4+b3)</p>
+        <ol start="39" MadCap:continue="true">
+            <li class="NumberList">Click the <span style="font-weight: bold;">Process</span>&#160;button. 
+ </li>
+            <li class="NumberList">Opticks will indicate 
+ if the algorithm has run successfully. After it has successfully run, 
+ select the <b>Close<span style="font-weight: normal;"> button</span></b>. 
+ </li>
+        </ol>
+        <p class="BodyTextIndent">A new window displays the results. If necessary, go to <b>Windows, Tile Vertically</b> so you can see both windows.</p>
+        <p class="BodyTextIndent">
+            <img src="../Resources/Images/Run_Band_Math_3.gif" style="border: none;border-style: none;border-style: none;" border="0" />
+        </p>
+        <p class="BodyTextIndent">The resulting cube has pixels scaled between -1 
+ and 1, where the pixels with values closer to 1 (the brighter pixels) 
+ indicate highly vegetative areas.</p>
+        <p class="BodyTextIndent">Note that the band math algorithm removed the georeferencing, 
+ but you can add georeferencing back to the band-math-generated 
+ image.</p>
+        <ol MadCap:continue="true">
+            <li class="NumberList">Select the new image. Click <b>Geo</b>, <b>Georeference</b> on the Geo 
+ Toolbar. </li>
+        </ol>
+        <p class="BodyTextIndent">In the Georeference dialog box, select <span style="font-weight: bold;">Corner 
+ Coordinates</span> from the GCP List drop-down and click <span style="font-weight: bold;">OK</span>. 
+ In the completion dialog box, click <span style="font-weight: bold;">Close</span>.</p>
+        <p class="BodyTextIndent">The latitude/longitude pairings appear in both 
+ images.</p>
+        <p class="BodyTextIndent">
+            <img src="../Resources/Images/Run_Band_Math_4.gif" style="border: none;border-style: none;border-style: none;" border="0" />
+        </p>
+        <h2>Linking Displays</h2>
+        <ol>
+            <li class="NumberList">To place the two 
+ images side-by-side, close the Session Explorer window. On the Opticks menu bar go to <span style="font-weight: bold;">Windows</span> 
+ and select <b>Tile.</b></li>
+            <li class="NumberList">Highlight each data 
+ window and click the Zoom To Fit button <img src="../Zoom_to_fit.gif" style="border: none;width: 22px;height: 21px;border-style: none;border-style: none;" width="22" height="21" border="0" />&#160;on the Display
+ Toolbar so both images are maximized within their windows.</li>
+            <li class="NumberList">Click the Link/Unlink 
+ button <img src="../Link_Button.gif" style="border: none;width: 22px;height: 21px;border-style: none;border-style: none;" width="22" height="21" border="0" />&#160;on the Toolbox Toolbar.</li>
+        </ol>
+        <ol start="52" style="list-style: decimal;list-style-type: decimal;" MadCap:continue="true">
+            <li class="NumberList">In the Step 1 Link/Unlink 
+ dialog box, select the <i style="font-weight: bold;font-style: normal;">p014r033_7t19990923_z18_spectral.ice.h5</i> 
+ file as the Source Data Set. Click the <b>Next&gt; <span style="font-weight: normal;">button.</span></b></li>
+        </ol>
+        <p class="BodyTextIndent">
+            <img src="../Resources/Images/Link_Displays_1.gif" style="border: none;border-style: none;border-style: none;" border="0" />
+        </p>
+        <ol start="53" style="list-style: decimal;list-style-type: decimal;" MadCap:continue="true">
+            <li class="NumberList">In the Step 2 Link/Unlink 
+ dialog box, go to the Available Links box. Select <span style="font-weight: bold;">Views</span> 
+ and place a check in the box next to the Source Data Set’s path name. 
+ This identifies which cube is to be linked to another data set. </li>
+            <li class="NumberList">Set the Link Type to Automatic. This will use Mirror (pixel-based) linking if the scenes aren't georeferenced or Latitiude/Longitude linking if the scenes are georeferenced.</li>
+        </ol>
+        <p class="BodyTextIndent">In the <span style="font-weight: bold;">Linking</span> 
+ box, place a checkmark in the <span style="font-weight: bold;">Two-Way</span> 
+ box. This updates changes made to either data set (the Source data set 
+ or the Destination data set) in both windows. </p>
+        <p class="BodyTextIndent">Click the <b>Next&gt;<span style="font-weight: normal;"> 
+ button</span></b><span style="font-weight: bold;">.</span></p>
+        <p class="BodyTextIndent">
+            <img src="../Resources/Images/Link_Displays_2.gif" style="border: none;border-style: none;border-style: none;" border="0" />
+        </p>
+        <ol start="54" style="list-style: decimal;list-style-type: decimal;" MadCap:continue="true">
+            <li class="NumberList">In the Step 3 Link/Unlink 
+ dialog box, choose the Band Math Results data set as the Destination Data 
+ Set. Click the <b>Finish <span style="font-weight: normal;">button</span></b>.</li>
+        </ol>
+        <p class="BodyTextIndent">
+            <img src="../Resources/Images/Link_Displays_3.gif" style="border: none;border-style: none;border-style: none;" border="0" />
+        </p>
+        <ol start="55" style="list-style: decimal;list-style-type: decimal;" MadCap:continue="true">
+            <li class="NumberList">In the <i style="font-style: normal;font-weight: bold;">p014r033_7t19990923_z18_spectral.ice.h5</i> 
+ data set, zoom in on the water inlet near the center of the image. 
+ Notice how the Band Math Results Data Set zooms to the same location. 
+ Zoom out of the Band Math Results Data Set and the other cube will also 
+ update. </li>
+        </ol>
+        <h2>Annotating the Vegetation</h2>
+        <p class="BodyText">You can control much of Opticks' functionality in the Session Explorer. You can toggle each layer on and off, derive or convert one layer type to another, delete or rename each layer, and access each layer's properties dialog.</p>
+        <ol>
+            <li class="NumberList">On the Opticks menu bar, go to <b>Tools</b> and select <b>Session Explorer</b>.</li>
+            <li class="NumberList">Select the <b>Windows</b> tab in the Session Explorer. Expand <b>Workspace Windows</b> and then expand the item under it with the same name as the band-math results.</li>
+            <li class="NumberList">Right-click on the item corresponding to the band-math results window and select <b>New Layer, Annotation</b>. This adds a new annotation layer and displays and activates the Annotation Toolbar.</li>
+        </ol>
+        <p class="BodyTextIndent">
+            <img src="../Resources/Images/Annotate_Layer_1.gif" />
+        </p>
+        <ol MadCap:continue="true">
+            <li class="NumberList">Maximize the Band 
+ Math Results Window. Pan and zoom to the inlet in the upper right area of the image.</li>
+        </ol>
+        <ol start="57" style="list-style: decimal;list-style-type: decimal;" MadCap:continue="true">
+            <li class="NumberList">Select the New Annotation 
+ Object drop-down on the Annotation Toolbar and select the arrow. </li>
+        </ol>
+        <p class="BodyTextIndent">
+            <img src="../Resources/Images/Annotate_Layer_2.gif" style="border: none;border-style: none;border-style: none;" border="0" />
+        </p>
+        <ol start="58" style="list-style: decimal;list-style-type: decimal;" MadCap:continue="true">
+            <li class="NumberList">Click on the image 
+ and drag from start to point. Try to position the arrow so it is pointing 
+ at a highly vegetative area (a group of bright pixels).</li>
+        </ol>
+        <p class="BodyTextIndent">
+            <img src="../Resources/Images/Annotate_Layer_3.gif" style="border: none;border-style: none;border-style: none;" border="0" />
+        </p>
+        <ol start="59" style="list-style: decimal;list-style-type: decimal;" MadCap:continue="true">
+            <li class="NumberList">The arrow should 
+ have a dotted rectangular box around it. Color this line green, using 
+ the Annotation Line Color button <img src="../Resources/Images/Ann_Line_Color_Button.gif" style="border: none;width: 34px;height: 22px;border-style: none;border-style: none;" width="34" height="22" border="0" />&#160;on the Annotation 
+ Toolbar. </li>
+        </ol>
+        <p class="BodyTextIndent">Make the line width thicker using the Annotation 
+ Line Width button.<img src="../Resources/Images/Ann_Line_Width_Button.gif" style="border: none;width: 34px;height: 22px;border-style: none;border-style: none;" width="34" height="22" border="0" /></p>
+        <ol start="60" style="list-style: decimal;list-style-type: decimal;" MadCap:continue="true">
+            <li class="NumberList">Go to the Add New Object button and select Text Box.</li>
+        </ol>
+        <p class="BodyTextIndent">
+            <img src="../Resources/Images/Annotate_Layer_4.gif" />
+        </p>
+        <p class="BodyTextIndent">Use you mouse to select an area on the image to 
+ create this text box. When you release the mouse, the enter text dialog 
+ box is displayed.</p>
+        <p class="BodyTextIndent">
+            <img src="../Resources/Images/Annotate_Layer_5.gif" style="border: none;border-style: none;border-style: none;" border="0" />
+        </p>
+        <p class="BodyTextIndent">Type the name <span style="font-weight: bold;">Vegetation</span> 
+ into the text box and click <b>OK</b>. The text box should appear on the 
+ image. </p>
+        <ol start="61" style="list-style: decimal;list-style-type: decimal;" MadCap:continue="true">
+            <li class="NumberList">Change the color 
+ of the text to <b>green</b> (to match the arrow) using the Annotation 
+ Text Color button. <img src="../Resources/Images/Ann_Text_Color_Button.gif" style="border: none;width: 34px;height: 22px;border-style: none;border-style: none;" width="34" height="22" border="0" /></li>
+            <li class="NumberList">Change the size of the text to 72 and move it so that it's near the arrow.</li>
+        </ol>
+        <p class="BodyTextIndent">
+            <img src="../Resources/Images/Annotate_Layer_6.gif" style="border: none;border-style: none;border-style: none;" border="0" />
+        </p>
+        <h2>Export Data</h2>
+        <p class="BodyText">To export a product showing the Latitude/Longitude grid, 
+ clean up the image by removing the Ground Control Points and the crosshairs 
+ from view. You will do this using the Session Explorer Window. </p>
+        <ol>
+            <li class="NumberList">Hide the GCP points by right-clicking on the Corner layer and unchecking <b>Displayed</b>.</li>
+            <li class="NumberList">Right-click on the Window item (in bold) and toggle off the crosshair.</li>
+        </ol>
+        <ol class="BodyTextIndent" MadCap:continue="true">
+            <li class="NumberList">To finish the image 
+ before you export it, arrange the image in the middle of the screen by 
+ clicking the Zoom to Fit button <img src="../Zoom_to_fit.gif" style="border: none;border-style: none;border-style: none;" border="0" />&#160;on the Display Toolbar. 
+ This centers the image in the screen. </li>
+        </ol>
+        <p class="BodyTextIndent">Click the Zoom Out button <img src="../Zoom_Out.gif" style="border: none;border-style: none;border-style: none;" border="0" />&#160;once 
+ so the lat/long grid is not covered by the classification markings. Note that the annotation text box will be very small in this view.</p>
+        <p class="BodyTextIndent">
+            <img src="../Resources/Images/Export_Data_1.gif" style="border: none;border-style: none;border-style: none;" border="0" />
+        </p>
+        <ol start="68" MadCap:continue="true">
+            <li class="NumberList">Right-click on the Window item and select <b>Export</b>. </li>
+            <li class="NumberList">In the Exporter panel 
+ at the bottom, change AVI Product Exporter to <b>JPEG View Exporter</b>. Enter the 
+ filename <i style="font-style: normal;font-weight: bold;">MySample-Geo.jpg</i> 
+ in the File Name box and click the <b>Save </b>button.</li>
+            <li class="NumberList">Close all files and 
+ views.</li>
+        </ol>
+        <p class="BodyText"><u style="font-weight: bold;text-decoration: none;"><span style="font-weight: bold;text-decoration: none;">Summary/</span></u><span style="font-weight: bold;text-decoration: none;"><u style="font-weight: bold;text-decoration: none;">Review</u></span>:&#160;You 
+ should now be able to perform georeferencing, execute the band math algorithm 
+ to find materials within a data image, annotate the image, and export 
+ it as a JPEG product by using many of the common core tools in Opticks.</p>
+    </body>
+</html>

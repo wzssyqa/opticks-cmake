@@ -1,0 +1,71 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" MadCap:conditions="" class="" MadCap:lastBlockDepth="2" MadCap:lastHeight="1788" MadCap:lastWidth="313">
+    <head><title>More About Georeferencing</title>
+        <link rel="StyleSheet" href="Tutorials.css" />
+    </head>
+    <body>
+        <div placeholder="" id="header" style="width: 100%;position: relative;">
+        </div>
+        <h1>More About Georeferencing</h1>
+        <h2><span style="x-text-overline: off;x-text-line-through: off;text-underline: none;text-decoration: none none none;">Understanding 
+ the Georeferencing Process</span>
+        </h2>
+        <p class="BodyText">
+            <MadCap:keyword term="georeferencing" />The georeference algorithm calculates a coordinate grid 
+ by entering the GCPs into a mathematical polynomial fit equation of the 
+ order that you specify. This method tends to stretch the coordinates to 
+ fit the given GCPs, always introducing some level of error. This error 
+ is known as root mean square (RMS) error, and it defines the level of 
+ accuracy for the georeference calculations.</p>
+        <p class="BodyText">After the georeference transformation is complete, the 
+ new latitude/longitude coordinates are interpolated across the data pixels. 
+ This means that every mouse cursor position over the data set will have 
+ a precise latitude/longitude coordinate value. The new coordinates are 
+ displayed in the status bar at the bottom of the main application window, 
+ as you move the mouse over a pixel.</p>
+        <h2><span style="x-text-overline: off;x-text-line-through: off;text-underline: none;text-decoration: none none none;">Selecting 
+ a New Set of Ground Control Points</span>
+        </h2>
+        <p class="BodyText">
+            <MadCap:keyword term="ground control point;GCP" />A ground control point (GCP) is a set of two coordinates, 
+ a pixel coordinate and a latitude/longitude coordinate. You can also manually 
+ type in either of the coordinates. A GCP is selected in a two-step process 
+ where the pixel coordinate is selected immediately before or after the 
+ latitude/longitude coordinate.</p>
+        <p class="BodyText">The GCP list defines all of the matching sets of destination 
+ and reference coordinates. It is managed entirely within the GCP Editor. 
+ List management capabilities include creating a GCP list, adding a GCP, 
+ deleting a GCP, editing pre-existing GCPs, and saving a list. All of these 
+ capabilities are available within the dialog except for saving the GCP 
+ list.</p>
+        <p class="BodyText">A GCP can be entered manually with the keyboard, graphically 
+ with the mouse, or with a combination of both methods. The destination 
+ coordinate and the reference coordinate must be entered one after the 
+ other, but either one can be entered first. </p>
+        <h2><span style="x-text-overline: off;x-text-line-through: off;text-underline: none;text-decoration: none none none;">Understanding 
+ RMS Error</span>
+        </h2>
+        <p class="BodyText">
+            <MadCap:keyword term="RMS error" />When the georeference algorithm calculates a latitude/longitude 
+ grid from the GCPs, the location of the GCP on the grid is sometimes displaced 
+ from its actual ground location. This displacement is a measurable error 
+ called root mean square (RMS) error. The error is a result of a mathematical 
+ transformation process in which a pixel’s location on a latitude/longitude 
+ coordinate grid is measured against individual GCP locations.</p>
+        <p class="BodyText">The pixel latitude/longitude coordinates are calculated 
+ based on a least squares regression of the data. The resulting RMS error 
+ is displayed in the “x” and “y” directions, as well as the total overall 
+ RMS error. The error values are in units of pixels, so an RMS error of 
+ 5 means that the latitude/longitude coordinates for a predicted point 
+ for the GCP is within a 5-pixel radius of the original. The actual latitude/longitude 
+ accuracy depends on the accuracy of the GCPs.</p>
+        <p class="BodyText">An acceptable level of RMS error varies from one data 
+ set to another, depending upon the spatial resolution of the pixels. A 
+ general rule of thumb is to have an RMS error of less than 1 pixel. The 
+ spatial resolution of the Landsat scene used for this training exercise 
+ is 28.5 meters. Therefore, if the RMS error is less than 1 pixel, the 
+ error would correspond to an accuracy of 28.5 meters for scaling purposes.</p>
+        <div placeholder="" id="footer" style="width: 100%;position: relative;">
+        </div>
+    </body>
+</html>

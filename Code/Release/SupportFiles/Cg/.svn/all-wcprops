@@ -1,0 +1,35 @@
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svnroot/opticks/!svn/ver/13604/releases/4.7.0/trunk/Code/Release/SupportFiles/Cg
+END
+GrayscaleDisplay.cg
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/svnroot/opticks/!svn/ver/13604/releases/4.7.0/trunk/Code/Release/SupportFiles/Cg/GrayscaleDisplay.cg
+END
+RgbDisplay.cg
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svnroot/opticks/!svn/ver/13604/releases/4.7.0/trunk/Code/Release/SupportFiles/Cg/RgbDisplay.cg
+END
+ByPass.cg
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svnroot/opticks/!svn/ver/13604/releases/4.7.0/trunk/Code/Release/SupportFiles/Cg/ByPass.cg
+END
+ColormapDisplay.cg
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/svnroot/opticks/!svn/ver/13604/releases/4.7.0/trunk/Code/Release/SupportFiles/Cg/ColormapDisplay.cg
+END
+EdgeDetection.cg
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/svnroot/opticks/!svn/ver/13604/releases/4.7.0/trunk/Code/Release/SupportFiles/Cg/EdgeDetection.cg
+END

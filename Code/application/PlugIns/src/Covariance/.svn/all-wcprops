@@ -1,0 +1,53 @@
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svnroot/opticks/!svn/ver/13604/releases/4.7.0/trunk/Code/application/PlugIns/src/Covariance
+END
+Covariance.h
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/svnroot/opticks/!svn/ver/13604/releases/4.7.0/trunk/Code/application/PlugIns/src/Covariance/Covariance.h
+END
+CovarianceGui.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/svnroot/opticks/!svn/ver/13604/releases/4.7.0/trunk/Code/application/PlugIns/src/Covariance/CovarianceGui.cpp
+END
+ModuleManager.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/svnroot/opticks/!svn/ver/13604/releases/4.7.0/trunk/Code/application/PlugIns/src/Covariance/ModuleManager.cpp
+END
+Covariance.vcxproj
+K 25
+svn:wc:ra_dav:version-url
+V 111
+/svnroot/opticks/!svn/ver/13604/releases/4.7.0/trunk/Code/application/PlugIns/src/Covariance/Covariance.vcxproj
+END
+CovarianceGui.h
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/svnroot/opticks/!svn/ver/13604/releases/4.7.0/trunk/Code/application/PlugIns/src/Covariance/CovarianceGui.h
+END
+SConscript
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/svnroot/opticks/!svn/ver/13604/releases/4.7.0/trunk/Code/application/PlugIns/src/Covariance/SConscript
+END
+Covariance.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/svnroot/opticks/!svn/ver/13604/releases/4.7.0/trunk/Code/application/PlugIns/src/Covariance/Covariance.cpp
+END
+Covariance.vcxproj.filters
+K 25
+svn:wc:ra_dav:version-url
+V 119
+/svnroot/opticks/!svn/ver/13604/releases/4.7.0/trunk/Code/application/PlugIns/src/Covariance/Covariance.vcxproj.filters
+END

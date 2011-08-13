@@ -1,0 +1,382 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" MadCap:lastBlockDepth="4" MadCap:lastHeight="2266" MadCap:lastWidth="559">
+    <head><title>ENVI Header Format</title>
+        <link rel="StyleSheet" href="../Opticks_Styles.css" />
+        <link href="../Resources/TableStyles/Opticks_Table.css" rel="stylesheet" MadCap:stylesheetType="table" />
+    </head>
+    <body>
+        <h1>
+            <MadCap:keyword term="ENVI" />ENVI Header Format</h1>
+        <p class="BodyText">To be recognized by ENVI as a native file header, the 
+ file must start with the text string “ENVI”. 
+ Keywords indicate critical file information. This header format applies 
+ to both data set files and signature library files.</p>
+        <p class="BodyText">This information was taken from the <MadCap:popup><MadCap:popupHead style="color: #008000;font-weight: bold;" class="popupspot">ENVI User's Guide</MadCap:popupHead><MadCap:popupBody class="popupBody_1">ENVI Version 3.4. September, 2000 Edition. Copyright Research Systems, Inc.</MadCap:popupBody></MadCap:popup>.</p>
+        <p class="BodyText">Valid keywords are:</p>
+        <table style="width: 100%;border-spacing: 0px;border-spacing: 0px;margin-left: 0;margin-right: auto;mc-table-style: url('../Resources/TableStyles/Opticks_Table.css');" cellspacing="0" width="100%" class="TableStyle_Opticks_Table">
+            <col style="width: 21.309%;" />
+            <col style="width: 78.691%;" />
+            <tr valign="top">
+                <td style="width: 21.309%;padding-right: 10px;padding-left: 10px;border-bottom-style: none;border-right-style: none;border-left-style: none;border-top-style: none;" width="21.309%" class="TableStyle_Opticks_Table_Body_0_0_RowSep_ColSep">
+                    <p style="margin-top: 6pt;margin-bottom: 6pt;"><span style="font-family: Verdana, sans-serif;font-size: 10pt;">description</span>
+                    </p>
+                </td>
+                <td style="width: 78.691%;padding-right: 10px;padding-left: 10px;border-bottom-style: none;border-top-style: none;border-right-style: none;" width="78.691%" class="TableStyle_Opticks_Table_Body_0_0_RowSep_ColEnd">
+                    <p style="margin-top: 6pt;margin-bottom: 6pt;"><span style="font-family: Verdana, sans-serif;font-size: 10pt;">A 
+ character string describing the image or processing performed.</span>
+                    </p>
+                </td>
+            </tr>
+            <tr valign="top">
+                <td style="width: 21.309%;padding-right: 10px;padding-left: 10px;border-bottom-style: none;border-right-style: none;border-left-style: none;" width="21.309%" class="TableStyle_Opticks_Table_Body_0_0_RowSep_ColSep">
+                    <p style="margin-top: 6pt;margin-bottom: 6pt;"><span style="font-family: Verdana, sans-serif;font-size: 10pt;">samples</span>
+                    </p>
+                </td>
+                <td style="width: 78.691%;padding-right: 10px;padding-left: 10px;border-bottom-style: none;border-right-style: none;" width="78.691%" class="TableStyle_Opticks_Table_Body_0_0_RowSep_ColEnd">
+                    <p style="margin-top: 6pt;margin-bottom: 6pt;"><span style="font-family: Verdana, sans-serif;font-size: 10pt;">Number 
+ of samples (pixels) per image line for each band.</span>
+                    </p>
+                </td>
+            </tr>
+            <tr valign="top">
+                <td style="width: 21.309%;padding-right: 10px;padding-left: 10px;border-right-style: none;border-left-style: none;border-bottom-style: none;" width="21.309%" class="TableStyle_Opticks_Table_Body_0_0_RowSep_ColSep">
+                    <p style="margin-top: 6pt;margin-bottom: 6pt;"><span style="font-family: Verdana, sans-serif;font-size: 10pt;">lines</span>
+                    </p>
+                </td>
+                <td style="width: 78.691%;padding-right: 10px;padding-left: 10px;border-bottom-style: none;border-right-style: none;" width="78.691%" class="TableStyle_Opticks_Table_Body_0_0_RowSep_ColEnd">
+                    <p style="margin-top: 6pt;margin-bottom: 6pt;"><span style="font-family: Verdana, sans-serif;font-size: 10pt;">Number 
+ of lines per image for each band.</span>
+                    </p>
+                </td>
+            </tr>
+            <tr valign="top">
+                <td colspan="1" rowspan="1" style="width: 21.309%;padding-right: 10px;padding-left: 10px;border-left-style: none;border-right-style: none;border-bottom-style: none;" width="21.309%" class="TableStyle_Opticks_Table_Body_0_0_RowSep_ColSep">
+                    <p style="margin-top: 6pt;margin-bottom: 6pt;"><span style="font-family: Verdana, sans-serif;font-size: 10pt;">bands</span>
+                    </p>
+                </td>
+                <td colspan="1" rowspan="1" style="width: 78.691%;padding-right: 10px;padding-left: 10px;border-right-style: none;border-bottom-style: none;" width="78.691%" class="TableStyle_Opticks_Table_Body_0_0_RowSep_ColEnd">
+                    <p style="margin-top: 6pt;margin-bottom: 6pt;"><span style="font-family: Verdana, sans-serif;font-size: 10pt;">Number 
+ of bands per image file.</span>
+                    </p>
+                </td>
+            </tr>
+            <tr valign="top">
+                <td colspan="1" rowspan="1" style="width: 21.309%;padding-right: 10px;padding-left: 10px;border-left-style: none;border-right-style: none;border-bottom-style: none;" width="21.309%" class="TableStyle_Opticks_Table_Body_0_0_RowSep_ColSep">
+                    <p style="margin-top: 6pt;margin-bottom: 6pt;"><span style="font-family: Verdana, sans-serif;font-size: 10pt;">header 
+ offset</span>
+                    </p>
+                </td>
+                <td colspan="1" rowspan="1" style="width: 78.691%;padding-right: 10px;padding-left: 10px;border-right-style: none;border-bottom-style: none;" width="78.691%" class="TableStyle_Opticks_Table_Body_0_0_RowSep_ColEnd">
+                    <p style="margin-top: 6pt;margin-bottom: 6pt;"><span style="font-family: Verdana, sans-serif;font-size: 10pt;">Refers 
+ to the number of bytes of embedded header information present in the file 
+ (for example, 128 bytes for ERDAS 7.5 .lan files). These bytes are skipped 
+ when the ENVI file is read.</span>
+                    </p>
+                </td>
+            </tr>
+            <tr valign="top">
+                <td colspan="1" rowspan="1" style="width: 21.309%;padding-right: 10px;padding-left: 10px;border-left-style: none;border-right-style: none;border-bottom-style: none;" width="21.309%" class="TableStyle_Opticks_Table_Body_0_0_RowSep_ColSep">
+                    <p style="margin-top: 6pt;margin-bottom: 6pt;"><span style="font-family: Verdana, sans-serif;font-size: 10pt;">file 
+ type</span>
+                    </p>
+                </td>
+                <td colspan="1" rowspan="1" style="width: 78.691%;padding-right: 10px;padding-left: 10px;border-right-style: none;border-bottom-style: none;" width="78.691%" class="TableStyle_Opticks_Table_Body_0_0_RowSep_ColEnd">
+                    <p style="margin-top: 6pt;margin-bottom: 6pt;"><span style="font-family: Verdana, sans-serif;font-size: 10pt;">Refers 
+ to specific ENVI-defined file types such as certain data formats and processing 
+ results. </span>
+                    </p>
+                </td>
+            </tr>
+            <tr valign="top">
+                <td colspan="1" rowspan="1" style="width: 21.309%;padding-right: 10px;padding-left: 10px;border-left-style: none;border-right-style: none;border-bottom-style: none;" width="21.309%" class="TableStyle_Opticks_Table_Body_0_0_RowSep_ColSep">
+                    <p style="margin-top: 6pt;margin-bottom: 6pt;"><span style="font-family: Verdana, sans-serif;font-size: 10pt;">data 
+ type</span>
+                    </p>
+                </td>
+                <td colspan="1" rowspan="1" style="width: 78.691%;padding-right: 10px;padding-left: 10px;border-right-style: none;border-bottom-style: none;" width="78.691%" class="TableStyle_Opticks_Table_Body_0_0_RowSep_ColEnd">
+                    <p style="margin-top: 6pt;margin-bottom: 6pt;"><span style="font-family: Verdana, sans-serif;font-size: 10pt;">Parameter 
+ identifies the type of data representation:</span>
+                    </p>
+                    <p style="margin-top: 6pt;margin-bottom: 6pt;"><span style="font-family: Verdana, sans-serif;font-size: 10pt;">1 
+ = 8-bit byte</span>
+                    </p>
+                    <p style="margin-top: 6pt;margin-bottom: 6pt;"><span style="font-family: Verdana, sans-serif;font-size: 10pt;">2 
+ = 16-bit signed integer</span>
+                    </p>
+                    <p style="margin-top: 6pt;margin-bottom: 6pt;"><span style="font-family: Verdana, sans-serif;font-size: 10pt;">3 
+ = 32-bit signed long integer</span>
+                    </p>
+                    <p style="margin-top: 6pt;margin-bottom: 6pt;"><span style="font-family: Verdana, sans-serif;font-size: 10pt;">4 
+ = 32-bit floating point</span>
+                    </p>
+                    <p style="margin-top: 6pt;margin-bottom: 6pt;"><span style="font-family: Verdana, sans-serif;font-size: 10pt;">5 
+ = 64-bit double precision floating point</span>
+                    </p>
+                    <p style="margin-top: 6pt;margin-bottom: 6pt;">6 = 2x32-bit complex, real-imaginary 
+ pair of double precision</p>
+                    <p style="margin-top: 6pt;margin-bottom: 6pt;">9 = 2x64-bit double precision 
+ complex, real-imaginary pair of double precision (not supported in <MadCap:conditionalText MadCap:conditions="Primary.COMET Only">COMET</MadCap:conditionalText><MadCap:conditionalText MadCap:conditions="Primary.Opticks Only">Opticks</MadCap:conditionalText>)</p>
+                    <p style="margin-top: 6pt;margin-bottom: 6pt;">12 = 16-bit unsigned integer</p>
+                    <p style="margin-top: 6pt;margin-bottom: 6pt;">13 = 32-bit unsigned long 
+ integer</p>
+                    <p style="margin-top: 6pt;margin-bottom: 6pt;">14 = 64-bit unsigned integer 
+ (not supported in <MadCap:conditionalText MadCap:conditions="Primary.COMET Only">COMET</MadCap:conditionalText><MadCap:conditionalText MadCap:conditions="Primary.Opticks Only">Opticks</MadCap:conditionalText>)</p>
+                    <p style="margin-top: 6pt;margin-bottom: 6pt;"><span style="font-family: Verdana, sans-serif;font-size: 10pt;">15 
+ = 64-bit unsigned long integer (not supported in <MadCap:conditionalText MadCap:conditions="Primary.COMET Only">COMET</MadCap:conditionalText><MadCap:conditionalText MadCap:conditions="Primary.Opticks Only">Opticks</MadCap:conditionalText>)</span>
+                    </p>
+                </td>
+            </tr>
+            <tr valign="top">
+                <td colspan="1" rowspan="1" style="width: 21.309%;padding-right: 10px;padding-left: 10px;border-left-style: none;border-right-style: none;border-bottom-style: none;" width="21.309%" class="TableStyle_Opticks_Table_Body_0_0_RowSep_ColSep">
+                    <p style="margin-top: 6pt;margin-bottom: 6pt;"><span style="font-family: Verdana, sans-serif;font-size: 10pt;">interleave</span>
+                    </p>
+                </td>
+                <td colspan="1" rowspan="1" style="width: 78.691%;padding-right: 10px;padding-left: 10px;border-right-style: none;border-bottom-style: none;" width="78.691%" class="TableStyle_Opticks_Table_Body_0_0_RowSep_ColEnd">
+                    <p style="margin-top: 6pt;margin-bottom: 6pt;"><span style="font-family: Verdana, sans-serif;font-size: 10pt;">Refers 
+ to whether the data are band sequential (BSQ), band interleaved by pixel 
+ (BIP), or band interleaved by line (BIL).</span>
+                    </p>
+                </td>
+            </tr>
+            <tr valign="top">
+                <td colspan="1" rowspan="1" style="width: 21.309%;padding-right: 10px;padding-left: 10px;border-left-style: none;border-right-style: none;border-bottom-style: none;" width="21.309%" class="TableStyle_Opticks_Table_Body_0_0_RowSep_ColSep">
+                    <p style="margin-top: 6pt;margin-bottom: 6pt;"><span style="font-family: Verdana, sans-serif;font-size: 10pt;">sensor 
+ type</span>
+                    </p>
+                </td>
+                <td colspan="1" rowspan="1" style="width: 78.691%;padding-right: 10px;padding-left: 10px;border-right-style: none;border-bottom-style: none;" width="78.691%" class="TableStyle_Opticks_Table_Body_0_0_RowSep_ColEnd">
+                    <p style="margin-top: 6pt;margin-bottom: 6pt;"><span style="font-family: Verdana, sans-serif;font-size: 10pt;">Refers 
+ to specific instruments such as Landsat TM, SPOT, RadarSat, etc. </span>
+                    </p>
+                </td>
+            </tr>
+            <tr valign="top">
+                <td colspan="1" rowspan="1" style="width: 21.309%;padding-right: 10px;padding-left: 10px;border-left-style: none;border-right-style: none;border-bottom-style: none;" width="21.309%" class="TableStyle_Opticks_Table_Body_0_0_RowSep_ColSep">
+                    <p style="margin-top: 6pt;margin-bottom: 6pt;"><span style="font-family: Verdana, sans-serif;font-size: 10pt;">byte 
+ order</span>
+                    </p>
+                </td>
+                <td colspan="1" rowspan="1" style="width: 78.691%;padding-right: 10px;padding-left: 10px;border-right-style: none;border-bottom-style: none;" width="78.691%" class="TableStyle_Opticks_Table_Body_0_0_RowSep_ColEnd">
+                    <p style="margin-top: 6pt;margin-bottom: 6pt;"><span style="font-family: Verdana, sans-serif;font-size: 10pt;">Describes 
+ the order of the bytes in integer, long integer, floating point, double 
+ precision, and complex data types.</span>
+                    </p>
+                    <p style="margin-top: 6pt;margin-bottom: 6pt;"><span style="font-family: Verdana, sans-serif;font-size: 10pt;">byte 
+ order=0 is Least Significant Byte First (LSF) data (DEC and MS-DOS systems)</span>
+                    </p>
+                    <p style="margin-top: 6pt;margin-bottom: 6pt;"><span style="font-family: Verdana, sans-serif;font-size: 10pt;">byte 
+ order=1 is Most Significant Byte First (MSF) data (all others - SUN, SGI, 
+ IBM, HP, DG).</span>
+                    </p>
+                </td>
+            </tr>
+            <tr valign="top">
+                <td colspan="1" rowspan="1" style="width: 21.309%;padding-right: 10px;padding-left: 10px;border-left-style: none;border-right-style: none;border-bottom-style: none;" width="21.309%" class="TableStyle_Opticks_Table_Body_0_0_RowSep_ColSep">
+                    <p style="margin-top: 6pt;margin-bottom: 6pt;"><span style="font-family: Verdana, sans-serif;font-size: 10pt;">x-start</span>
+                    </p>
+                    <p style="margin-top: 6pt;margin-bottom: 6pt;"><span style="font-family: Verdana, sans-serif;font-size: 10pt;">y-start</span>
+                    </p>
+                </td>
+                <td colspan="1" rowspan="1" style="width: 78.691%;padding-right: 10px;padding-left: 10px;border-right-style: none;border-bottom-style: none;" width="78.691%" class="TableStyle_Opticks_Table_Body_0_0_RowSep_ColEnd">
+                    <p style="margin-top: 6pt;margin-bottom: 6pt;"><span style="font-family: Verdana, sans-serif;font-size: 10pt;">Refer 
+ to the starting and ending sample and line if the image is a subset from 
+ a larger image.</span>
+                    </p>
+                </td>
+            </tr>
+            <tr valign="top">
+                <td colspan="1" rowspan="1" style="width: 21.309%;padding-right: 10px;padding-left: 10px;border-left-style: none;border-right-style: none;border-bottom-style: none;" width="21.309%" class="TableStyle_Opticks_Table_Body_0_0_RowSep_ColSep">
+                    <p style="margin-top: 6pt;margin-bottom: 6pt;"><span style="font-family: Verdana, sans-serif;font-size: 10pt;">map 
+ info</span>
+                    </p>
+                </td>
+                <td colspan="1" rowspan="1" style="width: 78.691%;padding-right: 10px;padding-left: 10px;border-right-style: none;border-bottom-style: none;" width="78.691%" class="TableStyle_Opticks_Table_Body_0_0_RowSep_ColEnd">
+                    <p style="margin-top: 6pt;margin-bottom: 6pt;"><span style="font-family: Verdana, sans-serif;font-size: 10pt;">Lists 
+ geographic coordinates information in the order projection name (UTM), 
+ magic pixel x value, magic pixel y value, magic pixel easting, magic pixel 
+ northing, x pixel size, y pixel size, Projection Zone, “North” 
+ or “South” 
+ for UTM only.</span>
+                    </p>
+                </td>
+            </tr>
+            <tr valign="top">
+                <td colspan="1" rowspan="1" style="width: 21.309%;padding-right: 10px;padding-left: 10px;border-left-style: none;border-right-style: none;border-bottom-style: none;" width="21.309%" class="TableStyle_Opticks_Table_Body_0_0_RowSep_ColSep">
+                    <p style="margin-top: 6pt;margin-bottom: 6pt;">projection info</p>
+                </td>
+                <td colspan="1" rowspan="1" style="width: 78.691%;padding-right: 10px;padding-left: 10px;border-right-style: none;border-bottom-style: none;" width="78.691%" class="TableStyle_Opticks_Table_Body_0_0_RowSep_ColEnd">
+                    <p style="margin-top: 6pt;margin-bottom: 6pt;">Not supported by <MadCap:conditionalText MadCap:conditions="Primary.COMET Only">COMET</MadCap:conditionalText><MadCap:conditionalText MadCap:conditions="Primary.Opticks Only">Opticks</MadCap:conditionalText>.</p>
+                </td>
+            </tr>
+            <tr valign="top">
+                <td colspan="1" rowspan="1" style="width: 21.309%;padding-right: 10px;padding-left: 10px;border-left-style: none;border-right-style: none;border-bottom-style: none;" width="21.309%" class="TableStyle_Opticks_Table_Body_0_0_RowSep_ColSep">
+                    <p style="margin-top: 6pt;margin-bottom: 6pt;"><span style="font-family: Verdana, sans-serif;font-size: 10pt;">default 
+ bands</span>
+                    </p>
+                </td>
+                <td colspan="1" rowspan="1" style="width: 78.691%;padding-right: 10px;padding-left: 10px;border-right-style: none;border-bottom-style: none;" width="78.691%" class="TableStyle_Opticks_Table_Body_0_0_RowSep_ColEnd">
+                    <p style="margin-top: 6pt;margin-bottom: 6pt;"><span style="font-family: Verdana, sans-serif;font-size: 10pt;">If 
+ set, indicates which band numbers to automatically load into the Available 
+ Bands List’s gray scale or R, G, and B text boxes every time the file 
+ is opened.</span>
+                    </p>
+                </td>
+            </tr>
+            <tr valign="top">
+                <td colspan="1" rowspan="1" style="width: 21.309%;padding-right: 10px;padding-left: 10px;border-left-style: none;border-right-style: none;border-bottom-style: none;" width="21.309%" class="TableStyle_Opticks_Table_Body_0_0_RowSep_ColSep">
+                    <p style="margin-top: 6pt;margin-bottom: 6pt;"><span style="font-family: Verdana, sans-serif;font-size: 10pt;">z 
+ plot range</span>
+                    </p>
+                </td>
+                <td colspan="1" rowspan="1" style="width: 78.691%;padding-right: 10px;padding-left: 10px;border-right-style: none;border-bottom-style: none;" width="78.691%" class="TableStyle_Opticks_Table_Body_0_0_RowSep_ColEnd">
+                    <p style="margin-top: 6pt;margin-bottom: 6pt;"><span style="font-family: Verdana, sans-serif;font-size: 10pt;">Values 
+ indicating the default minimum and maximum values for Z plots.</span>
+                    </p>
+                </td>
+            </tr>
+            <tr valign="top">
+                <td colspan="1" rowspan="1" style="width: 21.309%;padding-right: 10px;padding-left: 10px;border-left-style: none;border-right-style: none;border-bottom-style: none;" width="21.309%" class="TableStyle_Opticks_Table_Body_0_0_RowSep_ColSep">
+                    <p style="margin-top: 6pt;margin-bottom: 6pt;"><span style="font-family: Verdana, sans-serif;font-size: 10pt;">z 
+ plot average</span>
+                    </p>
+                </td>
+                <td colspan="1" rowspan="1" style="width: 78.691%;padding-right: 10px;padding-left: 10px;border-right-style: none;border-bottom-style: none;" width="78.691%" class="TableStyle_Opticks_Table_Body_0_0_RowSep_ColEnd">
+                    <p style="margin-top: 6pt;margin-bottom: 6pt;"><span style="font-family: Verdana, sans-serif;font-size: 10pt;">Values 
+ indicate the number of pixels in the X and Y directions to average for 
+ Z plots.</span>
+                    </p>
+                </td>
+            </tr>
+            <tr valign="top">
+                <td colspan="1" rowspan="1" style="width: 21.309%;padding-right: 10px;padding-left: 10px;border-left-style: none;border-right-style: none;border-bottom-style: none;" width="21.309%" class="TableStyle_Opticks_Table_Body_0_0_RowSep_ColSep">
+                    <p style="margin-top: 6pt;margin-bottom: 6pt;"><span style="font-family: Verdana, sans-serif;font-size: 10pt;">z 
+ plot titles</span>
+                    </p>
+                </td>
+                <td colspan="1" rowspan="1" style="width: 78.691%;padding-right: 10px;padding-left: 10px;border-right-style: none;border-bottom-style: none;" width="78.691%" class="TableStyle_Opticks_Table_Body_0_0_RowSep_ColEnd">
+                    <p style="margin-top: 6pt;margin-bottom: 6pt;"><span style="font-family: Verdana, sans-serif;font-size: 10pt;">Allows 
+ entry of specific X and Y axis titles for Z plots.</span>
+                    </p>
+                </td>
+            </tr>
+            <tr valign="top">
+                <td colspan="1" rowspan="1" style="width: 21.309%;padding-right: 10px;padding-left: 10px;border-left-style: none;border-right-style: none;border-bottom-style: none;" width="21.309%" class="TableStyle_Opticks_Table_Body_0_0_RowSep_ColSep">
+                    <p style="margin-top: 6pt;margin-bottom: 6pt;"><span style="font-family: Verdana, sans-serif;font-size: 10pt;">pixel 
+ size</span>
+                    </p>
+                </td>
+                <td colspan="1" rowspan="1" style="width: 78.691%;padding-right: 10px;padding-left: 10px;border-right-style: none;border-bottom-style: none;" width="78.691%" class="TableStyle_Opticks_Table_Body_0_0_RowSep_ColEnd">
+                    <p style="margin-top: 6pt;margin-bottom: 6pt;"><span style="font-family: Verdana, sans-serif;font-size: 10pt;">Indicates 
+ X and Y pixel size in meters for non-georeferenced files.</span>
+                    </p>
+                </td>
+            </tr>
+            <tr valign="top">
+                <td colspan="1" rowspan="1" style="width: 21.309%;padding-right: 10px;padding-left: 10px;border-left-style: none;border-right-style: none;border-bottom-style: none;" width="21.309%" class="TableStyle_Opticks_Table_Body_0_0_RowSep_ColSep">
+                    <p style="margin-top: 6pt;margin-bottom: 6pt;"><span style="font-family: Verdana, sans-serif;font-size: 10pt;">default 
+ stretch</span>
+                    </p>
+                </td>
+                <td colspan="1" rowspan="1" style="width: 78.691%;padding-right: 10px;padding-left: 10px;border-right-style: none;border-bottom-style: none;" width="78.691%" class="TableStyle_Opticks_Table_Body_0_0_RowSep_ColEnd">
+                    <p style="margin-top: 6pt;margin-bottom: 6pt;"><span style="font-family: Verdana, sans-serif;font-size: 10pt;">Determines 
+ what type of stretch (% linear, linear range, Gaussian, equalize, square 
+ root) is used when the image is displayed.</span>
+                    </p>
+                </td>
+            </tr>
+            <tr valign="top">
+                <td colspan="1" rowspan="1" style="width: 21.309%;padding-right: 10px;padding-left: 10px;border-left-style: none;border-right-style: none;border-bottom-style: none;" width="21.309%" class="TableStyle_Opticks_Table_Body_0_0_RowSep_ColSep">
+                    <p style="margin-top: 6pt;margin-bottom: 6pt;"><span style="font-family: Verdana, sans-serif;font-size: 10pt;">band 
+ names</span>
+                    </p>
+                </td>
+                <td colspan="1" rowspan="1" style="width: 78.691%;padding-right: 10px;padding-left: 10px;border-right-style: none;border-bottom-style: none;" width="78.691%" class="TableStyle_Opticks_Table_Body_0_0_RowSep_ColEnd">
+                    <p style="margin-top: 6pt;margin-bottom: 6pt;"><span style="font-family: Verdana, sans-serif;font-size: 10pt;">Allows 
+ entry of specific names for each band of an image.</span>
+                    </p>
+                </td>
+            </tr>
+            <tr valign="top">
+                <td colspan="1" rowspan="1" style="width: 21.309%;padding-right: 10px;padding-left: 10px;border-left-style: none;border-right-style: none;border-bottom-style: none;" width="21.309%" class="TableStyle_Opticks_Table_Body_0_0_RowSep_ColSep">
+                    <p style="margin-top: 6pt;margin-bottom: 6pt;"><span style="font-family: Verdana, sans-serif;font-size: 10pt;">wavelength</span>
+                    </p>
+                </td>
+                <td colspan="1" rowspan="1" style="width: 78.691%;padding-right: 10px;padding-left: 10px;border-right-style: none;border-bottom-style: none;" width="78.691%" class="TableStyle_Opticks_Table_Body_0_0_RowSep_ColEnd">
+                    <p style="margin-top: 6pt;margin-bottom: 6pt;"><span style="font-family: Verdana, sans-serif;font-size: 10pt;">Lists 
+ the center wavelength values of each band in an image. Units should be 
+ the same as those used for the FWHM.</span>
+                    </p>
+                </td>
+            </tr>
+            <tr valign="top">
+                <td colspan="1" rowspan="1" style="width: 21.309%;padding-right: 10px;padding-left: 10px;border-left-style: none;border-right-style: none;border-bottom-style: none;" width="21.309%" class="TableStyle_Opticks_Table_Body_0_0_RowSep_ColSep">
+                    <p style="margin-top: 6pt;margin-bottom: 6pt;"><span style="font-family: Verdana, sans-serif;font-size: 10pt;">fwhm</span>
+                    </p>
+                </td>
+                <td colspan="1" rowspan="1" style="width: 78.691%;padding-right: 10px;padding-left: 10px;border-right-style: none;border-bottom-style: none;" width="78.691%" class="TableStyle_Opticks_Table_Body_0_0_RowSep_ColEnd">
+                    <p style="margin-top: 6pt;margin-bottom: 6pt;"><span style="font-family: Verdana, sans-serif;font-size: 10pt;">Lists 
+ full-width-half-max values of each band in an image. Units should be the 
+ same as those used for wavelength.</span>
+                    </p>
+                </td>
+            </tr>
+            <tr valign="top">
+                <td colspan="1" rowspan="1" style="width: 21.309%;padding-right: 10px;padding-left: 10px;border-left-style: none;border-right-style: none;border-bottom-style: none;" width="21.309%" class="TableStyle_Opticks_Table_Body_0_0_RowSep_ColSep">
+                    <p style="margin-top: 6pt;margin-bottom: 6pt;"><span style="font-family: Verdana, sans-serif;font-size: 10pt;">bbl</span>
+                    </p>
+                </td>
+                <td colspan="1" rowspan="1" style="width: 78.691%;padding-right: 10px;padding-left: 10px;border-right-style: none;border-bottom-style: none;" width="78.691%" class="TableStyle_Opticks_Table_Body_0_0_RowSep_ColEnd">
+                    <p style="margin-top: 6pt;margin-bottom: 6pt;"><span style="font-family: Verdana, sans-serif;font-size: 10pt;">Lists 
+ the bad band multiplier values of each band in an image, typically zero 
+ for bad bands and one for good bands.</span>
+                    </p>
+                </td>
+            </tr>
+        </table>
+        <p class="BodyText">&#160;</p>
+        <h2>Sample of a typical ENVI Header File</h2>
+        <p class="BodyText" style="margin-top: 0pt;margin-bottom: 0pt;font-family: 'Courier New CE', monospace;">ENVI</p>
+        <p class="BodyText" style="margin-top: 0pt;margin-bottom: 0pt;font-family: 'Courier New CE', monospace;">description = {</p>
+        <p class="BodyText" style="margin-top: 0pt;margin-bottom: 0pt;font-family: 'Courier New CE', monospace;">&#160;&#160;Registration 
+ Result. Method: 1st degree Polynomial w/ nearest neighbor [Wed Dec 20 
+ 23:59:19 1995] }</p>
+        <p class="BodyText" style="margin-top: 0pt;margin-bottom: 0pt;font-family: 'Courier New CE', monospace;">samples = 709</p>
+        <p class="BodyText" style="margin-top: 0pt;margin-bottom: 0pt;font-family: 'Courier New CE', monospace;">lines = 946</p>
+        <p class="BodyText" style="margin-top: 0pt;margin-bottom: 0pt;font-family: 'Courier New CE', monospace;">bands = 7</p>
+        <p class="BodyText" style="margin-top: 0pt;margin-bottom: 0pt;font-family: 'Courier New CE', monospace;">header offset = 
+ 0</p>
+        <p class="BodyText" style="margin-top: 0pt;margin-bottom: 0pt;font-family: 'Courier New CE', monospace;">file type = ENVI 
+ Standard</p>
+        <p class="BodyText" style="margin-top: 0pt;margin-bottom: 0pt;font-family: 'Courier New CE', monospace;">data type = 1</p>
+        <p class="BodyText" style="margin-top: 0pt;margin-bottom: 0pt;font-family: 'Courier New CE', monospace;">interleave = bsq</p>
+        <p class="BodyText" style="margin-top: 0pt;margin-bottom: 0pt;font-family: 'Courier New CE', monospace;">sensor type = Landsat 
+ TM</p>
+        <p class="BodyText" style="margin-top: 0pt;margin-bottom: 0pt;font-family: 'Courier New CE', monospace;">byte order = 0</p>
+        <p class="BodyText" style="margin-top: 0pt;margin-bottom: 0pt;font-family: 'Courier New CE', monospace;">map info = {UTM, 
+ 1, 1, 295380.000, 4763640.000, 30.000000, 30.000000, 13, North}</p>
+        <p class="BodyText" style="margin-top: 0pt;margin-bottom: 0pt;font-family: 'Courier New CE', monospace;">z plot range = {0.00, 
+ 255.00}</p>
+        <p class="BodyText" style="margin-top: 0pt;margin-bottom: 0pt;font-family: 'Courier New CE', monospace;">z plot titles = 
+ {Wavelength, Reflectance}</p>
+        <p class="BodyText" style="margin-top: 0pt;margin-bottom: 0pt;font-family: 'Courier New CE', monospace;">pixel size = {30.000000, 
+ 30.000000}</p>
+        <p class="BodyText" style="margin-top: 0pt;margin-bottom: 0pt;font-family: 'Courier New CE', monospace;">default stretch 
+ = 5.0% linear</p>
+        <p class="BodyText" style="margin-top: 0pt;margin-bottom: 0pt;font-family: 'Courier New CE', monospace;">band names = {</p>
+        <p class="BodyText" style="margin-top: 0pt;margin-bottom: 0pt;font-family: 'Courier New CE', monospace;">&#160;Warp 
+ (Band 1:rs_tm.img), Warp (Band 2:rs_tm.img), Warp (Band 3:rs_tm.img), 
+ Warp (Band 4:rs_tm.img), Warp (Band 5:rs_tm.img), Warp (Band 6:rs_tm.img), 
+ Warp (Band 7:rs_tm.img)}</p>
+        <p class="BodyText" style="margin-top: 0pt;margin-bottom: 0pt;font-family: 'Courier New CE', monospace;">wavelength = {</p>
+        <p class="BodyText" style="margin-top: 0pt;margin-bottom: 0pt;font-family: 'Courier New CE', monospace;">&#160;&#160;0.485000, 
+ &#160;0.560000, 
+ &#160;0.660000, 
+ &#160;0.830000, 
+ &#160;1.650000, 
+ 11.400000, &#160;2.215000}</p>
+        <p class="BodyText" style="margin-top: 0pt;margin-bottom: 0pt;font-family: 'Courier New CE', monospace;">fwhm = {</p>
+        <p class="BodyText" style="margin-top: 0pt;margin-bottom: 0pt;font-family: 'Courier New CE', monospace;">&#160;0.070000, 
+ 0.080000, 0.060000, 0.140000, 0.200000, 2.100000, 0.270000}</p>
+        <p class="BodyText">&#160;</p>
+    </body>
+</html>

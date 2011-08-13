@@ -1,0 +1,65 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" MadCap:id="Band_Math" MadCap:timeEstimate="0" MadCap:priority="0" MadCap:status="In Progress" MadCap:lastBlockDepth="4" MadCap:lastHeight="1309" MadCap:lastWidth="657">
+    <head><title>Band Math</title>
+        <link rel="StyleSheet" href="../Opticks_Styles.css" />
+    </head>
+    <body>
+        <h1>
+            <MadCap:keyword term="band math" />Band Math</h1>
+        <p class="BodyText">The Band Math plug-in uses mathematical expressions to 
+ compute a single band or, using multiple cubes, a full cube result. New 
+ data is created in memory or on click following the processing location 
+ of the source data. Corner coordinates are copied to new cubes.</p>
+        <p class="BodyText" style="background-color: Transparent;font-weight: bold;">To access 
+ the Band Math plug-in:</p>
+        <ol>
+            <li class="NumberList">On the <a href="../Toolbars/General_Algorithms_Toolbar.htm">General 
+ Algorithms Toolbar</a>, select <span style="font-weight: bold;">Band Math</span>. 
+ </li>
+        </ol>
+        <p class="BodyTextIndent">The Band Math dialog box is displayed.</p>
+        <p class="BodyText">
+            <img src="../Resources/Images/Band_Math.gif" style="border: none;border-style: none;border-style: none;" border="0" />
+        </p>
+        <ol start="2" style="list-style: decimal;list-style-type: decimal;">
+            <li class="NumberList">Select <span style="font-weight: bold;">Single 
+ Cube</span> or <span style="font-weight: bold;">Multi Cube</span>.</li>
+        </ol>
+        <p class="BodyTextIndent">When you select Single Cube, the box on the right 
+ side of the Band Math dialog box lists the selected cube.</p>
+        <p class="BodyTextIndent">When you select Multi Cube, the list has all open 
+ cubes with the same number of rows, columns, and bands as the selected 
+ cube.</p>
+        <ol start="3" style="list-style: decimal;list-style-type: decimal;">
+            <li class="NumberList">Build an expression 
+ with the operators, numbers, and bands/cubes. </li>
+        </ol>
+        <p class="BodyTextIndent">For each pixel in each row and column (and band 
+ in multi-cube), the expression will be evaluated using the corresponding 
+ pixel for any band or cube number in the expression.</p>
+        <p class="BodyTextIndent">For definitions of each operator button, click 
+ <a href="Band_Math_Operators.htm" target="_popup">here</a>.</p>
+        <ol start="4" style="list-style: decimal;list-style-type: decimal;">
+            <li class="NumberList">Select <span style="font-weight: bold;">Degrees</span> 
+ or <span style="font-weight: bold;">Radians</span>. This determines whether 
+ the triginometric operators are performed with degrees or radians.</li>
+            <li class="NumberList">If single cube, you 
+ can check the Overlay Results box or leave it unchecked.</li>
+        </ol>
+        <p class="BodyTextIndent">If checked, Band Math places the results in a results 
+ matrix as a layer on the original cube. </p>
+        <p class="BodyTextIndent">If unchecked, the results are placed in a new cube 
+ with a singe band.</p>
+        <ol start="6" style="list-style: decimal;list-style-type: decimal;">
+            <li class="NumberList">Click the <span style="font-weight: bold;">Process</span> 
+ button to begin processing.</li>
+        </ol>
+        <p class="BodyText">To clear the entire expression, click the Clear button.</p>
+        <p class="BodyText">To undo the last action in the expression, click the 
+ Undo button.</p>
+        <p class="BodyText">To cancel all actions and close the dialog box, click 
+ the Cancel button.</p>
+        <div placeholder="" id="footer" style="width: 100%;position: relative;">
+        </div>
+    </body>
+</html>

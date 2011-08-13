@@ -1,0 +1,407 @@
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svnroot/opticks/!svn/ver/13604/releases/4.7.0/trunk/Code/application/Desktop
+END
+OrthographicViewImp.h
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/svnroot/opticks/!svn/ver/13604/releases/4.7.0/trunk/Code/application/Desktop/OrthographicViewImp.h
+END
+AnimationModel.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svnroot/opticks/!svn/ver/13604/releases/4.7.0/trunk/Code/application/Desktop/AnimationModel.cpp
+END
+ViewWindowImp.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svnroot/opticks/!svn/ver/13604/releases/4.7.0/trunk/Code/application/Desktop/ViewWindowImp.cpp
+END
+MouseModeImp.h
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svnroot/opticks/!svn/ver/13604/releases/4.7.0/trunk/Code/application/Desktop/MouseModeImp.h
+END
+ProductViewAdapter.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/svnroot/opticks/!svn/ver/13604/releases/4.7.0/trunk/Code/application/Desktop/ProductViewAdapter.cpp
+END
+PlugInModel.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svnroot/opticks/!svn/ver/13604/releases/4.7.0/trunk/Code/application/Desktop/PlugInModel.cpp
+END
+FontImp.h
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svnroot/opticks/!svn/ver/13604/releases/4.7.0/trunk/Code/application/Desktop/FontImp.h
+END
+SpatialDataViewAdapter.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/svnroot/opticks/!svn/ver/13604/releases/4.7.0/trunk/Code/application/Desktop/SpatialDataViewAdapter.cpp
+END
+SessionItemModel.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/svnroot/opticks/!svn/ver/13604/releases/4.7.0/trunk/Code/application/Desktop/SessionItemModel.cpp
+END
+SpatialDataWindowImp.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/svnroot/opticks/!svn/ver/13604/releases/4.7.0/trunk/Code/application/Desktop/SpatialDataWindowImp.cpp
+END
+WindowModel.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svnroot/opticks/!svn/ver/13604/releases/4.7.0/trunk/Code/application/Desktop/WindowModel.cpp
+END
+WorkspaceWindowAdapter.h
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/svnroot/opticks/!svn/ver/13604/releases/4.7.0/trunk/Code/application/Desktop/WorkspaceWindowAdapter.h
+END
+WorkspaceWindowImp.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/svnroot/opticks/!svn/ver/13604/releases/4.7.0/trunk/Code/application/Desktop/WorkspaceWindowImp.cpp
+END
+SpatialDataViewImp.h
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/svnroot/opticks/!svn/ver/13604/releases/4.7.0/trunk/Code/application/Desktop/SpatialDataViewImp.h
+END
+PerspectiveViewImp.h
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/svnroot/opticks/!svn/ver/13604/releases/4.7.0/trunk/Code/application/Desktop/PerspectiveViewImp.h
+END
+MouseModeImp.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svnroot/opticks/!svn/ver/13604/releases/4.7.0/trunk/Code/application/Desktop/MouseModeImp.cpp
+END
+AnimationModel.h
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svnroot/opticks/!svn/ver/13604/releases/4.7.0/trunk/Code/application/Desktop/AnimationModel.h
+END
+ViewWindowImp.h
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svnroot/opticks/!svn/ver/13604/releases/4.7.0/trunk/Code/application/Desktop/ViewWindowImp.h
+END
+DockWindowImp.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svnroot/opticks/!svn/ver/13604/releases/4.7.0/trunk/Code/application/Desktop/DockWindowImp.cpp
+END
+DockWindowAdapter.h
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/svnroot/opticks/!svn/ver/13604/releases/4.7.0/trunk/Code/application/Desktop/DockWindowAdapter.h
+END
+SpatialDataWindowAdapter.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/svnroot/opticks/!svn/ver/13604/releases/4.7.0/trunk/Code/application/Desktop/SpatialDataWindowAdapter.cpp
+END
+ProductViewAdapter.h
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/svnroot/opticks/!svn/ver/13604/releases/4.7.0/trunk/Code/application/Desktop/ProductViewAdapter.h
+END
+Desktop.vcxproj
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svnroot/opticks/!svn/ver/13604/releases/4.7.0/trunk/Code/application/Desktop/Desktop.vcxproj
+END
+WorkspaceWindowAdapter.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/svnroot/opticks/!svn/ver/13604/releases/4.7.0/trunk/Code/application/Desktop/WorkspaceWindowAdapter.cpp
+END
+DesktopServicesImp.h
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/svnroot/opticks/!svn/ver/13604/releases/4.7.0/trunk/Code/application/Desktop/DesktopServicesImp.h
+END
+Desktop.vcxproj.filters
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/svnroot/opticks/!svn/ver/13604/releases/4.7.0/trunk/Code/application/Desktop/Desktop.vcxproj.filters
+END
+WindowModel.h
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svnroot/opticks/!svn/ver/13604/releases/4.7.0/trunk/Code/application/Desktop/WindowModel.h
+END
+WorkspaceWindowImp.h
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/svnroot/opticks/!svn/ver/13604/releases/4.7.0/trunk/Code/application/Desktop/WorkspaceWindowImp.h
+END
+ToolBarImp.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svnroot/opticks/!svn/ver/13604/releases/4.7.0/trunk/Code/application/Desktop/ToolBarImp.cpp
+END
+ToolBarAdapter.h
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svnroot/opticks/!svn/ver/13604/releases/4.7.0/trunk/Code/application/Desktop/ToolBarAdapter.h
+END
+DockWindowAdapter.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/svnroot/opticks/!svn/ver/13604/releases/4.7.0/trunk/Code/application/Desktop/DockWindowAdapter.cpp
+END
+SessionExplorerImp.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/svnroot/opticks/!svn/ver/13604/releases/4.7.0/trunk/Code/application/Desktop/SessionExplorerImp.cpp
+END
+SessionExplorerAdapter.h
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/svnroot/opticks/!svn/ver/13604/releases/4.7.0/trunk/Code/application/Desktop/SessionExplorerAdapter.h
+END
+ElementModel.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svnroot/opticks/!svn/ver/13604/releases/4.7.0/trunk/Code/application/Desktop/ElementModel.cpp
+END
+ProductWindowImp.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/svnroot/opticks/!svn/ver/13604/releases/4.7.0/trunk/Code/application/Desktop/ProductWindowImp.cpp
+END
+ProductWindowAdapter.h
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/svnroot/opticks/!svn/ver/13604/releases/4.7.0/trunk/Code/application/Desktop/ProductWindowAdapter.h
+END
+LayerListAdapter.h
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svnroot/opticks/!svn/ver/13604/releases/4.7.0/trunk/Code/application/Desktop/LayerListAdapter.h
+END
+LayerListImp.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svnroot/opticks/!svn/ver/13604/releases/4.7.0/trunk/Code/application/Desktop/LayerListImp.cpp
+END
+ViewImp.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svnroot/opticks/!svn/ver/13604/releases/4.7.0/trunk/Code/application/Desktop/ViewImp.cpp
+END
+WindowImp.h
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svnroot/opticks/!svn/ver/13604/releases/4.7.0/trunk/Code/application/Desktop/WindowImp.h
+END
+DockWindowImp.h
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svnroot/opticks/!svn/ver/13604/releases/4.7.0/trunk/Code/application/Desktop/DockWindowImp.h
+END
+DesktopServicesImp.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/svnroot/opticks/!svn/ver/13604/releases/4.7.0/trunk/Code/application/Desktop/DesktopServicesImp.cpp
+END
+ContextMenuImp.h
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svnroot/opticks/!svn/ver/13604/releases/4.7.0/trunk/Code/application/Desktop/ContextMenuImp.h
+END
+SpatialDataWindowAdapter.h
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/svnroot/opticks/!svn/ver/13604/releases/4.7.0/trunk/Code/application/Desktop/SpatialDataWindowAdapter.h
+END
+ProductViewImp.h
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svnroot/opticks/!svn/ver/13604/releases/4.7.0/trunk/Code/application/Desktop/ProductViewImp.h
+END
+OrthographicViewImp.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/svnroot/opticks/!svn/ver/13604/releases/4.7.0/trunk/Code/application/Desktop/OrthographicViewImp.cpp
+END
+ToolBarAdapter.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svnroot/opticks/!svn/ver/13604/releases/4.7.0/trunk/Code/application/Desktop/ToolBarAdapter.cpp
+END
+SessionExplorerAdapter.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/svnroot/opticks/!svn/ver/13604/releases/4.7.0/trunk/Code/application/Desktop/SessionExplorerAdapter.cpp
+END
+SConscript
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svnroot/opticks/!svn/ver/13604/releases/4.7.0/trunk/Code/application/Desktop/SConscript
+END
+ProductWindowAdapter.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/svnroot/opticks/!svn/ver/13604/releases/4.7.0/trunk/Code/application/Desktop/ProductWindowAdapter.cpp
+END
+LayerListAdapter.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/svnroot/opticks/!svn/ver/13604/releases/4.7.0/trunk/Code/application/Desktop/LayerListAdapter.cpp
+END
+FontImp.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svnroot/opticks/!svn/ver/13604/releases/4.7.0/trunk/Code/application/Desktop/FontImp.cpp
+END
+WindowImp.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svnroot/opticks/!svn/ver/13604/releases/4.7.0/trunk/Code/application/Desktop/WindowImp.cpp
+END
+ToolBarImp.h
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svnroot/opticks/!svn/ver/13604/releases/4.7.0/trunk/Code/application/Desktop/ToolBarImp.h
+END
+SessionExplorerImp.h
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/svnroot/opticks/!svn/ver/13604/releases/4.7.0/trunk/Code/application/Desktop/SessionExplorerImp.h
+END
+ElementModel.h
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svnroot/opticks/!svn/ver/13604/releases/4.7.0/trunk/Code/application/Desktop/ElementModel.h
+END
+ContextMenuImp.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svnroot/opticks/!svn/ver/13604/releases/4.7.0/trunk/Code/application/Desktop/ContextMenuImp.cpp
+END
+ProductViewImp.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svnroot/opticks/!svn/ver/13604/releases/4.7.0/trunk/Code/application/Desktop/ProductViewImp.cpp
+END
+ProductWindowImp.h
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svnroot/opticks/!svn/ver/13604/releases/4.7.0/trunk/Code/application/Desktop/ProductWindowImp.h
+END
+LayerListImp.h
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svnroot/opticks/!svn/ver/13604/releases/4.7.0/trunk/Code/application/Desktop/LayerListImp.h
+END
+PlugInModel.h
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svnroot/opticks/!svn/ver/13604/releases/4.7.0/trunk/Code/application/Desktop/PlugInModel.h
+END
+ViewImp.h
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svnroot/opticks/!svn/ver/13604/releases/4.7.0/trunk/Code/application/Desktop/ViewImp.h
+END
+SpatialDataViewAdapter.h
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/svnroot/opticks/!svn/ver/13604/releases/4.7.0/trunk/Code/application/Desktop/SpatialDataViewAdapter.h
+END
+SpatialDataViewImp.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/svnroot/opticks/!svn/ver/13604/releases/4.7.0/trunk/Code/application/Desktop/SpatialDataViewImp.cpp
+END
+SessionItemModel.h
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svnroot/opticks/!svn/ver/13604/releases/4.7.0/trunk/Code/application/Desktop/SessionItemModel.h
+END
+SpatialDataWindowImp.h
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/svnroot/opticks/!svn/ver/13604/releases/4.7.0/trunk/Code/application/Desktop/SpatialDataWindowImp.h
+END
+PerspectiveViewImp.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/svnroot/opticks/!svn/ver/13604/releases/4.7.0/trunk/Code/application/Desktop/PerspectiveViewImp.cpp
+END

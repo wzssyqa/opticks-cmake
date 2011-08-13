@@ -1,0 +1,113 @@
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svnroot/opticks/!svn/ver/13604/releases/4.7.0/trunk/Code/application/PlugIns/src/XmlRpc
+END
+OpticksMethods.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/svnroot/opticks/!svn/ver/13604/releases/4.7.0/trunk/Code/application/PlugIns/src/XmlRpc/OpticksMethods.cpp
+END
+XmlRpcStructParam.h
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/svnroot/opticks/!svn/ver/13604/releases/4.7.0/trunk/Code/application/PlugIns/src/XmlRpc/XmlRpcStructParam.h
+END
+XmlRpcServer.h
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/svnroot/opticks/!svn/ver/13604/releases/4.7.0/trunk/Code/application/PlugIns/src/XmlRpc/XmlRpcServer.h
+END
+XmlRpc.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/svnroot/opticks/!svn/ver/13604/releases/4.7.0/trunk/Code/application/PlugIns/src/XmlRpc/XmlRpc.cpp
+END
+OpticksMethods.h
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/svnroot/opticks/!svn/ver/13604/releases/4.7.0/trunk/Code/application/PlugIns/src/XmlRpc/OpticksMethods.h
+END
+SConscript
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/svnroot/opticks/!svn/ver/13604/releases/4.7.0/trunk/Code/application/PlugIns/src/XmlRpc/SConscript
+END
+XmlRpc.h
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/svnroot/opticks/!svn/ver/13604/releases/4.7.0/trunk/Code/application/PlugIns/src/XmlRpc/XmlRpc.h
+END
+OpticksCallbacks.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/svnroot/opticks/!svn/ver/13604/releases/4.7.0/trunk/Code/application/PlugIns/src/XmlRpc/OpticksCallbacks.cpp
+END
+XmlRpc.vcxproj
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/svnroot/opticks/!svn/ver/13604/releases/4.7.0/trunk/Code/application/PlugIns/src/XmlRpc/XmlRpc.vcxproj
+END
+ModuleManager.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/svnroot/opticks/!svn/ver/13604/releases/4.7.0/trunk/Code/application/PlugIns/src/XmlRpc/ModuleManager.cpp
+END
+OpticksCallbacks.h
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/svnroot/opticks/!svn/ver/13604/releases/4.7.0/trunk/Code/application/PlugIns/src/XmlRpc/OpticksCallbacks.h
+END
+XmlRpcCallback.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/svnroot/opticks/!svn/ver/13604/releases/4.7.0/trunk/Code/application/PlugIns/src/XmlRpc/XmlRpcCallback.cpp
+END
+XmlRpc.vcxproj.filters
+K 25
+svn:wc:ra_dav:version-url
+V 111
+/svnroot/opticks/!svn/ver/13604/releases/4.7.0/trunk/Code/application/PlugIns/src/XmlRpc/XmlRpc.vcxproj.filters
+END
+XmlRpcCallback.h
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/svnroot/opticks/!svn/ver/13604/releases/4.7.0/trunk/Code/application/PlugIns/src/XmlRpc/XmlRpcCallback.h
+END
+IntrospectionMethods.h
+K 25
+svn:wc:ra_dav:version-url
+V 111
+/svnroot/opticks/!svn/ver/13604/releases/4.7.0/trunk/Code/application/PlugIns/src/XmlRpc/IntrospectionMethods.h
+END
+XmlRpcArrayParam.h
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/svnroot/opticks/!svn/ver/13604/releases/4.7.0/trunk/Code/application/PlugIns/src/XmlRpc/XmlRpcArrayParam.h
+END
+XmlRpcParam.h
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/svnroot/opticks/!svn/ver/13604/releases/4.7.0/trunk/Code/application/PlugIns/src/XmlRpc/XmlRpcParam.h
+END
+XmlRpcServer.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/svnroot/opticks/!svn/ver/13604/releases/4.7.0/trunk/Code/application/PlugIns/src/XmlRpc/XmlRpcServer.cpp
+END

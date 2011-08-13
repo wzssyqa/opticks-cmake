@@ -1,0 +1,65 @@
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svnroot/opticks/!svn/ver/13604/releases/4.7.0/trunk/Code/application/ArcProxy
+END
+LicenseUtilities.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/svnroot/opticks/!svn/ver/13604/releases/4.7.0/trunk/Code/application/ArcProxy/LicenseUtilities.cpp
+END
+ArcProxy.vcxproj
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svnroot/opticks/!svn/ver/13604/releases/4.7.0/trunk/Code/application/ArcProxy/ArcProxy.vcxproj
+END
+LicenseUtilities.h
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/svnroot/opticks/!svn/ver/13604/releases/4.7.0/trunk/Code/application/ArcProxy/LicenseUtilities.h
+END
+SConscript
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svnroot/opticks/!svn/ver/13604/releases/4.7.0/trunk/Code/application/ArcProxy/SConscript
+END
+ArcProxy.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svnroot/opticks/!svn/ver/13604/releases/4.7.0/trunk/Code/application/ArcProxy/ArcProxy.cpp
+END
+ArcProxy.vcxproj.filters
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/svnroot/opticks/!svn/ver/13604/releases/4.7.0/trunk/Code/application/ArcProxy/ArcProxy.vcxproj.filters
+END
+ProcessStatusChecker.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/svnroot/opticks/!svn/ver/13604/releases/4.7.0/trunk/Code/application/ArcProxy/ProcessStatusChecker.cpp
+END
+ArcProxy.h
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svnroot/opticks/!svn/ver/13604/releases/4.7.0/trunk/Code/application/ArcProxy/ArcProxy.h
+END
+ArcSDK.h
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svnroot/opticks/!svn/ver/13604/releases/4.7.0/trunk/Code/application/ArcProxy/ArcSDK.h
+END
+ProcessStatusChecker.h
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/svnroot/opticks/!svn/ver/13604/releases/4.7.0/trunk/Code/application/ArcProxy/ProcessStatusChecker.h
+END

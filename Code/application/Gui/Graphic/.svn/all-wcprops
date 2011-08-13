@@ -1,0 +1,587 @@
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svnroot/opticks/!svn/ver/13604/releases/4.7.0/trunk/Code/application/Gui/Graphic
+END
+FilledObjectImp.h
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/svnroot/opticks/!svn/ver/13604/releases/4.7.0/trunk/Code/application/Gui/Graphic/FilledObjectImp.h
+END
+RectangleObjectImp.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/svnroot/opticks/!svn/ver/13604/releases/4.7.0/trunk/Code/application/Gui/Graphic/RectangleObjectImp.cpp
+END
+ArcObjectImp.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/svnroot/opticks/!svn/ver/13604/releases/4.7.0/trunk/Code/application/Gui/Graphic/ArcObjectImp.cpp
+END
+ArcObjectAdapter.h
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/svnroot/opticks/!svn/ver/13604/releases/4.7.0/trunk/Code/application/Gui/Graphic/ArcObjectAdapter.h
+END
+MoveObjectImp.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/svnroot/opticks/!svn/ver/13604/releases/4.7.0/trunk/Code/application/Gui/Graphic/MoveObjectImp.cpp
+END
+CgmObjectAdapter.h
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/svnroot/opticks/!svn/ver/13604/releases/4.7.0/trunk/Code/application/Gui/Graphic/CgmObjectAdapter.h
+END
+EastArrowObjectAdapter.h
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/svnroot/opticks/!svn/ver/13604/releases/4.7.0/trunk/Code/application/Gui/Graphic/EastArrowObjectAdapter.h
+END
+EastArrowObjectImp.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/svnroot/opticks/!svn/ver/13604/releases/4.7.0/trunk/Code/application/Gui/Graphic/EastArrowObjectImp.cpp
+END
+GraphicGroupImp.h
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/svnroot/opticks/!svn/ver/13604/releases/4.7.0/trunk/Code/application/Gui/Graphic/GraphicGroupImp.h
+END
+ViewObjectAdapter.h
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/svnroot/opticks/!svn/ver/13604/releases/4.7.0/trunk/Code/application/Gui/Graphic/ViewObjectAdapter.h
+END
+ScaleBarObjectAdapter.h
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/svnroot/opticks/!svn/ver/13604/releases/4.7.0/trunk/Code/application/Gui/Graphic/ScaleBarObjectAdapter.h
+END
+DirectionalArrowObjectImp.h
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/svnroot/opticks/!svn/ver/13604/releases/4.7.0/trunk/Code/application/Gui/Graphic/DirectionalArrowObjectImp.h
+END
+DimensionObjectImp.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/svnroot/opticks/!svn/ver/13604/releases/4.7.0/trunk/Code/application/Gui/Graphic/DimensionObjectImp.cpp
+END
+DimensionObjectAdapter.h
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/svnroot/opticks/!svn/ver/13604/releases/4.7.0/trunk/Code/application/Gui/Graphic/DimensionObjectAdapter.h
+END
+PixelObjectImp.h
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/svnroot/opticks/!svn/ver/13604/releases/4.7.0/trunk/Code/application/Gui/Graphic/PixelObjectImp.h
+END
+WidgetImageObjectImp.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/svnroot/opticks/!svn/ver/13604/releases/4.7.0/trunk/Code/application/Gui/Graphic/WidgetImageObjectImp.cpp
+END
+TextObjectImp.h
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/svnroot/opticks/!svn/ver/13604/releases/4.7.0/trunk/Code/application/Gui/Graphic/TextObjectImp.h
+END
+GraphicProperty.h
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/svnroot/opticks/!svn/ver/13604/releases/4.7.0/trunk/Code/application/Gui/Graphic/GraphicProperty.h
+END
+BitMaskObjectAdapter.h
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/svnroot/opticks/!svn/ver/13604/releases/4.7.0/trunk/Code/application/Gui/Graphic/BitMaskObjectAdapter.h
+END
+FrameLabelObjectAdapter.h
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/svnroot/opticks/!svn/ver/13604/releases/4.7.0/trunk/Code/application/Gui/Graphic/FrameLabelObjectAdapter.h
+END
+PolygonObjectImp.h
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/svnroot/opticks/!svn/ver/13604/releases/4.7.0/trunk/Code/application/Gui/Graphic/PolygonObjectImp.h
+END
+ArrowObjectImp.h
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/svnroot/opticks/!svn/ver/13604/releases/4.7.0/trunk/Code/application/Gui/Graphic/ArrowObjectImp.h
+END
+RawImageObjectImp.h
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/svnroot/opticks/!svn/ver/13604/releases/4.7.0/trunk/Code/application/Gui/Graphic/RawImageObjectImp.h
+END
+SymbolManager.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/svnroot/opticks/!svn/ver/13604/releases/4.7.0/trunk/Code/application/Gui/Graphic/SymbolManager.cpp
+END
+MultipointObjectAdapter.h
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/svnroot/opticks/!svn/ver/13604/releases/4.7.0/trunk/Code/application/Gui/Graphic/MultipointObjectAdapter.h
+END
+NorthArrowObjectImp.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/svnroot/opticks/!svn/ver/13604/releases/4.7.0/trunk/Code/application/Gui/Graphic/NorthArrowObjectImp.cpp
+END
+NorthArrowObjectAdapter.h
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/svnroot/opticks/!svn/ver/13604/releases/4.7.0/trunk/Code/application/Gui/Graphic/NorthArrowObjectAdapter.h
+END
+DirectionalArrowObjectImp.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 111
+/svnroot/opticks/!svn/ver/13604/releases/4.7.0/trunk/Code/application/Gui/Graphic/DirectionalArrowObjectImp.cpp
+END
+ArcObjectImp.h
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svnroot/opticks/!svn/ver/13604/releases/4.7.0/trunk/Code/application/Gui/Graphic/ArcObjectImp.h
+END
+CgmObjectImp.h
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svnroot/opticks/!svn/ver/13604/releases/4.7.0/trunk/Code/application/Gui/Graphic/CgmObjectImp.h
+END
+EastArrowObjectImp.h
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/svnroot/opticks/!svn/ver/13604/releases/4.7.0/trunk/Code/application/Gui/Graphic/EastArrowObjectImp.h
+END
+LatLonInsertObjectAdapter.h
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/svnroot/opticks/!svn/ver/13604/releases/4.7.0/trunk/Code/application/Gui/Graphic/LatLonInsertObjectAdapter.h
+END
+ViewObjectImp.h
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/svnroot/opticks/!svn/ver/13604/releases/4.7.0/trunk/Code/application/Gui/Graphic/ViewObjectImp.h
+END
+ScaleBarObjectImp.h
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/svnroot/opticks/!svn/ver/13604/releases/4.7.0/trunk/Code/application/Gui/Graphic/ScaleBarObjectImp.h
+END
+FileImageObjectAdapter.h
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/svnroot/opticks/!svn/ver/13604/releases/4.7.0/trunk/Code/application/Gui/Graphic/FileImageObjectAdapter.h
+END
+TextObjectImp.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/svnroot/opticks/!svn/ver/13604/releases/4.7.0/trunk/Code/application/Gui/Graphic/TextObjectImp.cpp
+END
+LineObjectImp.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/svnroot/opticks/!svn/ver/13604/releases/4.7.0/trunk/Code/application/Gui/Graphic/LineObjectImp.cpp
+END
+LineObjectAdapter.h
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/svnroot/opticks/!svn/ver/13604/releases/4.7.0/trunk/Code/application/Gui/Graphic/LineObjectAdapter.h
+END
+DimensionObjectImp.h
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/svnroot/opticks/!svn/ver/13604/releases/4.7.0/trunk/Code/application/Gui/Graphic/DimensionObjectImp.h
+END
+ArrowObjectImp.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/svnroot/opticks/!svn/ver/13604/releases/4.7.0/trunk/Code/application/Gui/Graphic/ArrowObjectImp.cpp
+END
+PolylineObjectAdapter.h
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/svnroot/opticks/!svn/ver/13604/releases/4.7.0/trunk/Code/application/Gui/Graphic/PolylineObjectAdapter.h
+END
+PolylineObjectImp.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/svnroot/opticks/!svn/ver/13604/releases/4.7.0/trunk/Code/application/Gui/Graphic/PolylineObjectImp.cpp
+END
+RawImageObjectImp.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/svnroot/opticks/!svn/ver/13604/releases/4.7.0/trunk/Code/application/Gui/Graphic/RawImageObjectImp.cpp
+END
+EllipseObjectAdapter.h
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/svnroot/opticks/!svn/ver/13604/releases/4.7.0/trunk/Code/application/Gui/Graphic/EllipseObjectAdapter.h
+END
+EllipseObjectImp.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/svnroot/opticks/!svn/ver/13604/releases/4.7.0/trunk/Code/application/Gui/Graphic/EllipseObjectImp.cpp
+END
+GraphicObjectFactory.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/svnroot/opticks/!svn/ver/13604/releases/4.7.0/trunk/Code/application/Gui/Graphic/GraphicObjectFactory.cpp
+END
+BitMaskObjectImp.h
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/svnroot/opticks/!svn/ver/13604/releases/4.7.0/trunk/Code/application/Gui/Graphic/BitMaskObjectImp.h
+END
+FrameLabelObjectImp.h
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/svnroot/opticks/!svn/ver/13604/releases/4.7.0/trunk/Code/application/Gui/Graphic/FrameLabelObjectImp.h
+END
+RectangleObjectAdapter.h
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/svnroot/opticks/!svn/ver/13604/releases/4.7.0/trunk/Code/application/Gui/Graphic/RectangleObjectAdapter.h
+END
+TriangleObjectAdapter.h
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/svnroot/opticks/!svn/ver/13604/releases/4.7.0/trunk/Code/application/Gui/Graphic/TriangleObjectAdapter.h
+END
+TriangleObjectImp.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/svnroot/opticks/!svn/ver/13604/releases/4.7.0/trunk/Code/application/Gui/Graphic/TriangleObjectImp.cpp
+END
+CgmObjectImp.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/svnroot/opticks/!svn/ver/13604/releases/4.7.0/trunk/Code/application/Gui/Graphic/CgmObjectImp.cpp
+END
+SymbolManager.h
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/svnroot/opticks/!svn/ver/13604/releases/4.7.0/trunk/Code/application/Gui/Graphic/SymbolManager.h
+END
+MultipointObjectImp.h
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/svnroot/opticks/!svn/ver/13604/releases/4.7.0/trunk/Code/application/Gui/Graphic/MultipointObjectImp.h
+END
+NorthArrowObjectImp.h
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/svnroot/opticks/!svn/ver/13604/releases/4.7.0/trunk/Code/application/Gui/Graphic/NorthArrowObjectImp.h
+END
+ViewObjectImp.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/svnroot/opticks/!svn/ver/13604/releases/4.7.0/trunk/Code/application/Gui/Graphic/ViewObjectImp.cpp
+END
+TrailObjectAdapter.h
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/svnroot/opticks/!svn/ver/13604/releases/4.7.0/trunk/Code/application/Gui/Graphic/TrailObjectAdapter.h
+END
+TrailObjectImp.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/svnroot/opticks/!svn/ver/13604/releases/4.7.0/trunk/Code/application/Gui/Graphic/TrailObjectImp.cpp
+END
+ScaleBarObjectImp.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/svnroot/opticks/!svn/ver/13604/releases/4.7.0/trunk/Code/application/Gui/Graphic/ScaleBarObjectImp.cpp
+END
+GraphicObjectImp.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/svnroot/opticks/!svn/ver/13604/releases/4.7.0/trunk/Code/application/Gui/Graphic/GraphicObjectImp.cpp
+END
+GraphicUtilities.h
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/svnroot/opticks/!svn/ver/13604/releases/4.7.0/trunk/Code/application/Gui/Graphic/GraphicUtilities.h
+END
+LatLonInsertObjectImp.h
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/svnroot/opticks/!svn/ver/13604/releases/4.7.0/trunk/Code/application/Gui/Graphic/LatLonInsertObjectImp.h
+END
+MeasurementObjectImp.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/svnroot/opticks/!svn/ver/13604/releases/4.7.0/trunk/Code/application/Gui/Graphic/MeasurementObjectImp.cpp
+END
+MeasurementObjectAdapter.h
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/svnroot/opticks/!svn/ver/13604/releases/4.7.0/trunk/Code/application/Gui/Graphic/MeasurementObjectAdapter.h
+END
+RoundedRectangleObjectAdapter.h
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/svnroot/opticks/!svn/ver/13604/releases/4.7.0/trunk/Code/application/Gui/Graphic/RoundedRectangleObjectAdapter.h
+END
+WidgetImageObjectAdapter.h
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/svnroot/opticks/!svn/ver/13604/releases/4.7.0/trunk/Code/application/Gui/Graphic/WidgetImageObjectAdapter.h
+END
+ImageObjectImp.h
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/svnroot/opticks/!svn/ver/13604/releases/4.7.0/trunk/Code/application/Gui/Graphic/ImageObjectImp.h
+END
+FileImageObjectImp.h
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/svnroot/opticks/!svn/ver/13604/releases/4.7.0/trunk/Code/application/Gui/Graphic/FileImageObjectImp.h
+END
+BitMaskObjectImp.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/svnroot/opticks/!svn/ver/13604/releases/4.7.0/trunk/Code/application/Gui/Graphic/BitMaskObjectImp.cpp
+END
+FrameLabelObjectImp.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/svnroot/opticks/!svn/ver/13604/releases/4.7.0/trunk/Code/application/Gui/Graphic/FrameLabelObjectImp.cpp
+END
+LineObjectImp.h
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/svnroot/opticks/!svn/ver/13604/releases/4.7.0/trunk/Code/application/Gui/Graphic/LineObjectImp.h
+END
+FilledObjectImp.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/svnroot/opticks/!svn/ver/13604/releases/4.7.0/trunk/Code/application/Gui/Graphic/FilledObjectImp.cpp
+END
+PolylineObjectImp.h
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/svnroot/opticks/!svn/ver/13604/releases/4.7.0/trunk/Code/application/Gui/Graphic/PolylineObjectImp.h
+END
+EllipseObjectImp.h
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/svnroot/opticks/!svn/ver/13604/releases/4.7.0/trunk/Code/application/Gui/Graphic/EllipseObjectImp.h
+END
+GraphicGroupImp.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/svnroot/opticks/!svn/ver/13604/releases/4.7.0/trunk/Code/application/Gui/Graphic/GraphicGroupImp.cpp
+END
+GraphicGroupAdapter.h
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/svnroot/opticks/!svn/ver/13604/releases/4.7.0/trunk/Code/application/Gui/Graphic/GraphicGroupAdapter.h
+END
+MultipointObjectImp.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/svnroot/opticks/!svn/ver/13604/releases/4.7.0/trunk/Code/application/Gui/Graphic/MultipointObjectImp.cpp
+END
+GraphicObjectFactory.h
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/svnroot/opticks/!svn/ver/13604/releases/4.7.0/trunk/Code/application/Gui/Graphic/GraphicObjectFactory.h
+END
+RectangleObjectImp.h
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/svnroot/opticks/!svn/ver/13604/releases/4.7.0/trunk/Code/application/Gui/Graphic/RectangleObjectImp.h
+END
+SConscript
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svnroot/opticks/!svn/ver/13604/releases/4.7.0/trunk/Code/application/Gui/Graphic/SConscript
+END
+TriangleObjectImp.h
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/svnroot/opticks/!svn/ver/13604/releases/4.7.0/trunk/Code/application/Gui/Graphic/TriangleObjectImp.h
+END
+MoveObjectImp.h
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/svnroot/opticks/!svn/ver/13604/releases/4.7.0/trunk/Code/application/Gui/Graphic/MoveObjectImp.h
+END
+GraphicUtilities.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/svnroot/opticks/!svn/ver/13604/releases/4.7.0/trunk/Code/application/Gui/Graphic/GraphicUtilities.cpp
+END
+LatLonInsertObjectImp.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/svnroot/opticks/!svn/ver/13604/releases/4.7.0/trunk/Code/application/Gui/Graphic/LatLonInsertObjectImp.cpp
+END
+TrailObjectImp.h
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/svnroot/opticks/!svn/ver/13604/releases/4.7.0/trunk/Code/application/Gui/Graphic/TrailObjectImp.h
+END
+PixelObjectImp.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/svnroot/opticks/!svn/ver/13604/releases/4.7.0/trunk/Code/application/Gui/Graphic/PixelObjectImp.cpp
+END
+ImageObjectImp.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/svnroot/opticks/!svn/ver/13604/releases/4.7.0/trunk/Code/application/Gui/Graphic/ImageObjectImp.cpp
+END
+GraphicObjectImp.h
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/svnroot/opticks/!svn/ver/13604/releases/4.7.0/trunk/Code/application/Gui/Graphic/GraphicObjectImp.h
+END
+FileImageObjectImp.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/svnroot/opticks/!svn/ver/13604/releases/4.7.0/trunk/Code/application/Gui/Graphic/FileImageObjectImp.cpp
+END
+TextObjectAdapter.h
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/svnroot/opticks/!svn/ver/13604/releases/4.7.0/trunk/Code/application/Gui/Graphic/TextObjectAdapter.h
+END
+GraphicProperty.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/svnroot/opticks/!svn/ver/13604/releases/4.7.0/trunk/Code/application/Gui/Graphic/GraphicProperty.cpp
+END
+PolygonObjectAdapter.h
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/svnroot/opticks/!svn/ver/13604/releases/4.7.0/trunk/Code/application/Gui/Graphic/PolygonObjectAdapter.h
+END
+PolygonObjectImp.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/svnroot/opticks/!svn/ver/13604/releases/4.7.0/trunk/Code/application/Gui/Graphic/PolygonObjectImp.cpp
+END
+MeasurementObjectImp.h
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/svnroot/opticks/!svn/ver/13604/releases/4.7.0/trunk/Code/application/Gui/Graphic/MeasurementObjectImp.h
+END
+ArrowObjectAdapter.h
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/svnroot/opticks/!svn/ver/13604/releases/4.7.0/trunk/Code/application/Gui/Graphic/ArrowObjectAdapter.h
+END
+WidgetImageObjectImp.h
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/svnroot/opticks/!svn/ver/13604/releases/4.7.0/trunk/Code/application/Gui/Graphic/WidgetImageObjectImp.h
+END
+RawImageObjectAdapter.h
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/svnroot/opticks/!svn/ver/13604/releases/4.7.0/trunk/Code/application/Gui/Graphic/RawImageObjectAdapter.h
+END

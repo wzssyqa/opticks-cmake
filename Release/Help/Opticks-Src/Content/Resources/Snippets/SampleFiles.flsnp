@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" MadCap:lastBlockDepth="3" MadCap:lastHeight="133" MadCap:lastWidth="608">
+    <head>
+        <link href="../TableStyles/Inner.css" rel="stylesheet" MadCap:stylesheetType="table" />
+    </head>
+    <body>
+        <table style="width: 100%;mc-table-style: url('../TableStyles/Inner.css');border-left-style: solid;border-left-width: 2px;border-left-color: #696969;border-right-style: solid;border-right-width: 2px;border-right-color: #696969;border-top-style: solid;border-top-width: 2px;border-top-color: #696969;border-bottom-style: solid;border-bottom-width: 2px;border-bottom-color: #696969;margin-left: 0;margin-right: auto;" class="TableStyle_Inner" cellspacing="1">
+            <col style="width: 100%;" />
+            <tbody>
+                <tr>
+                    <td class="TableStyle_Inner_Body_0_0_RowEnd_ColEnd" style="border-left-style: solid;border-left-width: 2px;border-left-color: #808080;border-right-style: solid;border-right-width: 2px;border-right-color: #808080;border-top-style: solid;border-top-width: 2px;border-top-color: #808080;border-bottom-style: solid;border-bottom-width: 2px;border-bottom-color: #808080;padding-left: 3px;padding-right: 3px;padding-top: 3px;padding-bottom: 3px;background-color: #b0e0e6;">
+                        <p class="BodyText" style="font-weight: bold;">About the Opticks Sample Files</p>
+                        <p class="BodyText">The Opticks Sample Files can be downloaded from the Opticks website at: <a href="http://opticks.org/confluence/display/opticks/Sample+Data">http://opticks.org/confluence/display/opticks/Sample+Data</a>. When using the Opticks tutorials, you can 
+ access the downloaded files on your PC. The 
+ path shown in the tutorial examples may be different from the path where 
+ you saved the sample files.</p>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+    </body>
+</html>

@@ -1,0 +1,10 @@
+K 10
+svn:ignore
+V 45
+.sconsign
+*.user
+*.suo
+*.ncb
+BuildRevision.h
+
+END

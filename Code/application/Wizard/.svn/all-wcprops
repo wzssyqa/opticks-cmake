@@ -1,0 +1,143 @@
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svnroot/opticks/!svn/ver/13604/releases/4.7.0/trunk/Code/application/Wizard
+END
+BatchFileParser.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svnroot/opticks/!svn/ver/13604/releases/4.7.0/trunk/Code/application/Wizard/BatchFileParser.cpp
+END
+WizardUtilities.h
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svnroot/opticks/!svn/ver/13604/releases/4.7.0/trunk/Code/application/Wizard/WizardUtilities.h
+END
+BatchWizard.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svnroot/opticks/!svn/ver/13604/releases/4.7.0/trunk/Code/application/Wizard/BatchWizard.cpp
+END
+BatchFileset.h
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svnroot/opticks/!svn/ver/13604/releases/4.7.0/trunk/Code/application/Wizard/BatchFileset.h
+END
+WizardObjectImp.h
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svnroot/opticks/!svn/ver/13604/releases/4.7.0/trunk/Code/application/Wizard/WizardObjectImp.h
+END
+BatchFileParser.h
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svnroot/opticks/!svn/ver/13604/releases/4.7.0/trunk/Code/application/Wizard/BatchFileParser.h
+END
+SConscript
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svnroot/opticks/!svn/ver/13604/releases/4.7.0/trunk/Code/application/Wizard/SConscript
+END
+BatchWizard.h
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svnroot/opticks/!svn/ver/13604/releases/4.7.0/trunk/Code/application/Wizard/BatchWizard.h
+END
+Wizard.vcxproj
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svnroot/opticks/!svn/ver/13604/releases/4.7.0/trunk/Code/application/Wizard/Wizard.vcxproj
+END
+WizardNodeImp.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svnroot/opticks/!svn/ver/13604/releases/4.7.0/trunk/Code/application/Wizard/WizardNodeImp.cpp
+END
+Value.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svnroot/opticks/!svn/ver/13604/releases/4.7.0/trunk/Code/application/Wizard/Value.cpp
+END
+Wizard.vcxproj.filters
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/svnroot/opticks/!svn/ver/13604/releases/4.7.0/trunk/Code/application/Wizard/Wizard.vcxproj.filters
+END
+Value.h
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svnroot/opticks/!svn/ver/13604/releases/4.7.0/trunk/Code/application/Wizard/Value.h
+END
+BatchFile.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svnroot/opticks/!svn/ver/13604/releases/4.7.0/trunk/Code/application/Wizard/BatchFile.cpp
+END
+WizardNodeImp.h
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svnroot/opticks/!svn/ver/13604/releases/4.7.0/trunk/Code/application/Wizard/WizardNodeImp.h
+END
+WizardItemImp.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svnroot/opticks/!svn/ver/13604/releases/4.7.0/trunk/Code/application/Wizard/WizardItemImp.cpp
+END
+BatchFile.h
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svnroot/opticks/!svn/ver/13604/releases/4.7.0/trunk/Code/application/Wizard/BatchFile.h
+END
+WizardObjectAdapter.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/svnroot/opticks/!svn/ver/13604/releases/4.7.0/trunk/Code/application/Wizard/WizardObjectAdapter.cpp
+END
+WizardItemImp.h
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svnroot/opticks/!svn/ver/13604/releases/4.7.0/trunk/Code/application/Wizard/WizardItemImp.h
+END
+WizardUtilities.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svnroot/opticks/!svn/ver/13604/releases/4.7.0/trunk/Code/application/Wizard/WizardUtilities.cpp
+END
+BatchFileset.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svnroot/opticks/!svn/ver/13604/releases/4.7.0/trunk/Code/application/Wizard/BatchFileset.cpp
+END
+WizardObjectAdapter.h
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/svnroot/opticks/!svn/ver/13604/releases/4.7.0/trunk/Code/application/Wizard/WizardObjectAdapter.h
+END
+WizardObjectImp.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svnroot/opticks/!svn/ver/13604/releases/4.7.0/trunk/Code/application/Wizard/WizardObjectImp.cpp
+END

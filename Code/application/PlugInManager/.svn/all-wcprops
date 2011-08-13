@@ -1,0 +1,125 @@
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svnroot/opticks/!svn/ver/13604/releases/4.7.0/trunk/Code/application/PlugInManager
+END
+PlugInArgImp.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/svnroot/opticks/!svn/ver/13604/releases/4.7.0/trunk/Code/application/PlugInManager/PlugInArgImp.cpp
+END
+PlugInArgListImp.h
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/svnroot/opticks/!svn/ver/13604/releases/4.7.0/trunk/Code/application/PlugInManager/PlugInArgListImp.h
+END
+ConnectionManager.h
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/svnroot/opticks/!svn/ver/13604/releases/4.7.0/trunk/Code/application/PlugInManager/ConnectionManager.h
+END
+DynamicModuleImp.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/svnroot/opticks/!svn/ver/13604/releases/4.7.0/trunk/Code/application/PlugInManager/DynamicModuleImp.cpp
+END
+PlugInManager.vcxproj
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/svnroot/opticks/!svn/ver/13604/releases/4.7.0/trunk/Code/application/PlugInManager/PlugInManager.vcxproj
+END
+CoreModuleDescriptor.h
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/svnroot/opticks/!svn/ver/13604/releases/4.7.0/trunk/Code/application/PlugInManager/CoreModuleDescriptor.h
+END
+PlugInDescriptorImp.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/svnroot/opticks/!svn/ver/13604/releases/4.7.0/trunk/Code/application/PlugInManager/PlugInDescriptorImp.cpp
+END
+PlugInArgImp.h
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/svnroot/opticks/!svn/ver/13604/releases/4.7.0/trunk/Code/application/PlugInManager/PlugInArgImp.h
+END
+PlugInManagerServicesImp.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 112
+/svnroot/opticks/!svn/ver/13604/releases/4.7.0/trunk/Code/application/PlugInManager/PlugInManagerServicesImp.cpp
+END
+DynamicModuleImp.h
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/svnroot/opticks/!svn/ver/13604/releases/4.7.0/trunk/Code/application/PlugInManager/DynamicModuleImp.h
+END
+SConscript
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svnroot/opticks/!svn/ver/13604/releases/4.7.0/trunk/Code/application/PlugInManager/SConscript
+END
+PlugInDescriptorImp.h
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/svnroot/opticks/!svn/ver/13604/releases/4.7.0/trunk/Code/application/PlugInManager/PlugInDescriptorImp.h
+END
+PlugInManagerServicesImp.h
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/svnroot/opticks/!svn/ver/13604/releases/4.7.0/trunk/Code/application/PlugInManager/PlugInManagerServicesImp.h
+END
+PlugInManager.vcxproj.filters
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/svnroot/opticks/!svn/ver/13604/releases/4.7.0/trunk/Code/application/PlugInManager/PlugInManager.vcxproj.filters
+END
+PlugInModule.def
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/svnroot/opticks/!svn/ver/13604/releases/4.7.0/trunk/Code/application/PlugInManager/PlugInModule.def
+END
+ModuleDescriptor.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/svnroot/opticks/!svn/ver/13604/releases/4.7.0/trunk/Code/application/PlugInManager/ModuleDescriptor.cpp
+END
+ModuleDescriptor.h
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/svnroot/opticks/!svn/ver/13604/releases/4.7.0/trunk/Code/application/PlugInManager/ModuleDescriptor.h
+END
+PlugInArgListImp.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/svnroot/opticks/!svn/ver/13604/releases/4.7.0/trunk/Code/application/PlugInManager/PlugInArgListImp.cpp
+END
+ConnectionManager.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/svnroot/opticks/!svn/ver/13604/releases/4.7.0/trunk/Code/application/PlugInManager/ConnectionManager.cpp
+END
+CoreModuleDescriptor.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/svnroot/opticks/!svn/ver/13604/releases/4.7.0/trunk/Code/application/PlugInManager/CoreModuleDescriptor.cpp
+END

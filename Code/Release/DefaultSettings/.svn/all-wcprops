@@ -1,0 +1,59 @@
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svnroot/opticks/!svn/ver/13604/releases/4.7.0/trunk/Code/Release/DefaultSettings
+END
+44-AnnotationImagePalette.cfg
+K 25
+svn:wc:ra_dav:version-url
+V 111
+/svnroot/opticks/!svn/ver/13604/releases/4.7.0/trunk/Code/Release/DefaultSettings/44-AnnotationImagePalette.cfg
+END
+42-Nitf.cfg
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svnroot/opticks/!svn/ver/13604/releases/4.7.0/trunk/Code/Release/DefaultSettings/42-Nitf.cfg
+END
+2-ApplicationMode.cfg
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/svnroot/opticks/!svn/ver/13604/releases/4.7.0/trunk/Code/Release/DefaultSettings/2-ApplicationMode.cfg
+END
+1-ApplicationDefaults.cfg
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/svnroot/opticks/!svn/ver/13604/releases/4.7.0/trunk/Code/Release/DefaultSettings/1-ApplicationDefaults.cfg
+END
+25-XmlRpc.cfg
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svnroot/opticks/!svn/ver/13604/releases/4.7.0/trunk/Code/Release/DefaultSettings/25-XmlRpc.cfg
+END
+41-MovieExporter.cfg
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/svnroot/opticks/!svn/ver/13604/releases/4.7.0/trunk/Code/Release/DefaultSettings/41-MovieExporter.cfg
+END
+40-PicturesExporters.cfg
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/svnroot/opticks/!svn/ver/13604/releases/4.7.0/trunk/Code/Release/DefaultSettings/40-PicturesExporters.cfg
+END
+50-KmlServer.cfg
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/svnroot/opticks/!svn/ver/13604/releases/4.7.0/trunk/Code/Release/DefaultSettings/50-KmlServer.cfg
+END
+43-IceExporter.cfg
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/svnroot/opticks/!svn/ver/13604/releases/4.7.0/trunk/Code/Release/DefaultSettings/43-IceExporter.cfg
+END

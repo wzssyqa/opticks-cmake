@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" MadCap:lastBlockDepth="4" MadCap:lastHeight="418" MadCap:lastWidth="590">
+    <head>
+    </head>
+    <body>
+        <h1>Quality Threshold Clustering Algorithm</h1>
+        <p class="BodyText">Wikipedia (<a href="http://en.wikipedia.org/wiki/Cluster_analysis#QT_clustering_algorithm">http://en.wikipedia.org/wiki/Cluster_analysis#QT_clustering_algorithm</a>) defines QT clustering as follows:</p>
+        <p class="BodyText" style="font-style: italic;">QT (quality threshold) clustering (Heyer, Kruglyak, Yooseph, 1999) is an alternative method of partitioning data, invented for gene clustering. It requires more computing power than k-means, but does not require specifying the number of clusters a priori, and always returns the same result when run several times.</p>
+        <p class="BodyText" style="font-style: italic;">The algorithm is:</p>
+        <ul>
+            <li style="margin-top: 9pt;margin-bottom: 9pt;font-style: italic;">The user chooses a maximum diameter for clusters.</li>
+            <li style="margin-top: 9pt;margin-bottom: 9pt;font-style: italic;">Build a candidate cluster for each point by iteratively including the point that is closest to the group, until the diameter of the cluster surpasses the threshold.</li>
+            <li style="margin-top: 9pt;margin-bottom: 9pt;font-style: italic;">Save the candidate cluster with the most points as the first true cluster, and remove all points in the cluster from further consideration. Must clarify what happens if more than 1 cluster has the maximum number of points ?</li>
+            <li style="margin-top: 9pt;margin-bottom: 9pt;font-style: italic;">Recurse with the reduced set of points.</li>
+        </ul>
+        <p class="BodyText" style="font-style: italic;">The distance between a point and a group of points is computed using complete linkage, i.e. as the maximum distance from the point to any member of the group.</p>
+    </body>
+</html>

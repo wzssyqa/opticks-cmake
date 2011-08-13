@@ -1,0 +1,167 @@
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svnroot/opticks/!svn/ver/13604/releases/4.7.0/trunk/Release/Installation
+END
+Opticks-Help.wxs
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svnroot/opticks/!svn/ver/13604/releases/4.7.0/trunk/Release/Installation/Opticks-Help.wxs
+END
+i.classdisplay
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svnroot/opticks/!svn/ver/13604/releases/4.7.0/trunk/Release/Installation/i.classdisplay
+END
+i.classification
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svnroot/opticks/!svn/ver/13604/releases/4.7.0/trunk/Release/Installation/i.classification
+END
+ClassificationLevels-T.txt
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/svnroot/opticks/!svn/ver/13604/releases/4.7.0/trunk/Release/Installation/ClassificationLevels-T.txt
+END
+3-ApplicationTempDir.cfg
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/svnroot/opticks/!svn/ver/13604/releases/4.7.0/trunk/Release/Installation/3-ApplicationTempDir.cfg
+END
+request
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svnroot/opticks/!svn/ver/13604/releases/4.7.0/trunk/Release/Installation/request
+END
+i.startup
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svnroot/opticks/!svn/ver/13604/releases/4.7.0/trunk/Release/Installation/i.startup
+END
+README-sdk.txt
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svnroot/opticks/!svn/ver/13604/releases/4.7.0/trunk/Release/Installation/README-sdk.txt
+END
+build-install.py
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svnroot/opticks/!svn/ver/13604/releases/4.7.0/trunk/Release/Installation/build-install.py
+END
+i.tempdir
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svnroot/opticks/!svn/ver/13604/releases/4.7.0/trunk/Release/Installation/i.tempdir
+END
+Opticks.wxs
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svnroot/opticks/!svn/ver/13604/releases/4.7.0/trunk/Release/Installation/Opticks.wxs
+END
+pkginfo
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svnroot/opticks/!svn/ver/13604/releases/4.7.0/trunk/Release/Installation/pkginfo
+END
+OpticksIcon.ico
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svnroot/opticks/!svn/ver/13604/releases/4.7.0/trunk/Release/Installation/OpticksIcon.ico
+END
+checkinstall
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svnroot/opticks/!svn/ver/13604/releases/4.7.0/trunk/Release/Installation/checkinstall
+END
+Environment
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svnroot/opticks/!svn/ver/13604/releases/4.7.0/trunk/Release/Installation/Environment
+END
+Opticks-Version.wxi
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svnroot/opticks/!svn/ver/13604/releases/4.7.0/trunk/Release/Installation/Opticks-Version.wxi
+END
+prototype
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svnroot/opticks/!svn/ver/13604/releases/4.7.0/trunk/Release/Installation/prototype
+END
+SConstruct
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svnroot/opticks/!svn/ver/13604/releases/4.7.0/trunk/Release/Installation/SConstruct
+END
+Opticks-UI.wxs
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svnroot/opticks/!svn/ver/13604/releases/4.7.0/trunk/Release/Installation/Opticks-UI.wxs
+END
+copyright
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svnroot/opticks/!svn/ver/13604/releases/4.7.0/trunk/Release/Installation/copyright
+END
+generatedocs.bat
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svnroot/opticks/!svn/ver/13604/releases/4.7.0/trunk/Release/Installation/generatedocs.bat
+END
+build-toolkit.py
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svnroot/opticks/!svn/ver/13604/releases/4.7.0/trunk/Release/Installation/build-toolkit.py
+END
+4-ClassificationSettings.cfg
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/svnroot/opticks/!svn/ver/13604/releases/4.7.0/trunk/Release/Installation/4-ClassificationSettings.cfg
+END
+README-pdb-source.txt
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svnroot/opticks/!svn/ver/13604/releases/4.7.0/trunk/Release/Installation/README-pdb-source.txt
+END
+Opticks
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svnroot/opticks/!svn/ver/13604/releases/4.7.0/trunk/Release/Installation/Opticks
+END
+License.rtf
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svnroot/opticks/!svn/ver/13604/releases/4.7.0/trunk/Release/Installation/License.rtf
+END
+OpticksBatch
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svnroot/opticks/!svn/ver/13604/releases/4.7.0/trunk/Release/Installation/OpticksBatch
+END

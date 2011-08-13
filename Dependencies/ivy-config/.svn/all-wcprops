@@ -1,0 +1,53 @@
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svnroot/opticks/!svn/ver/13604/releases/4.7.0/trunk/Dependencies/ivy-config
+END
+default.properties
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svnroot/opticks/!svn/ver/13604/releases/4.7.0/trunk/Dependencies/ivy-config/default.properties
+END
+opticks-shared.xml
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svnroot/opticks/!svn/ver/13604/releases/4.7.0/trunk/Dependencies/ivy-config/opticks-shared.xml
+END
+opticks-local.xml
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svnroot/opticks/!svn/ver/13604/releases/4.7.0/trunk/Dependencies/ivy-config/opticks-local.xml
+END
+publish-settings.xml
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/svnroot/opticks/!svn/ver/13604/releases/4.7.0/trunk/Dependencies/ivy-config/publish-settings.xml
+END
+opticks-public.xml
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svnroot/opticks/!svn/ver/13604/releases/4.7.0/trunk/Dependencies/ivy-config/opticks-public.xml
+END
+opticks-settings.xml
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/svnroot/opticks/!svn/ver/13604/releases/4.7.0/trunk/Dependencies/ivy-config/opticks-settings.xml
+END
+opticks-default-chain.xml
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/svnroot/opticks/!svn/ver/13604/releases/4.7.0/trunk/Dependencies/ivy-config/opticks-default-chain.xml
+END
+opticks-main-chain.xml
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/svnroot/opticks/!svn/ver/13604/releases/4.7.0/trunk/Dependencies/ivy-config/opticks-main-chain.xml
+END

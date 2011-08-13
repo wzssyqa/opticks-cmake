@@ -1,0 +1,143 @@
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svnroot/opticks/!svn/ver/13604/releases/4.7.0/trunk/Code/application/PlugIns/src/PlugInSampler
+END
+SampleRasterElementImporter.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 127
+/svnroot/opticks/!svn/ver/13604/releases/4.7.0/trunk/Code/application/PlugIns/src/PlugInSampler/SampleRasterElementImporter.cpp
+END
+DummyCustomAlgorithm.h
+K 25
+svn:wc:ra_dav:version-url
+V 118
+/svnroot/opticks/!svn/ver/13604/releases/4.7.0/trunk/Code/application/PlugIns/src/PlugInSampler/DummyCustomAlgorithm.h
+END
+PlugInSampler.vcxproj.filters
+K 25
+svn:wc:ra_dav:version-url
+V 125
+/svnroot/opticks/!svn/ver/13604/releases/4.7.0/trunk/Code/application/PlugIns/src/PlugInSampler/PlugInSampler.vcxproj.filters
+END
+CustomElementPlugIn.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 119
+/svnroot/opticks/!svn/ver/13604/releases/4.7.0/trunk/Code/application/PlugIns/src/PlugInSampler/CustomElementPlugIn.cpp
+END
+SampleRasterElementImporter.h
+K 25
+svn:wc:ra_dav:version-url
+V 125
+/svnroot/opticks/!svn/ver/13604/releases/4.7.0/trunk/Code/application/PlugIns/src/PlugInSampler/SampleRasterElementImporter.h
+END
+Scriptor.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/svnroot/opticks/!svn/ver/13604/releases/4.7.0/trunk/Code/application/PlugIns/src/PlugInSampler/Scriptor.cpp
+END
+AnyPlugIn.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/svnroot/opticks/!svn/ver/13604/releases/4.7.0/trunk/Code/application/PlugIns/src/PlugInSampler/AnyPlugIn.cpp
+END
+SConscript
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/svnroot/opticks/!svn/ver/13604/releases/4.7.0/trunk/Code/application/PlugIns/src/PlugInSampler/SConscript
+END
+DummyCustomImporter.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 119
+/svnroot/opticks/!svn/ver/13604/releases/4.7.0/trunk/Code/application/PlugIns/src/PlugInSampler/DummyCustomImporter.cpp
+END
+CustomElementPlugIn.h
+K 25
+svn:wc:ra_dav:version-url
+V 117
+/svnroot/opticks/!svn/ver/13604/releases/4.7.0/trunk/Code/application/PlugIns/src/PlugInSampler/CustomElementPlugIn.h
+END
+Scriptor.h
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/svnroot/opticks/!svn/ver/13604/releases/4.7.0/trunk/Code/application/PlugIns/src/PlugInSampler/Scriptor.h
+END
+AnyPlugIn.h
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/svnroot/opticks/!svn/ver/13604/releases/4.7.0/trunk/Code/application/PlugIns/src/PlugInSampler/AnyPlugIn.h
+END
+DummyCustomImporter.h
+K 25
+svn:wc:ra_dav:version-url
+V 117
+/svnroot/opticks/!svn/ver/13604/releases/4.7.0/trunk/Code/application/PlugIns/src/PlugInSampler/DummyCustomImporter.h
+END
+CustomMenuPlugIn.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 116
+/svnroot/opticks/!svn/ver/13604/releases/4.7.0/trunk/Code/application/PlugIns/src/PlugInSampler/CustomMenuPlugIn.cpp
+END
+BackgroundTest.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 114
+/svnroot/opticks/!svn/ver/13604/releases/4.7.0/trunk/Code/application/PlugIns/src/PlugInSampler/BackgroundTest.cpp
+END
+ModuleManager.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/svnroot/opticks/!svn/ver/13604/releases/4.7.0/trunk/Code/application/PlugIns/src/PlugInSampler/ModuleManager.cpp
+END
+CustomMenuPlugIn.h
+K 25
+svn:wc:ra_dav:version-url
+V 114
+/svnroot/opticks/!svn/ver/13604/releases/4.7.0/trunk/Code/application/PlugIns/src/PlugInSampler/CustomMenuPlugIn.h
+END
+CustomElementData.h
+K 25
+svn:wc:ra_dav:version-url
+V 115
+/svnroot/opticks/!svn/ver/13604/releases/4.7.0/trunk/Code/application/PlugIns/src/PlugInSampler/CustomElementData.h
+END
+BackgroundTest.h
+K 25
+svn:wc:ra_dav:version-url
+V 112
+/svnroot/opticks/!svn/ver/13604/releases/4.7.0/trunk/Code/application/PlugIns/src/PlugInSampler/BackgroundTest.h
+END
+MessageLogTest.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 114
+/svnroot/opticks/!svn/ver/13604/releases/4.7.0/trunk/Code/application/PlugIns/src/PlugInSampler/MessageLogTest.cpp
+END
+MessageLogTest.h
+K 25
+svn:wc:ra_dav:version-url
+V 112
+/svnroot/opticks/!svn/ver/13604/releases/4.7.0/trunk/Code/application/PlugIns/src/PlugInSampler/MessageLogTest.h
+END
+PlugInSampler.vcxproj
+K 25
+svn:wc:ra_dav:version-url
+V 117
+/svnroot/opticks/!svn/ver/13604/releases/4.7.0/trunk/Code/application/PlugIns/src/PlugInSampler/PlugInSampler.vcxproj
+END
+DummyCustomAlgorithm.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 120
+/svnroot/opticks/!svn/ver/13604/releases/4.7.0/trunk/Code/application/PlugIns/src/PlugInSampler/DummyCustomAlgorithm.cpp
+END

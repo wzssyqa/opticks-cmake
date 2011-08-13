@@ -1,0 +1,68 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" class="" MadCap:lastBlockDepth="5" MadCap:lastHeight="1613" MadCap:lastWidth="1149">
+    <head><title>Threshold Layer Options</title>
+        <link href="../Opticks_Styles.css" rel="stylesheet" type="text/css" />
+        <link href="../Resources/TableStyles/Note.css" rel="stylesheet" MadCap:stylesheetType="table" />
+    </head>
+    <body>
+        <h1>Threshold Layer Options</h1>
+        <p class="BodyText">
+            <MadCap:keyword term="threshold layer options" />Use the Threshold Layer Options to set the default options for the threshold layer.</p>
+        <MadCap:snippetBlock src="../Resources/Snippets/Default_Options.flsnp" />
+        <p class="BodyText"><b>To open the Threshold layer options:</b>&#160;&#160;</p>
+        <ol>
+            <li class="NumberList">On the Opticks Main Application Window, go to the <b>Tools</b> menu and select <b>Options...</b>.</li>
+            <li class="NumberList">In the structure tree on the left side of the Options window, click the plus sign (+) next to <b>Layers</b> to display a list of layers. Click <b>Threshold</b>.</li>
+            <li class="NumberList">E<span style="background-color: #ffffbb;"><span style="background-color: #ffffff;">nter the default marker properties and default pass area options you want to use.</span></span></li>
+            <li class="NumberList">Click <b>OK</b> to accept the selected options.</li>
+        </ol>
+        <p class="BodyTextIndent">Click <b>Cancel</b> to cancel the changes.</p>
+        <h2 class="BodyText">Default Marker Properties</h2>
+        <p class="BodyText">Use the drop-down list to select the <b>Symbol</b> type you want to use.</p>
+        <p class="BodyText">Use the drop-down list to select the <i style="font-weight: bold;font-style: normal;">Color</i> of the marker. For more information, see <a href="../Edit_Color.htm">Edit Color</a>.</p>
+        <p class="BodyText">The <b>Auto Color</b> option selects a new default color for each layer that is 
+ added to the view. This allows you to quickly distinguish selected pixels 
+ on multiple layers without needing to change each layer 
+ color individually.</p>
+        <p class="BodyText">If you select auto color, the default color option for 
+ the layer is ignored.</p>
+        <h2 class="BodyText">Default Pass Area</h2>
+        <p class="BodyText">The Default Pass Area sets the options for the threshold.</p>
+        <p class="BodyText"><b></b>The <b>Pass Area</b> determines the pass area based on the threshold values.</p>
+        <ul style="list-style-type: square;">
+            <li class="BulletList"><span style="font-weight: bold;">Less 
+ Than</span>. All pixels with a results value less than the first value. The second value is ignored.</li>
+            <li class="BulletList"><span style="font-weight: bold;">Greater 
+ Than</span>. All pixels with a results value greater than the first value. The second value is ignored</li>
+            <li class="BulletList"><span style="font-weight: bold;">Between</span>. 
+ All pixels with a results value greater than the first value and less
+ than the second value.</li>
+            <li class="BulletList"><span style="font-weight: bold;">Outside</span>. 
+ All pixels with a results value less than the first value and greater 
+ than the second value.</li>
+        </ul>
+        <p class="BodyText">The <b>Pass Area Units</b> determine the meaning of the first and second values.</p>
+        <ul>
+            <li class="BulletList2"><span style="font-weight: bold;">Raw</span>. 
+ The numbers reflect the same units as the threshold data. </li>
+            <li class="BulletList2"><span style="font-weight: bold;">Percentage</span>. 
+ The stretch values are represented in terms of their position relative 
+ to the maximum and minimum raw values in the data set.</li>
+            <li class="BulletList2"><span style="font-weight: bold;">Percentile</span>. 
+ The stretch values are represented in terms of their percentile within 
+ the data set. For example, a stretch value that is higher than half the 
+ data values in the cube and lower than the other half is represented as 
+ “50.” A value that is higher than 75% of the data and lower than the other 
+ 25% is represented as “75.”</li>
+            <li class="BulletList2"><span style="font-weight: bold;">Standard 
+ Deviation</span>. The values are represented in terms of how many 
+ standard deviations they are from the average data value in the image. 
+ A negative value indicates a value that is less than the average 
+ and a positive value indicates a value greater than the average.</li>
+        </ul>
+        <p class="BodyText">The <b>First Value </b>and <b>Second Value </b>set the thresholds.</p>
+        <p class="BodyText">
+            <img src="../Resources/Images/Options_Layers_Threshold.gif" />
+        </p>
+    </body>
+</html>

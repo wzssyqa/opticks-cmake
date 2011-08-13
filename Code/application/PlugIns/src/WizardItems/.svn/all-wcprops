@@ -1,0 +1,365 @@
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svnroot/opticks/!svn/ver/13604/releases/4.7.0/trunk/Code/application/PlugIns/src/WizardItems
+END
+GetPrimaryRasterLayer.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 119
+/svnroot/opticks/!svn/ver/13604/releases/4.7.0/trunk/Code/application/PlugIns/src/WizardItems/GetPrimaryRasterLayer.cpp
+END
+GetSessionItem.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 112
+/svnroot/opticks/!svn/ver/13604/releases/4.7.0/trunk/Code/application/PlugIns/src/WizardItems/GetSessionItem.cpp
+END
+WizardItems.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/svnroot/opticks/!svn/ver/13604/releases/4.7.0/trunk/Code/application/PlugIns/src/WizardItems/WizardItems.cpp
+END
+SelectPlugIn.h
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/svnroot/opticks/!svn/ver/13604/releases/4.7.0/trunk/Code/application/PlugIns/src/WizardItems/SelectPlugIn.h
+END
+CreateExportFileDescriptor.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 124
+/svnroot/opticks/!svn/ver/13604/releases/4.7.0/trunk/Code/application/PlugIns/src/WizardItems/CreateExportFileDescriptor.cpp
+END
+UtilityItems.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/svnroot/opticks/!svn/ver/13604/releases/4.7.0/trunk/Code/application/PlugIns/src/WizardItems/UtilityItems.cpp
+END
+CreateFileDescriptor.h
+K 25
+svn:wc:ra_dav:version-url
+V 116
+/svnroot/opticks/!svn/ver/13604/releases/4.7.0/trunk/Code/application/PlugIns/src/WizardItems/CreateFileDescriptor.h
+END
+ModelItems.h
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/svnroot/opticks/!svn/ver/13604/releases/4.7.0/trunk/Code/application/PlugIns/src/WizardItems/ModelItems.h
+END
+GetDataDescriptor.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 115
+/svnroot/opticks/!svn/ver/13604/releases/4.7.0/trunk/Code/application/PlugIns/src/WizardItems/GetDataDescriptor.cpp
+END
+CreateAnimation.h
+K 25
+svn:wc:ra_dav:version-url
+V 111
+/svnroot/opticks/!svn/ver/13604/releases/4.7.0/trunk/Code/application/PlugIns/src/WizardItems/CreateAnimation.h
+END
+DesktopItems.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/svnroot/opticks/!svn/ver/13604/releases/4.7.0/trunk/Code/application/PlugIns/src/WizardItems/DesktopItems.cpp
+END
+WizardItems.vcxproj
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/svnroot/opticks/!svn/ver/13604/releases/4.7.0/trunk/Code/application/PlugIns/src/WizardItems/WizardItems.vcxproj
+END
+LoadLayer.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/svnroot/opticks/!svn/ver/13604/releases/4.7.0/trunk/Code/application/PlugIns/src/WizardItems/LoadLayer.cpp
+END
+TemplateUtilities.h
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/svnroot/opticks/!svn/ver/13604/releases/4.7.0/trunk/Code/application/PlugIns/src/WizardItems/TemplateUtilities.h
+END
+EditDataDescriptor.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 116
+/svnroot/opticks/!svn/ver/13604/releases/4.7.0/trunk/Code/application/PlugIns/src/WizardItems/EditDataDescriptor.cpp
+END
+GetView.h
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/svnroot/opticks/!svn/ver/13604/releases/4.7.0/trunk/Code/application/PlugIns/src/WizardItems/GetView.h
+END
+RunInterpreterCommands.h
+K 25
+svn:wc:ra_dav:version-url
+V 118
+/svnroot/opticks/!svn/ver/13604/releases/4.7.0/trunk/Code/application/PlugIns/src/WizardItems/RunInterpreterCommands.h
+END
+DeriveLayer.h
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/svnroot/opticks/!svn/ver/13604/releases/4.7.0/trunk/Code/application/PlugIns/src/WizardItems/DeriveLayer.h
+END
+ModuleManager.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 111
+/svnroot/opticks/!svn/ver/13604/releases/4.7.0/trunk/Code/application/PlugIns/src/WizardItems/ModuleManager.cpp
+END
+WizardItems.vcxproj.filters
+K 25
+svn:wc:ra_dav:version-url
+V 121
+/svnroot/opticks/!svn/ver/13604/releases/4.7.0/trunk/Code/application/PlugIns/src/WizardItems/WizardItems.vcxproj.filters
+END
+LayerItems.h
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/svnroot/opticks/!svn/ver/13604/releases/4.7.0/trunk/Code/application/PlugIns/src/WizardItems/LayerItems.h
+END
+DeriveProduct.h
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/svnroot/opticks/!svn/ver/13604/releases/4.7.0/trunk/Code/application/PlugIns/src/WizardItems/DeriveProduct.h
+END
+SetDisplayedBand.h
+K 25
+svn:wc:ra_dav:version-url
+V 112
+/svnroot/opticks/!svn/ver/13604/releases/4.7.0/trunk/Code/application/PlugIns/src/WizardItems/SetDisplayedBand.h
+END
+ImportDataSet.h
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/svnroot/opticks/!svn/ver/13604/releases/4.7.0/trunk/Code/application/PlugIns/src/WizardItems/ImportDataSet.h
+END
+GetFilename.h
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/svnroot/opticks/!svn/ver/13604/releases/4.7.0/trunk/Code/application/PlugIns/src/WizardItems/GetFilename.h
+END
+ExportDataSet.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 111
+/svnroot/opticks/!svn/ver/13604/releases/4.7.0/trunk/Code/application/PlugIns/src/WizardItems/ExportDataSet.cpp
+END
+SetThresholdOptions.h
+K 25
+svn:wc:ra_dav:version-url
+V 115
+/svnroot/opticks/!svn/ver/13604/releases/4.7.0/trunk/Code/application/PlugIns/src/WizardItems/SetThresholdOptions.h
+END
+SetDisplayMode.h
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/svnroot/opticks/!svn/ver/13604/releases/4.7.0/trunk/Code/application/PlugIns/src/WizardItems/SetDisplayMode.h
+END
+ThresholdData.h
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/svnroot/opticks/!svn/ver/13604/releases/4.7.0/trunk/Code/application/PlugIns/src/WizardItems/ThresholdData.h
+END
+PrintView.h
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/svnroot/opticks/!svn/ver/13604/releases/4.7.0/trunk/Code/application/PlugIns/src/WizardItems/PrintView.h
+END
+SelectPlugIn.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/svnroot/opticks/!svn/ver/13604/releases/4.7.0/trunk/Code/application/PlugIns/src/WizardItems/SelectPlugIn.cpp
+END
+SaveLayer.h
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/svnroot/opticks/!svn/ver/13604/releases/4.7.0/trunk/Code/application/PlugIns/src/WizardItems/SaveLayer.h
+END
+CreateFileDescriptor.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 118
+/svnroot/opticks/!svn/ver/13604/releases/4.7.0/trunk/Code/application/PlugIns/src/WizardItems/CreateFileDescriptor.cpp
+END
+ModelItems.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/svnroot/opticks/!svn/ver/13604/releases/4.7.0/trunk/Code/application/PlugIns/src/WizardItems/ModelItems.cpp
+END
+CreateAnimation.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/svnroot/opticks/!svn/ver/13604/releases/4.7.0/trunk/Code/application/PlugIns/src/WizardItems/CreateAnimation.cpp
+END
+GetPrimaryRasterLayer.h
+K 25
+svn:wc:ra_dav:version-url
+V 117
+/svnroot/opticks/!svn/ver/13604/releases/4.7.0/trunk/Code/application/PlugIns/src/WizardItems/GetPrimaryRasterLayer.h
+END
+SConscript
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/svnroot/opticks/!svn/ver/13604/releases/4.7.0/trunk/Code/application/PlugIns/src/WizardItems/SConscript
+END
+GetSessionItem.h
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/svnroot/opticks/!svn/ver/13604/releases/4.7.0/trunk/Code/application/PlugIns/src/WizardItems/GetSessionItem.h
+END
+TemplateUtilities.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 115
+/svnroot/opticks/!svn/ver/13604/releases/4.7.0/trunk/Code/application/PlugIns/src/WizardItems/TemplateUtilities.cpp
+END
+WizardItems.h
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/svnroot/opticks/!svn/ver/13604/releases/4.7.0/trunk/Code/application/PlugIns/src/WizardItems/WizardItems.h
+END
+CreateExportFileDescriptor.h
+K 25
+svn:wc:ra_dav:version-url
+V 122
+/svnroot/opticks/!svn/ver/13604/releases/4.7.0/trunk/Code/application/PlugIns/src/WizardItems/CreateExportFileDescriptor.h
+END
+GetView.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/svnroot/opticks/!svn/ver/13604/releases/4.7.0/trunk/Code/application/PlugIns/src/WizardItems/GetView.cpp
+END
+RunInterpreterCommands.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 120
+/svnroot/opticks/!svn/ver/13604/releases/4.7.0/trunk/Code/application/PlugIns/src/WizardItems/RunInterpreterCommands.cpp
+END
+UtilityItems.h
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/svnroot/opticks/!svn/ver/13604/releases/4.7.0/trunk/Code/application/PlugIns/src/WizardItems/UtilityItems.h
+END
+DeriveLayer.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/svnroot/opticks/!svn/ver/13604/releases/4.7.0/trunk/Code/application/PlugIns/src/WizardItems/DeriveLayer.cpp
+END
+GetDataDescriptor.h
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/svnroot/opticks/!svn/ver/13604/releases/4.7.0/trunk/Code/application/PlugIns/src/WizardItems/GetDataDescriptor.h
+END
+LayerItems.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/svnroot/opticks/!svn/ver/13604/releases/4.7.0/trunk/Code/application/PlugIns/src/WizardItems/LayerItems.cpp
+END
+DeriveProduct.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 111
+/svnroot/opticks/!svn/ver/13604/releases/4.7.0/trunk/Code/application/PlugIns/src/WizardItems/DeriveProduct.cpp
+END
+SetDisplayedBand.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 114
+/svnroot/opticks/!svn/ver/13604/releases/4.7.0/trunk/Code/application/PlugIns/src/WizardItems/SetDisplayedBand.cpp
+END
+ImportDataSet.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 111
+/svnroot/opticks/!svn/ver/13604/releases/4.7.0/trunk/Code/application/PlugIns/src/WizardItems/ImportDataSet.cpp
+END
+GetFilename.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/svnroot/opticks/!svn/ver/13604/releases/4.7.0/trunk/Code/application/PlugIns/src/WizardItems/GetFilename.cpp
+END
+DesktopItems.h
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/svnroot/opticks/!svn/ver/13604/releases/4.7.0/trunk/Code/application/PlugIns/src/WizardItems/DesktopItems.h
+END
+LoadLayer.h
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/svnroot/opticks/!svn/ver/13604/releases/4.7.0/trunk/Code/application/PlugIns/src/WizardItems/LoadLayer.h
+END
+EditDataDescriptor.h
+K 25
+svn:wc:ra_dav:version-url
+V 114
+/svnroot/opticks/!svn/ver/13604/releases/4.7.0/trunk/Code/application/PlugIns/src/WizardItems/EditDataDescriptor.h
+END
+SetThresholdOptions.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 117
+/svnroot/opticks/!svn/ver/13604/releases/4.7.0/trunk/Code/application/PlugIns/src/WizardItems/SetThresholdOptions.cpp
+END
+SetDisplayMode.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 112
+/svnroot/opticks/!svn/ver/13604/releases/4.7.0/trunk/Code/application/PlugIns/src/WizardItems/SetDisplayMode.cpp
+END
+ThresholdData.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 111
+/svnroot/opticks/!svn/ver/13604/releases/4.7.0/trunk/Code/application/PlugIns/src/WizardItems/ThresholdData.cpp
+END
+PrintView.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/svnroot/opticks/!svn/ver/13604/releases/4.7.0/trunk/Code/application/PlugIns/src/WizardItems/PrintView.cpp
+END
+SaveLayer.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/svnroot/opticks/!svn/ver/13604/releases/4.7.0/trunk/Code/application/PlugIns/src/WizardItems/SaveLayer.cpp
+END
+ExportDataSet.h
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/svnroot/opticks/!svn/ver/13604/releases/4.7.0/trunk/Code/application/PlugIns/src/WizardItems/ExportDataSet.h
+END

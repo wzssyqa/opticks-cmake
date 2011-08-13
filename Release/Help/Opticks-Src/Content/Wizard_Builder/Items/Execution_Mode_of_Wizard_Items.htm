@@ -1,0 +1,91 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" MadCap:id="Execution_Mode" MadCap:timeEstimate="0" MadCap:priority="0" MadCap:status="Complete" MadCap:lastBlockDepth="4" MadCap:lastHeight="1473" MadCap:lastWidth="575">
+    <head><title>Execution Mode of Wizard Items</title>
+        <link rel="StyleSheet" href="../../Opticks_Styles.css" />
+    </head>
+    <body>
+        <div placeholder="" id="header" style="width: 100%;position: relative;">
+        </div>
+        <h1>
+            <MadCap:keyword term="mode" />
+            <MadCap:keyword term="execution mode" />
+            <MadCap:keyword term="wizard items:execution mode" />Execution Mode of Wizard 
+ Items</h1>
+        <p class="BodyText">
+            <MadCap:keyword term="execution mode:wizard item" />Wizard items can operate in one of the following modes:</p>
+        <ul>
+            <li class="BulletList"><span style="font-weight: bold;">Interactive 
+ mode</span>. Interactive mode indicates that the Opticks Main Application 
+ window is available and dialogs or other interface items may be displayed. 
+ Wizard items operating in interactive mode may depend on information from 
+ the user during execution.</li>
+            <li class="BulletList"><span style="font-weight: bold;">Batch 
+ mode</span>. Batch mode items run without input from the user.</li>
+        </ul>
+        <p class="BodyText" style="border-left-style: Solid;border-left-color: #808080;border-top-style: Solid;border-top-color: #808080;border-right-style: Solid;border-right-color: #808080;border-bottom-style: Solid;border-bottom-color: #808080;border-left-width: 2px;border-top-width: 2px;border-right-width: 2px;border-bottom-width: 2px;padding-left: 4px;padding-right: 4px;padding-top: 4px;padding-bottom: 4px;background-color: #ffffbb;"><span style="font-weight: bold;">Note:</span> 
+ The execution mode of individual wizard items is <span style="font-weight: bold;font-style: italic;">separate</span> 
+ from the execution mode of the entire wizard.<br /><br />If the <span style="font-weight: bold;font-style: italic;">wizard</span> 
+ is set to run in <span style="font-weight: bold;font-style: italic;">batch</span> 
+ mode, all items will be forced to run in batch mode also.<br /><br />If the <span style="font-weight: bold;font-style: italic;">wizard</span> 
+ is set to run in <span style="font-weight: bold;font-style: italic;">interactive</span> 
+ mode, individual items can run in either interactive or batch mode.</p>
+        <p class="BodyText">The mode type must be set <span style="font-weight: bold;font-style: italic;">before</span> 
+ making connections between input and output nodes in the Wizard Builder. 
+ Switching modes destroys the connections between wizard items. Only Value item connections are preserved.</p>
+        <p class="BodyText">A wizard item may have different input and output nodes 
+ for interactive and batch mode. This is because more inputs are usually 
+ necessary for batch mode.</p>
+        <p class="BodyText">Interactive mode items have a black border in the wizard 
+ canvas.</p>
+        <p class="BodyText">
+            <img src="../../Resources/Images/Interactive_Mode.png" style="border: none;border-style: none;border-style: none;" border="0" />
+        </p>
+        <p class="BodyText">Batch mode items have a red border.</p>
+        <p class="BodyText">
+            <img src="../../Resources/Images/Batch_Mode.png" style="border: none;border-style: none;border-style: none;" border="0" />
+        </p>
+        <p class="BodyText">The inputs and outputs may vary based on the mode.</p>
+        <p class="BodyText">Occasionally, wizard items may not support execution 
+ in a specific mode. When a mode is unsupported, the item shows no input 
+ or output nodes and has a brown border, indicating that it’s 
+ disabled.</p>
+        <p class="BodyText">
+            <img src="../../Resources/Images/Mode_Unsupported.gif" style="border: none;border-style: none;border-style: none;" border="0" />
+        </p>
+        <h2>Setting the Execution Mode for Wizard Items</h2>
+        <p class="BodyText">By default, a wizard item is set to run in interactive 
+ mode (unless the entire wizard is set to batch mode).</p>
+        <p class="BodyText">To run an item in batch mode:</p>
+        <p class="BodyTextIndent">Right-click on the item on the wizard canvas and select the mode from the drop-down list.</p>
+        <p class="BodyTextIndent">OR</p>
+        <ol>
+            <li style="margin-top: 6pt;margin-bottom: 6pt;">Select the item on the 
+ wizard canvas. </li>
+            <li style="margin-top: 6pt;margin-bottom: 6pt;">Go to <b>Wizard Item Properties</b>. </li>
+            <li style="margin-top: 6pt;margin-bottom: 6pt;">Go to the <b>Execution Mode</b> field and select <b>Batch</b>.</li>
+        </ol>
+        <h2>Change the Execution Mode</h2>
+        <p class="BodyText">To change the execution mode for a wizard item:</p>
+        <p class="BodyTextIndent">Right-click on the item on the wizard canvas and select the mode from the drop-down list.</p>
+        <p class="BodyTextIndent">OR</p>
+        <ol>
+            <li style="margin-top: 6pt;margin-bottom: 6pt;">Select the item on the 
+ wizard canvas. </li>
+            <li style="margin-top: 6pt;margin-bottom: 6pt;">Go to <b>Wizard Item Properties</b>. </li>
+            <li style="margin-top: 6pt;margin-bottom: 6pt;">Go to the <b>Execution Mode</b> field and select the mode from the drop-down list.</li>
+        </ol>
+        <hr style="float: aligncenter;width: 50%;" align="center" width="50%" size="4" />
+        <h2>Related Topics</h2>
+        <p class="BodyText"><a href="Wizard_Items.htm">Wizard Items</a>
+        </p>
+        <p class="BodyText"><a href="Connect_Wizard_Items.htm">Connect Wizard Items</a>
+        </p>
+        <p class="BodyText"><a href="../Wizard_Execution_Mode.htm">Wizard Execution 
+ Mode</a>
+        </p>
+        <p class="BodyText"><a href="../Enter_Wizard_Values.htm">Enter Wizard Values When Executing the Wizard</a>
+        </p>
+        <div placeholder="" id="footer" style="width: 100%;position: relative;">
+        </div>
+    </body>
+</html>

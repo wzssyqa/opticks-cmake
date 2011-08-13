@@ -1,0 +1,53 @@
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svnroot/opticks/!svn/ver/13604/releases/4.7.0/trunk/Code/application/PlugIns/src/GdalImporter
+END
+GdalImporter.h
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/svnroot/opticks/!svn/ver/13604/releases/4.7.0/trunk/Code/application/PlugIns/src/GdalImporter/GdalImporter.h
+END
+ModuleManager.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 112
+/svnroot/opticks/!svn/ver/13604/releases/4.7.0/trunk/Code/application/PlugIns/src/GdalImporter/ModuleManager.cpp
+END
+GdalImporter.vcxproj
+K 25
+svn:wc:ra_dav:version-url
+V 115
+/svnroot/opticks/!svn/ver/13604/releases/4.7.0/trunk/Code/application/PlugIns/src/GdalImporter/GdalImporter.vcxproj
+END
+SConscript
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/svnroot/opticks/!svn/ver/13604/releases/4.7.0/trunk/Code/application/PlugIns/src/GdalImporter/SConscript
+END
+GdalRasterPager.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 114
+/svnroot/opticks/!svn/ver/13604/releases/4.7.0/trunk/Code/application/PlugIns/src/GdalImporter/GdalRasterPager.cpp
+END
+GdalImporter.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 111
+/svnroot/opticks/!svn/ver/13604/releases/4.7.0/trunk/Code/application/PlugIns/src/GdalImporter/GdalImporter.cpp
+END
+GdalImporter.vcxproj.filters
+K 25
+svn:wc:ra_dav:version-url
+V 123
+/svnroot/opticks/!svn/ver/13604/releases/4.7.0/trunk/Code/application/PlugIns/src/GdalImporter/GdalImporter.vcxproj.filters
+END
+GdalRasterPager.h
+K 25
+svn:wc:ra_dav:version-url
+V 112
+/svnroot/opticks/!svn/ver/13604/releases/4.7.0/trunk/Code/application/PlugIns/src/GdalImporter/GdalRasterPager.h
+END

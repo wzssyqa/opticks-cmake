@@ -1,0 +1,196 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" MadCap:conditions="" class="" MadCap:lastBlockDepth="6" MadCap:lastHeight="10093" MadCap:lastWidth="946">
+    <head><title>Tutorial: Import/Display Shape Files</title>
+        <meta name="Originator" content="ImportDoc" />
+        <meta name="OriginalFile" content="C:\Ball\COMET\Tutorials\scenario7.doc" />
+        <link rel="StyleSheet" href="Tutorials.css" />
+        <link href="../Resources/TableStyles/Inner.css" rel="stylesheet" MadCap:stylesheetType="table" />
+    </head>
+    <body lang="EN-US">
+        <div placeholder="" id="header" style="width: 100%;position: relative;">
+        </div>
+        <h1>
+            <MadCap:keyword term="shape file" />Tutorial: Import/Display Shape Files</h1>
+        <p class="BodyText"><b style="font-weight: bold;"><MadCap:keyword term="tutorials" />Learning Objective</b>: 
+ When finished with this tutorial, you will be familiar with importing 
+ and displaying shape files.</p>
+        <p class="BodyText">In this tutorial, you will import and display shape files 
+ and change the color of the displayed shape files in the following sequence:</p>
+        <ul>
+            <li class="BulletList">Open a file</li>
+            <li class="BulletList">Import a shape file</li>
+            <li class="BulletList">Display a shape file</li>
+            <li class="BulletList">Change the color 
+ of the displayed shape file</li>
+        </ul>
+        <p class="BodyText"><b style="font-weight: bold;">Lesson</b>: A <b>shape 
+ file</b> is a group of files that is used to exchange geographic information 
+ system (GIS) features between applications. GIS features are commonly 
+ used to represent roads, cities, rivers, lakes, and other geographic information. 
+ Overlaying GIS features in Opticks can help analysts get context of what 
+ is known to exist outside of their current data set. Shape files help 
+ exchange GIS information with other tools like ESRI’s ArcView product. 
+ ESRI is the developer of the shape file format, but many vendors support 
+ this widely accepted standard.</p>
+        <p class="BodyText">Shape files store GIS features in a vector-based format, 
+ this includes collections of points, multi-points, polylines, and polygons. 
+ Points can either be represented as a multi-point feature or a collection 
+ of single point features. Multi-point features are an unordered collection 
+ of points that represent a single entity, such as a group of wells that 
+ form a single unit. Polylines are a connect set of lines, which can be 
+ used to represent networks of roads, railroads, rivers, and other linear 
+ features. Polygons are used to represent an area, such as a lake or city 
+ boundary. A single shape file only supports GIS features of the same type. 
+ For example, a shape file that designates city roads would be made up 
+ of polylines, polygons, or points could not be part of the same shape file. 
+ </p>
+        <p class="BodyText">Opticks imports all shape files as annotations. Opticks currently 
+ has some limitations when loading shape files. Opticks does not support 
+ loading shape files in a coordinate system other than WGS84. Another limitation 
+ is that Opticks trims the shape file to fit boundary of the main data set. 
+ If the shape file isn’t within the extents of the current data set, no 
+ features will be loaded. </p>
+        <p class="Note"><b>Note:</b> Opticks only supports shape files that use 
+ the WGS84 coordinate system. Make sure that the shape files are created 
+ with this coordinate system if you plan to use them in Opticks.</p>
+        <p class="BodyText" style="font-weight: bold;">Toolbars used in this tutorial:</p>
+        <p class="BodyTextIndent"><a href="../Toolbars/Geo_Toolbar.htm">Geo Toolbar</a>
+        </p>
+        <p class="BodyTextIndent"><a href="../Toolbars/Annotation_Toolbar.htm">Annotation 
+ Toolbar</a>
+        </p>
+        <p class="BodyTextIndent"><a href="../Toolbars/Geographic_Features_Toolbar.htm">Geographic Features Toolbar</a>
+        </p>
+        <MadCap:snippetBlock src="../Resources/Snippets/Access_Toolbars.flsnp" />
+        <MadCap:snippetBlock src="../Resources/Snippets/SampleFiles.flsnp" />
+        <h2>Import File</h2>
+        <ol>
+            <li class="NumberList">From the Opticks menu 
+ bar, select <b>File</b>, <b>Import Data...</b>. </li>
+            <li class="NumberList">Navigate to and select 
+ the file <b>pyramids_psh_2feb2002_8bitgeotiff.tif</b>. Click the <b>Open</b> button.</li>
+        </ol>
+        <p class="BodyTextIndent">
+            <img src="../Resources/Images/Import_Shape_File.gif" style="border: none;border-style: none;border-style: none;" border="0" />
+        </p>
+        <ol start="3" style="list-style: decimal;list-style-type: decimal;">
+            <li class="NumberList">The data set has 
+ georeferencing information that associates latitude/longitude values with 
+ each pixel. The image must be georeferenced. To activate the Geo Toolbar, 
+ right-click in the toolbar area and select <b>Geo</b>.</li>
+        </ol>
+        <ol start="4" style="list-style: decimal;list-style-type: decimal;">
+            <li class="NumberList">On the Geo Toolbar, 
+ select <b>Geo</b>, <b>Georeference</b>.</li>
+        </ol>
+        <p class="BodyTextIndent">
+            <img src="../Resources/Images/Shape_File_Geo.gif" style="border: none;border-style: none;border-style: none;" border="0" />
+        </p>
+        <ol start="5" style="list-style: decimal;list-style-type: decimal;">
+            <li class="NumberList">In the Georeference 
+ dialog box, accept the defaults and click <b>OK</b>. </li>
+        </ol>
+        <p class="BodyTextIndent">
+            <img src="../Resources/Images/Shape_File_Georef.gif" style="border: none;border-style: none;border-style: none;" border="0" />
+        </p>
+        <p class="BodyTextIndent">In the Georeference dialog box, click the <b>Close</b> button.</p>
+        <p class="BodyTextIndent">A georeferencing layer is added to the data. Be sure your view is zoomed out far enough to see the markings.</p>
+        <p class="BodyTextIndent">
+            <img src="../Resources/Images/Shape_File_Georefed.gif" style="border: none;border-style: none;border-style: none;" border="0" />
+        </p>
+        <h2>Import a Shape File </h2>
+        <ol>
+            <li class="NumberList">To activate the Geographic Features Toolbar, 
+ right-click in the toolbar area and select <b style="font-weight: bold;">Geographic Features</b>. </li>
+            <li class="NumberList">On the Geographic Features Toolbar, go to the <b>Geographic Features   <span style="font-weight: normal;">menu and select</span></b> <![CDATA[ ]]><b>Import geodatabase....</b></li>
+        </ol>
+        <p class="BodyTextIndent">
+            <img src="../Resources/Images/Import_geo_features.gif" />
+        </p>
+        <ol MadCap:continue="true">
+            <li class="NumberList">In the Opticks dialog box, select <b>Shape file</b> and click the Browse button<b><span style="font-weight: normal;">.</span></b></li>
+        </ol>
+        <p class="BodyTextIndent">
+            <img src="../Resources/Images/Import_Geo_Shape.gif" style="border: none;border-style: none;border-style: none;" border="0" />
+        </p>
+        <ol MadCap:continue="true">
+            <li class="NumberList">Navigate to and select the file <b>Pyramids.shp</b>. 
+ Click the <b>Open <span style="font-weight: normal;">button.</span></b></li>
+        </ol>
+        <p class="BodyTextIndent">
+            <img src="../Resources/Images/Import_Pyramids.gif" style="border: none;border-style: none;border-style: none;" border="0" />
+        </p>
+        <ol start="8" style="list-style: decimal;list-style-type: decimal;" MadCap:continue="true">
+            <li class="NumberList">Select the <b>Display</b> tab. Click the small yellow 
+ color box labeled <b>Line Color</b>. Choose custom. This will activate the Select 
+ Color window.</li>
+        </ol>
+        <p class="BodyTextIndent">
+            <img src="../Resources/Images/Display_Tab_Color.gif" style="border: none;border-style: none;border-style: none;" border="0" />
+        </p>
+        <ol start="9" style="list-style: decimal;list-style-type: decimal;" MadCap:continue="true">
+            <li class="NumberList">In the Select color 
+ window, select the color red for the outline of the annotation features. 
+ Click <span style="font-weight: bold;">OK</span>.</li>
+        </ol>
+        <p class="BodyTextIndent">
+            <img src="../Resources/Images/Select_Color_Shape.gif" style="border: none;border-style: none;border-style: none;" border="0" />
+        </p>
+        <ol start="10" style="list-style: decimal;list-style-type: decimal;" MadCap:continue="true">
+            <li class="NumberList">In the Opticks dialog 
+ window, click the <b>OK<span style="font-weight: normal;"> button.</span></b></li>
+        </ol>
+        <p class="BodyTextIndent">
+            <img src="../Resources/Images/Shape_Color_Selected.gif" style="border: none;border-style: none;border-style: none;" border="0" />
+        </p>
+        <ol MadCap:continue="true">
+            <li class="NumberList">In the Geodatabase import dialog box, click the <b>Close</b> button. The shape file is loaded, and the pyramids are now outlined in red.</li>
+        </ol>
+        <p class="BodyTextIndent">
+            <img src="../Resources/Images/Pyramids_Outlined.gif" style="border: none;border-style: none;border-style: none;" border="0" />
+        </p>
+        <ol start="12" style="list-style: decimal;list-style-type: decimal;" MadCap:continue="true">
+            <li class="NumberList">After the shape file is loaded, you can set up the display settings in more detail. </li>
+        </ol>
+        <p class="BodyTextIndent">To activate the Annotation Toolbar, go to the Session Explorer. Right-click on the <b>Pyramids.shp</b> layer and select <b>Activate</b>.</p>
+        <p class="BodyTextIndent">
+            <img src="../Resources/Images/Activate_Pyramids_Layer.gif" style="border: none;border-style: none;border-style: none;" border="0" />
+        </p>
+        <ol start="14" style="list-style: decimal;list-style-type: decimal;" MadCap:continue="true">
+            <li class="NumberList">Select all the pyramids in the scene by clicking in the upper left corner of the scene 
+ and dragging a box around the entire image.</li>
+        </ol>
+        <p class="BodyTextIndent">
+            <img src="../Resources/Images/Pyramids_Selected.gif" style="border: none;border-style: none;border-style: none;" border="0" />
+        </p>
+        <ol start="15" style="list-style: decimal;list-style-type: decimal;" MadCap:continue="true">
+            <li class="NumberList">On the Annotation 
+ Toolbar, click the Annotation Fill button <img src="../Change_Ann_Fill_Button.gif" style="border: none;width: 34px;height: 22px;float: none;border-style: none;border-style: none;" width="34" height="22" border="0" /> and select <b>blue</b>. 
+ </li>
+        </ol>
+        <p class="BodyTextIndent">
+            <img src="../Resources/Images/Pyramids_Fill_Blue.png" style="border: none;border-style: none;border-style: none;" border="0" />
+        </p>
+        <p class="BodyTextIndent">This will fill the pyramids with the 
+ color blue. If desired, you can zoom in to see this more clearly.</p>
+        <p class="BodyTextIndent">
+            <img src="../Resources/Images/Zoomed_Blue_Pyramids.gif" style="border: none;border-style: none;border-style: none;" border="0" />
+        </p>
+        <p class="BodyTextIndent">You can also change line thickness and color. The 
+ text style and size do not affect the size of the feature’s label. The 
+ feature’s label color is the same as the line style.</p>
+        <p class="BodyTextIndent">In the example image, 
+ the GIS features overlay very well with the data set, although this is 
+ not always the case. How well shape files overlay with Opticks depends on 
+ the resolution of the source data and the shape file.</p>
+        <ol start="17" style="list-style: decimal;list-style-type: decimal;" MadCap:continue="true">
+            <li class="NumberList"><b style="font-weight: bold;">Close</b> 
+ all files.</li>
+        </ol>
+        <p class="BodyText"><b style="font-weight: bold;">Summary/Review</b>: You 
+ should now be able to import and display a saved shape file and manipulate 
+ the colors of the displayed shape file.</p>
+        <div placeholder="" id="footer" style="width: 100%;position: relative;">
+        </div>
+    </body>
+</html>

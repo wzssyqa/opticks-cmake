@@ -1,0 +1,113 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" MadCap:lastBlockDepth="4" MadCap:lastHeight="6813" MadCap:lastWidth="961">
+    <head><title>Color Composites</title>
+    </head>
+    <body>
+        <h1>Color Composites</h1>
+        <p class="BodyText">
+            <MadCap:keyword term="color composites defaults" />Opticks provides three predefined color composites for image display: <MadCap:glossaryTerm>NIR</MadCap:glossaryTerm>, <MadCap:glossaryTerm>SWIR</MadCap:glossaryTerm>, and True Color. </p>
+        <p class="BodyText">You can customize these composites. You can also create new composites.</p>
+        <p class="BodyText">If Opticks is unable to apply the color composite to the image (because the required wavelengths don't exist), it will display an error message. It will try to match what it can.</p>
+        <p class="BodyText">You can switch color composites as often as you like. You can use the Undo button on the Standard Toolbar to return to the previous display.</p>
+        <h2>Apply a Color Composite to an Image</h2>
+        <h3>Option 1</h3>
+        <ol>
+            <li style="margin-top: 9pt;margin-bottom: 9pt;">Right-click on the image.</li>
+            <li style="margin-top: 9pt;margin-bottom: 9pt;">Select the image name.</li>
+            <li style="margin-top: 9pt;margin-bottom: 9pt;">Select <b>Display As</b>.</li>
+            <li style="margin-top: 9pt;margin-bottom: 9pt;">From the list, select the color composite.</li>
+        </ol>
+        <p class="BodyText">
+            <img src="../Resources/Images/Display_As.gif" />
+        </p>
+        <h3>Option 2</h3>
+        <ol>
+            <li style="margin-top: 9pt;margin-bottom: 9pt;">Go to the <b>Session Explorer</b>. Be sure the Windows tab is displayed.</li>
+            <li style="margin-top: 9pt;margin-bottom: 9pt;">Go to <b>Workspace Windows</b> and expand the image name.</li>
+            <li style="margin-top: 9pt;margin-bottom: 9pt;">Right-click on the raster layer and select <b>Display As</b>.</li>
+            <li style="margin-top: 9pt;margin-bottom: 9pt;">From the list, select the color composite.</li>
+        </ol>
+        <p class="BodyText">
+            <img src="../Resources/Images/Display_As_2.gif" />
+        </p>
+        <h3>Option 3</h3>
+        <p class="BodyText">When importing raster data:</p>
+        <ol>
+            <li>On the Import window, select <b>Options</b>.</li>
+        </ol>
+        <p class="BodyText">
+            <img src="../Resources/Images/Select_Color_Composite_Import.gif" />
+        </p>
+        <ol MadCap:continue="true">
+            <li style="margin-top: 9pt;margin-bottom: 9pt;">On the Import Options window, be sure the <b>Data</b> tab is displayed.</li>
+            <li style="margin-top: 9pt;margin-bottom: 9pt;">Click the <b>Set Display Bands</b> button and select the color composite from the drop-down list.</li>
+        </ol>
+        <p class="BodyText">
+            <img src="../Resources/Images/Set_Display_Bands.gif" />
+        </p>
+        <ol MadCap:continue="true">
+            <li style="margin-top: 9pt;margin-bottom: 9pt;">Click the <b>OK</b>&#160;button.</li>
+            <li style="margin-top: 9pt;margin-bottom: 9pt;">On the Import Window, click the <b>Open</b> button.</li>
+        </ol>
+        <h3>Option 4</h3>
+        <ol>
+            <li style="margin-top: 9pt;margin-bottom: 9pt;">Go to the Session Explorer. Be sure the Windows tab is displayed.</li>
+            <li style="margin-top: 9pt;margin-bottom: 9pt;">Right-click on the raster layer. </li>
+            <li style="margin-top: 9pt;margin-bottom: 9pt;">Select <b>Properties</b>.</li>
+        </ol>
+        <p class="BodyText">
+            <img src="../Resources/Images/Raster_Layer_Properties.gif" />
+        </p>
+        <ol MadCap:continue="true">
+            <li style="margin-top: 9pt;margin-bottom: 9pt;">In the Properties window, go to the <b>RGB</b>&#160;section and select the <b>Presets</b> button.</li>
+            <li style="margin-top: 9pt;margin-bottom: 9pt;">Select the color composite from the drop-down list.</li>
+        </ol>
+        <p class="BodyText">
+            <img src="../Resources/Images/RGB_Presets.gif" />
+        </p>
+        <h2>Example of an Image with Different Color Composites</h2>
+        <p class="BodyText">Here is the same image displayed with two different color composites.</p>
+        <h3>True Color</h3>
+        <p class="BodyText">
+            <img src="../Resources/Images/True_Color.gif" />
+        </p>
+        <h3>NIR</h3>
+        <p class="BodyText">
+            <img src="../Resources/Images/NIR_Applied.gif" />
+        </p>
+        <h2>Customize Color Composites</h2>
+        <ol>
+            <li class="NumberList">On the Opticks Main Application Window, go to the <b>Tools</b> menu and select <b>Options...</b>.</li>
+            <li class="NumberList">In the structure tree on the left side of the Options window, click the plus sign (+) next to Layers to display a list of layers. Click <b>Raster</b>.</li>
+        </ol>
+        <p class="BodyText">The color composites are listed towards the bottom of the Options window. The example below displays all the color composites and their default values.</p>
+        <p class="BodyText">Note that each color composite includes the minimum wavelength, maximum wavelength, and band number for red, green, and blue, for a total of nine values for each composite. Opticks selects the median value between the minimum and maximum values. The minimum and maximum wavelengths take precedence over the band number. In general, the band number is used as a fallback value if the wavelengths are unavailable or are not known.</p>
+        <p class="BodyText">
+            <img src="../Resources/Images/Color_Composites_Options.gif" />
+        </p>
+        <h3>To edit a color composite:</h3>
+        <ol>
+            <li style="margin-top: 9pt;margin-bottom: 9pt;">Double-click in the cell of the value you want to edit. </li>
+            <li style="margin-top: 9pt;margin-bottom: 9pt;">Enter the new value.</li>
+            <li style="margin-top: 9pt;margin-bottom: 9pt;">Press the     <![CDATA[ ]]><b>Enter</b> key on your keyboard to accept the new value.</li>
+        </ol>
+        <h3>To create a new color composite:</h3>
+        <ol>
+            <li style="margin-top: 9pt;margin-bottom: 9pt;">Click the <b>Add</b> button.</li>
+            <li style="margin-top: 9pt;margin-bottom: 9pt;">Opticks creates a new color composite called "New Color Composite."</li>
+            <li style="margin-top: 9pt;margin-bottom: 9pt;">Double-click on <b>New Color Composite</b> and give the color composite a new name. </li>
+        </ol>
+        <p class="BodyTextIndent">Be sure all your color composites have unique names. If Opticks encounters several color composites with the same name, it will keep one and delete the others.</p>
+        <ol MadCap:continue="true">
+            <li style="margin-top: 9pt;margin-bottom: 9pt;">Double-click in each cell to enter the values for the new color composite.</li>
+            <li style="margin-top: 9pt;margin-bottom: 9pt;">Click <b>OK</b>.</li>
+        </ol>
+        <p class="BodyText">The new color composite will now be displayed in the "Display As" list.</p>
+        <h3>To delete a color composite:</h3>
+        <ol>
+            <li style="margin-top: 9pt;margin-bottom: 9pt;">Select the color composite you want to delete.</li>
+            <li style="margin-top: 9pt;margin-bottom: 9pt;">Click the <b>Remove</b> button. No confirmation dialog is displayed.</li>
+        </ol>
+        <p class="Note"><b>Important:</b> If you delete any of the default color composites, they cannot be restored. However, you can recreate them. Click <a href="Color_Composites_Defaults.htm">here</a> for the default values for the Opticks color composites. </p>
+    </body>
+</html>

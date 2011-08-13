@@ -1,0 +1,182 @@
+10
+
+dir
+14139
+https://opticks.svn.sourceforge.net/svnroot/opticks/releases/4.7.0/trunk/Code/application/PlugIns/src
+https://opticks.svn.sourceforge.net/svnroot/opticks
+
+
+
+2011-06-06T18:44:57.583867Z
+13531
+mconsidi
+has-props
+
+
+
+
+
+
+
+
+
+
+
+
+
+6d0fddd1-9640-0410-91f9-aa98d5e64d34
+
+CoreIo
+dir
+
+PlugInSampler
+dir
+
+Kml
+dir
+
+NitfCommonTre
+dir
+
+GdalImporter
+dir
+
+Georeference
+dir
+
+ShapeFileExporter
+dir
+
+AutoImporter
+dir
+
+Sio
+dir
+
+SecondMoment
+dir
+
+Nitf
+dir
+
+Hdf
+dir
+
+ENVI
+dir
+
+WizardItems
+dir
+
+XmlRpc
+dir
+
+ObjectFinding
+dir
+
+Fits
+dir
+
+SConstruct
+file
+
+
+
+
+2011-07-07T14:16:22.453546Z
+c3b6c1a55a7348495a3de4a414b68149
+2011-02-02T22:07:43.503563Z
+12333
+kstreith
+has-props
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+7988
+
+MovieExporter
+dir
+
+Covariance
+dir
+
+LegacyModule
+dir
+
+Generic
+dir
+
+ImageComparison
+dir
+
+BandMath
+dir
+
+WizardExecutor
+dir
+
+Dted
+dir
+
+ConvolutionFilter
+dir
+
+Scripts
+dir
+
+PlugInSamplerQt
+dir
+
+AnnotationImagePalette
+dir
+
+DataFusion
+dir
+
+Pictures
+dir
+
+Ice
+dir
+
+Results
+dir
+
+Aspam
+dir
+
+Pca
+dir
+
+Tutorial
+dir
+
+PlugInSamplerHdf
+dir
+
+Wavelength
+dir
+
+GeographicFeatures
+dir
+
+BandBinning
+dir
+

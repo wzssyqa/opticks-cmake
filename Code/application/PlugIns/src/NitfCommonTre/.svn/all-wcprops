@@ -1,0 +1,413 @@
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svnroot/opticks/!svn/ver/13604/releases/4.7.0/trunk/Code/application/PlugIns/src/NitfCommonTre
+END
+NitfSensraParser.h
+K 25
+svn:wc:ra_dav:version-url
+V 114
+/svnroot/opticks/!svn/ver/13604/releases/4.7.0/trunk/Code/application/PlugIns/src/NitfCommonTre/NitfSensraParser.h
+END
+NitfExoptaParser.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 116
+/svnroot/opticks/!svn/ver/13604/releases/4.7.0/trunk/Code/application/PlugIns/src/NitfCommonTre/NitfExoptaParser.cpp
+END
+NitfSensrbParser.h
+K 25
+svn:wc:ra_dav:version-url
+V 114
+/svnroot/opticks/!svn/ver/13604/releases/4.7.0/trunk/Code/application/PlugIns/src/NitfCommonTre/NitfSensrbParser.h
+END
+NitfExpltaParser.h
+K 25
+svn:wc:ra_dav:version-url
+V 114
+/svnroot/opticks/!svn/ver/13604/releases/4.7.0/trunk/Code/application/PlugIns/src/NitfCommonTre/NitfExpltaParser.h
+END
+NitfExpltbParser.h
+K 25
+svn:wc:ra_dav:version-url
+V 114
+/svnroot/opticks/!svn/ver/13604/releases/4.7.0/trunk/Code/application/PlugIns/src/NitfCommonTre/NitfExpltbParser.h
+END
+NitfPatchaParser.h
+K 25
+svn:wc:ra_dav:version-url
+V 114
+/svnroot/opticks/!svn/ver/13604/releases/4.7.0/trunk/Code/application/PlugIns/src/NitfCommonTre/NitfPatchaParser.h
+END
+NitfEngrdaParser.h
+K 25
+svn:wc:ra_dav:version-url
+V 114
+/svnroot/opticks/!svn/ver/13604/releases/4.7.0/trunk/Code/application/PlugIns/src/NitfCommonTre/NitfEngrdaParser.h
+END
+NitfSectgaParser.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 116
+/svnroot/opticks/!svn/ver/13604/releases/4.7.0/trunk/Code/application/PlugIns/src/NitfCommonTre/NitfSectgaParser.cpp
+END
+NitfPatchbParser.h
+K 25
+svn:wc:ra_dav:version-url
+V 114
+/svnroot/opticks/!svn/ver/13604/releases/4.7.0/trunk/Code/application/PlugIns/src/NitfCommonTre/NitfPatchbParser.h
+END
+NitfCommonTre.vcxproj.filters
+K 25
+svn:wc:ra_dav:version-url
+V 125
+/svnroot/opticks/!svn/ver/13604/releases/4.7.0/trunk/Code/application/PlugIns/src/NitfCommonTre/NitfCommonTre.vcxproj.filters
+END
+NitfStdidbParser.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 116
+/svnroot/opticks/!svn/ver/13604/releases/4.7.0/trunk/Code/application/PlugIns/src/NitfCommonTre/NitfStdidbParser.cpp
+END
+EngrdaWidget.h
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/svnroot/opticks/!svn/ver/13604/releases/4.7.0/trunk/Code/application/PlugIns/src/NitfCommonTre/EngrdaWidget.h
+END
+NitfReflnaParser.h
+K 25
+svn:wc:ra_dav:version-url
+V 114
+/svnroot/opticks/!svn/ver/13604/releases/4.7.0/trunk/Code/application/PlugIns/src/NitfCommonTre/NitfReflnaParser.h
+END
+NitfRpcParser.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/svnroot/opticks/!svn/ver/13604/releases/4.7.0/trunk/Code/application/PlugIns/src/NitfCommonTre/NitfRpcParser.cpp
+END
+NitfAimidbParser.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 116
+/svnroot/opticks/!svn/ver/13604/releases/4.7.0/trunk/Code/application/PlugIns/src/NitfCommonTre/NitfAimidbParser.cpp
+END
+NitfRpc00bParser.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 116
+/svnroot/opticks/!svn/ver/13604/releases/4.7.0/trunk/Code/application/PlugIns/src/NitfCommonTre/NitfRpc00bParser.cpp
+END
+NitfMensrbParser.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 116
+/svnroot/opticks/!svn/ver/13604/releases/4.7.0/trunk/Code/application/PlugIns/src/NitfCommonTre/NitfMensrbParser.cpp
+END
+NitfMod26aParser.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 116
+/svnroot/opticks/!svn/ver/13604/releases/4.7.0/trunk/Code/application/PlugIns/src/NitfCommonTre/NitfMod26aParser.cpp
+END
+NitfSensraParser.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 116
+/svnroot/opticks/!svn/ver/13604/releases/4.7.0/trunk/Code/application/PlugIns/src/NitfCommonTre/NitfSensraParser.cpp
+END
+NitfBandsaParser.h
+K 25
+svn:wc:ra_dav:version-url
+V 114
+/svnroot/opticks/!svn/ver/13604/releases/4.7.0/trunk/Code/application/PlugIns/src/NitfCommonTre/NitfBandsaParser.h
+END
+NitfExpltaParser.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 116
+/svnroot/opticks/!svn/ver/13604/releases/4.7.0/trunk/Code/application/PlugIns/src/NitfCommonTre/NitfExpltaParser.cpp
+END
+NitfRadsdaParser.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 116
+/svnroot/opticks/!svn/ver/13604/releases/4.7.0/trunk/Code/application/PlugIns/src/NitfCommonTre/NitfRadsdaParser.cpp
+END
+NitfBandsbParser.h
+K 25
+svn:wc:ra_dav:version-url
+V 114
+/svnroot/opticks/!svn/ver/13604/releases/4.7.0/trunk/Code/application/PlugIns/src/NitfCommonTre/NitfBandsbParser.h
+END
+NitfCmetaaParser.h
+K 25
+svn:wc:ra_dav:version-url
+V 114
+/svnroot/opticks/!svn/ver/13604/releases/4.7.0/trunk/Code/application/PlugIns/src/NitfCommonTre/NitfCmetaaParser.h
+END
+NitfPatchbParser.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 116
+/svnroot/opticks/!svn/ver/13604/releases/4.7.0/trunk/Code/application/PlugIns/src/NitfCommonTre/NitfPatchbParser.cpp
+END
+NitfIchipbParser.h
+K 25
+svn:wc:ra_dav:version-url
+V 114
+/svnroot/opticks/!svn/ver/13604/releases/4.7.0/trunk/Code/application/PlugIns/src/NitfCommonTre/NitfIchipbParser.h
+END
+NitfExoptaParser.h
+K 25
+svn:wc:ra_dav:version-url
+V 114
+/svnroot/opticks/!svn/ver/13604/releases/4.7.0/trunk/Code/application/PlugIns/src/NitfCommonTre/NitfExoptaParser.h
+END
+NitfReflnaParser.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 116
+/svnroot/opticks/!svn/ver/13604/releases/4.7.0/trunk/Code/application/PlugIns/src/NitfCommonTre/NitfReflnaParser.cpp
+END
+NitfUse26aParser.h
+K 25
+svn:wc:ra_dav:version-url
+V 114
+/svnroot/opticks/!svn/ver/13604/releases/4.7.0/trunk/Code/application/PlugIns/src/NitfCommonTre/NitfUse26aParser.h
+END
+NitfSectgaParser.h
+K 25
+svn:wc:ra_dav:version-url
+V 114
+/svnroot/opticks/!svn/ver/13604/releases/4.7.0/trunk/Code/application/PlugIns/src/NitfCommonTre/NitfSectgaParser.h
+END
+NitfAcftaParser.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 115
+/svnroot/opticks/!svn/ver/13604/releases/4.7.0/trunk/Code/application/PlugIns/src/NitfCommonTre/NitfAcftaParser.cpp
+END
+NitfRpcParser.h
+K 25
+svn:wc:ra_dav:version-url
+V 111
+/svnroot/opticks/!svn/ver/13604/releases/4.7.0/trunk/Code/application/PlugIns/src/NitfCommonTre/NitfRpcParser.h
+END
+NitfBandsbParser.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 116
+/svnroot/opticks/!svn/ver/13604/releases/4.7.0/trunk/Code/application/PlugIns/src/NitfCommonTre/NitfBandsbParser.cpp
+END
+NitfRpc00aParser.h
+K 25
+svn:wc:ra_dav:version-url
+V 114
+/svnroot/opticks/!svn/ver/13604/releases/4.7.0/trunk/Code/application/PlugIns/src/NitfCommonTre/NitfRpc00aParser.h
+END
+NitfMensraParser.h
+K 25
+svn:wc:ra_dav:version-url
+V 114
+/svnroot/opticks/!svn/ver/13604/releases/4.7.0/trunk/Code/application/PlugIns/src/NitfCommonTre/NitfMensraParser.h
+END
+NitfRpc00bParser.h
+K 25
+svn:wc:ra_dav:version-url
+V 114
+/svnroot/opticks/!svn/ver/13604/releases/4.7.0/trunk/Code/application/PlugIns/src/NitfCommonTre/NitfRpc00bParser.h
+END
+NitfMensrbParser.h
+K 25
+svn:wc:ra_dav:version-url
+V 114
+/svnroot/opticks/!svn/ver/13604/releases/4.7.0/trunk/Code/application/PlugIns/src/NitfCommonTre/NitfMensrbParser.h
+END
+NitfMod26aParser.h
+K 25
+svn:wc:ra_dav:version-url
+V 114
+/svnroot/opticks/!svn/ver/13604/releases/4.7.0/trunk/Code/application/PlugIns/src/NitfCommonTre/NitfMod26aParser.h
+END
+NitfMpd26aParser.h
+K 25
+svn:wc:ra_dav:version-url
+V 114
+/svnroot/opticks/!svn/ver/13604/releases/4.7.0/trunk/Code/application/PlugIns/src/NitfCommonTre/NitfMpd26aParser.h
+END
+NitfBlockaParser.h
+K 25
+svn:wc:ra_dav:version-url
+V 114
+/svnroot/opticks/!svn/ver/13604/releases/4.7.0/trunk/Code/application/PlugIns/src/NitfCommonTre/NitfBlockaParser.h
+END
+NitfRadsdaParser.h
+K 25
+svn:wc:ra_dav:version-url
+V 114
+/svnroot/opticks/!svn/ver/13604/releases/4.7.0/trunk/Code/application/PlugIns/src/NitfCommonTre/NitfRadsdaParser.h
+END
+NitfUse26aParser.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 116
+/svnroot/opticks/!svn/ver/13604/releases/4.7.0/trunk/Code/application/PlugIns/src/NitfCommonTre/NitfUse26aParser.cpp
+END
+NitfStdidcParser.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 116
+/svnroot/opticks/!svn/ver/13604/releases/4.7.0/trunk/Code/application/PlugIns/src/NitfCommonTre/NitfStdidcParser.cpp
+END
+ModuleManager.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/svnroot/opticks/!svn/ver/13604/releases/4.7.0/trunk/Code/application/PlugIns/src/NitfCommonTre/ModuleManager.cpp
+END
+NitfAcftaParser.h
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/svnroot/opticks/!svn/ver/13604/releases/4.7.0/trunk/Code/application/PlugIns/src/NitfCommonTre/NitfAcftaParser.h
+END
+NitfAimidaParser.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 116
+/svnroot/opticks/!svn/ver/13604/releases/4.7.0/trunk/Code/application/PlugIns/src/NitfCommonTre/NitfAimidaParser.cpp
+END
+NitfAcftbParser.h
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/svnroot/opticks/!svn/ver/13604/releases/4.7.0/trunk/Code/application/PlugIns/src/NitfCommonTre/NitfAcftbParser.h
+END
+NitfRpc00aParser.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 116
+/svnroot/opticks/!svn/ver/13604/releases/4.7.0/trunk/Code/application/PlugIns/src/NitfCommonTre/NitfRpc00aParser.cpp
+END
+NitfMensraParser.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 116
+/svnroot/opticks/!svn/ver/13604/releases/4.7.0/trunk/Code/application/PlugIns/src/NitfCommonTre/NitfMensraParser.cpp
+END
+NitfMpd26aParser.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 116
+/svnroot/opticks/!svn/ver/13604/releases/4.7.0/trunk/Code/application/PlugIns/src/NitfCommonTre/NitfMpd26aParser.cpp
+END
+NitfBlockaParser.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 116
+/svnroot/opticks/!svn/ver/13604/releases/4.7.0/trunk/Code/application/PlugIns/src/NitfCommonTre/NitfBlockaParser.cpp
+END
+NitfSensrbParser.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 116
+/svnroot/opticks/!svn/ver/13604/releases/4.7.0/trunk/Code/application/PlugIns/src/NitfCommonTre/NitfSensrbParser.cpp
+END
+NitfExpltbParser.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 116
+/svnroot/opticks/!svn/ver/13604/releases/4.7.0/trunk/Code/application/PlugIns/src/NitfCommonTre/NitfExpltbParser.cpp
+END
+NitfPatchaParser.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 116
+/svnroot/opticks/!svn/ver/13604/releases/4.7.0/trunk/Code/application/PlugIns/src/NitfCommonTre/NitfPatchaParser.cpp
+END
+NitfEngrdaParser.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 116
+/svnroot/opticks/!svn/ver/13604/releases/4.7.0/trunk/Code/application/PlugIns/src/NitfCommonTre/NitfEngrdaParser.cpp
+END
+NitfUse00aParser.h
+K 25
+svn:wc:ra_dav:version-url
+V 114
+/svnroot/opticks/!svn/ver/13604/releases/4.7.0/trunk/Code/application/PlugIns/src/NitfCommonTre/NitfUse00aParser.h
+END
+EngrdaWidget.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 112
+/svnroot/opticks/!svn/ver/13604/releases/4.7.0/trunk/Code/application/PlugIns/src/NitfCommonTre/EngrdaWidget.cpp
+END
+SConscript
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/svnroot/opticks/!svn/ver/13604/releases/4.7.0/trunk/Code/application/PlugIns/src/NitfCommonTre/SConscript
+END
+NitfStdidbParser.h
+K 25
+svn:wc:ra_dav:version-url
+V 114
+/svnroot/opticks/!svn/ver/13604/releases/4.7.0/trunk/Code/application/PlugIns/src/NitfCommonTre/NitfStdidbParser.h
+END
+NitfStdidcParser.h
+K 25
+svn:wc:ra_dav:version-url
+V 114
+/svnroot/opticks/!svn/ver/13604/releases/4.7.0/trunk/Code/application/PlugIns/src/NitfCommonTre/NitfStdidcParser.h
+END
+NitfAcftbParser.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 115
+/svnroot/opticks/!svn/ver/13604/releases/4.7.0/trunk/Code/application/PlugIns/src/NitfCommonTre/NitfAcftbParser.cpp
+END
+NitfBandsaParser.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 116
+/svnroot/opticks/!svn/ver/13604/releases/4.7.0/trunk/Code/application/PlugIns/src/NitfCommonTre/NitfBandsaParser.cpp
+END
+NitfAimidaParser.h
+K 25
+svn:wc:ra_dav:version-url
+V 114
+/svnroot/opticks/!svn/ver/13604/releases/4.7.0/trunk/Code/application/PlugIns/src/NitfCommonTre/NitfAimidaParser.h
+END
+NitfAimidbParser.h
+K 25
+svn:wc:ra_dav:version-url
+V 114
+/svnroot/opticks/!svn/ver/13604/releases/4.7.0/trunk/Code/application/PlugIns/src/NitfCommonTre/NitfAimidbParser.h
+END
+NitfCmetaaParser.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 116
+/svnroot/opticks/!svn/ver/13604/releases/4.7.0/trunk/Code/application/PlugIns/src/NitfCommonTre/NitfCmetaaParser.cpp
+END
+NitfUse00aParser.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 116
+/svnroot/opticks/!svn/ver/13604/releases/4.7.0/trunk/Code/application/PlugIns/src/NitfCommonTre/NitfUse00aParser.cpp
+END
+NitfIchipbParser.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 116
+/svnroot/opticks/!svn/ver/13604/releases/4.7.0/trunk/Code/application/PlugIns/src/NitfCommonTre/NitfIchipbParser.cpp
+END
+NitfCommonTre.vcxproj
+K 25
+svn:wc:ra_dav:version-url
+V 117
+/svnroot/opticks/!svn/ver/13604/releases/4.7.0/trunk/Code/application/PlugIns/src/NitfCommonTre/NitfCommonTre.vcxproj
+END

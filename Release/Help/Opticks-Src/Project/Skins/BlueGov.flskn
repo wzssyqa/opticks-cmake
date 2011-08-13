@@ -1,0 +1,86 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<CatapultSkin Version="1" Comment="This is the default skin" Anchors="Width,Height" Width="800px" Height="600px" Top="0px" Left="0px" Bottom="168px" Right="224px" Tabs="TOC,Index,Search,Glossary,Favorites" DefaultTab="TOC" Title="CommunityDevelopmentPartner Online Guide" BrowserSetup="Resizable" AutoSyncTOC="True" UseBrowserDefaultSize="False">
+    <Index BinaryStorage="True" />
+    <HtmlHelpOptions ShowMenuBar="False" TopmostWindowStyle="False" Buttons="Hide,Locate,Back,Forward,Stop,Refresh,Home,Font,Print" EnableButtonCaptions="True" />
+    <WebHelpOptions HideNavigationOnStartup="False" NavigationPaneWidth="175" NavigationPanePosition="Left">
+    </WebHelpOptions>
+    <Stylesheet>
+        <Styles>
+            <Style Name="ToolbarItem">
+                <Classes>
+                    <StyleClass Name="Logo">
+                        <Properties>
+                        </Properties>
+                    </StyleClass>
+                </Classes>
+            </Style>
+            <Style Name="AccordionItem">
+                <Properties>
+                    <Property Name="Icon">none</Property>
+                    <Property Name="BackgroundGradient">solid #1c3b95 White</Property>
+                    <Property Name="Color">#ffffff</Property>
+                    <Property Name="BackgroundGradientHover">solid #5779dc White</Property>
+                    <Property Name="BorderBottom">solid 1px #000000</Property>
+                    <Property Name="BorderLeft">solid 0px #000000</Property>
+                </Properties>
+                <Classes>
+                    <StyleClass Name="TOC">
+                        <Properties>
+                            <Property Name="Label">TOC</Property>
+                        </Properties>
+                    </StyleClass>
+                    <StyleClass Name="Search">
+                        <Properties>
+                            <Property Name="Label">Search</Property>
+                        </Properties>
+                    </StyleClass>
+                    <StyleClass Name="IconTray">
+                        <Properties>
+                            <Property Name="BackgroundGradient">solid #1c3b95 White</Property>
+                        </Properties>
+                    </StyleClass>
+                    <StyleClass Name="Glossary">
+                        <Properties>
+                            <Property Name="Label">Glossary</Property>
+                        </Properties>
+                    </StyleClass>
+                    <StyleClass Name="Favorites">
+                        <Properties>
+                            <Property Name="Label">Favorites</Property>
+                        </Properties>
+                    </StyleClass>
+                </Classes>
+            </Style>
+            <Style Name="Frame">
+                <Classes>
+                    <StyleClass Name="NavigationDragHandle">
+                        <Properties>
+                            <Property Name="BackgroundGradient">solid White</Property>
+                        </Properties>
+                    </StyleClass>
+                    <StyleClass Name="Toolbar">
+                        <Properties>
+                        </Properties>
+                    </StyleClass>
+                </Classes>
+            </Style>
+            <Style Name="TocEntry">
+                <Properties>
+                    <Property Name="TopicIcon">url(Nav_topic.png)</Property>
+                    <Property Name="BookIcon">url(Nav_cl_chp.png)</Property>
+                    <Property Name="BookOpenIcon">url(Nav_op_chp.png)</Property>
+                </Properties>
+            </Style>
+        </Styles>
+        <Resources>
+            <Resource Name="IndexAccordionBackground_ov.jpg">/9j/4AAQSkZJRgABAgAAZABkAAD/7AARRHVja3kAAQAEAAAAPAAA/+4ADkFkb2JlAGTAAAAAAf/bAIQABgQEBAUEBgUFBgkGBQYJCwgGBggLDAoKCwoKDBAMDAwMDAwQDA4PEA8ODBMTFBQTExwbGxscHx8fHx8fHx8fHwEHBwcNDA0YEBAYGhURFRofHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8f/8AAEQgAHAACAwERAAIRAQMRAf/EAGEAAQEAAAAAAAAAAAAAAAAAAAcEAQACAwAAAAAAAAAAAAAAAAAEBQECBhAAAQIHAQAAAAAAAAAAAAAAAAFSUQIDFaUWZicRAQACAQUAAAAAAAAAAAAAAAASE6FioiNjJP/aAAwDAQACEQMRAD8AN7PUgptbCeJR1ZWC24RAv6zKwVXCYpvdOTyJbzdm1HJpy//Z</Resource>
+            <Resource Name="Nav_topic.gif">R0lGODlhDgAOAPcAAP///7XH7ujs66OryaKqyqautaSptaqxzuzs66OuuqSsttrq/Pn//zV+3djr/q230q+00Jau3snf+WaGu6m66neV0E9rpez5/0hmo/f8/z5msuPy//X8/zFerVeBzcHR9tPg66/F9LTF7XKU1I+69OTr9eTr/3uErz1Wn8zX+zZUmJq545mx6dLW3x02i97u//n4+dnj81h6xt/m7YSl4+nl69zg7/n5/7bA1LG20U5ztXun4qvJ8XvM7/D2/2l9tmSu+e3u/3qKsoqg1DxQkVer9zl+4G+W2PT0+r7J+Xu190Narc7Z6qanuaOlt4PU88zV5aaty4SSvFuO4qSptqu96aizz/f5/9/m6IvM+5is2tvs9Txruujy/+vw/ebs6xtAlJex1efq64Ow67nR/tfj7rDC7K/Q9LvH2ePs+OPj88vQ3PX2/2KBvOLl66u/58bd/zhWpOnr67/h/7LH/lJssMLQ4WyArKatuuzu+vv//+ri556w1+Xt8+f0/47K+vDy++Ps61+AzT1hpbjV9J+uynLE++zt7oec27TO8IWz3vr//8XW6/b58vT4/6iuzOfs8rjK5jRtx+nt7e7s6v///Nrf5KW157jD1/f+/2GBtKezyuns6wAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACH5BAAAAAAALAAAAAAOAA4AAAjOAAFs6JJmS4wyIBjZ2QOgIYALDfUwyMThhSFFYhwGAeAjw40rbBYomYKpUUMvABwR+pOFhAQTSQZQaphn0ZgiT3oAaXAmBQFODQHxMJJIkwYtOySFePSlISQPEZggCtOhBJcjEAQ0tKEjEoBDFoYAmCDjgZyGM+rwAYDmB4BKGATlcNOwTwUVSNZIAbAJDIsDgRpicTCIiJA7J1yMIBMFQUNLfuC0QbEkDo05dArVaAjlg4gAFC5VMfNmhZVJDdXgcNIET4ICCqgYaAEDQEAAOw==</Resource>
+            <Resource Name="Nav_cl_chp.gif">R0lGODlhKwAQAPcAAP///4ajvae8z87a5P/og//1ju/v8P//mfX08v/jfuvw9N/b0qOnrtXPw+De2P7+7Pz8+/7+6rnJ1///+tni6rfI16OmrvX3+f/ifaKmrfr59/n49m9VKPbv4///pa+sqO/w8Kq+0P7+6/TidbrK2H+duIWivMOhYeTk4bnI1vDkzfHlzsSbStTQy/z8/e/jzIZmJPr04PC6U39eHIuJg8OaSc3JxOfq8b6UOde9S9OmQ/P6/dTQx9WnRf//m8qWLrmIJ/DBXP//msulQP//ocWlYuWzR/z59fHx8fXlmPDIY8OXPuTi386dO/n8/9Te6PK7VIGeuvr7/Pffef/zi3B0fc+kU+zasoRkIvHJX+3evK+UNicnJ//1kn1dHIWiu/n03+/PbvTx6xgYF9GwbOa1SM6jU9CnWt3l7P39/NezRPbhfJaqubHD0qGlrdra2ejt8rKtoz8/PtK4SoqmvmBRNs3S22FSNum3SrOysc7Z5LrK2datR/LAWv/8lsCpe7SvpPr6+vXic4FgHtCnQtG3SLOCIfTu4f//nLG/y/Dw8PO8VVRST+nv/PPz88jV4NOmRP//nsOUJ/bw5MnU3OKzRv3jfcqhVLG0vOOxRYhoJtCiStDX5oFmMv/tiM2pYm5sacnO1sG8sf//+ceeUdGaLdSsRsCod0JBP5d1M9uhNPvgev3mff/5vM6jUv7//+SzRs3R2p2dm8jM1f/+l7SzsoJhIPr21NG2SOrQY9GoUqu5xP7ursvX415eXopnJoOhu31cG///wtSoVoWFhNWsXfr14dKmU52cm9Kxcm5UJ9C0cui2Sayuss+lWNu3cf/pg/XUboBbFsOXQ8+lVNLV2bCQUO/v76GlrPTo082hSeTj4sadS/Lmzm5SIfTp1L3HzpJuKj8+Pv/6kwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACH5BAAAAAAALAAAAAArABAAAAj/AAEIHEiwoMGDCBMqNDhhwqiFECMO/Dbs2KZkKJxI3Ggw27MYxsBcOcHjUIcOk45IVPBIgEuXIXpdMFjslgcPRIRpmcaNRQ0gpxq9gqjHRAUSEiSkaFMCjkEdXaiMGCEoSbcVKl6QCRdHDMQQFdJAIFZLw4YAAwxCYhXGlRkr1M44u0RqCQ5Df3YsFEACAgRfyMyiNdgji64HiEVEWCyCV6tlnTjtlSBLzhgu4vIEAOcAgIPODor04eNDyIHTpyOtgjaHw6y9iWx8QAXqQ4sAlBAAQKAbgTYopmgVGE58XDRLhTiE2rtrwQJGNJwPLthEBiE/BLJr96RkCi5lsRbuhGHToAEgUeWBUTD4Y9EQRBgwJJifgECQNTm82Vn45EuUAAAGUAIdChj0iSqS5IIHM2UYAUsmlZSixhZ3VLPQBQpQMMCGA6ChgBQGMWFNKr9oAgMWtgwyQzBeSFNHFdtwBNENmGCTQQYWWMDAjgy40cwbMkLkgiOKGGDkkSCAcA0SgUAUEAA7</Resource>
+            <Resource Name="Nav_op_chp.gif">R0lGODlhKwAQAPcAAP///4ajvae8z+zs7KOnrs7a5IVkI//pgtXPw9/b0uW2RP/0kP/mfeDe2Ovw9NGtSf//nK+sqPX08vLoyrnJ1/7+6j8/Pvz8+/r599ni6vn49vv6+Kq+0P7+7Pv7+bfI19GuRvjy4vX3+brK2H+duOW1RP//vfr2396uM9mpM8mdH7rK2fjUauXm6OHi6KGlrfr6+73Hzv/mfv//qP/rhKyYW/zwiP//+fv69P//n412MnhlQfr24N68SfbnjNKuNreWMfz45f/zleHe1u7u7oOhu/f39/Xjbujt8oGeusmlPX5lKf3+/9KpJLSVW/39/HV5g8epUcHI2bG/y8DAv2ltefXIWKZ7E/LlvYllH86oM/bw3PLy8v//pY5pJbHD0sugJIWJkuLq+v//ov/yutGtRODLerm8xPnbdOW3RvnhebCAAPr7/NTCV/7+67nI1tWvQ//rh/b5/XhgJf//r+3x+Z2dm/b5/tCpOP7ogcjV4ODJVvr6+fzYcP/6lPfx1HhlQKKmrfXjcNLV3vbld/Ppy4WivHdgN9LS0c2lLaqTUM/Ku+LEaMmgKsyoPoWiu8OoWsuvXs+nK/77namssKu5xP//+rOyseLJW/Tu3+TMh4FrLNWuQP/keZudo8nU3NTQy87Z5Pr1jdCrQ9CrPf3Sb+W5SIqmvvX4/5aqudCrQv79mdvMlf/3ksuiLc3JxNTe6Pz30/PqxsOWIP///fjz44VjIrW8zf/3s9GtRv//nbnAz+K7S//4ldCqNN3l7MWXGuvr69+qKM+qQr+WJNra2P//+NW3XcvX49i0T9KkIz8+Pvn7/9CqNvfyjc6xXv785wAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACH5BAAAAAAALAAAAAArABAAAAj/AAEIHEiwoMGDCBMqNGjphjFaCyNKFBgkGRxOx4bcmcjR4BZGf3icwBJlUaYQIWrhmOhAj4CXLzkgE2EwVyw6M7qYkOWoDAgQiSK5YBYxlKEPIyhQePOFBBKDWoTYICToiI9CE7JqWqOoGJOFHD48ueBhAwYNAQoYbNapR6Nho1Q9mPuAlC9iNcQsFDDiAlmzaNUWxFMKjJkOHaBVWOyGDC5Wm6TspWDHguVllwLEaACgAecGkKxIcpYDgi4IqMfkQdNmzq29U15FmB0BVIBPEgBIyC1BCYofk1otGD68lxpeQA7t2lspgfPnaQ26UrZnFY0D2LHH6SNMR5VBC1ekc0JAvnyRDAZVNBHlRwaD9+8PsJi1JEydhbAeJQnAPwCJUw4Y9AwwmKRRggIIImhKClfs4IkcC4ngQAYFVFjALw6wYVALTnhhiwEghmhAFoBAQQUfHS0EAypnBELAizAS8AIliKQ4ERcD5KhjjsEQYYREAQEAOw==</Resource>
+            <Resource Name="Nav_topic.png">iVBORw0KGgoAAAANSUhEUgAAAA4AAAAOCAMAAAAolt3jAAAABGdBTUEAAK/INwWK6QAAABl0RVh0U29mdHdhcmUAQWRvYmUgSW1hZ2VSZWFkeXHJZTwAAAAnUExURf///wAAAKu0zru7/wAA/0RE/93d/zMz/4iI/1VV/2Zm/xER/2R6uk3Ac5sAAACBSURBVHjaYmBghAEGIAAIIAYGKMUE5gMEEILLA+IDBBCEy8zBxsTEBGQBBBCYy8nCzsIMZgEEEJjgZmNgZwWzAAIISjCzcIBZAAEEIdhYuBjALIAAghCs7AwQLkAAQU1mhnIBAggqywrlAgQQ3BkQLkAAMSDcDHIVQAAxoAKAAAMAYGkAy+nAJPAAAAAASUVORK5CYII=</Resource>
+            <Resource Name="Nav_cl_chp.png">iVBORw0KGgoAAAANSUhEUgAAACsAAAAQCAMAAAC4PnacAAAABGdBTUEAAK/INwWK6QAAABl0RVh0U29mdHdhcmUAQWRvYmUgSW1hZ2VSZWFkeXHJZTwAAAHUUExURf///3t7e4SEhAAAAP/og+/v8P/1jv//mf/jfv7+6v7+7PTidf//+vbv4+/w8P7+629VKP/iff//pX9eHPTo08+lVP//nvDw8GFSNv//nOSzRui2SdatR/r04NSsRv//m/Tu4fr6+um3SvHx8ceeUf//ofXlmMOaSdSoVsOhYf7ursWlYte9S/Pz85d1M9GoUv/zi/ffeXB0fYZmJNOmRPK7VPDIY82hSdOmQ8qWLsulQMqhVP3jfbKto/Xic/LmzsCpe+/PbtC0cvTx682pYvvgem5SIf3mfYpnJvHlzv/6k9ezROa1SNCnWv//+dG3SOTk4dGwbPn039u3cdGaLf/tiNCnQtCiSoFgHoBbFs6jU//+l+KzRvTp1PC6U9TQx/DkzcadS/z59cSbSn1cG/O8Ve3evP/pg+rQY7CQULOCIc6dO8OXPvr21NWsXcOXQ/r14YFmMvz8/dG2SPbw5PDBXNKmU+/v7+WzR//5vPHJX/n8///8ltuhNGBRNv//mm5UJ//1ktK4SuzastWnRbmIJ8+lWP//wsCod/LAWq+UNu/jzL6UOX1dHPXUbsOUJ+OxRf7//9KxcuTi3+nv/M6jUs+kU5JuKvbhfIhoJoRkIoJhIGOmMEcAAAEySURBVHjaYmAgHgAEEBbEw+OHXQIggDBRrEZZ+KSAaixyAAGEgUSCZQuCmjXjFXh5S5JQpQACCIgYmaAQzM3LFRJSbU/LT0xWb+2YMhFZIUAAARETCm3RaMDNbadm75nQHTjd1hlZIUAAgcwFYmYozcBg4u44NWqaqG+btUpOT5YDskKAAIKaxww3t6VKn4uLi5+Tk5Nfq9KpEFkhQACBzWMGARANhNqdMvL17CAg5preJICsECCAMMw1N5WLZgMDrz4bfxS1AAGE4d7suLAaFjAINTMsbkBWCBBAGOFgmWolKSjIAQQspTN03JAVAgQQRvi61PZnKEn7VEhNiAnx7pJAVggQQBhocqaex0zjWbMjhFN6I+uMkKUAAogUBBBAmKhIV5wVDPj4ypUVkWUAAgwAXFkwo+YSKMUAAAAASUVORK5CYII=</Resource>
+            <Resource Name="Nav_op_chp.png">iVBORw0KGgoAAAANSUhEUgAAACsAAAAQCAMAAAC4PnacAAAABGdBTUEAAK/INwWK6QAAABl0RVh0U29mdHdhcmUAQWRvYmUgSW1hZ2VSZWFkeXHJZTwAAAGtUExURf///3t7e4SEhAAAAIVkI//pguW2RP/0kP/mfdGtSf//nP7+6vLoyv7+7Pjy4tGuRv//nf//+f/4lf//+P79mf//pdCqNPz45f//ouXm6PPpy+DJVtGtRPXjbuW5SPbld9CpOPjUatGtRv//qPr1jYWJktmpM//3kuW1RHhgJYVjIsmdH/z308OoWqyYW//zlc6oM7CAAMOWIPLlvf//r/Tu3/77nc/Ku9WuQP/yur+WJI12Mv/3s/zYcLeWMZudo9KpJP/rhNCqNs6xXndgN9CrPfbw3ODLev/kef//n3hlQfXIWNKuNvjz4+LEaMugJP/rh6Z7E3hlQP/6lNCrQ9WvQ4llH//mfv3Sb35lKfb5/vr6+WltefnbdPPqxvfyjc2lLf//vcmgKsuiLYFrLMDAv+TMh8uvXsmlPcyoPtvMld68SbSVW/r23+He1v///aqTUNi0T+K7S/7+69CrQuLJW/785/7ogfbnjPnhedTCV9ra2I5pJfr24OHi6NKkI///+vXjcOW3Rs+nK/zwiNW3Xd+qKHV5g/fx1N6uM/n7/8epUc+qQsWXGvv69A7x7F4AAAEbSURBVHjaYmAgHgAEEBbUICicj1UGIIAwkXhhqEVrXhQWOYAAwkBufh21ucbd5qZ8fL59qFIAAQREjExQCOYq6ZgoiybGZcrw8yek13UhKwQIICBiQqEN9FvkG2UrpHh4eNIMC6qRFQIEEMhcFNrJIzupJ6SEEwhcxaz0kBUCBBCGuQoR/u68vGXc3NzFljZZKcgKAQIIbB4zCIBoINT1bo735BLg4uKSKI+t0kRWCBBAGOZmdPqYqbODgFBlkZ0LskKAAMJwb3K9tIgjKwgE2LZZxyArBAggDHO1HVSCwzlAgFXRKFIVWSFAAGGEr3NvaZMGGwjIqQV62SMrBAggDCSZU6PFAgFhQe2p0UhSAAFECgIIIFIQQIABALrKKP9Cu4r4AAAAAElFTkSuQmCC</Resource>
+        </Resources>
+    </Stylesheet>
+    <Toolbar EnableCustomLayout="True" Buttons="ToggleNavigationPane|Print|QuickSearch|AddTopicToFavorites" />
+</CatapultSkin>

@@ -1,0 +1,81 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" MadCap:id="Georeference" MadCap:timeEstimate="0" MadCap:priority="0" MadCap:status="In Progress" MadCap:lastBlockDepth="4" MadCap:lastHeight="1097" MadCap:lastWidth="1237">
+    <head><title>Georeference</title>
+        <link rel="StyleSheet" href="../Opticks_Styles.css" />
+    </head>
+    <body>
+        <h1 placeholder="" id="header">
+            <MadCap:keyword term="georeference" />Georeference</h1>
+        <p class="BodyText">The georeference process allows you to assign coordinates 
+ to each spectral data pixel based on one of several methods. Opticks supplies 
+ two methods: Ground Control Points (GCPs) and Rapid Positioning Coefficients 
+ (RPCs). RPC is used by some types of NITF&#160;data. No additional options are needed. Other methods may be supplied by plug-ins. They can be used through 
+ this interface.</p>
+        <p class="BodyText">GCPs match a point on the data set to be georeferenced 
+ with a latitude/longitude, Universal Transverse Mercator (UTM), or Military 
+ Grid Reference System (MGRS) coordinate. You can enter the coordinate 
+ for the GCP manually or select it (using your mouse) from a previously 
+ georeferenced data set or map.</p>
+        <p class="BodyText">The georeference algorithm calculates a coordinate grid 
+ with GCPs entered into a mathematical polynomial fit equation. This method 
+ tends to stretch the coordinates to fit the GCPs, possibly introducing 
+ some level of error. This error is known as the root mean square (RMS) 
+ error and it defines the level of accuracy for the georeference calculations. 
+ The RMS error can be viewed with the <a href="GCP_Editor.htm">GCP Editor</a> 
+ after georeferencing.</p>
+        <p class="BodyText">After the georeference transformation is complete, the 
+ new coordinates are interpolated across the spectral data pixels. This 
+ means that every mouse cursor position over the data set will correspond 
+ to a precise coordinate value. As you move the mouse over a pixel, the 
+ new coordinates are displayed in the status bar at the bottom of the Opticks Main Application window. These coordinates are in latitude/longitude, 
+ UTM, or MGRS. Georeference must be executed each time the coordinate type 
+ is changed.</p>
+        <p class="BodyText" style="font-weight: bold;">To assign coordinates to data set pixels:</p>
+        <ol>
+            <li class="NumberList">Create GCPs using 
+ the <a href="GCP_Editor.htm">GCP Editor</a>.</li>
+            <li class="NumberList">On the <a href="../Toolbars/Geo_Toolbar.htm">Geo 
+ Toolbar</a>, click the Geo button <img src="../Geo_dropdown.gif" style="border: none;width: 31px;height: 22px;float: none;border-style: none;border-style: none;" width="31" height="22" border="0" /> to display the drop-down 
+ menu. Select <span style="font-weight: bold;">Georeference</span>.</li>
+        </ol>
+        <p class="BodyTextIndent">The Georeference dialog box is displayed. The list 
+ of Georeference Plug-Ins contains all georeferencing plug-ins that can 
+ be used on the current data set.</p>
+        <p class="BodyTextIndent">
+            <img src="../Resources/Images/Georeference.gif" style="border: none;border-style: none;border-style: none;" border="0" />
+        </p>
+        <ol start="3">
+            <li class="NumberList">Select the Georeference 
+ Plug-In from the list of plug-ins. The contents of this list depends on 
+ what plug-ins are installed and what plug-ins can operate on the current 
+ data set. The plug-in that you select determines the other data that you 
+ need to enter.</li>
+        </ol>
+        <p class="BodyTextIndent">If you select the GCP plug-in, continue with Steps 
+ 4 through 6.</p>
+        <p class="BodyTextIndent">If you select the IGM plug-in, you may need to select a file. If IGM is already loaded, you don't need to select a file.</p>
+        <p class="BodyTextIndent">If you select the RPC plug-in, no further input 
+ is needed. Click <b>OK</b>.</p>
+        <p class="BodyTextIndent">If you select another plug-in, see the help for 
+ the plug-in you select.</p>
+        <ol start="4">
+            <li class="NumberList">If desired, enter 
+ a new name for the results file in the Results Name field.</li>
+            <li class="NumberList">Use the drop-down 
+ list to select the <span style="font-weight: bold;">Coordinate Type</span>.</li>
+            <li class="NumberList">Click <span style="font-weight: bold;">OK</span>.</li>
+        </ol>
+        <p class="BodyText">When you move your mouse over the pixels, the new coordinates 
+ for the destination data are displayed in the status bar at the bottom 
+ of the Opticks Main Application window.</p>
+        <p class="BodyText">&#160;</p>
+        <hr style="width: 50%;float: aligncenter;" width="50%" align="center" size="4" />
+        <h2>Related Topics</h2>
+        <p class="BodyText"><a href="GCP.htm">GCP</a>
+        </p>
+        <p class="BodyText"><a href="gcp_polynomial_order.htm" target="_popup">GCP Polynomial Order</a>
+        </p>
+        <div placeholder="" id="footer" style="width: 100%;position: relative;">
+        </div>
+    </body>
+</html>

@@ -1,0 +1,323 @@
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svnroot/opticks/!svn/ver/13604/releases/4.7.0/trunk/Code/application/HdfPlugInLib
+END
+Hdf4ImporterShell.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/svnroot/opticks/!svn/ver/13604/releases/4.7.0/trunk/Code/application/HdfPlugInLib/Hdf4ImporterShell.cpp
+END
+Hdf5Element.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/svnroot/opticks/!svn/ver/13604/releases/4.7.0/trunk/Code/application/HdfPlugInLib/Hdf5Element.cpp
+END
+Hdf4Dataset.h
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svnroot/opticks/!svn/ver/13604/releases/4.7.0/trunk/Code/application/HdfPlugInLib/Hdf4Dataset.h
+END
+Hdf5IncrementalReader.h
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/svnroot/opticks/!svn/ver/13604/releases/4.7.0/trunk/Code/application/HdfPlugInLib/Hdf5IncrementalReader.h
+END
+HdfUtilities.h
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/svnroot/opticks/!svn/ver/13604/releases/4.7.0/trunk/Code/application/HdfPlugInLib/HdfUtilities.h
+END
+Hdf5Group.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svnroot/opticks/!svn/ver/13604/releases/4.7.0/trunk/Code/application/HdfPlugInLib/Hdf5Group.cpp
+END
+Hdf5Resource.h
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/svnroot/opticks/!svn/ver/13604/releases/4.7.0/trunk/Code/application/HdfPlugInLib/Hdf5Resource.h
+END
+Hdf4Element.h
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svnroot/opticks/!svn/ver/13604/releases/4.7.0/trunk/Code/application/HdfPlugInLib/Hdf4Element.h
+END
+Hdf5ImporterShell.h
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/svnroot/opticks/!svn/ver/13604/releases/4.7.0/trunk/Code/application/HdfPlugInLib/Hdf5ImporterShell.h
+END
+Hdf5Pager.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svnroot/opticks/!svn/ver/13604/releases/4.7.0/trunk/Code/application/HdfPlugInLib/Hdf5Pager.cpp
+END
+Hdf4Group.h
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svnroot/opticks/!svn/ver/13604/releases/4.7.0/trunk/Code/application/HdfPlugInLib/Hdf4Group.h
+END
+Hdf5CustomReader.h
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/svnroot/opticks/!svn/ver/13604/releases/4.7.0/trunk/Code/application/HdfPlugInLib/Hdf5CustomReader.h
+END
+Hdf4Pager.h
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svnroot/opticks/!svn/ver/13604/releases/4.7.0/trunk/Code/application/HdfPlugInLib/Hdf4Pager.h
+END
+Hdf5Attribute.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/svnroot/opticks/!svn/ver/13604/releases/4.7.0/trunk/Code/application/HdfPlugInLib/Hdf5Attribute.cpp
+END
+Hdf5IncrementalWriter.h
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/svnroot/opticks/!svn/ver/13604/releases/4.7.0/trunk/Code/application/HdfPlugInLib/Hdf5IncrementalWriter.h
+END
+HdfImporterShell.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/svnroot/opticks/!svn/ver/13604/releases/4.7.0/trunk/Code/application/HdfPlugInLib/HdfImporterShell.cpp
+END
+Hdf5ReadersWriters.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/svnroot/opticks/!svn/ver/13604/releases/4.7.0/trunk/Code/application/HdfPlugInLib/Hdf5ReadersWriters.cpp
+END
+Hdf4Attribute.h
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/svnroot/opticks/!svn/ver/13604/releases/4.7.0/trunk/Code/application/HdfPlugInLib/Hdf4Attribute.h
+END
+Hdf4Utilities.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/svnroot/opticks/!svn/ver/13604/releases/4.7.0/trunk/Code/application/HdfPlugInLib/Hdf4Utilities.cpp
+END
+Hdf5CustomWriter.h
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/svnroot/opticks/!svn/ver/13604/releases/4.7.0/trunk/Code/application/HdfPlugInLib/Hdf5CustomWriter.h
+END
+Hdf5Data.h
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svnroot/opticks/!svn/ver/13604/releases/4.7.0/trunk/Code/application/HdfPlugInLib/Hdf5Data.h
+END
+HdfPager.h
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svnroot/opticks/!svn/ver/13604/releases/4.7.0/trunk/Code/application/HdfPlugInLib/HdfPager.h
+END
+Hdf5Utilities.h
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/svnroot/opticks/!svn/ver/13604/releases/4.7.0/trunk/Code/application/HdfPlugInLib/Hdf5Utilities.h
+END
+Hdf4File.h
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svnroot/opticks/!svn/ver/13604/releases/4.7.0/trunk/Code/application/HdfPlugInLib/Hdf4File.h
+END
+Hdf5File.h
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svnroot/opticks/!svn/ver/13604/releases/4.7.0/trunk/Code/application/HdfPlugInLib/Hdf5File.h
+END
+Hdf4Dataset.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/svnroot/opticks/!svn/ver/13604/releases/4.7.0/trunk/Code/application/HdfPlugInLib/Hdf4Dataset.cpp
+END
+Hdf5IncrementalReader.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/svnroot/opticks/!svn/ver/13604/releases/4.7.0/trunk/Code/application/HdfPlugInLib/Hdf5IncrementalReader.cpp
+END
+HdfUtilities.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/svnroot/opticks/!svn/ver/13604/releases/4.7.0/trunk/Code/application/HdfPlugInLib/HdfUtilities.cpp
+END
+Hdf4Element.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/svnroot/opticks/!svn/ver/13604/releases/4.7.0/trunk/Code/application/HdfPlugInLib/Hdf4Element.cpp
+END
+Hdf5ImporterShell.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/svnroot/opticks/!svn/ver/13604/releases/4.7.0/trunk/Code/application/HdfPlugInLib/Hdf5ImporterShell.cpp
+END
+Hdf5Dataset.h
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svnroot/opticks/!svn/ver/13604/releases/4.7.0/trunk/Code/application/HdfPlugInLib/Hdf5Dataset.h
+END
+Hdf5Node.h
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svnroot/opticks/!svn/ver/13604/releases/4.7.0/trunk/Code/application/HdfPlugInLib/Hdf5Node.h
+END
+Hdf4Group.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svnroot/opticks/!svn/ver/13604/releases/4.7.0/trunk/Code/application/HdfPlugInLib/Hdf4Group.cpp
+END
+Hdf4ImporterShell.h
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/svnroot/opticks/!svn/ver/13604/releases/4.7.0/trunk/Code/application/HdfPlugInLib/Hdf4ImporterShell.h
+END
+Hdf4Pager.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svnroot/opticks/!svn/ver/13604/releases/4.7.0/trunk/Code/application/HdfPlugInLib/Hdf4Pager.cpp
+END
+Hdf5Element.h
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svnroot/opticks/!svn/ver/13604/releases/4.7.0/trunk/Code/application/HdfPlugInLib/Hdf5Element.h
+END
+SConscript
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svnroot/opticks/!svn/ver/13604/releases/4.7.0/trunk/Code/application/HdfPlugInLib/SConscript
+END
+Hdf5Group.h
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svnroot/opticks/!svn/ver/13604/releases/4.7.0/trunk/Code/application/HdfPlugInLib/Hdf5Group.h
+END
+Hdf4Attribute.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/svnroot/opticks/!svn/ver/13604/releases/4.7.0/trunk/Code/application/HdfPlugInLib/Hdf4Attribute.cpp
+END
+Hdf5Pager.h
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svnroot/opticks/!svn/ver/13604/releases/4.7.0/trunk/Code/application/HdfPlugInLib/Hdf5Pager.h
+END
+Hdf5Attribute.h
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/svnroot/opticks/!svn/ver/13604/releases/4.7.0/trunk/Code/application/HdfPlugInLib/Hdf5Attribute.h
+END
+Hdf5Data.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svnroot/opticks/!svn/ver/13604/releases/4.7.0/trunk/Code/application/HdfPlugInLib/Hdf5Data.cpp
+END
+HdfImporterShell.h
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/svnroot/opticks/!svn/ver/13604/releases/4.7.0/trunk/Code/application/HdfPlugInLib/HdfImporterShell.h
+END
+HdfPager.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svnroot/opticks/!svn/ver/13604/releases/4.7.0/trunk/Code/application/HdfPlugInLib/HdfPager.cpp
+END
+HdfPlugInLib.vcxproj
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/svnroot/opticks/!svn/ver/13604/releases/4.7.0/trunk/Code/application/HdfPlugInLib/HdfPlugInLib.vcxproj
+END
+Hdf5Utilities.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/svnroot/opticks/!svn/ver/13604/releases/4.7.0/trunk/Code/application/HdfPlugInLib/Hdf5Utilities.cpp
+END
+Hdf4File.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svnroot/opticks/!svn/ver/13604/releases/4.7.0/trunk/Code/application/HdfPlugInLib/Hdf4File.cpp
+END
+Hdf5File.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svnroot/opticks/!svn/ver/13604/releases/4.7.0/trunk/Code/application/HdfPlugInLib/Hdf5File.cpp
+END
+Hdf4Utilities.h
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/svnroot/opticks/!svn/ver/13604/releases/4.7.0/trunk/Code/application/HdfPlugInLib/Hdf4Utilities.h
+END
+Hdf5PagerFileHandle.h
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/svnroot/opticks/!svn/ver/13604/releases/4.7.0/trunk/Code/application/HdfPlugInLib/Hdf5PagerFileHandle.h
+END
+HdfPlugInLib.vcxproj.filters
+K 25
+svn:wc:ra_dav:version-url
+V 111
+/svnroot/opticks/!svn/ver/13604/releases/4.7.0/trunk/Code/application/HdfPlugInLib/HdfPlugInLib.vcxproj.filters
+END
+Hdf5Dataset.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/svnroot/opticks/!svn/ver/13604/releases/4.7.0/trunk/Code/application/HdfPlugInLib/Hdf5Dataset.cpp
+END
+Hdf5Node.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svnroot/opticks/!svn/ver/13604/releases/4.7.0/trunk/Code/application/HdfPlugInLib/Hdf5Node.cpp
+END

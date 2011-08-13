@@ -1,0 +1,61 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" class="" MadCap:lastBlockDepth="5" MadCap:lastHeight="1885" MadCap:lastWidth="1149">
+    <head><title>Windows Workspace Options - Cube</title>
+        <link href="../Opticks_Styles.css" rel="stylesheet" type="text/css" />
+        <link href="../Resources/TableStyles/Information.css" rel="stylesheet" MadCap:stylesheetType="table" />
+    </head>
+    <body>
+        <h1>Windows Workspace Options–Cube</h1>
+        <p class="BodyText">
+            <MadCap:keyword term="windows workspace options:cube" />The Windows Workspace–Cube options enable you to set the display options for cube images displayed in Opticks.</p>
+        <MadCap:snippetBlock src="../Resources/Snippets/Default_Options.flsnp" />
+        <p class="BodyText"><b>To open the Windows Workspace All options:</b>&#160;&#160;</p>
+        <ol>
+            <li class="NumberList">On the Opticks Main Application Window, go to the <b>Tools</b> menu and select <b>Options...</b>.</li>
+            <li class="NumberList">In the structure tree on the left side of the Options window, click the plus sign (+) next to <b>Windows</b> to display a list of layers. Click the plus sign (+) next to <b>Workspace</b>. Click <b>Cube</b>.</li>
+            <li class="NumberList"><b></b>Update the options.</li>
+            <li class="NumberList">Click <b>OK</b> to accept the selected options.</li>
+        </ol>
+        <p class="BodyTextIndent">Click <b>Cancel</b> to cancel the changes.</p>
+        <h2>
+            <img src="../Resources/Images/Options_Window_Workspace_Cube.gif" />
+        </h2>
+        <h2>Dynamic Inset</h2>
+        <p class="BodyText">These options determine the size of the dynamic inset window (right-mouse + Ctrl). These options take immediate effect.</p>
+        <ul style="list-style-type: square;">
+            <li class="BulletList"><b>Size.</b> This is the size in screen pixels.</li>
+            <li class="BulletList"><b>Zoom Factor</b>. This number is used to determine the relative zoom.</li>
+            <li class="BulletList"><b>Zoom Factor Is</b>. </li>
+        </ul>
+        <ul>
+            <li class="BulletList2" style="margin-left: 25px;">Absolute. 100% X Zoom Factor.</li>
+            <li class="BulletList2" style="margin-left: 25px;">Relative. The current zoom multiplied by the zoom factor.</li>
+        </ul>
+        <h2 class="BodyText">Pan Speed<a name="Pan_Speed"></a></h2>
+        <p class="BodyText">The Pan Speed allows you to control how fast the smooth-pan moves the image. The pan speed is in pixels. </p>
+        <p class="BodyText" style="text-decoration: underline;"><span style="text-decoration: none;">Use Ctrl + Shirt + <i>Arrow Key</i> to </span><u style="font-weight: bold;text-decoration-underline: false;">Fast</u><span style="text-decoration: none;"> pan.</span>
+        </p>
+        <p class="BodyText" style="text-decoration: underline;"><span style="text-decoration: none;"><b></b>Use Ctrl + <i>Arrow Key</i> to <b>Slow</b> pan. </span>
+        </p>
+        <p class="BodyText" style="text-decoration: underline;"><span style="text-decoration: none;">These options take immediate effect.        <![CDATA[ ]]></span>
+        </p>
+        <p class="Note"><b>Note:</b> Certain types of overlays (especially AOI layers, threshold layers, and pseudocolor layers) can be slow to render and may limit the maximum smooth-panning speed. See <a href="../View/Generate_Full_Image.htm">Generate Full Image</a>.</p>
+        <p class="BodyText"><b>Mouse Pan Sensitivity</b> determines how quickly the mouse pan moves over the image. The higher the number, the faster the pan.</p>
+        <h2 class="BodyText">Other Options</h2>
+        <ul style="list-style-type: square;">
+            <li class="BulletList"><b>Geo Coordinate Tool Tip</b>. Displays geo coordinate tool tip information at the cursor if the geo information is available. The format is based on the Lat/Lon layer. The information is the same as that show in the status bar.</li>
+            <li class="BulletList"><b>Confirm non-undoable layer delete</b>. When turned off, you won't receive a confirmation dialog box when you delete a layer that cannot be undone.</li>
+            <li class="BulletList"><b>Activate Layer When Histogram Selected</b>. When selecting a histogram plot, the corresponding layer will be brought to the front.</li>
+            <li class="BulletList"><b>Show Pixel Coordinates When Zoomed In</b>. This checkbox controls what the numbers mean when you zoom in on an image. When it's not checked, the number represents the raw cube value. When it is checked, the pixel coordinates are displayed.</li>
+        </ul>
+        <h2 class="BodyText">Default Panning and Zooming Limits</h2>
+        <ul style="list-style-type: square;">
+            <li class="BulletList"><b>Pan Limit</b>. Sets the limits for panning. </li>
+        </ul>
+        <p class="BodyTextIndent">"No Limit" means that there are no boundary limits on panning. "Limit to Cube Extents" requires that the crosshair be in the boundary cube. "Limit to Extents of All Layers" limits panning to the extents of any layers in the image.</p>
+        <ul style="list-style-type: square;">
+            <li class="BulletList"><b>When Zooming In</b>. You can't zoom in any closer than this limit.</li>
+            <li class="BulletList"><b>When Zooming Out</b>. You can't zoom out any further than this limit. This depends on the size of the window.</li>
+        </ul>
+    </body>
+</html>

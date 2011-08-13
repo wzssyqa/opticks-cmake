@@ -1,0 +1,312 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" MadCap:conditions="" class="" MadCap:lastBlockDepth="8" MadCap:lastHeight="14798" MadCap:lastWidth="1435">
+    <head><title>Tutorial: Subsetting, AOI, and PCA</title>
+        <meta name="Originator" content="ImportDoc" />
+        <meta name="OriginalFile" content="C:\Ball\COMET\Tutorials\scenario3.doc" />
+        <link rel="StyleSheet" href="Tutorials.css" />
+        <link href="../Resources/TableStyles/Inner.css" rel="stylesheet" MadCap:stylesheetType="table" />
+    </head>
+    <body lang="EN-US">
+        <div placeholder="" id="header" style="width: 100%;position: relative;">
+            <p class="TopicHeader">
+            </p>
+        </div>
+        <h1>
+            <MadCap:keyword term="PCA" />
+            <MadCap:keyword term="AOI" />Tutorial: Spectral Subset, Spatial Subset Using the Preview 
+ Window, AOI, and PCA</h1>
+        <p class="BodyText"><b style="font-weight: bold;"><MadCap:keyword term="tutorials" />Learning Objective</b>
+            <MadCap:keyword term="Principal Component Analysis" />: 
+ When finished with this tutorial, you will be familiar with subsetting 
+ an image on import (both spatially and spectrally), creating an Area of 
+ Interest (AOI), and executing the Principal Component Analysis (PCA) tool.</p>
+        <p class="BodyText">In this tutorial, you will select a specific AOI and 
+ process the area within the AOI using PCA. You will perform the following 
+ functions:</p>
+        <ul>
+            <li class="BulletList">Remove unwanted bands 
+ in a data cube</li>
+            <li class="BulletList">Spatial subset using 
+ Preview Window</li>
+            <li class="BulletList">Create an AOI</li>
+            <li class="BulletList">Execute PCA</li>
+        </ul>
+        <p class="BodyText"><b style="font-weight: bold;">Lesson</b>: AOIs are typically 
+ a group of selected pixels. You can create AOIs, change the color of the 
+ AOI pixel markers, view the pixel spectra from the AOI Toolbar, save AOIs, 
+ and load/reload AOIs. </p>
+        <p class="BodyText">PCA is a method that amplifies variations in the data 
+ in order to reduce the amount of redundant data. You can select PCA from 
+ the Spectral Toolbar.</p>
+        <p class="BodyText" style="font-weight: bold;">Toolbars used in this tutorial:</p>
+        <p class="BodyText" style="margin-left: 40px;"><a href="../Toolbars/AOI_Toolbar.htm">AOI 
+ Toolbar</a>
+        </p>
+        <p class="BodyText" style="margin-left: 40px;"><a href="../Toolbars/Display_Toolbar.htm">Display 
+ Toolbar</a>
+        </p>
+        <p class="BodyText" style="margin-left: 40px;"><a href="../Toolbars/General_Algorithms_Toolbar.htm">General 
+ Algorithms Toolbar</a>
+        </p>
+        <MadCap:snippetBlock src="../Resources/Snippets/Access_Toolbars.flsnp" />
+        <MadCap:snippetBlock src="../Resources/Snippets/SampleFiles.flsnp" />
+        <h2>Open File</h2>
+        <ol>
+            <li class="NumberList">On the Opticks menu 
+ bar, go to <b>File,</b><b> Import Data</b>....</li>
+            <li class="NumberList">In the Import window, 
+ navigate to and select the sample data file <span style="font-weight: bold;">f970620t01p02_r03_sc01.a.hdr</span>.</li>
+        </ol>
+        <p class="BodyTextIndent">Click the <b>Options…</b> button to open the Data 
+ Set Properties window.</p>
+        <p class="BodyTextIndent">
+            <img src="../Resources/Images/Import_Subsetting_1.gif" style="border: none;border-style: none;border-style: none;" border="0" />
+        </p>
+        <ol start="3" style="list-style: decimal;list-style-type: decimal;">
+            <li class="NumberList">To prevent certain 
+ bands (referred to as "bad bands") from being loaded, click 
+ on the <b>Subset                    <![CDATA[ ]]><span style="font-weight: normal;">tab on the Import Options window</span></b>. </li>
+        </ol>
+        <p class="BodyTextIndent">
+            <img src="../Resources/Images/Import_Subsetting_2.gif" style="border: none;border-style: none;border-style: none;" border="0" />
+        </p>
+        <ol start="4">
+            <li class="NumberList">Below the Bands list, click the <b>Custom Selection...</b> button. Make sure "Subset" is selected. Set the <b>Start Band</b> to <b>Band 5</b>. Click the <b>OK</b> button.</li>
+        </ol>
+        <p class="BodyTextIndent">
+            <img src="../Resources/Images/Band_Selection_Tutorial.gif" />
+        </p>
+        <p class="BodyTextIndent">Note that the first four bands are no longer 
+ highlighted.</p>
+        <p class="BodyTextIndent">
+            <img src="../Resources/Images/Import_Subsetting_3.gif" style="border: none;border-style: none;border-style: none;" border="0" />
+        </p>
+        <ol start="6" MadCap:continue="true">
+            <li class="NumberList">Click the <b>OK</b> 
+ button. </li>
+            <li class="NumberList">Click the <span style="font-weight: bold;">Preview 
+ File Contents</span> button <img src="../image194.gif" style="border: none;border-style: none;border-style: none;" border="0" /> in the upper right corner 
+ of the Open dialog box. The Preview window allows you to perform a spatial 
+ subset on the image before importing it into Opticks.</li>
+        </ol>
+        <p class="BodyTextIndent">
+            <img src="../Resources/Images/Import_Subsetting_4.gif" style="border: none;border-style: none;border-style: none;" border="0" />
+        </p>
+        <ol start="8" style="list-style: decimal;list-style-type: decimal;" MadCap:continue="true">
+            <li class="NumberList">In the Preview window, 
+ click and drag the cursor to create a box around the upper left area of 
+ the image. After you release the mouse, the Preview window zooms to the 
+ area in the box.</li>
+        </ol>
+        <p class="BodyTextIndent">
+            <img src="../Resources/Images/Import_Subsetting_5.gif" style="border: none;border-style: none;border-style: none;" border="0" />
+        </p>
+        <ol start="9" MadCap:continue="true">
+            <li class="NumberList">Click the <b>Open</b> 
+ button to load the image. (If necessary, click the Close button when the 
+ image finishes loading.)</li>
+            <li class="NumberList">Maximize the image 
+ by clicking the middle control square in its upper right corner. Use the 
+ Zoom to Fit button <img src="../Zoom_to_fit.gif" style="border: none;float: none;border-style: none;border-style: none;" border="0" /> on the Display Toolbar to enlarge the 
+ image.</li>
+        </ol>
+        <p class="BodyTextIndent">
+            <img src="../Resources/Images/Imported_Subset.gif" style="border: none;border-style: none;border-style: none;" border="0" />
+        </p>
+        <ol start="11" style="list-style: decimal;list-style-type: decimal;" MadCap:continue="true">
+            <li class="NumberList" style="margin-left: 0px;">Resize the 
+ image using the Zoom Rectangle button <img src="../Zoom_Rectangle.gif" style="border: none;float: none;border-style: none;border-style: none;" border="0" /> on the Display Toolbar.</li>
+        </ol>
+        <p class="BodyTextIndent">
+            <img src="../Resources/Images/Resize_Image.gif" style="border: none;border-style: none;border-style: none;" border="0" />
+        </p>
+        <ol start="12" style="list-style: decimal;list-style-type: decimal;" MadCap:continue="true">
+            <li class="NumberList">Zoom in on the middle 
+ of the image.</li>
+        </ol>
+        <p class="BodyTextIndent">
+            <img src="../Resources/Images/Zoomed_Image_2.gif" style="border: none;border-style: none;border-style: none;" border="0" />
+        </p>
+        <h2>Area of Interest (AOI)</h2>
+        <ol>
+            <li class="NumberList">Create a new AOI by going to the Session Explorer window. Be sure the Windows tab is active. Go to the entry under <b>Workspace Window</b>. Right-click on the entry. Select <b>New Layer, AOI</b>. This also activates the AOI Toolbar.</li>
+        </ol>
+        <p class="BodyTextIndent">
+            <img src="../Resources/Images/New_Layer_AOI_2.gif" style="border: none;border-style: none;border-style: none;" border="0" />
+        </p>
+        <ol start="14" style="list-style: decimal;list-style-type: decimal;" MadCap:continue="true">
+            <li class="NumberList">Be sure the AOI Draw 
+ Mode button <img src="../Resources/Images/AOI_Draw_Button.gif" style="border: none;width: 22px;height: 23px;float: none;border-style: none;border-style: none;" width="22" height="23" border="0" /> on the AOI Toolbar is activated. </li>
+        </ol>
+        <p class="BodyTextIndent">Be sure the AOI Pixel Selection Icon <img src="../AOI_Pixel_Selection_Tool.gif" style="border: none;width: 34px;height: 23px;float: none;border-style: none;border-style: none;" width="34" height="23" border="0" /> is set to “Point.” This allows individual pixels to be added 
+ to the AOI. </p>
+        <p class="BodyTextIndent">
+            <img src="../Resources/Images/Create_Point.gif" style="border: none;border-style: none;border-style: none;" border="0" />
+        </p>
+        <ol start="15" style="list-style: decimal;list-style-type: decimal;" MadCap:continue="true">
+            <li class="NumberList">Click once in the 
+ image. Opticks automatically names the AOI “AOI 1.”&#160; </li>
+        </ol>
+        <p class="BodyTextIndent">
+            <img src="../Resources/Images/Create_Point_2.gif" style="border: none;border-style: none;border-style: none;" border="0" />
+        </p>
+        <ol start="16" style="list-style: decimal;list-style-type: decimal;" MadCap:continue="true">
+            <li class="NumberList">Go to the Session Explorer. Right-click on the AOI layer. Select <b>Rename...</b>.</li>
+        </ol>
+        <p class="BodyTextIndent">In the Session Explorer, type:</p>
+        <p class="BodyTextIndent" style="margin-left: 80px;">Building</p>
+        <p class="BodyTextIndent" style="margin-left: 40px;">
+            <img src="../Resources/Images/Rename_AOI_2.gif" style="border: none;border-style: none;border-style: none;" border="0" />
+        </p>
+        <ol MadCap:continue="true">
+            <li>Right-click on the AOI in the Session Explorer and select Export from the menu. Opticks opens a Save dialog with default name and directory location. Save with the defaults. When the export is complete, click <b>Close</b> on the dialog box.</li>
+        </ol>
+        <h2>Designate Part of the Image as an AOI</h2>
+        <p class="BodyText">The following steps designate a portion of the image 
+ as an AOI.</p>
+        <ol>
+            <li class="NumberList">Go to the Session Explorer window. Right-click on the view and select <b>New Layer, AOI</b> to create another AOI layer.</li>
+            <li class="NumberList">Change AOI Pixel 
+ Selection Tool on the AOI Toolbar to “Rectangle.”</li>
+        </ol>
+        <p class="BodyTextIndent">
+            <img src="../Resources/Images/Select_Rectangle.gif" style="border: none;border-style: none;border-style: none;" border="0" />
+        </p>
+        <ol start="20" style="list-style: decimal;list-style-type: decimal;" MadCap:continue="true">
+            <li class="NumberList">Select part of the 
+ image (click and drag) as another AOI. </li>
+        </ol>
+        <p class="BodyTextIndent">
+            <img src="../Resources/Images/Create_AOI.gif" style="border: none;border-style: none;border-style: none;" border="0" />
+        </p>
+        <ol start="21" style="list-style: decimal;list-style-type: decimal;" MadCap:continue="true">
+            <li class="NumberList">Rename AOI 2 “Swath 
+ 1.”</li>
+        </ol>
+        <p class="BodyTextIndent" style="font-weight: normal;">(Click for a <MadCap:expanding><MadCap:expandingHead class="expandspot" style="font-weight: normal;">hint</MadCap:expandingHead><MadCap:expandingBody class="expandtext">Go to the Session Explorer. Right-click AOI 2 and select <b>Rename</b>. Type the new name.</MadCap:expandingBody></MadCap:expanding>.)</p>
+        <ol start="22" style="list-style: decimal;list-style-type: decimal;" MadCap:continue="true">
+            <li class="NumberList">Click the AOI marker 
+ Color button <img src="../image574.gif" style="border: none;width: 34px;height: 23px;border-style: none;border-style: none;" width="34" height="23" border="0" /> on the AOI Toolbar. Change the color to red. 
+ Opticks automatically changes the name to a contrasting color (in this case, 
+ turquoise).</li>
+        </ol>
+        <p class="BodyTextIndent">
+            <img src="../Resources/Images/Select_Color_2.gif" style="border: none;border-style: none;border-style: none;" border="0" />
+        </p>
+        <ol start="23" style="list-style: decimal;list-style-type: decimal;" MadCap:continue="true">
+            <li class="NumberList">Center Swath 1 within 
+ the image using the Move AOI Object button <img src="../Move_Object_Button.gif" style="border: none;float: none;border-style: none;border-style: none;" border="0" /> on the AOI Toolbar.</li>
+        </ol>
+        <p class="BodyTextIndent">
+            <img src="../Resources/Images/Center_AOI.gif" style="border: none;border-style: none;border-style: none;" border="0" />
+        </p>
+        <ol start="24" style="list-style: decimal;list-style-type: decimal;" MadCap:continue="true">
+            <li class="NumberList">Go to the Session Explorer. Right-click on the layer and select <b>Export.</b> Accept 
+ the defaults and click <span style="font-weight: bold;">OK</span>. When the export is complete, click <b>Close</b> on the dialog box.</li>
+        </ol>
+        <h2>Principal Component Analysis (PCA)</h2>
+        <ol>
+            <li class="NumberList">From the Opticks menu 
+ bar, select <b>View, Toolbars, General Algorithms</b> to display the General 
+ Algorithms Toolbar.</li>
+            <li class="NumberList">Click and hold down 
+ the <span style="font-weight: bold;">General Algorithms</span> button. 
+ Select <b>Principal Component Analysis</b>.</li>
+        </ol>
+        <p class="BodyTextIndent">
+            <img src="../Resources/Images/Select_PCA.gif" style="border: none;border-style: none;border-style: none;" border="0" />
+        </p>
+        <ol MadCap:continue="true">
+            <li>In the Principal 
+ Component Analysis dialog box, select parameters for running the PCA algorithm.</li>
+        </ol>
+        <p class="BodyTextIndent">There are two 
+ Transform Methods in the Principal Component Analysis dialog box called 
+ <b>Calculate</b> and <b>Load From File</b>. The <b>Load From File</b> 
+ option can only be used if the PCA Transform has already been calculated 
+ for this data cube and a transform file exists. The <b>Calculate</b> option 
+ computes the PCA transform using one of three methods that can be selected 
+ using the drop-down menu. </p>
+        <p class="BodyTextIndent">For this exercise, go to the Calculate drop-down 
+ menu and select the <b>Covariance</b> method.</p>
+        <p start="27" style="list-style: decimal;" type="1">
+            <p class="BodyTextIndent">The <b>Number 
+ of Components</b> value is the number of spectral bands in the data cube 
+ being loaded. </p>
+        </p>
+        <p class="BodyTextIndent">For this scenario, select <b>from Eigen 
+ Plot. </b>This will allow you to select the number of components using 
+ a plot displayed in a later window.</p>
+        <p start="27" style="list-style: decimal;" type="1">
+            <p class="BodyTextIndent">For the <b>Output 
+ Data Type</b>, <b>Scale Max Component Value To</b>, and <b>Scale Min Component Value To</b>, use the defaults.</p>
+            <p class="BodyTextIndent">Check the <span style="font-weight: bold;">Region of Interest (ROI)</span> box. In the 
+ adjacent drop-down, select <b>AOI Element 2</b> from the list.</p>
+            <p class="BodyTextIndent">
+                <img src="../Resources/Images/PCA_Dialog_1.gif" style="border: none;border-style: none;border-style: none;" border="0" />
+            </p>
+        </p>
+        <ol MadCap:continue="true">
+            <li style="margin-top: 7pt;margin-bottom: 7pt;">Click <b>OK</b>. 
+ If another PCA was already run on this particular data set, a covariance 
+ matrix may already exist and Opticks will prompt you to either use the previously 
+ saved covariance matrix or calculate a new covariance matrix. Select <b>Don’t 
+ Use</b> to calculate a new covariance matrix.</li>
+            <li style="margin-top: 7pt;margin-bottom: 7pt;">A new window will 
+ appear for creating the covariance matrix used with the PCA analysis. 
+ For this scenario, simply leave the defaults and choose <b>OK</b>. <b style="font-weight: normal;">NOTE:</b> Changing the defaults will result 
+ in faster processing but possibly coarser results</li>
+        </ol>
+        <p class="BodyTextIndent">&#160;<img src="../Resources/Images/PCA_2.gif" style="border: none;border-style: none;border-style: none;" border="0" /></p>
+        <ol MadCap:continue="true">
+            <li>The <b>PCA Components</b> 
+ window displays the Eigen Value Plot. When the mouse pointer is moved 
+ across the graph, a crosshair will appear. The value in the <b>Number 
+ of Components</b> dialog box will dictate how many components are included 
+ in the PCA results cube. </li>
+        </ol>
+        <p class="BodyTextIndent">
+            <img src="../Resources/Images/PCA_Eigen_2.gif" style="border: none;border-style: none;border-style: none;" border="0" />
+        </p>
+        <p class="BodyTextIndent">In the <span style="font-weight: bold;">Number 
+ of Components</span> field, type:</p>
+        <p class="BodyTextIndent" style="margin-left: 80px;">16</p>
+        <p class="BodyTextIndent">This will output 16 PCA bands.</p>
+        <p class="BodyTextIndent">Press the <b>Enter</b> key on your keyboard. </p>
+        <ol MadCap:continue="true">
+            <li class="NumberList">Save the file using 
+ the default name and directory. If a message appears warning that a file 
+ already exists, click <b>Yes</b> to overwrite the old file. If a dialog 
+ box displays the message "Principal Component Analysis completed," 
+ click the Close button.</li>
+        </ol>
+        <p class="BodyTextIndent">
+            <img src="../Resources/Images/Save_PCA_Transform.gif" />
+        </p>
+        <p class="Note"><b>Note: </b>If you have an open image running, the PCA 
+ algorithm won't display or save another such image.</p>
+        <ol MadCap:continue="true">
+            <li class="NumberList">You can explore the 
+ PCA result by changing bands and creating RGB color combinations. Note 
+ that the first few bands will display the data with the greatest amount 
+ of variance between them. </li>
+        </ol>
+        <p class="BodyTextIndent">Below is an example of a RGB 543 display. (This 
+ means band 5 is displayed through the red color gun, band 4 is displayed 
+ through the green color gun and band 3 is played through the blue color 
+ gun.)</p>
+        <p class="BodyTextIndent">To view this example, use the following hot key 
+ combination:</p>
+        <p class="BodyTextIndent" style="margin-left: 80px;">r5g4b3t</p>
+        <p class="BodyTextIndent">
+            <img src="../Resources/Images/PCA_Results.gif" style="border: none;border-style: none;border-style: none;" border="0" />
+        </p>
+        <ol MadCap:continue="true">
+            <li class="NumberList"><b style="font-weight: bold;">Close</b> 
+ all files.</li>
+        </ol>
+        <p class="BodyText"><b style="font-weight: bold;">Summary/Review</b>: You 
+ should now be able to subset bands on import, create AOIs, and run the 
+ PCA algorithm by using many of the common core tools in Opticks.</p>
+    </body>
+</html>

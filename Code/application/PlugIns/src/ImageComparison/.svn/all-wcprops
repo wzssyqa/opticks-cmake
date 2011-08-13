@@ -1,0 +1,41 @@
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/svnroot/opticks/!svn/ver/13604/releases/4.7.0/trunk/Code/application/PlugIns/src/ImageComparison
+END
+ChangeUpDirection.h
+K 25
+svn:wc:ra_dav:version-url
+V 117
+/svnroot/opticks/!svn/ver/13604/releases/4.7.0/trunk/Code/application/PlugIns/src/ImageComparison/ChangeUpDirection.h
+END
+ModuleManager.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 115
+/svnroot/opticks/!svn/ver/13604/releases/4.7.0/trunk/Code/application/PlugIns/src/ImageComparison/ModuleManager.cpp
+END
+ImageComparison.vcxproj
+K 25
+svn:wc:ra_dav:version-url
+V 121
+/svnroot/opticks/!svn/ver/13604/releases/4.7.0/trunk/Code/application/PlugIns/src/ImageComparison/ImageComparison.vcxproj
+END
+SConscript
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/svnroot/opticks/!svn/ver/13604/releases/4.7.0/trunk/Code/application/PlugIns/src/ImageComparison/SConscript
+END
+ChangeUpDirection.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 119
+/svnroot/opticks/!svn/ver/13604/releases/4.7.0/trunk/Code/application/PlugIns/src/ImageComparison/ChangeUpDirection.cpp
+END
+ImageComparison.vcxproj.filters
+K 25
+svn:wc:ra_dav:version-url
+V 129
+/svnroot/opticks/!svn/ver/13604/releases/4.7.0/trunk/Code/application/PlugIns/src/ImageComparison/ImageComparison.vcxproj.filters
+END

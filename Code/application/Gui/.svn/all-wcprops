@@ -1,0 +1,1373 @@
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svnroot/opticks/!svn/ver/13604/releases/4.7.0/trunk/Code/application/Gui
+END
+OptionsGeneral.h
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svnroot/opticks/!svn/ver/13604/releases/4.7.0/trunk/Code/application/Gui/OptionsGeneral.h
+END
+OptionsSession.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svnroot/opticks/!svn/ver/13604/releases/4.7.0/trunk/Code/application/Gui/OptionsSession.cpp
+END
+LinkDatasetPage.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svnroot/opticks/!svn/ver/13604/releases/4.7.0/trunk/Code/application/Gui/LinkDatasetPage.cpp
+END
+WavelengthsWidget.h
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svnroot/opticks/!svn/ver/13604/releases/4.7.0/trunk/Code/application/Gui/WavelengthsWidget.h
+END
+WizardItemProperties.h
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svnroot/opticks/!svn/ver/13604/releases/4.7.0/trunk/Code/application/Gui/WizardItemProperties.h
+END
+OverviewWindow.h
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svnroot/opticks/!svn/ver/13604/releases/4.7.0/trunk/Code/application/Gui/OverviewWindow.h
+END
+OptionsFileLocations.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/svnroot/opticks/!svn/ver/13604/releases/4.7.0/trunk/Code/application/Gui/OptionsFileLocations.cpp
+END
+TiePointEditor.h
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svnroot/opticks/!svn/ver/13604/releases/4.7.0/trunk/Code/application/Gui/TiePointEditor.h
+END
+PropertiesPseudocolorLayer.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/svnroot/opticks/!svn/ver/13604/releases/4.7.0/trunk/Code/application/Gui/PropertiesPseudocolorLayer.cpp
+END
+WizardLine.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svnroot/opticks/!svn/ver/13604/releases/4.7.0/trunk/Code/application/Gui/WizardLine.cpp
+END
+OptionsTiePointLayer.h
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svnroot/opticks/!svn/ver/13604/releases/4.7.0/trunk/Code/application/Gui/OptionsTiePointLayer.h
+END
+SubsetWidget.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svnroot/opticks/!svn/ver/13604/releases/4.7.0/trunk/Code/application/Gui/SubsetWidget.cpp
+END
+WizardWidget.h
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svnroot/opticks/!svn/ver/13604/releases/4.7.0/trunk/Code/application/Gui/WizardWidget.h
+END
+LinkOptionsPage.h
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svnroot/opticks/!svn/ver/13604/releases/4.7.0/trunk/Code/application/Gui/LinkOptionsPage.h
+END
+PropertiesThresholdLayer.h
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/svnroot/opticks/!svn/ver/13604/releases/4.7.0/trunk/Code/application/Gui/PropertiesThresholdLayer.h
+END
+WizardProperties.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svnroot/opticks/!svn/ver/13604/releases/4.7.0/trunk/Code/application/Gui/WizardProperties.cpp
+END
+OptionsOverviewWindow.h
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/svnroot/opticks/!svn/ver/13604/releases/4.7.0/trunk/Code/application/Gui/OptionsOverviewWindow.h
+END
+OptionsDlg.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svnroot/opticks/!svn/ver/13604/releases/4.7.0/trunk/Code/application/Gui/OptionsDlg.cpp
+END
+MetadataFilterDlg.h
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svnroot/opticks/!svn/ver/13604/releases/4.7.0/trunk/Code/application/Gui/MetadataFilterDlg.h
+END
+MessageLogWindow.h
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svnroot/opticks/!svn/ver/13604/releases/4.7.0/trunk/Code/application/Gui/MessageLogWindow.h
+END
+OptionsStatusBar.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svnroot/opticks/!svn/ver/13604/releases/4.7.0/trunk/Code/application/Gui/OptionsStatusBar.cpp
+END
+TiePointTableModel.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svnroot/opticks/!svn/ver/13604/releases/4.7.0/trunk/Code/application/Gui/TiePointTableModel.cpp
+END
+FileDescriptorWidget.h
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svnroot/opticks/!svn/ver/13604/releases/4.7.0/trunk/Code/application/Gui/FileDescriptorWidget.h
+END
+ColormapEditor.h
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svnroot/opticks/!svn/ver/13604/releases/4.7.0/trunk/Code/application/Gui/ColormapEditor.h
+END
+WavelengthModel.h
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svnroot/opticks/!svn/ver/13604/releases/4.7.0/trunk/Code/application/Gui/WavelengthModel.h
+END
+BackgroundPluginWindow.h
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/svnroot/opticks/!svn/ver/13604/releases/4.7.0/trunk/Code/application/Gui/BackgroundPluginWindow.h
+END
+WavelengthsWidget.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svnroot/opticks/!svn/ver/13604/releases/4.7.0/trunk/Code/application/Gui/WavelengthsWidget.cpp
+END
+AnnotationToolBar.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svnroot/opticks/!svn/ver/13604/releases/4.7.0/trunk/Code/application/Gui/AnnotationToolBar.cpp
+END
+SplashScreen.h
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svnroot/opticks/!svn/ver/13604/releases/4.7.0/trunk/Code/application/Gui/SplashScreen.h
+END
+AoiToolBar.h
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svnroot/opticks/!svn/ver/13604/releases/4.7.0/trunk/Code/application/Gui/AoiToolBar.h
+END
+WizardGraphicsItem.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svnroot/opticks/!svn/ver/13604/releases/4.7.0/trunk/Code/application/Gui/WizardGraphicsItem.cpp
+END
+WizardView.h
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svnroot/opticks/!svn/ver/13604/releases/4.7.0/trunk/Code/application/Gui/WizardView.h
+END
+BandBadValuesValidator.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/svnroot/opticks/!svn/ver/13604/releases/4.7.0/trunk/Code/application/Gui/BandBadValuesValidator.cpp
+END
+PropertiesModuleDescriptor.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/svnroot/opticks/!svn/ver/13604/releases/4.7.0/trunk/Code/application/Gui/PropertiesModuleDescriptor.cpp
+END
+PropertiesMetadata.h
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svnroot/opticks/!svn/ver/13604/releases/4.7.0/trunk/Code/application/Gui/PropertiesMetadata.h
+END
+MenuBarImp.h
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svnroot/opticks/!svn/ver/13604/releases/4.7.0/trunk/Code/application/Gui/MenuBarImp.h
+END
+PropertiesWavelengths.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/svnroot/opticks/!svn/ver/13604/releases/4.7.0/trunk/Code/application/Gui/PropertiesWavelengths.cpp
+END
+AboutDlg.h
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svnroot/opticks/!svn/ver/13604/releases/4.7.0/trunk/Code/application/Gui/AboutDlg.h
+END
+ImportDlg.h
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svnroot/opticks/!svn/ver/13604/releases/4.7.0/trunk/Code/application/Gui/ImportDlg.h
+END
+ZoomCustomDlg.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svnroot/opticks/!svn/ver/13604/releases/4.7.0/trunk/Code/application/Gui/ZoomCustomDlg.cpp
+END
+PropertiesLatLonLayer.h
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/svnroot/opticks/!svn/ver/13604/releases/4.7.0/trunk/Code/application/Gui/PropertiesLatLonLayer.h
+END
+WindowSelectionDlg.h
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svnroot/opticks/!svn/ver/13604/releases/4.7.0/trunk/Code/application/Gui/WindowSelectionDlg.h
+END
+DataDescriptorWidget.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/svnroot/opticks/!svn/ver/13604/releases/4.7.0/trunk/Code/application/Gui/DataDescriptorWidget.cpp
+END
+PropertiesScriptingWindow.h
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/svnroot/opticks/!svn/ver/13604/releases/4.7.0/trunk/Code/application/Gui/PropertiesScriptingWindow.h
+END
+OptionsRasterElementImporter.h
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/svnroot/opticks/!svn/ver/13604/releases/4.7.0/trunk/Code/application/Gui/OptionsRasterElementImporter.h
+END
+GuiFunctors.h
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svnroot/opticks/!svn/ver/13604/releases/4.7.0/trunk/Code/application/Gui/GuiFunctors.h
+END
+PropertiesClassification.h
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/svnroot/opticks/!svn/ver/13604/releases/4.7.0/trunk/Code/application/Gui/PropertiesClassification.h
+END
+StatusBar.h
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svnroot/opticks/!svn/ver/13604/releases/4.7.0/trunk/Code/application/Gui/StatusBar.h
+END
+OptionsRasterLayer.h
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svnroot/opticks/!svn/ver/13604/releases/4.7.0/trunk/Code/application/Gui/OptionsRasterLayer.h
+END
+GraphicObjectTypeGrid.h
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/svnroot/opticks/!svn/ver/13604/releases/4.7.0/trunk/Code/application/Gui/GraphicObjectTypeGrid.h
+END
+ColormapEditor.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svnroot/opticks/!svn/ver/13604/releases/4.7.0/trunk/Code/application/Gui/ColormapEditor.cpp
+END
+BatchEditorDlg.h
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svnroot/opticks/!svn/ver/13604/releases/4.7.0/trunk/Code/application/Gui/BatchEditorDlg.h
+END
+ExportOptionsDlg.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svnroot/opticks/!svn/ver/13604/releases/4.7.0/trunk/Code/application/Gui/ExportOptionsDlg.cpp
+END
+FilePlugInDlg.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svnroot/opticks/!svn/ver/13604/releases/4.7.0/trunk/Code/application/Gui/FilePlugInDlg.cpp
+END
+WizardClipboard.h
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svnroot/opticks/!svn/ver/13604/releases/4.7.0/trunk/Code/application/Gui/WizardClipboard.h
+END
+PropertiesGraphicObject.h
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/svnroot/opticks/!svn/ver/13604/releases/4.7.0/trunk/Code/application/Gui/PropertiesGraphicObject.h
+END
+OptionsDlg.h
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svnroot/opticks/!svn/ver/13604/releases/4.7.0/trunk/Code/application/Gui/OptionsDlg.h
+END
+PropertiesAnnotationLayer.h
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/svnroot/opticks/!svn/ver/13604/releases/4.7.0/trunk/Code/application/Gui/PropertiesAnnotationLayer.h
+END
+PreviewWidget.h
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svnroot/opticks/!svn/ver/13604/releases/4.7.0/trunk/Code/application/Gui/PreviewWidget.h
+END
+AoiToolBar.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svnroot/opticks/!svn/ver/13604/releases/4.7.0/trunk/Code/application/Gui/AoiToolBar.cpp
+END
+WizardView.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svnroot/opticks/!svn/ver/13604/releases/4.7.0/trunk/Code/application/Gui/WizardView.cpp
+END
+MultiLineTextDialog.h
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svnroot/opticks/!svn/ver/13604/releases/4.7.0/trunk/Code/application/Gui/MultiLineTextDialog.h
+END
+PropertiesProductView.h
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/svnroot/opticks/!svn/ver/13604/releases/4.7.0/trunk/Code/application/Gui/PropertiesProductView.h
+END
+ChippingWindow.h
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svnroot/opticks/!svn/ver/13604/releases/4.7.0/trunk/Code/application/Gui/ChippingWindow.h
+END
+PropertiesMeasurementObject.h
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/svnroot/opticks/!svn/ver/13604/releases/4.7.0/trunk/Code/application/Gui/PropertiesMeasurementObject.h
+END
+Workspace.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svnroot/opticks/!svn/ver/13604/releases/4.7.0/trunk/Code/application/Gui/Workspace.cpp
+END
+MenuBarImp.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svnroot/opticks/!svn/ver/13604/releases/4.7.0/trunk/Code/application/Gui/MenuBarImp.cpp
+END
+BrightnessToolBar.h
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svnroot/opticks/!svn/ver/13604/releases/4.7.0/trunk/Code/application/Gui/BrightnessToolBar.h
+END
+GcpToolBar.h
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svnroot/opticks/!svn/ver/13604/releases/4.7.0/trunk/Code/application/Gui/GcpToolBar.h
+END
+PropertiesLatLonLayer.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/svnroot/opticks/!svn/ver/13604/releases/4.7.0/trunk/Code/application/Gui/PropertiesLatLonLayer.cpp
+END
+Gui.vcxproj.filters
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svnroot/opticks/!svn/ver/13604/releases/4.7.0/trunk/Code/application/Gui/Gui.vcxproj.filters
+END
+PropertiesTiePointLayer.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/svnroot/opticks/!svn/ver/13604/releases/4.7.0/trunk/Code/application/Gui/PropertiesTiePointLayer.cpp
+END
+ScriptingWidget.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svnroot/opticks/!svn/ver/13604/releases/4.7.0/trunk/Code/application/Gui/ScriptingWidget.cpp
+END
+PropertiesScriptingWindow.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/svnroot/opticks/!svn/ver/13604/releases/4.7.0/trunk/Code/application/Gui/PropertiesScriptingWindow.cpp
+END
+MeasurementToolBar.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svnroot/opticks/!svn/ver/13604/releases/4.7.0/trunk/Code/application/Gui/MeasurementToolBar.cpp
+END
+OptionsThresholdLayer.h
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/svnroot/opticks/!svn/ver/13604/releases/4.7.0/trunk/Code/application/Gui/OptionsThresholdLayer.h
+END
+ZoomCustomDlg.h
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svnroot/opticks/!svn/ver/13604/releases/4.7.0/trunk/Code/application/Gui/ZoomCustomDlg.h
+END
+PropertiesHistogramPlot.h
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/svnroot/opticks/!svn/ver/13604/releases/4.7.0/trunk/Code/application/Gui/PropertiesHistogramPlot.h
+END
+BatchEditorDlg.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svnroot/opticks/!svn/ver/13604/releases/4.7.0/trunk/Code/application/Gui/BatchEditorDlg.cpp
+END
+ImportOptionsDlg.h
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svnroot/opticks/!svn/ver/13604/releases/4.7.0/trunk/Code/application/Gui/ImportOptionsDlg.h
+END
+MetadataWidget.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svnroot/opticks/!svn/ver/13604/releases/4.7.0/trunk/Code/application/Gui/MetadataWidget.cpp
+END
+PropertiesDataDescriptor.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/svnroot/opticks/!svn/ver/13604/releases/4.7.0/trunk/Code/application/Gui/PropertiesDataDescriptor.cpp
+END
+MultiLineTextDialog.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/svnroot/opticks/!svn/ver/13604/releases/4.7.0/trunk/Code/application/Gui/MultiLineTextDialog.cpp
+END
+OptionsAnnotationLayer.h
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/svnroot/opticks/!svn/ver/13604/releases/4.7.0/trunk/Code/application/Gui/OptionsAnnotationLayer.h
+END
+PaperSizeDlg.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svnroot/opticks/!svn/ver/13604/releases/4.7.0/trunk/Code/application/Gui/PaperSizeDlg.cpp
+END
+GetSubsetDialog.h
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svnroot/opticks/!svn/ver/13604/releases/4.7.0/trunk/Code/application/Gui/GetSubsetDialog.h
+END
+BrightnessToolBar.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svnroot/opticks/!svn/ver/13604/releases/4.7.0/trunk/Code/application/Gui/BrightnessToolBar.cpp
+END
+PropertiesView.h
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svnroot/opticks/!svn/ver/13604/releases/4.7.0/trunk/Code/application/Gui/PropertiesView.h
+END
+WizardItemProperties.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/svnroot/opticks/!svn/ver/13604/releases/4.7.0/trunk/Code/application/Gui/WizardItemProperties.cpp
+END
+OptionsSpatialDataView.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/svnroot/opticks/!svn/ver/13604/releases/4.7.0/trunk/Code/application/Gui/OptionsSpatialDataView.cpp
+END
+OptionsMeasurementLayer.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/svnroot/opticks/!svn/ver/13604/releases/4.7.0/trunk/Code/application/Gui/OptionsMeasurementLayer.cpp
+END
+WizardItemPalette.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svnroot/opticks/!svn/ver/13604/releases/4.7.0/trunk/Code/application/Gui/WizardItemPalette.cpp
+END
+Workspace.h
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svnroot/opticks/!svn/ver/13604/releases/4.7.0/trunk/Code/application/Gui/Workspace.h
+END
+OptionsTiePointLayer.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/svnroot/opticks/!svn/ver/13604/releases/4.7.0/trunk/Code/application/Gui/OptionsTiePointLayer.cpp
+END
+PropertiesSpatialDataView.h
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/svnroot/opticks/!svn/ver/13604/releases/4.7.0/trunk/Code/application/Gui/PropertiesSpatialDataView.h
+END
+WizardWidget.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svnroot/opticks/!svn/ver/13604/releases/4.7.0/trunk/Code/application/Gui/WizardWidget.cpp
+END
+SConscript
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svnroot/opticks/!svn/ver/13604/releases/4.7.0/trunk/Code/application/Gui/SConscript
+END
+PropertiesRasterLayer.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/svnroot/opticks/!svn/ver/13604/releases/4.7.0/trunk/Code/application/Gui/PropertiesRasterLayer.cpp
+END
+ScriptingWidget.h
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svnroot/opticks/!svn/ver/13604/releases/4.7.0/trunk/Code/application/Gui/ScriptingWidget.h
+END
+SubsetWidget.h
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svnroot/opticks/!svn/ver/13604/releases/4.7.0/trunk/Code/application/Gui/SubsetWidget.h
+END
+TiePointToolbar.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svnroot/opticks/!svn/ver/13604/releases/4.7.0/trunk/Code/application/Gui/TiePointToolbar.cpp
+END
+DynamicObjectItemModel.h
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/svnroot/opticks/!svn/ver/13604/releases/4.7.0/trunk/Code/application/Gui/DynamicObjectItemModel.h
+END
+WizardProperties.h
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svnroot/opticks/!svn/ver/13604/releases/4.7.0/trunk/Code/application/Gui/WizardProperties.h
+END
+OptionsAnnotationLayer.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/svnroot/opticks/!svn/ver/13604/releases/4.7.0/trunk/Code/application/Gui/OptionsAnnotationLayer.cpp
+END
+PropertiesPlotView.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svnroot/opticks/!svn/ver/13604/releases/4.7.0/trunk/Code/application/Gui/PropertiesPlotView.cpp
+END
+PropertiesView.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svnroot/opticks/!svn/ver/13604/releases/4.7.0/trunk/Code/application/Gui/PropertiesView.cpp
+END
+ZoomAndPanToPoint.h
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svnroot/opticks/!svn/ver/13604/releases/4.7.0/trunk/Code/application/Gui/ZoomAndPanToPoint.h
+END
+LinkDlg.h
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svnroot/opticks/!svn/ver/13604/releases/4.7.0/trunk/Code/application/Gui/LinkDlg.h
+END
+PropertiesSpatialDataView.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/svnroot/opticks/!svn/ver/13604/releases/4.7.0/trunk/Code/application/Gui/PropertiesSpatialDataView.cpp
+END
+PropertiesFileDescriptor.h
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/svnroot/opticks/!svn/ver/13604/releases/4.7.0/trunk/Code/application/Gui/PropertiesFileDescriptor.h
+END
+AnnotationToolBar.h
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svnroot/opticks/!svn/ver/13604/releases/4.7.0/trunk/Code/application/Gui/AnnotationToolBar.h
+END
+OptionsSpatialDataView.h
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/svnroot/opticks/!svn/ver/13604/releases/4.7.0/trunk/Code/application/Gui/OptionsSpatialDataView.h
+END
+OptionsMeasurementLayer.h
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/svnroot/opticks/!svn/ver/13604/releases/4.7.0/trunk/Code/application/Gui/OptionsMeasurementLayer.h
+END
+WizardItemPalette.h
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svnroot/opticks/!svn/ver/13604/releases/4.7.0/trunk/Code/application/Gui/WizardItemPalette.h
+END
+PropertiesMeasurementLayer.h
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/svnroot/opticks/!svn/ver/13604/releases/4.7.0/trunk/Code/application/Gui/PropertiesMeasurementLayer.h
+END
+WindowSelectionDlg.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svnroot/opticks/!svn/ver/13604/releases/4.7.0/trunk/Code/application/Gui/WindowSelectionDlg.cpp
+END
+ChippingWidget.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svnroot/opticks/!svn/ver/13604/releases/4.7.0/trunk/Code/application/Gui/ChippingWidget.cpp
+END
+BandBadValuesValidator.h
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/svnroot/opticks/!svn/ver/13604/releases/4.7.0/trunk/Code/application/Gui/BandBadValuesValidator.h
+END
+PropertiesModuleDescriptor.h
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/svnroot/opticks/!svn/ver/13604/releases/4.7.0/trunk/Code/application/Gui/PropertiesModuleDescriptor.h
+END
+OptionsRasterElementImporter.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/svnroot/opticks/!svn/ver/13604/releases/4.7.0/trunk/Code/application/Gui/OptionsRasterElementImporter.cpp
+END
+PropertiesClassification.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/svnroot/opticks/!svn/ver/13604/releases/4.7.0/trunk/Code/application/Gui/PropertiesClassification.cpp
+END
+StatusBar.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svnroot/opticks/!svn/ver/13604/releases/4.7.0/trunk/Code/application/Gui/StatusBar.cpp
+END
+DynamicObjectItemModel.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/svnroot/opticks/!svn/ver/13604/releases/4.7.0/trunk/Code/application/Gui/DynamicObjectItemModel.cpp
+END
+GraphicObjectTypeGrid.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/svnroot/opticks/!svn/ver/13604/releases/4.7.0/trunk/Code/application/Gui/GraphicObjectTypeGrid.cpp
+END
+ExportDlg.h
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svnroot/opticks/!svn/ver/13604/releases/4.7.0/trunk/Code/application/Gui/ExportDlg.h
+END
+PropertiesRasterLayer.h
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/svnroot/opticks/!svn/ver/13604/releases/4.7.0/trunk/Code/application/Gui/PropertiesRasterLayer.h
+END
+WizardClipboard.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svnroot/opticks/!svn/ver/13604/releases/4.7.0/trunk/Code/application/Gui/WizardClipboard.cpp
+END
+OptionsAoiLayer.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svnroot/opticks/!svn/ver/13604/releases/4.7.0/trunk/Code/application/Gui/OptionsAoiLayer.cpp
+END
+TiePointToolbar.h
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svnroot/opticks/!svn/ver/13604/releases/4.7.0/trunk/Code/application/Gui/TiePointToolbar.h
+END
+ZoomAndPanToPoint.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svnroot/opticks/!svn/ver/13604/releases/4.7.0/trunk/Code/application/Gui/ZoomAndPanToPoint.cpp
+END
+PropertiesAnnotationLayer.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/svnroot/opticks/!svn/ver/13604/releases/4.7.0/trunk/Code/application/Gui/PropertiesAnnotationLayer.cpp
+END
+PropertiesDlg.h
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svnroot/opticks/!svn/ver/13604/releases/4.7.0/trunk/Code/application/Gui/PropertiesDlg.h
+END
+PropertiesProductView.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/svnroot/opticks/!svn/ver/13604/releases/4.7.0/trunk/Code/application/Gui/PropertiesProductView.cpp
+END
+OptionsGeneral.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svnroot/opticks/!svn/ver/13604/releases/4.7.0/trunk/Code/application/Gui/OptionsGeneral.cpp
+END
+FilePlugInDlg.h
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svnroot/opticks/!svn/ver/13604/releases/4.7.0/trunk/Code/application/Gui/FilePlugInDlg.h
+END
+ScriptingWindow.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svnroot/opticks/!svn/ver/13604/releases/4.7.0/trunk/Code/application/Gui/ScriptingWindow.cpp
+END
+PropertiesFileDescriptor.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/svnroot/opticks/!svn/ver/13604/releases/4.7.0/trunk/Code/application/Gui/PropertiesFileDescriptor.cpp
+END
+PropertiesPlotView.h
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svnroot/opticks/!svn/ver/13604/releases/4.7.0/trunk/Code/application/Gui/PropertiesPlotView.h
+END
+GcpToolBar.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svnroot/opticks/!svn/ver/13604/releases/4.7.0/trunk/Code/application/Gui/GcpToolBar.cpp
+END
+ZoomPanWidget.h
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svnroot/opticks/!svn/ver/13604/releases/4.7.0/trunk/Code/application/Gui/ZoomPanWidget.h
+END
+DisplayToolBar.h
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svnroot/opticks/!svn/ver/13604/releases/4.7.0/trunk/Code/application/Gui/DisplayToolBar.h
+END
+PropertiesMeasurementLayer.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/svnroot/opticks/!svn/ver/13604/releases/4.7.0/trunk/Code/application/Gui/PropertiesMeasurementLayer.cpp
+END
+OptionsLatLonLayer.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svnroot/opticks/!svn/ver/13604/releases/4.7.0/trunk/Code/application/Gui/OptionsLatLonLayer.cpp
+END
+FilesetWidget.h
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svnroot/opticks/!svn/ver/13604/releases/4.7.0/trunk/Code/application/Gui/FilesetWidget.h
+END
+LinkDatasetPage.h
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svnroot/opticks/!svn/ver/13604/releases/4.7.0/trunk/Code/application/Gui/LinkDatasetPage.h
+END
+OptionsSuppressibleMsg.h
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/svnroot/opticks/!svn/ver/13604/releases/4.7.0/trunk/Code/application/Gui/OptionsSuppressibleMsg.h
+END
+OptionsShortcuts.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svnroot/opticks/!svn/ver/13604/releases/4.7.0/trunk/Code/application/Gui/OptionsShortcuts.cpp
+END
+PropertiesPlugInDescriptor.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/svnroot/opticks/!svn/ver/13604/releases/4.7.0/trunk/Code/application/Gui/PropertiesPlugInDescriptor.cpp
+END
+PropertiesTiePointLayer.h
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/svnroot/opticks/!svn/ver/13604/releases/4.7.0/trunk/Code/application/Gui/PropertiesTiePointLayer.h
+END
+OptionsPseudocolorLayer.h
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/svnroot/opticks/!svn/ver/13604/releases/4.7.0/trunk/Code/application/Gui/OptionsPseudocolorLayer.h
+END
+MetadataFilterDlg.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svnroot/opticks/!svn/ver/13604/releases/4.7.0/trunk/Code/application/Gui/MetadataFilterDlg.cpp
+END
+PropertiesPseudocolorLayer.h
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/svnroot/opticks/!svn/ver/13604/releases/4.7.0/trunk/Code/application/Gui/PropertiesPseudocolorLayer.h
+END
+WizardLine.h
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svnroot/opticks/!svn/ver/13604/releases/4.7.0/trunk/Code/application/Gui/WizardLine.h
+END
+OptionsGcpLayer.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svnroot/opticks/!svn/ver/13604/releases/4.7.0/trunk/Code/application/Gui/OptionsGcpLayer.cpp
+END
+PropertiesDlg.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svnroot/opticks/!svn/ver/13604/releases/4.7.0/trunk/Code/application/Gui/PropertiesDlg.cpp
+END
+WavelengthModel.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svnroot/opticks/!svn/ver/13604/releases/4.7.0/trunk/Code/application/Gui/WavelengthModel.cpp
+END
+OptionsView.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svnroot/opticks/!svn/ver/13604/releases/4.7.0/trunk/Code/application/Gui/OptionsView.cpp
+END
+ZoomPanWidget.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svnroot/opticks/!svn/ver/13604/releases/4.7.0/trunk/Code/application/Gui/ZoomPanWidget.cpp
+END
+OptionsStatusBar.h
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svnroot/opticks/!svn/ver/13604/releases/4.7.0/trunk/Code/application/Gui/OptionsStatusBar.h
+END
+TiePointTableModel.h
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svnroot/opticks/!svn/ver/13604/releases/4.7.0/trunk/Code/application/Gui/TiePointTableModel.h
+END
+PropertiesDataDescriptor.h
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/svnroot/opticks/!svn/ver/13604/releases/4.7.0/trunk/Code/application/Gui/PropertiesDataDescriptor.h
+END
+Gui.vcxproj
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svnroot/opticks/!svn/ver/13604/releases/4.7.0/trunk/Code/application/Gui/Gui.vcxproj
+END
+PropertiesMetadata.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svnroot/opticks/!svn/ver/13604/releases/4.7.0/trunk/Code/application/Gui/PropertiesMetadata.cpp
+END
+PaperSizeDlg.h
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svnroot/opticks/!svn/ver/13604/releases/4.7.0/trunk/Code/application/Gui/PaperSizeDlg.h
+END
+FilesetWidget.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svnroot/opticks/!svn/ver/13604/releases/4.7.0/trunk/Code/application/Gui/FilesetWidget.cpp
+END
+ScriptingWindow.h
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svnroot/opticks/!svn/ver/13604/releases/4.7.0/trunk/Code/application/Gui/ScriptingWindow.h
+END
+OptionsAnimation.h
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svnroot/opticks/!svn/ver/13604/releases/4.7.0/trunk/Code/application/Gui/OptionsAnimation.h
+END
+ApplicationWindow.h
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svnroot/opticks/!svn/ver/13604/releases/4.7.0/trunk/Code/application/Gui/ApplicationWindow.h
+END
+AboutDlg.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svnroot/opticks/!svn/ver/13604/releases/4.7.0/trunk/Code/application/Gui/AboutDlg.cpp
+END
+ImportDlg.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svnroot/opticks/!svn/ver/13604/releases/4.7.0/trunk/Code/application/Gui/ImportDlg.cpp
+END
+OptionsSuppressibleMsg.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/svnroot/opticks/!svn/ver/13604/releases/4.7.0/trunk/Code/application/Gui/OptionsSuppressibleMsg.cpp
+END
+WizardGraphicsItem.h
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svnroot/opticks/!svn/ver/13604/releases/4.7.0/trunk/Code/application/Gui/WizardGraphicsItem.h
+END
+OptionsPseudocolorLayer.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/svnroot/opticks/!svn/ver/13604/releases/4.7.0/trunk/Code/application/Gui/OptionsPseudocolorLayer.cpp
+END
+OptionsLatLonLayer.h
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svnroot/opticks/!svn/ver/13604/releases/4.7.0/trunk/Code/application/Gui/OptionsLatLonLayer.h
+END
+OptionsRasterLayer.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svnroot/opticks/!svn/ver/13604/releases/4.7.0/trunk/Code/application/Gui/OptionsRasterLayer.cpp
+END
+PropertiesWavelengths.h
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/svnroot/opticks/!svn/ver/13604/releases/4.7.0/trunk/Code/application/Gui/PropertiesWavelengths.h
+END
+BatchExportDlg.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svnroot/opticks/!svn/ver/13604/releases/4.7.0/trunk/Code/application/Gui/BatchExportDlg.cpp
+END
+GcpEditorDlg.h
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svnroot/opticks/!svn/ver/13604/releases/4.7.0/trunk/Code/application/Gui/GcpEditorDlg.h
+END
+WizardBuilder.h
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svnroot/opticks/!svn/ver/13604/releases/4.7.0/trunk/Code/application/Gui/WizardBuilder.h
+END
+OptionsShortcuts.h
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svnroot/opticks/!svn/ver/13604/releases/4.7.0/trunk/Code/application/Gui/OptionsShortcuts.h
+END
+PropertiesPlugInDescriptor.h
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/svnroot/opticks/!svn/ver/13604/releases/4.7.0/trunk/Code/application/Gui/PropertiesPlugInDescriptor.h
+END
+DataDescriptorWidget.h
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svnroot/opticks/!svn/ver/13604/releases/4.7.0/trunk/Code/application/Gui/DataDescriptorWidget.h
+END
+PropertiesGraphicObject.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/svnroot/opticks/!svn/ver/13604/releases/4.7.0/trunk/Code/application/Gui/PropertiesGraphicObject.cpp
+END
+BandBadValuesDlg.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svnroot/opticks/!svn/ver/13604/releases/4.7.0/trunk/Code/application/Gui/BandBadValuesDlg.cpp
+END
+PropertiesAoiLayer.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svnroot/opticks/!svn/ver/13604/releases/4.7.0/trunk/Code/application/Gui/PropertiesAoiLayer.cpp
+END
+LinkDlg.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svnroot/opticks/!svn/ver/13604/releases/4.7.0/trunk/Code/application/Gui/LinkDlg.cpp
+END
+AoiMergeDlg.h
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svnroot/opticks/!svn/ver/13604/releases/4.7.0/trunk/Code/application/Gui/AoiMergeDlg.h
+END
+PreviewWidget.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svnroot/opticks/!svn/ver/13604/releases/4.7.0/trunk/Code/application/Gui/PreviewWidget.cpp
+END
+OptionsGcpLayer.h
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svnroot/opticks/!svn/ver/13604/releases/4.7.0/trunk/Code/application/Gui/OptionsGcpLayer.h
+END
+PropertiesGcpLayer.h
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svnroot/opticks/!svn/ver/13604/releases/4.7.0/trunk/Code/application/Gui/PropertiesGcpLayer.h
+END
+ChippingWindow.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svnroot/opticks/!svn/ver/13604/releases/4.7.0/trunk/Code/application/Gui/ChippingWindow.cpp
+END
+ExportOptionsDlg.h
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svnroot/opticks/!svn/ver/13604/releases/4.7.0/trunk/Code/application/Gui/ExportOptionsDlg.h
+END
+PropertiesMeasurementObject.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/svnroot/opticks/!svn/ver/13604/releases/4.7.0/trunk/Code/application/Gui/PropertiesMeasurementObject.cpp
+END
+OptionsView.h
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svnroot/opticks/!svn/ver/13604/releases/4.7.0/trunk/Code/application/Gui/OptionsView.h
+END
+OptionsAnimation.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svnroot/opticks/!svn/ver/13604/releases/4.7.0/trunk/Code/application/Gui/OptionsAnimation.cpp
+END
+ApplicationWindow.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svnroot/opticks/!svn/ver/13604/releases/4.7.0/trunk/Code/application/Gui/ApplicationWindow.cpp
+END
+OverviewWindow.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svnroot/opticks/!svn/ver/13604/releases/4.7.0/trunk/Code/application/Gui/OverviewWindow.cpp
+END
+AnimationCycleButton.h
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svnroot/opticks/!svn/ver/13604/releases/4.7.0/trunk/Code/application/Gui/AnimationCycleButton.h
+END
+ProgressDlg.h
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svnroot/opticks/!svn/ver/13604/releases/4.7.0/trunk/Code/application/Gui/ProgressDlg.h
+END
+TiePointEditor.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svnroot/opticks/!svn/ver/13604/releases/4.7.0/trunk/Code/application/Gui/TiePointEditor.cpp
+END
+OptionsSession.h
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svnroot/opticks/!svn/ver/13604/releases/4.7.0/trunk/Code/application/Gui/OptionsSession.h
+END
+OptionsThresholdLayer.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/svnroot/opticks/!svn/ver/13604/releases/4.7.0/trunk/Code/application/Gui/OptionsThresholdLayer.cpp
+END
+LinkOptionsPage.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svnroot/opticks/!svn/ver/13604/releases/4.7.0/trunk/Code/application/Gui/LinkOptionsPage.cpp
+END
+PropertiesThresholdLayer.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/svnroot/opticks/!svn/ver/13604/releases/4.7.0/trunk/Code/application/Gui/PropertiesThresholdLayer.cpp
+END
+GcpEditorDlg.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svnroot/opticks/!svn/ver/13604/releases/4.7.0/trunk/Code/application/Gui/GcpEditorDlg.cpp
+END
+WizardBuilder.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svnroot/opticks/!svn/ver/13604/releases/4.7.0/trunk/Code/application/Gui/WizardBuilder.cpp
+END
+ExportDlg.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svnroot/opticks/!svn/ver/13604/releases/4.7.0/trunk/Code/application/Gui/ExportDlg.cpp
+END
+PropertiesHistogramPlot.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/svnroot/opticks/!svn/ver/13604/releases/4.7.0/trunk/Code/application/Gui/PropertiesHistogramPlot.cpp
+END
+OptionsOverviewWindow.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/svnroot/opticks/!svn/ver/13604/releases/4.7.0/trunk/Code/application/Gui/OptionsOverviewWindow.cpp
+END
+ChippingWidget.h
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svnroot/opticks/!svn/ver/13604/releases/4.7.0/trunk/Code/application/Gui/ChippingWidget.h
+END
+OptionsFileLocations.h
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svnroot/opticks/!svn/ver/13604/releases/4.7.0/trunk/Code/application/Gui/OptionsFileLocations.h
+END
+MeasurementToolBar.h
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svnroot/opticks/!svn/ver/13604/releases/4.7.0/trunk/Code/application/Gui/MeasurementToolBar.h
+END
+ImportOptionsDlg.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svnroot/opticks/!svn/ver/13604/releases/4.7.0/trunk/Code/application/Gui/ImportOptionsDlg.cpp
+END
+MessageLogWindow.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svnroot/opticks/!svn/ver/13604/releases/4.7.0/trunk/Code/application/Gui/MessageLogWindow.cpp
+END
+BatchExportDlg.h
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svnroot/opticks/!svn/ver/13604/releases/4.7.0/trunk/Code/application/Gui/BatchExportDlg.h
+END
+AoiMergeDlg.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svnroot/opticks/!svn/ver/13604/releases/4.7.0/trunk/Code/application/Gui/AoiMergeDlg.cpp
+END
+FileDescriptorWidget.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/svnroot/opticks/!svn/ver/13604/releases/4.7.0/trunk/Code/application/Gui/FileDescriptorWidget.cpp
+END
+PropertiesGcpLayer.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svnroot/opticks/!svn/ver/13604/releases/4.7.0/trunk/Code/application/Gui/PropertiesGcpLayer.cpp
+END
+GetSubsetDialog.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svnroot/opticks/!svn/ver/13604/releases/4.7.0/trunk/Code/application/Gui/GetSubsetDialog.cpp
+END
+OptionsAoiLayer.h
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svnroot/opticks/!svn/ver/13604/releases/4.7.0/trunk/Code/application/Gui/OptionsAoiLayer.h
+END
+BackgroundPluginWindow.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/svnroot/opticks/!svn/ver/13604/releases/4.7.0/trunk/Code/application/Gui/BackgroundPluginWindow.cpp
+END
+BandBadValuesDlg.h
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svnroot/opticks/!svn/ver/13604/releases/4.7.0/trunk/Code/application/Gui/BandBadValuesDlg.h
+END
+PropertiesAoiLayer.h
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svnroot/opticks/!svn/ver/13604/releases/4.7.0/trunk/Code/application/Gui/PropertiesAoiLayer.h
+END
+DisplayToolBar.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svnroot/opticks/!svn/ver/13604/releases/4.7.0/trunk/Code/application/Gui/DisplayToolBar.cpp
+END
+MetadataWidget.h
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svnroot/opticks/!svn/ver/13604/releases/4.7.0/trunk/Code/application/Gui/MetadataWidget.h
+END
+SplashScreen.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svnroot/opticks/!svn/ver/13604/releases/4.7.0/trunk/Code/application/Gui/SplashScreen.cpp
+END
+AnimationCycleButton.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/svnroot/opticks/!svn/ver/13604/releases/4.7.0/trunk/Code/application/Gui/AnimationCycleButton.cpp
+END
+ProgressDlg.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svnroot/opticks/!svn/ver/13604/releases/4.7.0/trunk/Code/application/Gui/ProgressDlg.cpp
+END

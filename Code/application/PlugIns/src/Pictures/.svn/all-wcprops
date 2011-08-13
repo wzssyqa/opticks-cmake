@@ -1,0 +1,305 @@
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svnroot/opticks/!svn/ver/13604/releases/4.7.0/trunk/Code/application/PlugIns/src/Pictures
+END
+PicturesPlotWidgetExporter.h
+K 25
+svn:wc:ra_dav:version-url
+V 119
+/svnroot/opticks/!svn/ver/13604/releases/4.7.0/trunk/Code/application/PlugIns/src/Pictures/PicturesPlotWidgetExporter.h
+END
+JpegDetails.h
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/svnroot/opticks/!svn/ver/13604/releases/4.7.0/trunk/Code/application/PlugIns/src/Pictures/JpegDetails.h
+END
+OptionsTiffExporter.h
+K 25
+svn:wc:ra_dav:version-url
+V 112
+/svnroot/opticks/!svn/ver/13604/releases/4.7.0/trunk/Code/application/PlugIns/src/Pictures/OptionsTiffExporter.h
+END
+TiffDetails.h
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/svnroot/opticks/!svn/ver/13604/releases/4.7.0/trunk/Code/application/PlugIns/src/Pictures/TiffDetails.h
+END
+Jpeg2000Pager.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/svnroot/opticks/!svn/ver/13604/releases/4.7.0/trunk/Code/application/PlugIns/src/Pictures/Jpeg2000Pager.cpp
+END
+GeoTiffPager.h
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/svnroot/opticks/!svn/ver/13604/releases/4.7.0/trunk/Code/application/PlugIns/src/Pictures/GeoTiffPager.h
+END
+PostScriptExporter.h
+K 25
+svn:wc:ra_dav:version-url
+V 111
+/svnroot/opticks/!svn/ver/13604/releases/4.7.0/trunk/Code/application/PlugIns/src/Pictures/PostScriptExporter.h
+END
+GeoTIFFImporter.h
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/svnroot/opticks/!svn/ver/13604/releases/4.7.0/trunk/Code/application/PlugIns/src/Pictures/GeoTIFFImporter.h
+END
+JpegExportOptionsWidget.h
+K 25
+svn:wc:ra_dav:version-url
+V 116
+/svnroot/opticks/!svn/ver/13604/releases/4.7.0/trunk/Code/application/PlugIns/src/Pictures/JpegExportOptionsWidget.h
+END
+QuickbirdIsd.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/svnroot/opticks/!svn/ver/13604/releases/4.7.0/trunk/Code/application/PlugIns/src/Pictures/QuickbirdIsd.cpp
+END
+Jpeg2000Importer.h
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/svnroot/opticks/!svn/ver/13604/releases/4.7.0/trunk/Code/application/PlugIns/src/Pictures/Jpeg2000Importer.h
+END
+TiffExportOptionsWidget.h
+K 25
+svn:wc:ra_dav:version-url
+V 116
+/svnroot/opticks/!svn/ver/13604/releases/4.7.0/trunk/Code/application/PlugIns/src/Pictures/TiffExportOptionsWidget.h
+END
+ModuleManager.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/svnroot/opticks/!svn/ver/13604/releases/4.7.0/trunk/Code/application/PlugIns/src/Pictures/ModuleManager.cpp
+END
+GeoTiffPage.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/svnroot/opticks/!svn/ver/13604/releases/4.7.0/trunk/Code/application/PlugIns/src/Pictures/GeoTiffPage.cpp
+END
+GeoTIFFExporter.h
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/svnroot/opticks/!svn/ver/13604/releases/4.7.0/trunk/Code/application/PlugIns/src/Pictures/GeoTIFFExporter.h
+END
+OptionsBmpExporter.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/svnroot/opticks/!svn/ver/13604/releases/4.7.0/trunk/Code/application/PlugIns/src/Pictures/OptionsBmpExporter.cpp
+END
+BmpDetails.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/svnroot/opticks/!svn/ver/13604/releases/4.7.0/trunk/Code/application/PlugIns/src/Pictures/BmpDetails.cpp
+END
+OptionsTiffImporter.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 114
+/svnroot/opticks/!svn/ver/13604/releases/4.7.0/trunk/Code/application/PlugIns/src/Pictures/OptionsTiffImporter.cpp
+END
+PicturesViewExporter.h
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/svnroot/opticks/!svn/ver/13604/releases/4.7.0/trunk/Code/application/PlugIns/src/Pictures/PicturesViewExporter.h
+END
+Jpeg2000Page.h
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/svnroot/opticks/!svn/ver/13604/releases/4.7.0/trunk/Code/application/PlugIns/src/Pictures/Jpeg2000Page.h
+END
+PicturesPlotWidgetExporter.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 121
+/svnroot/opticks/!svn/ver/13604/releases/4.7.0/trunk/Code/application/PlugIns/src/Pictures/PicturesPlotWidgetExporter.cpp
+END
+JpegDetails.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/svnroot/opticks/!svn/ver/13604/releases/4.7.0/trunk/Code/application/PlugIns/src/Pictures/JpegDetails.cpp
+END
+PicturesExporter.h
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/svnroot/opticks/!svn/ver/13604/releases/4.7.0/trunk/Code/application/PlugIns/src/Pictures/PicturesExporter.h
+END
+OptionsTiffExporter.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 114
+/svnroot/opticks/!svn/ver/13604/releases/4.7.0/trunk/Code/application/PlugIns/src/Pictures/OptionsTiffExporter.cpp
+END
+OptionsPngExporter.h
+K 25
+svn:wc:ra_dav:version-url
+V 111
+/svnroot/opticks/!svn/ver/13604/releases/4.7.0/trunk/Code/application/PlugIns/src/Pictures/OptionsPngExporter.h
+END
+TiffDetails.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/svnroot/opticks/!svn/ver/13604/releases/4.7.0/trunk/Code/application/PlugIns/src/Pictures/TiffDetails.cpp
+END
+OptionsJpegExporter.h
+K 25
+svn:wc:ra_dav:version-url
+V 112
+/svnroot/opticks/!svn/ver/13604/releases/4.7.0/trunk/Code/application/PlugIns/src/Pictures/OptionsJpegExporter.h
+END
+PngDetails.h
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/svnroot/opticks/!svn/ver/13604/releases/4.7.0/trunk/Code/application/PlugIns/src/Pictures/PngDetails.h
+END
+GeoTiffPager.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/svnroot/opticks/!svn/ver/13604/releases/4.7.0/trunk/Code/application/PlugIns/src/Pictures/GeoTiffPager.cpp
+END
+PostScriptExporter.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/svnroot/opticks/!svn/ver/13604/releases/4.7.0/trunk/Code/application/PlugIns/src/Pictures/PostScriptExporter.cpp
+END
+GeoTIFFImporter.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/svnroot/opticks/!svn/ver/13604/releases/4.7.0/trunk/Code/application/PlugIns/src/Pictures/GeoTIFFImporter.cpp
+END
+SConscript
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/svnroot/opticks/!svn/ver/13604/releases/4.7.0/trunk/Code/application/PlugIns/src/Pictures/SConscript
+END
+Pictures.vcxproj
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/svnroot/opticks/!svn/ver/13604/releases/4.7.0/trunk/Code/application/PlugIns/src/Pictures/Pictures.vcxproj
+END
+JpegExportOptionsWidget.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 118
+/svnroot/opticks/!svn/ver/13604/releases/4.7.0/trunk/Code/application/PlugIns/src/Pictures/JpegExportOptionsWidget.cpp
+END
+Jpeg2000Importer.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 111
+/svnroot/opticks/!svn/ver/13604/releases/4.7.0/trunk/Code/application/PlugIns/src/Pictures/Jpeg2000Importer.cpp
+END
+TiffExportOptionsWidget.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 118
+/svnroot/opticks/!svn/ver/13604/releases/4.7.0/trunk/Code/application/PlugIns/src/Pictures/TiffExportOptionsWidget.cpp
+END
+Jpeg2000Pager.h
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/svnroot/opticks/!svn/ver/13604/releases/4.7.0/trunk/Code/application/PlugIns/src/Pictures/Jpeg2000Pager.h
+END
+GeoTIFFExporter.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/svnroot/opticks/!svn/ver/13604/releases/4.7.0/trunk/Code/application/PlugIns/src/Pictures/GeoTIFFExporter.cpp
+END
+Pictures.vcxproj.filters
+K 25
+svn:wc:ra_dav:version-url
+V 115
+/svnroot/opticks/!svn/ver/13604/releases/4.7.0/trunk/Code/application/PlugIns/src/Pictures/Pictures.vcxproj.filters
+END
+PicturesViewExporter.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 115
+/svnroot/opticks/!svn/ver/13604/releases/4.7.0/trunk/Code/application/PlugIns/src/Pictures/PicturesViewExporter.cpp
+END
+QuickbirdIsd.h
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/svnroot/opticks/!svn/ver/13604/releases/4.7.0/trunk/Code/application/PlugIns/src/Pictures/QuickbirdIsd.h
+END
+Jpeg2000Page.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/svnroot/opticks/!svn/ver/13604/releases/4.7.0/trunk/Code/application/PlugIns/src/Pictures/Jpeg2000Page.cpp
+END
+GeoTiffPage.h
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/svnroot/opticks/!svn/ver/13604/releases/4.7.0/trunk/Code/application/PlugIns/src/Pictures/GeoTiffPage.h
+END
+PicturesExporter.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 111
+/svnroot/opticks/!svn/ver/13604/releases/4.7.0/trunk/Code/application/PlugIns/src/Pictures/PicturesExporter.cpp
+END
+OptionsBmpExporter.h
+K 25
+svn:wc:ra_dav:version-url
+V 111
+/svnroot/opticks/!svn/ver/13604/releases/4.7.0/trunk/Code/application/PlugIns/src/Pictures/OptionsBmpExporter.h
+END
+OptionsPngExporter.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/svnroot/opticks/!svn/ver/13604/releases/4.7.0/trunk/Code/application/PlugIns/src/Pictures/OptionsPngExporter.cpp
+END
+BmpDetails.h
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/svnroot/opticks/!svn/ver/13604/releases/4.7.0/trunk/Code/application/PlugIns/src/Pictures/BmpDetails.h
+END
+OptionsJpegExporter.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 114
+/svnroot/opticks/!svn/ver/13604/releases/4.7.0/trunk/Code/application/PlugIns/src/Pictures/OptionsJpegExporter.cpp
+END
+PngDetails.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/svnroot/opticks/!svn/ver/13604/releases/4.7.0/trunk/Code/application/PlugIns/src/Pictures/PngDetails.cpp
+END
+OptionsTiffImporter.h
+K 25
+svn:wc:ra_dav:version-url
+V 112
+/svnroot/opticks/!svn/ver/13604/releases/4.7.0/trunk/Code/application/PlugIns/src/Pictures/OptionsTiffImporter.h
+END

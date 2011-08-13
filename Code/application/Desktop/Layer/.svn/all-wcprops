@@ -1,0 +1,281 @@
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svnroot/opticks/!svn/ver/13604/releases/4.7.0/trunk/Code/application/Desktop/Layer
+END
+TiePointLayerAdapter.h
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/svnroot/opticks/!svn/ver/13604/releases/4.7.0/trunk/Code/application/Desktop/Layer/TiePointLayerAdapter.h
+END
+TiePointLayerImp.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/svnroot/opticks/!svn/ver/13604/releases/4.7.0/trunk/Code/application/Desktop/Layer/TiePointLayerImp.cpp
+END
+PseudocolorLayerAdapter.h
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/svnroot/opticks/!svn/ver/13604/releases/4.7.0/trunk/Code/application/Desktop/Layer/PseudocolorLayerAdapter.h
+END
+PseudocolorLayerImp.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/svnroot/opticks/!svn/ver/13604/releases/4.7.0/trunk/Code/application/Desktop/Layer/PseudocolorLayerImp.cpp
+END
+ClassificationLayerImp.h
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/svnroot/opticks/!svn/ver/13604/releases/4.7.0/trunk/Code/application/Desktop/Layer/ClassificationLayerImp.h
+END
+RasterLayerAdapter.h
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/svnroot/opticks/!svn/ver/13604/releases/4.7.0/trunk/Code/application/Desktop/Layer/RasterLayerAdapter.h
+END
+RasterLayerImp.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/svnroot/opticks/!svn/ver/13604/releases/4.7.0/trunk/Code/application/Desktop/Layer/RasterLayerImp.cpp
+END
+ThresholdLayerImp.h
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/svnroot/opticks/!svn/ver/13604/releases/4.7.0/trunk/Code/application/Desktop/Layer/ThresholdLayerImp.h
+END
+AnnotationLayerAdapter.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/svnroot/opticks/!svn/ver/13604/releases/4.7.0/trunk/Code/application/Desktop/Layer/AnnotationLayerAdapter.cpp
+END
+GraphicLayerAdapter.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/svnroot/opticks/!svn/ver/13604/releases/4.7.0/trunk/Code/application/Desktop/Layer/GraphicLayerAdapter.cpp
+END
+AoiLayerAdapter.h
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/svnroot/opticks/!svn/ver/13604/releases/4.7.0/trunk/Code/application/Desktop/Layer/AoiLayerAdapter.h
+END
+AoiLayerImp.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/svnroot/opticks/!svn/ver/13604/releases/4.7.0/trunk/Code/application/Desktop/Layer/AoiLayerImp.cpp
+END
+GcpLayerAdapter.h
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/svnroot/opticks/!svn/ver/13604/releases/4.7.0/trunk/Code/application/Desktop/Layer/GcpLayerAdapter.h
+END
+GcpLayerImp.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/svnroot/opticks/!svn/ver/13604/releases/4.7.0/trunk/Code/application/Desktop/Layer/GcpLayerImp.cpp
+END
+LayerImp.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svnroot/opticks/!svn/ver/13604/releases/4.7.0/trunk/Code/application/Desktop/Layer/LayerImp.cpp
+END
+AnnotationLayerImp.h
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/svnroot/opticks/!svn/ver/13604/releases/4.7.0/trunk/Code/application/Desktop/Layer/AnnotationLayerImp.h
+END
+MeasurementLayerAdapter.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 111
+/svnroot/opticks/!svn/ver/13604/releases/4.7.0/trunk/Code/application/Desktop/Layer/MeasurementLayerAdapter.cpp
+END
+GraphicLayerImp.h
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/svnroot/opticks/!svn/ver/13604/releases/4.7.0/trunk/Code/application/Desktop/Layer/GraphicLayerImp.h
+END
+LatLonLayerAdapter.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/svnroot/opticks/!svn/ver/13604/releases/4.7.0/trunk/Code/application/Desktop/Layer/LatLonLayerAdapter.cpp
+END
+TiePointLayerAdapter.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/svnroot/opticks/!svn/ver/13604/releases/4.7.0/trunk/Code/application/Desktop/Layer/TiePointLayerAdapter.cpp
+END
+PseudocolorLayerAdapter.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 111
+/svnroot/opticks/!svn/ver/13604/releases/4.7.0/trunk/Code/application/Desktop/Layer/PseudocolorLayerAdapter.cpp
+END
+MeasurementLayerImp.h
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/svnroot/opticks/!svn/ver/13604/releases/4.7.0/trunk/Code/application/Desktop/Layer/MeasurementLayerImp.h
+END
+ClassificationLayerAdapter.h
+K 25
+svn:wc:ra_dav:version-url
+V 112
+/svnroot/opticks/!svn/ver/13604/releases/4.7.0/trunk/Code/application/Desktop/Layer/ClassificationLayerAdapter.h
+END
+ClassificationLayerImp.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/svnroot/opticks/!svn/ver/13604/releases/4.7.0/trunk/Code/application/Desktop/Layer/ClassificationLayerImp.cpp
+END
+RasterLayerAdapter.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/svnroot/opticks/!svn/ver/13604/releases/4.7.0/trunk/Code/application/Desktop/Layer/RasterLayerAdapter.cpp
+END
+ThresholdLayerAdapter.h
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/svnroot/opticks/!svn/ver/13604/releases/4.7.0/trunk/Code/application/Desktop/Layer/ThresholdLayerAdapter.h
+END
+ThresholdLayerImp.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/svnroot/opticks/!svn/ver/13604/releases/4.7.0/trunk/Code/application/Desktop/Layer/ThresholdLayerImp.cpp
+END
+LatLonLayerImp.h
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/svnroot/opticks/!svn/ver/13604/releases/4.7.0/trunk/Code/application/Desktop/Layer/LatLonLayerImp.h
+END
+TiePointLayerImp.h
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/svnroot/opticks/!svn/ver/13604/releases/4.7.0/trunk/Code/application/Desktop/Layer/TiePointLayerImp.h
+END
+AoiLayerAdapter.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/svnroot/opticks/!svn/ver/13604/releases/4.7.0/trunk/Code/application/Desktop/Layer/AoiLayerAdapter.cpp
+END
+PseudocolorLayerImp.h
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/svnroot/opticks/!svn/ver/13604/releases/4.7.0/trunk/Code/application/Desktop/Layer/PseudocolorLayerImp.h
+END
+GcpLayerAdapter.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/svnroot/opticks/!svn/ver/13604/releases/4.7.0/trunk/Code/application/Desktop/Layer/GcpLayerAdapter.cpp
+END
+RasterLayerImp.h
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/svnroot/opticks/!svn/ver/13604/releases/4.7.0/trunk/Code/application/Desktop/Layer/RasterLayerImp.h
+END
+AnnotationLayerAdapter.h
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/svnroot/opticks/!svn/ver/13604/releases/4.7.0/trunk/Code/application/Desktop/Layer/AnnotationLayerAdapter.h
+END
+AnnotationLayerImp.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/svnroot/opticks/!svn/ver/13604/releases/4.7.0/trunk/Code/application/Desktop/Layer/AnnotationLayerImp.cpp
+END
+GraphicLayerImp.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/svnroot/opticks/!svn/ver/13604/releases/4.7.0/trunk/Code/application/Desktop/Layer/GraphicLayerImp.cpp
+END
+GraphicLayerAdapter.h
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/svnroot/opticks/!svn/ver/13604/releases/4.7.0/trunk/Code/application/Desktop/Layer/GraphicLayerAdapter.h
+END
+AoiLayerImp.h
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/svnroot/opticks/!svn/ver/13604/releases/4.7.0/trunk/Code/application/Desktop/Layer/AoiLayerImp.h
+END
+GcpLayerImp.h
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/svnroot/opticks/!svn/ver/13604/releases/4.7.0/trunk/Code/application/Desktop/Layer/GcpLayerImp.h
+END
+LayerImp.h
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svnroot/opticks/!svn/ver/13604/releases/4.7.0/trunk/Code/application/Desktop/Layer/LayerImp.h
+END
+MeasurementLayerImp.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/svnroot/opticks/!svn/ver/13604/releases/4.7.0/trunk/Code/application/Desktop/Layer/MeasurementLayerImp.cpp
+END
+MeasurementLayerAdapter.h
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/svnroot/opticks/!svn/ver/13604/releases/4.7.0/trunk/Code/application/Desktop/Layer/MeasurementLayerAdapter.h
+END
+ClassificationLayerAdapter.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 114
+/svnroot/opticks/!svn/ver/13604/releases/4.7.0/trunk/Code/application/Desktop/Layer/ClassificationLayerAdapter.cpp
+END
+ThresholdLayerAdapter.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/svnroot/opticks/!svn/ver/13604/releases/4.7.0/trunk/Code/application/Desktop/Layer/ThresholdLayerAdapter.cpp
+END
+LatLonLayerImp.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/svnroot/opticks/!svn/ver/13604/releases/4.7.0/trunk/Code/application/Desktop/Layer/LatLonLayerImp.cpp
+END
+LatLonLayerAdapter.h
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/svnroot/opticks/!svn/ver/13604/releases/4.7.0/trunk/Code/application/Desktop/Layer/LatLonLayerAdapter.h
+END

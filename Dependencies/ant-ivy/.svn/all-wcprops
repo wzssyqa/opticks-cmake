@@ -1,0 +1,317 @@
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svnroot/opticks/!svn/ver/13604/releases/4.7.0/trunk/Dependencies/ant-ivy
+END
+ant-jdepend.pom
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svnroot/opticks/!svn/ver/13604/releases/4.7.0/trunk/Dependencies/ant-ivy/ant-jdepend.pom
+END
+ant-junit.jar
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svnroot/opticks/!svn/ver/13604/releases/4.7.0/trunk/Dependencies/ant-ivy/ant-junit.jar
+END
+ant-jmf.pom
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svnroot/opticks/!svn/ver/13604/releases/4.7.0/trunk/Dependencies/ant-ivy/ant-jmf.pom
+END
+ant-junit4.pom
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svnroot/opticks/!svn/ver/13604/releases/4.7.0/trunk/Dependencies/ant-ivy/ant-junit4.pom
+END
+ant-testutil.pom
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svnroot/opticks/!svn/ver/13604/releases/4.7.0/trunk/Dependencies/ant-ivy/ant-testutil.pom
+END
+ant-netrexx.jar
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svnroot/opticks/!svn/ver/13604/releases/4.7.0/trunk/Dependencies/ant-ivy/ant-netrexx.jar
+END
+ant-apache-log4j.jar
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svnroot/opticks/!svn/ver/13604/releases/4.7.0/trunk/Dependencies/ant-ivy/ant-apache-log4j.jar
+END
+ant-commons-net.jar
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svnroot/opticks/!svn/ver/13604/releases/4.7.0/trunk/Dependencies/ant-ivy/ant-commons-net.jar
+END
+ant-commons-logging.jar
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/svnroot/opticks/!svn/ver/13604/releases/4.7.0/trunk/Dependencies/ant-ivy/ant-commons-logging.jar
+END
+ant-antlr.pom
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svnroot/opticks/!svn/ver/13604/releases/4.7.0/trunk/Dependencies/ant-ivy/ant-antlr.pom
+END
+ant-launcher.jar
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svnroot/opticks/!svn/ver/13604/releases/4.7.0/trunk/Dependencies/ant-ivy/ant-launcher.jar
+END
+ant.jar
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svnroot/opticks/!svn/ver/13604/releases/4.7.0/trunk/Dependencies/ant-ivy/ant.jar
+END
+NOTICE-ApacheAnt
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svnroot/opticks/!svn/ver/13604/releases/4.7.0/trunk/Dependencies/ant-ivy/NOTICE-ApacheAnt
+END
+ant-junit.pom
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svnroot/opticks/!svn/ver/13604/releases/4.7.0/trunk/Dependencies/ant-ivy/ant-junit.pom
+END
+ant-apache-regexp.jar
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svnroot/opticks/!svn/ver/13604/releases/4.7.0/trunk/Dependencies/ant-ivy/ant-apache-regexp.jar
+END
+ant-netrexx.pom
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svnroot/opticks/!svn/ver/13604/releases/4.7.0/trunk/Dependencies/ant-ivy/ant-netrexx.pom
+END
+ant-apache-log4j.pom
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svnroot/opticks/!svn/ver/13604/releases/4.7.0/trunk/Dependencies/ant-ivy/ant-apache-log4j.pom
+END
+ant-commons-net.pom
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svnroot/opticks/!svn/ver/13604/releases/4.7.0/trunk/Dependencies/ant-ivy/ant-commons-net.pom
+END
+ant-commons-logging.pom
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/svnroot/opticks/!svn/ver/13604/releases/4.7.0/trunk/Dependencies/ant-ivy/ant-commons-logging.pom
+END
+ant-apache-oro.jar
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svnroot/opticks/!svn/ver/13604/releases/4.7.0/trunk/Dependencies/ant-ivy/ant-apache-oro.jar
+END
+ant-apache-resolver.jar
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/svnroot/opticks/!svn/ver/13604/releases/4.7.0/trunk/Dependencies/ant-ivy/ant-apache-resolver.jar
+END
+ant-launcher.pom
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svnroot/opticks/!svn/ver/13604/releases/4.7.0/trunk/Dependencies/ant-ivy/ant-launcher.pom
+END
+ant.pom
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svnroot/opticks/!svn/ver/13604/releases/4.7.0/trunk/Dependencies/ant-ivy/ant.pom
+END
+ant-javamail.jar
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svnroot/opticks/!svn/ver/13604/releases/4.7.0/trunk/Dependencies/ant-ivy/ant-javamail.jar
+END
+ant-apache-bcel.jar
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svnroot/opticks/!svn/ver/13604/releases/4.7.0/trunk/Dependencies/ant-ivy/ant-apache-bcel.jar
+END
+ivy-2.2.0.jar
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svnroot/opticks/!svn/ver/13604/releases/4.7.0/trunk/Dependencies/ant-ivy/ivy-2.2.0.jar
+END
+jsch-0.1.31.jar
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svnroot/opticks/!svn/ver/13604/releases/4.7.0/trunk/Dependencies/ant-ivy/jsch-0.1.31.jar
+END
+LICENSE
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svnroot/opticks/!svn/ver/13604/releases/4.7.0/trunk/Dependencies/ant-ivy/LICENSE
+END
+ant-jsch.jar
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svnroot/opticks/!svn/ver/13604/releases/4.7.0/trunk/Dependencies/ant-ivy/ant-jsch.jar
+END
+ant-swing.jar
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svnroot/opticks/!svn/ver/13604/releases/4.7.0/trunk/Dependencies/ant-ivy/ant-swing.jar
+END
+ant-apache-regexp.pom
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svnroot/opticks/!svn/ver/13604/releases/4.7.0/trunk/Dependencies/ant-ivy/ant-apache-regexp.pom
+END
+ant-apache-bsf.jar
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svnroot/opticks/!svn/ver/13604/releases/4.7.0/trunk/Dependencies/ant-ivy/ant-apache-bsf.jar
+END
+NOTICE-ApacheIvy
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svnroot/opticks/!svn/ver/13604/releases/4.7.0/trunk/Dependencies/ant-ivy/NOTICE-ApacheIvy
+END
+ant-apache-oro.pom
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svnroot/opticks/!svn/ver/13604/releases/4.7.0/trunk/Dependencies/ant-ivy/ant-apache-oro.pom
+END
+ant-apache-resolver.pom
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/svnroot/opticks/!svn/ver/13604/releases/4.7.0/trunk/Dependencies/ant-ivy/ant-apache-resolver.pom
+END
+README
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svnroot/opticks/!svn/ver/13604/releases/4.7.0/trunk/Dependencies/ant-ivy/README
+END
+ant-javamail.pom
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svnroot/opticks/!svn/ver/13604/releases/4.7.0/trunk/Dependencies/ant-ivy/ant-javamail.pom
+END
+ant-jai.jar
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svnroot/opticks/!svn/ver/13604/releases/4.7.0/trunk/Dependencies/ant-ivy/ant-jai.jar
+END
+ant-apache-bcel.pom
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svnroot/opticks/!svn/ver/13604/releases/4.7.0/trunk/Dependencies/ant-ivy/ant-apache-bcel.pom
+END
+ant-apache-xalan2.jar
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svnroot/opticks/!svn/ver/13604/releases/4.7.0/trunk/Dependencies/ant-ivy/ant-apache-xalan2.jar
+END
+ant-jsch.pom
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svnroot/opticks/!svn/ver/13604/releases/4.7.0/trunk/Dependencies/ant-ivy/ant-jsch.pom
+END
+ant-swing.pom
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svnroot/opticks/!svn/ver/13604/releases/4.7.0/trunk/Dependencies/ant-ivy/ant-swing.pom
+END
+ant-apache-bsf.pom
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svnroot/opticks/!svn/ver/13604/releases/4.7.0/trunk/Dependencies/ant-ivy/ant-apache-bsf.pom
+END
+ant-parent.pom
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svnroot/opticks/!svn/ver/13604/releases/4.7.0/trunk/Dependencies/ant-ivy/ant-parent.pom
+END
+ant-jdepend.jar
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svnroot/opticks/!svn/ver/13604/releases/4.7.0/trunk/Dependencies/ant-ivy/ant-jdepend.jar
+END
+ant-jmf.jar
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svnroot/opticks/!svn/ver/13604/releases/4.7.0/trunk/Dependencies/ant-ivy/ant-jmf.jar
+END
+libraries.properties
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svnroot/opticks/!svn/ver/13604/releases/4.7.0/trunk/Dependencies/ant-ivy/libraries.properties
+END
+ant-junit4.jar
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svnroot/opticks/!svn/ver/13604/releases/4.7.0/trunk/Dependencies/ant-ivy/ant-junit4.jar
+END
+ant-testutil.jar
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svnroot/opticks/!svn/ver/13604/releases/4.7.0/trunk/Dependencies/ant-ivy/ant-testutil.jar
+END
+ant-antlr.jar
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svnroot/opticks/!svn/ver/13604/releases/4.7.0/trunk/Dependencies/ant-ivy/ant-antlr.jar
+END
+ant-jai.pom
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svnroot/opticks/!svn/ver/13604/releases/4.7.0/trunk/Dependencies/ant-ivy/ant-jai.pom
+END
+ant-apache-xalan2.pom
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svnroot/opticks/!svn/ver/13604/releases/4.7.0/trunk/Dependencies/ant-ivy/ant-apache-xalan2.pom
+END

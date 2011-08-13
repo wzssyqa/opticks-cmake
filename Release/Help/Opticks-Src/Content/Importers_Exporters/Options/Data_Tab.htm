@@ -1,0 +1,44 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" class="" MadCap:lastBlockDepth="4" MadCap:lastHeight="1468" MadCap:lastWidth="957">
+    <head><title>Data Tab</title>
+        <link href="../../Opticks_Styles.css" rel="stylesheet" type="text/css" />
+    </head>
+    <body>
+        <h1 class="BodyText">Data Tab</h1>
+        <p class="BodyText">
+            <MadCap:keyword term="Import data options:Data tab;Data tab" />The Import Options Data tab provides basic import data information such as file name and type. Depending on the type of data file, it also provides more detailed information such as the number of rows and columns, pixel size, and display mode. The example below provides detailed information. Note that you can expand the Units field to display more units information.</p>
+        <p class="BodyText">Some fields on this tab are display only. For example, the "Name" field is display only. Other fields such as the "Bad Values" field, the pixel size fields, the units field, and the bands fields can be edited. To edit a field, double-click in the Value cell next to the item you want to edit. If the value can be edited, the cell is activated or a drop-down is displayed.</p>
+        <p class="BodyText">When you click the <b>Set Display Bands</b> button, a menu appears that enables you to select various combinations of displayed bands based on wavelengths. Opticks provides three predefined color composites for image display: <MadCap:glossaryTerm>NIR</MadCap:glossaryTerm>, <MadCap:glossaryTerm>SWIR</MadCap:glossaryTerm>, and True Color. You can customize these composites. You can also create new composites. For more information, see <a href="../../View/Color_Composites.htm">Color Composites</a>.</p>
+        <p>
+            <img src="../../Resources/Images/Import_Options_1.gif" />
+        </p>
+        <h2>Performance implications of Interleave Format and Processing Location
+</h2>
+        <p class="BodyText"><b>Interleave Format</b> has three values you can select: BIL, BIP, and BSQ. This specifies the interleave of the data when loaded. Each value may have performance implications depending on what processing you will do with the data and what Processing Location you select. Most algorithms are tuned for either BIP or BSQ access and will perform best on data loaded with the same interleave. The Opticks Band Math and Principal Component plug-ins are tuned for BIP access. The Opticks band-statistics and image rendering are mildly tuned for BSQ and BIL access but this tuning is only pronounced if the Processing Location is On Disk or On Disk (Read Only). 
+
+</p>
+        <p class="BodyText"><b>Processing Location</b> has three values you can select: In Memory, On Disk (Read Only), and On Disk. Each of these has performance implications. 
+</p>
+        <ul style="list-style-type: square;">
+            <li class="BulletList"><b>In Memory</b>: This forces the application to allocate a single block of memory large enough to hold the entire data cube and to load the data cube into it using the interleave specified by the user. If the computer has sufficient memory to hold the entire data cube, this is typically the best option. The cube will take a bit longer to appear initially, but will perform better during all subsequent manipulation and processing.
+</li>
+            <li class="BulletList"><b>On Disk (Read Only)</b>: This pages the data in from the data file as needed. It uses less memory than the In Memory option, but forces the data to be paged in each time it is needed. Not all importers support this option. In addition, some algorithms want to modify the data cube in place and cannot do so on data loaded using this option. This is typically the fastest option for the initial display of the image, but will be the same as On Disk and slower than In Memory for subsequent access to the data. This option also forces you to select the same Interleave Format on the “Data” tab as on the “File” tab (no re-interleaving on load).
+</li>
+            <li class="BulletList"><b>On Disk</b>: This makes a copy of the data file on disk and then pages the data in from the copy as needed. Its memory usage is the same as the On Disk (Read Only) case, but without the importer, algorithm, and interleave restrictions. It will take longer for the image to come up initially than the On Disk (Read Only) option, since a copy of the data file will be made during load. The copy will also take up space on the your disk drive while the data cube is loaded.
+</li>
+        </ul>
+        <p class="BodyText">Note that re-interleaving on import (using a Interleave Format on the “Data” tab that is different from the value on the “File” tab) with In Memory or On Disk will result in a small delay in the initial display of the image because the data needs to be re-organized during load or during the creation of the copy of the data file.
+ Re-interleaving on import is not possible with On Disk (Read Only).</p>
+        <h2>Related Topics</h2>
+        <p class="BodyText"><a href="File_Tab.htm">File Tab</a>
+        </p>
+        <p class="BodyText"><a href="Classification_Tab.htm">Classification Tab</a>
+        </p>
+        <p class="BodyText"><a href="Subset_Tab.htm">Subset Tab</a>
+        </p>
+        <p class="BodyText"><a href="Metadata_Tab.htm">Metadata Tab</a>
+        </p>
+        <p class="BodyText"><a href="Wavelengths_Tab_Import_Options.htm">Wavelengths Tab</a>
+        </p>
+    </body>
+</html>

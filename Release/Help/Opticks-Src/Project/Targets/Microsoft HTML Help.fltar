@@ -1,0 +1,8 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<CatapultTarget Version="1" DefaultUrl="/Content/Welcome.htm" OutputFile="COMET_Help.chm" Type="HtmlHelp" MasterToc="/Project/TOCs/Primary.fltoc" GlossaryTermConversion="marked" BrowseSequence="/Project/Advanced/Common.flbrs" AliasFile="/Project/Advanced/Common.flali">
+    <Variables />
+    <ConditionTags />
+    <Glossaries>
+        <Glossary Link="/Project/Glossaries/Primary.flglo" />
+    </Glossaries>
+</CatapultTarget>

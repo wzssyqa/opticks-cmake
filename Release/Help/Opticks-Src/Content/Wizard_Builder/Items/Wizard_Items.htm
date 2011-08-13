@@ -1,0 +1,196 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" MadCap:id="Wizard_Items" MadCap:timeEstimate="0" MadCap:priority="0" MadCap:status="In Progress" MadCap:lastBlockDepth="4" MadCap:lastHeight="3942" MadCap:lastWidth="589">
+    <head><title>Wizard Items</title>
+        <link rel="StyleSheet" href="../../Opticks_Styles.css" />
+    </head>
+    <body page_style="x-size: Letter;">
+        <div placeholder="" id="header" style="width: 100%;position: relative;">
+        </div>
+        <h1>
+            <MadCap:keyword term="execution mode:wizard item" />
+            <MadCap:keyword term="type:wizard item" />
+            <MadCap:keyword term="name:wizard item" />
+            <MadCap:keyword term="wizard items" />Wizard Items</h1>
+        <p class="BodyText">A wizard item is a basic element of a wizard. It contains 
+ the information necessary to execute a single process in a wizard.</p>
+        <p class="BodyText">The wizard items are displayed in the Wizard Item Palette on the left side of the Wizard Builder. The "All" tab displays all of the available wizard items. The other tabs display the items by group such as algorithms, exporters, importers.</p>
+        <p class="BodyText">
+            <img src="../../Resources/Images/Wizard_Item_Palette.gif" />
+        </p>
+        <p class="BodyText">
+            <MadCap:keyword term="execution order number" />
+            <MadCap:keyword term="output nodes" />
+            <MadCap:keyword term="wizard items:name" />
+            <MadCap:keyword term="wizard items:execution mode" />Each item has a name, type, a variable number of input 
+ and output nodes, an execution mode, and an execution order number. Note 
+ that the execution order may not be the same as the display order.</p>
+        <p class="BodyText">In the wizard canvas, each item is displayed as a bordered 
+ rectangle. Below is an example:</p>
+        <p class="BodyText">
+            <img src="../../Resources/Images/Wizard_Item_Example.png" style="border: none;border-style: none;border-style: none;" border="0" />
+        </p>
+        <h2>Adding Items to the Wizard</h2>
+        <p class="BodyText">To add items to your wizard, simply drag them from the palette and drop them onto your canvas. </p>
+        <p class="BodyText">To add several items at a time. hold down the <b>Shift</b> or <b>Ctrl</b> key on your keyboard, select the items, and drag them onto the canvas.</p>
+        <h2>Anatomy of a Wizard Item</h2>
+        <h3>Name</h3>
+        <p class="BodyText">When you select a wizard item, the name is displayed 
+ beneath the rectangle.</p>
+        <p class="BodyText">The name of a Value item is user-defined. When you drag a value item onto your canvas, the Wizard Value Item dialog box is automatically displayed. Use this dialog box to enter the value item information. For more information on adding value items, see <a href="Add_Edit_a_Value_Item.htm">Add/Edit a Value Item</a>.</p>
+        <p class="BodyText">All other wizard items have names that identify their functionality. The name cannot be changed.</p>
+        <h3>Type</h3>
+        <p class="BodyText">A wizard typically executes plug-ins in a certain sequence. 
+ Since plug-ins do not always have common input and output values, other 
+ item types are available to provide greater flexibility to connect items.</p>
+        <p class="BodyText">The background color of the item rectangle is color-coded 
+ as follows:</p>
+        <table style="width: 64.737%;border-spacing: 0px;border-spacing: 0px;" cellspacing="0" width="64.737%">
+            <col style="width: 132px;" />
+            <col style="width: 129px;" />
+            <col style="width: 29.507%;" />
+            <tr valign="top">
+                <td style="padding-right: 10px;padding-left: 10px;border-left-style: Solid;border-left-color: #000000;border-top-color: #000000;border-top-style: Solid;border-right-style: Solid;border-right-color: #000000;border-bottom-color: #000000;border-bottom-style: Solid;border-right-width: 1px;border-left-width: 1px;border-top-width: 1px;border-bottom-width: 1px;background-color: #008080;" bgcolor="#008080"><span style="font-family: Verdana, sans-serif;font-size: 10pt;color: #ffffff;font-weight: bold;">Item Type</span>
+                </td>
+                <td colspan="1" rowspan="1" style="padding-right: 10px;padding-left: 10px;border-top-color: #000000;border-top-style: Solid;border-right-style: Solid;border-right-color: #000000;border-bottom-color: #000000;border-bottom-style: Solid;border-top-width: 1px;border-bottom-width: 1px;border-right-width: 1px;background-color: #008080;" bgcolor="#008080"><span style="font-family: Verdana, sans-serif;font-size: 10pt;color: #ffffff;font-weight: bold;">Background Color</span>
+                </td>
+                <td style="padding-right: 10px;padding-left: 10px;border-top-color: #000000;border-top-style: Solid;border-right-style: Solid;border-right-color: #000000;border-bottom-color: #000000;border-bottom-style: Solid;border-top-width: 1px;border-bottom-width: 1px;border-right-width: 1px;background-color: #008080;" bgcolor="#008080"><span style="font-family: Verdana, sans-serif;font-size: 10pt;color: #ffffff;font-weight: bold;">Example</span>
+                </td>
+            </tr>
+            <tr valign="top">
+                <td style="padding-right: 10px;padding-left: 10px;border-left-color: #000000;border-left-style: Solid;border-bottom-style: none;border-right-color: #000000;border-right-width: 1px;border-right-style: Solid;border-left-width: 1px;"><span style="font-family: Verdana, sans-serif;font-size: 10pt;"><MadCap:popup><MadCap:popupHead style="color: #faa329;font-weight: bold;font-family: Verdana, sans-serif;font-size: 10pt;" class="popupspot">Algorithm</MadCap:popupHead><MadCap:popupBody class="popupBody_1">An algorithm plug-in processes data.</MadCap:popupBody></MadCap:popup></span>
+                </td>
+                <td colspan="1" rowspan="1" style="padding-right: 10px;padding-left: 10px;border-right-color: #000000;border-right-style: Solid;border-bottom-style: none;border-right-width: 1px;"><span style="font-family: Verdana, sans-serif;font-size: 10pt;">Light 
+ green</span>
+                </td>
+                <td style="padding-right: 10px;padding-left: 10px;border-right-color: #000000;border-right-style: Solid;border-bottom-style: none;border-right-width: 1px;"><span style="font-family: Verdana, sans-serif;font-size: 10pt;"><img src="../../Resources/Images/Example_Algorithm.png" style="border: none;border-style: none;border-style: none;" border="0" /></span>
+                </td>
+            </tr>
+            <tr valign="top">
+                <td style="padding-right: 10px;padding-left: 10px;border-left-color: #000000;border-left-style: Solid;border-bottom-style: none;border-right-color: #000000;border-right-width: 1px;border-right-style: Solid;border-left-width: 1px;"><span style="font-family: Verdana, sans-serif;font-size: 10pt;"><MadCap:popup><MadCap:popupHead>Exporter</MadCap:popupHead><MadCap:popupBody class="popupBody_1">An exporter plug-in saves the data.</MadCap:popupBody></MadCap:popup></span>
+                </td>
+                <td colspan="1" rowspan="1" style="padding-right: 10px;padding-left: 10px;border-right-color: #000000;border-right-style: Solid;border-bottom-style: none;border-right-width: 1px;"><span style="font-family: Verdana, sans-serif;font-size: 10pt;">Light 
+ purple</span>
+                </td>
+                <td style="padding-right: 10px;padding-left: 10px;border-right-color: #000000;border-right-style: Solid;border-bottom-style: none;border-right-width: 1px;"><span style="font-family: Verdana, sans-serif;font-size: 10pt;"><img src="../../Resources/Images/Example_Exporter.png" style="border: none;border-style: none;border-style: none;" border="0" /></span>
+                </td>
+            </tr>
+            <tr valign="top">
+                <td style="padding-right: 10px;padding-left: 10px;border-left-color: #000000;border-left-style: Solid;border-right-color: #000000;border-right-width: 1px;border-right-style: Solid;border-left-width: 1px;border-bottom-style: none;">
+                    <MadCap:popup>
+                        <MadCap:popupHead>Georeference</MadCap:popupHead>
+                        <MadCap:popupBody>The georeferencing plug-ins provide various ways to perform georeferencing.</MadCap:popupBody>
+                    </MadCap:popup>
+                </td>
+                <td style="padding-right: 10px;padding-left: 10px;border-right-color: #000000;border-right-style: Solid;border-right-width: 1px;border-bottom-style: none;"><span style="font-family: Verdana;">Light turquoise</span>
+                </td>
+                <td style="padding-right: 10px;padding-left: 10px;border-right-color: #000000;border-right-style: Solid;border-right-width: 1px;border-bottom-style: none;">
+                    <img src="../../Resources/Images/Example_Georef.png" />
+                </td>
+            </tr>
+            <tr valign="top">
+                <td style="padding-right: 10px;padding-left: 10px;border-left-color: #000000;border-left-style: Solid;border-right-color: #000000;border-right-width: 1px;border-right-style: Solid;border-left-width: 1px;border-bottom-style: none;"><span style="font-family: Verdana, sans-serif;font-size: 10pt;"><MadCap:popup><MadCap:popupHead style="color: #faa329;font-weight: bold;font-family: Verdana, sans-serif;font-size: 10pt;" class="popupspot">Importer</MadCap:popupHead><MadCap:popupBody class="popupBody_1">An importer plug-in reads the data into the wizard.</MadCap:popupBody></MadCap:popup></span>
+                </td>
+                <td colspan="1" rowspan="1" style="padding-right: 10px;padding-left: 10px;border-right-color: #000000;border-right-style: Solid;border-right-width: 1px;border-bottom-style: none;"><span style="font-family: Verdana, sans-serif;font-size: 10pt;">Light 
+ maroon</span>
+                </td>
+                <td style="padding-right: 10px;padding-left: 10px;border-right-color: #000000;border-right-style: Solid;border-right-width: 1px;border-bottom-style: none;"><span style="font-family: Verdana, sans-serif;font-size: 10pt;"><img src="../../Resources/Images/Example_Importer.png" style="border: none;border-style: none;border-style: none;" border="0" /></span>
+                </td>
+            </tr>
+            <tr valign="top">
+                <td colspan="1" rowspan="1" style="padding-right: 10px;padding-left: 10px;border-left-width: 1px;border-left-color: #000000;border-left-style: Solid;border-right-width: 1px;border-right-color: #000000;border-right-style: Solid;border-bottom-style: Solid;border-bottom-color: #000000;border-bottom-width: 1px;"><span style="font-family: Verdana, sans-serif;font-size: 10pt;"><MadCap:popup><MadCap:popupHead style="color: #faa329;font-weight: bold;font-family: Verdana, sans-serif;font-size: 10pt;" class="popupspot">Viewer</MadCap:popupHead><MadCap:popupBody class="popupBody_1">A viewer plug-in allows you to do other things while a dialog is running.</MadCap:popupBody></MadCap:popup></span>
+                </td>
+                <td colspan="1" rowspan="1" style="padding-right: 10px;padding-left: 10px;border-right-width: 1px;border-right-color: #000000;border-right-style: Solid;border-bottom-style: Solid;border-bottom-color: #000000;border-bottom-width: 1px;"><span style="font-family: Verdana, sans-serif;font-size: 10pt;">Light 
+ blue</span>
+                </td>
+                <td colspan="1" rowspan="1" style="padding-right: 10px;padding-left: 10px;border-right-width: 1px;border-right-color: #000000;border-right-style: Solid;border-bottom-style: Solid;border-bottom-color: #000000;border-bottom-width: 1px;"><span style="font-family: Verdana, sans-serif;font-size: 10pt;"><img src="../../Resources/Images/Example_Viewer.png" style="border: none;border-style: none;" border="0" /></span>
+                </td>
+            </tr>
+            <tr valign="top">
+                <td style="padding-right: 10px;padding-left: 10px;border-left-style: Solid;border-left-color: #000000;border-left-width: 1px;border-right-style: Solid;border-right-color: #000000;border-right-width: 1px;border-bottom-width: 1px;border-bottom-color: #000000;border-bottom-style: Solid;font-family: Verdana;">Wizard</td>
+                <td style="padding-right: 10px;padding-left: 10px;border-right-style: Solid;border-right-color: #000000;border-right-width: 1px;border-bottom-width: 1px;border-bottom-color: #000000;border-bottom-style: Solid;font-family: Verdana;">Lavender</td>
+                <td style="padding-right: 10px;padding-left: 10px;border-right-style: Solid;border-right-color: #000000;border-right-width: 1px;border-bottom-width: 1px;border-bottom-color: #000000;border-bottom-style: Solid;">
+                    <img src="../../Resources/Images/Example_Wizard.png" />
+                </td>
+            </tr>
+            <tr valign="top">
+                <td colspan="1" rowspan="1" style="padding-right: 10px;padding-left: 10px;border-left-style: Solid;border-left-color: #000000;border-left-width: 1px;border-right-style: Solid;border-right-color: #000000;border-right-width: 1px;border-bottom-width: 1px;border-bottom-color: #000000;border-bottom-style: Solid;"><span style="font-family: Verdana, sans-serif;font-size: 10pt;">Value</span>
+                </td>
+                <td colspan="1" rowspan="1" style="padding-right: 10px;padding-left: 10px;border-right-style: Solid;border-right-color: #000000;border-right-width: 1px;border-bottom-width: 1px;border-bottom-color: #000000;border-bottom-style: Solid;"><span style="font-family: Verdana, sans-serif;font-size: 10pt;">Light yellow</span>
+                </td>
+                <td colspan="1" rowspan="1" style="padding-right: 10px;padding-left: 10px;border-right-style: Solid;border-right-color: #000000;border-right-width: 1px;border-bottom-width: 1px;border-bottom-color: #000000;border-bottom-style: Solid;"><span style="font-family: Verdana, sans-serif;font-size: 10pt;"><img src="../../Resources/Images/Example_Value.png" style="border: none;border-style: none;border-style: none;" border="0" /></span>
+                </td>
+            </tr>
+        </table>
+        <h3>Input and Output Nodes</h3>
+        <p class="BodyText">A wizard item can contain a variable 
+ number of input and output nodes. A Value item has no input nodes and 
+ a single output node that contains the hard-coded value.</p>
+        <p class="BodyText">The input nodes represent the input values that the item 
+ accepts. Input nodes are always located on the left side of the item rectangle.</p>
+        <p class="BodyText">The output nodes represent the output values that the 
+ item generates. Output nodes are always located on the right side of the 
+ item triangle.</p>
+        <p class="BodyText">
+            <img src="../../Input_output_nodes.gif" style="border: none;width: 258px;height: 129px;border-style: none;border-style: none;" width="258" height="129" border="0" />
+        </p>
+        <p class="BodyText">The nodes are color-coded. To see the node name and type(s), 
+ move your mouse over the node. A tool tip is displayed.</p>
+        <p class="BodyText">
+            <img src="../../Resources/Images/Node_Tip.png" style="border: none;border-style: none;border-style: none;" border="0" />
+        </p>
+        <p class="BodyText">Some nodes support multiple input types. These nodes 
+ have a down arrow button <img src="../../Down_arrow.gif" style="border: none;width: 10px;height: 11px;border-style: none;border-style: none;" width="10" height="11" border="0" /> next to them. </p>
+        <p class="BodyText">The available types are displayed in the tool tip for 
+ the node.</p>
+        <p class="BodyText">To change the type, click the down arrow button. The 
+ node changes color, indicating the current type.</p>
+        <h3>"Get..." Items</h3>
+        <p class="BodyText">"Get..." items allow you to select items when running a wizard. For example, the "Get Layer" wizard item displays a dialog that lists all available layers and allows you to select which layer will be used in the next step. If you double-click on an input node of a compatible type, the appropriate "Get..." item is automatically created.</p>
+        <p class="BodyText">When you execute a wizard with a "Get..." item in it, an appropriate dialog box will be displayed for you to select or input information needed by the "Get..." item. Here is the dialog displayed for the "Get Layer" item:</p>
+        <p class="BodyText">
+            <img src="../../Resources/Images/Select_Layer.gif" />
+        </p>
+        <h3>Execution Mode</h3>
+        <p class="BodyText">Wizard items can operate in one of the following modes:</p>
+        <ul>
+            <li class="BulletList"><span style="font-weight: bold;"><MadCap:keyword term="mode:interactive" />Interactive 
+ mode</span>
+                <MadCap:keyword term="interactive mode" />. Interactive mode indicates that the Opticks Main Application 
+ window is available and dialogs or other interface items may be displayed. 
+ Wizard items operating in interactive mode may depend on information from 
+ the user during execution.</li>
+            <li class="BulletList"><span style="font-weight: bold;"><MadCap:keyword term="mode:batch" />Batch 
+ mode</span>
+                <MadCap:keyword term="batch mode" />. Batch mode items run without input from the user. Results 
+ are not displayed in Opticks. Results are stored internally.</li>
+        </ul>
+        <p class="BodyText">Items in interactive mode have a <span style="font-weight: bold;">black</span> 
+ border.</p>
+        <p class="BodyText">Items in batch mode have a <span style="color: #ff0000;font-weight: bold;">red</span> 
+ border.</p>
+        <p class="BodyText">Note that the execution mode of wizard items is separate 
+ from the execution mode of the entire wizard. If the wizard is set to 
+ run in batch mode, all items will be forced to run in batch mode also. 
+ If the wizard is set to run in interactive mode, individual items can 
+ run in either interactive or batch mode.</p>
+        <p class="BodyText">For more information, see <a href="Execution_Mode_of_Wizard_Items.htm">Execution 
+ Mode of Wizard Items</a>.</p>
+        <h3>Execution Order Number</h3>
+        <p class="BodyText">Each item contains an execution order number that identifies 
+ the item’s 
+ position in the wizard execution sequence. This means that an item numbered 
+ “1” 
+ is the first wizard item executed, an item numbered “2” 
+ is the second item executed, and so on. </p>
+        <p class="BodyText">
+            <img src="../../Execution_Order_Number.gif" style="border: none;width: 181px;height: 131px;border-style: none;border-style: none;" width="181" height="131" border="0" />
+        </p>
+        <hr style="float: aligncenter;width: 50%;" align="center" width="50%" size="4" />
+        <h2>Related Topic</h2>
+        <p class="BodyText"><a href="Connect_Wizard_Items.htm">Connecting Wizard 
+ Items</a>
+        </p>
+        <div placeholder="" id="footer" style="width: 100%;position: relative;">
+        </div>
+    </body>
+</html>

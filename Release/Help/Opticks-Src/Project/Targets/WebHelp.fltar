@@ -1,0 +1,32 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<CatapultTarget
+  Version="1"
+  DefaultUrl="Content\Welcome.htm"
+  OutputFile="index.htm"
+  Skin="/Project/Skins/OpticksSkin.flskn"
+  Type="WebHelp"
+  MasterToc="/Project/TOCs/Primary.fltoc"
+  GlossaryTermConversion="marked"
+  BrowseSequence="/Project/Advanced/Common.flbrs"
+  AliasFile="/Project/Advanced/Common.flali"
+  ConditionTagExpression="include[&quot;Primary.COMET Only&quot; or &quot;Primary.Opticks Only&quot;] exclude[&quot;Primary.Release 4 OUT&quot;] "
+  OutputFolder="\\daytonfile\users$\mmasset\My Documents\Opticks Help"
+  MasterPage="/Content/Resources/MasterPages/OpticksMaster.flmsp"
+  Medium="non-print"
+  Comment="Opticks Help">
+  <Variables>
+    <Variable
+      Name="Primary/CompanyName">Ball Aerospace &amp; Technologies Corp.</Variable>
+    <Variable
+      Name="Primary/PhoneNumber">937 320 4004</Variable>
+  </Variables>
+  <ConditionTags />
+  <Glossaries>
+    <Glossary
+      Link="/Project/Glossaries/Primary.flglo" />
+  </Glossaries>
+  <Destinations>
+    <Destination
+      Link="/Project/Destinations/Merged Help.fldes" />
+  </Destinations>
+</CatapultTarget>

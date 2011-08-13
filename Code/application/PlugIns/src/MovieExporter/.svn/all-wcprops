@@ -1,0 +1,137 @@
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svnroot/opticks/!svn/ver/13604/releases/4.7.0/trunk/Code/application/PlugIns/src/MovieExporter
+END
+BitrateWidget.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/svnroot/opticks/!svn/ver/13604/releases/4.7.0/trunk/Code/application/PlugIns/src/MovieExporter/BitrateWidget.cpp
+END
+MovieExportOptionsWidget.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 124
+/svnroot/opticks/!svn/ver/13604/releases/4.7.0/trunk/Code/application/PlugIns/src/MovieExporter/MovieExportOptionsWidget.cpp
+END
+Mpeg1Exporter.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/svnroot/opticks/!svn/ver/13604/releases/4.7.0/trunk/Code/application/PlugIns/src/MovieExporter/Mpeg1Exporter.cpp
+END
+ViewResolutionWidget.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 120
+/svnroot/opticks/!svn/ver/13604/releases/4.7.0/trunk/Code/application/PlugIns/src/MovieExporter/ViewResolutionWidget.cpp
+END
+BitrateWidget.h
+K 25
+svn:wc:ra_dav:version-url
+V 111
+/svnroot/opticks/!svn/ver/13604/releases/4.7.0/trunk/Code/application/PlugIns/src/MovieExporter/BitrateWidget.h
+END
+MovieExportOptionsWidget.h
+K 25
+svn:wc:ra_dav:version-url
+V 122
+/svnroot/opticks/!svn/ver/13604/releases/4.7.0/trunk/Code/application/PlugIns/src/MovieExporter/MovieExportOptionsWidget.h
+END
+SConscript
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/svnroot/opticks/!svn/ver/13604/releases/4.7.0/trunk/Code/application/PlugIns/src/MovieExporter/SConscript
+END
+Mpeg1Exporter.h
+K 25
+svn:wc:ra_dav:version-url
+V 111
+/svnroot/opticks/!svn/ver/13604/releases/4.7.0/trunk/Code/application/PlugIns/src/MovieExporter/Mpeg1Exporter.h
+END
+ViewResolutionWidget.h
+K 25
+svn:wc:ra_dav:version-url
+V 118
+/svnroot/opticks/!svn/ver/13604/releases/4.7.0/trunk/Code/application/PlugIns/src/MovieExporter/ViewResolutionWidget.h
+END
+MovieExporter.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/svnroot/opticks/!svn/ver/13604/releases/4.7.0/trunk/Code/application/PlugIns/src/MovieExporter/MovieExporter.cpp
+END
+AviExporter.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 111
+/svnroot/opticks/!svn/ver/13604/releases/4.7.0/trunk/Code/application/PlugIns/src/MovieExporter/AviExporter.cpp
+END
+FramerateWidget.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 115
+/svnroot/opticks/!svn/ver/13604/releases/4.7.0/trunk/Code/application/PlugIns/src/MovieExporter/FramerateWidget.cpp
+END
+MovieExporter.h
+K 25
+svn:wc:ra_dav:version-url
+V 111
+/svnroot/opticks/!svn/ver/13604/releases/4.7.0/trunk/Code/application/PlugIns/src/MovieExporter/MovieExporter.h
+END
+AviExporter.h
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/svnroot/opticks/!svn/ver/13604/releases/4.7.0/trunk/Code/application/PlugIns/src/MovieExporter/AviExporter.h
+END
+FramerateWidget.h
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/svnroot/opticks/!svn/ver/13604/releases/4.7.0/trunk/Code/application/PlugIns/src/MovieExporter/FramerateWidget.h
+END
+ModuleManager.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/svnroot/opticks/!svn/ver/13604/releases/4.7.0/trunk/Code/application/PlugIns/src/MovieExporter/ModuleManager.cpp
+END
+MovieExporter.vcxproj
+K 25
+svn:wc:ra_dav:version-url
+V 117
+/svnroot/opticks/!svn/ver/13604/releases/4.7.0/trunk/Code/application/PlugIns/src/MovieExporter/MovieExporter.vcxproj
+END
+OptionsMovieExporter.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 120
+/svnroot/opticks/!svn/ver/13604/releases/4.7.0/trunk/Code/application/PlugIns/src/MovieExporter/OptionsMovieExporter.cpp
+END
+AdvancedOptionsWidget.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 121
+/svnroot/opticks/!svn/ver/13604/releases/4.7.0/trunk/Code/application/PlugIns/src/MovieExporter/AdvancedOptionsWidget.cpp
+END
+MovieExporter.vcxproj.filters
+K 25
+svn:wc:ra_dav:version-url
+V 125
+/svnroot/opticks/!svn/ver/13604/releases/4.7.0/trunk/Code/application/PlugIns/src/MovieExporter/MovieExporter.vcxproj.filters
+END
+OptionsMovieExporter.h
+K 25
+svn:wc:ra_dav:version-url
+V 118
+/svnroot/opticks/!svn/ver/13604/releases/4.7.0/trunk/Code/application/PlugIns/src/MovieExporter/OptionsMovieExporter.h
+END
+AdvancedOptionsWidget.h
+K 25
+svn:wc:ra_dav:version-url
+V 119
+/svnroot/opticks/!svn/ver/13604/releases/4.7.0/trunk/Code/application/PlugIns/src/MovieExporter/AdvancedOptionsWidget.h
+END

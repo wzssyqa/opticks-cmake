@@ -1,0 +1,221 @@
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svnroot/opticks/!svn/ver/13604/releases/4.7.0/trunk/Code/application/Gui/Image
+END
+CgContext.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svnroot/opticks/!svn/ver/13604/releases/4.7.0/trunk/Code/application/Gui/Image/CgContext.cpp
+END
+GpuImage.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svnroot/opticks/!svn/ver/13604/releases/4.7.0/trunk/Code/application/Gui/Image/GpuImage.cpp
+END
+PixelBufferObject.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/svnroot/opticks/!svn/ver/13604/releases/4.7.0/trunk/Code/application/Gui/Image/PixelBufferObject.cpp
+END
+GpuResourceManager.h
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/svnroot/opticks/!svn/ver/13604/releases/4.7.0/trunk/Code/application/Gui/Image/GpuResourceManager.h
+END
+ImageBuffer.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svnroot/opticks/!svn/ver/13604/releases/4.7.0/trunk/Code/application/Gui/Image/ImageBuffer.cpp
+END
+ColorBuffer.h
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svnroot/opticks/!svn/ver/13604/releases/4.7.0/trunk/Code/application/Gui/Image/ColorBuffer.h
+END
+ImageLoader.h
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svnroot/opticks/!svn/ver/13604/releases/4.7.0/trunk/Code/application/Gui/Image/ImageLoader.h
+END
+GpuTile.h
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svnroot/opticks/!svn/ver/13604/releases/4.7.0/trunk/Code/application/Gui/Image/GpuTile.h
+END
+ImageUtilities.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/svnroot/opticks/!svn/ver/13604/releases/4.7.0/trunk/Code/application/Gui/Image/ImageUtilities.cpp
+END
+ImagePBO.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svnroot/opticks/!svn/ver/13604/releases/4.7.0/trunk/Code/application/Gui/Image/ImagePBO.cpp
+END
+ImageFilterManager.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/svnroot/opticks/!svn/ver/13604/releases/4.7.0/trunk/Code/application/Gui/Image/ImageFilterManager.cpp
+END
+ImageFilter.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svnroot/opticks/!svn/ver/13604/releases/4.7.0/trunk/Code/application/Gui/Image/ImageFilter.cpp
+END
+GpuProgram.h
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svnroot/opticks/!svn/ver/13604/releases/4.7.0/trunk/Code/application/Gui/Image/GpuProgram.h
+END
+FrameBuffer.h
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svnroot/opticks/!svn/ver/13604/releases/4.7.0/trunk/Code/application/Gui/Image/FrameBuffer.h
+END
+GpuProgramDescriptorImp.h
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/svnroot/opticks/!svn/ver/13604/releases/4.7.0/trunk/Code/application/Gui/Image/GpuProgramDescriptorImp.h
+END
+GpuResourceManager.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/svnroot/opticks/!svn/ver/13604/releases/4.7.0/trunk/Code/application/Gui/Image/GpuResourceManager.cpp
+END
+ImagePBuffer.h
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svnroot/opticks/!svn/ver/13604/releases/4.7.0/trunk/Code/application/Gui/Image/ImagePBuffer.h
+END
+ImageFilterDescriptorImp.h
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/svnroot/opticks/!svn/ver/13604/releases/4.7.0/trunk/Code/application/Gui/Image/ImageFilterDescriptorImp.h
+END
+CgContext.h
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svnroot/opticks/!svn/ver/13604/releases/4.7.0/trunk/Code/application/Gui/Image/CgContext.h
+END
+GpuImage.h
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svnroot/opticks/!svn/ver/13604/releases/4.7.0/trunk/Code/application/Gui/Image/GpuImage.h
+END
+PixelBufferObject.h
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/svnroot/opticks/!svn/ver/13604/releases/4.7.0/trunk/Code/application/Gui/Image/PixelBufferObject.h
+END
+ColorBuffer.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svnroot/opticks/!svn/ver/13604/releases/4.7.0/trunk/Code/application/Gui/Image/ColorBuffer.cpp
+END
+ImageLoader.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svnroot/opticks/!svn/ver/13604/releases/4.7.0/trunk/Code/application/Gui/Image/ImageLoader.cpp
+END
+GpuTile.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svnroot/opticks/!svn/ver/13604/releases/4.7.0/trunk/Code/application/Gui/Image/GpuTile.cpp
+END
+ImageBuffer.h
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svnroot/opticks/!svn/ver/13604/releases/4.7.0/trunk/Code/application/Gui/Image/ImageBuffer.h
+END
+GpuProgram.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svnroot/opticks/!svn/ver/13604/releases/4.7.0/trunk/Code/application/Gui/Image/GpuProgram.cpp
+END
+ImageUtilities.h
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svnroot/opticks/!svn/ver/13604/releases/4.7.0/trunk/Code/application/Gui/Image/ImageUtilities.h
+END
+FrameBuffer.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svnroot/opticks/!svn/ver/13604/releases/4.7.0/trunk/Code/application/Gui/Image/FrameBuffer.cpp
+END
+ImagePBO.h
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svnroot/opticks/!svn/ver/13604/releases/4.7.0/trunk/Code/application/Gui/Image/ImagePBO.h
+END
+ImageFilterManager.h
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/svnroot/opticks/!svn/ver/13604/releases/4.7.0/trunk/Code/application/Gui/Image/ImageFilterManager.h
+END
+GpuProgramDescriptorAdapter.h
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/svnroot/opticks/!svn/ver/13604/releases/4.7.0/trunk/Code/application/Gui/Image/GpuProgramDescriptorAdapter.h
+END
+GpuProgramDescriptorImp.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/svnroot/opticks/!svn/ver/13604/releases/4.7.0/trunk/Code/application/Gui/Image/GpuProgramDescriptorImp.cpp
+END
+ImagePBuffer.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svnroot/opticks/!svn/ver/13604/releases/4.7.0/trunk/Code/application/Gui/Image/ImagePBuffer.cpp
+END
+ImageFilterDescriptorImp.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/svnroot/opticks/!svn/ver/13604/releases/4.7.0/trunk/Code/application/Gui/Image/ImageFilterDescriptorImp.cpp
+END
+ImageFilterDescriptorAdapter.h
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/svnroot/opticks/!svn/ver/13604/releases/4.7.0/trunk/Code/application/Gui/Image/ImageFilterDescriptorAdapter.h
+END
+ImageFilter.h
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svnroot/opticks/!svn/ver/13604/releases/4.7.0/trunk/Code/application/Gui/Image/ImageFilter.h
+END

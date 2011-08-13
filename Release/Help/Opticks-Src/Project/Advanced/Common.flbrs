@@ -1,0 +1,213 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<CatapultToc Version="1">
+    <TocEntry Title="About Wizard Items">
+        <TocEntry Title="Wizard Items" Link="/Content/Wizard_Builder/Items/Wizard_Items.htm" />
+        <TocEntry Title="Add a Desktop Item" />
+        <TocEntry Title="Add a Plug-In Item" />
+        <TocEntry Title="Add/Edit a Value Item" Link="/Content/Wizard_Builder/Items/Add_Edit_a_Value_Item.htm" />
+        <TocEntry Title="Connect Wizard Items" Link="/Content/Wizard_Builder/Items/Connect_Wizard_Items.htm" />
+        <TocEntry Title="Execution Mode of Wizard Items" Link="/Content/Wizard_Builder/Items/Execution_Mode_of_Wizard_Items.htm" />
+    </TocEntry>
+    <TocEntry Title="Annotation">
+        <TocEntry Title="Annotation Layer" Link="/Content/Annotation/Annotation_Layer.htm" />
+        <TocEntry Title="Annotation Toolbar" Link="/Content/Toolbars/Annotation_Toolbar.htm" />
+        <TocEntry Title="Annotation Drop-Down Menu" Link="/Content/Annotation/Annotation_Drop-Down_Menu.htm" />
+        <TocEntry Title="Working with Annotation Objects" Link="/Content/Annotation/Working_with_Annotation_Objects.htm" />
+        <TocEntry Title="Working with Annotation Text Boxes" Link="/Content/Annotation/Working_with_Annotation_Text_Boxes.htm" />
+    </TocEntry>
+    <TocEntry Title="AOI">
+        <TocEntry Title="AOI" Link="/Content/AOI/AOI.htm" />
+        <TocEntry Title="AOI Toolbar" Link="/Content/Toolbars/AOI_Toolbar.htm" />
+        <TocEntry Title="AOI Editor" />
+        <TocEntry Title="AOI Pixel Selection Tool" Link="/Content/AOI/AOI_Pixel_Selection_Tool.htm" />
+        <TocEntry Title="Merge AOIs" Link="/Content/AOI/Merge_AOIs.htm" />
+        <TocEntry Title="AOI Pixels" />
+        <TocEntry Title="Change AOI Marker Symbol" Link="/Content/AOI/Change_AOI_Marker_Symbol.htm" />
+        <TocEntry Title="View AOI Spectra" />
+        <TocEntry Title="AOI Layer Properties" Link="/Content/Properties/AOI_Layer_Properties.htm" />
+    </TocEntry>
+    <TocEntry Title="COMET Studio">
+        <TocEntry Title="Using the Wizard Builder" Link="/Content/Wizard_Builder/Using_the_Wizard_Builder.htm" />
+        <TocEntry Title="Product Windows" Link="/Content/Products/Product_Windows.htm" />
+        <TocEntry Title="About the Quick-Look Data Fusion Plug-In" Link="/Content/QuickLookDataFusion/about_the_quick-look_data_fusion_plug-in.htm" />
+    </TocEntry>
+    <TocEntry Title="Data Set Properties">
+        <TocEntry Title="Data Set Properties" Link="/Content/Importers_Exporters/Options/Import_Data_Options.htm" />
+        <TocEntry Title="Spectral Cube Properties" />
+        <TocEntry Title="Resolution Properties" />
+        <TocEntry Title="Wavelengths Properties" />
+        <TocEntry Title="Initial Display Properties" />
+        <TocEntry Title="Attributes Properties" />
+    </TocEntry>
+    <TocEntry Title="GCP">
+        <TocEntry Title="GCP" Link="/Content/Geo/GCP.htm" />
+        <TocEntry Title="Geo Toolbar" Link="/Content/Toolbars/Geo_Toolbar.htm" />
+        <TocEntry Title="GCP Editor" Link="/Content/Geo/GCP_Editor.htm" />
+        <TocEntry Title="GCP Lists" Link="/Content/Geo/GCP_Lists.htm" />
+    </TocEntry>
+    <TocEntry Title="Geo">
+        <TocEntry Title="Georeference" Link="/Content/Geo/Georeference.htm" />
+        <TocEntry Title="GeoCorrection" />
+        <TocEntry Title="GeoCorrection CPM Generation" />
+    </TocEntry>
+    <TocEntry Title="Histogram Window">
+        <TocEntry Title="Histogram Window" Link="/Content/Tools/Histogram_Window/Histogram_Window.htm" />
+        <TocEntry Title="Stretch Type" Link="/Content/Tools/Histogram_Window/Stretch_Type.htm" />
+        <TocEntry Title="Working with the Histogram Window Display" Link="/Content/Tools/Histogram_Window/Working_with_the_Histogram_Window_Display.htm" />
+        <TocEntry Title="Histogram Window Mouse Mode" Link="/Content/Tools/Histogram_Window/Histogram_Window_Mouse_Mode.htm" />
+        <TocEntry Title="Band Bad Values" Link="/Content/Tools/Histogram_Window/Band_Bad_Values.htm" />
+        <TocEntry Title="Set Spatial Sampling" Link="/Content/Tools/Histogram_Window/Set_Spatial_Sampling.htm" />
+        <TocEntry Title="Spectral Band" Link="/Content/Tools/Histogram_Window/Displayed_Band.htm" />
+        <TocEntry Title="Color Map" Link="/Content/Tools/Histogram_Window/Color_Map.htm" />
+        <TocEntry Title="Print the Histogram Window" Link="/Content/Tools/Histogram_Window/Print_the_Histogram_Window.htm" />
+        <TocEntry Title="Save the Histogram Window Data" Link="/Content/Tools/Histogram_Window/Save_the_Histogram_Window_Data.htm" />
+    </TocEntry>
+    <TocEntry Title="Import and Export Files">
+        <TocEntry Title="Importers" Link="/Content/Importers_Exporters/Importers.htm" />
+        <TocEntry Title="Exporters" />
+        <TocEntry Title="About COMET Suite Data Files" Link="/Content/about_opticks_suite_data_files.htm" />
+        <TocEntry Title="Export Data Set" Link="/Content/Importers_Exporters/Export_Data_Set.htm" />
+        <TocEntry Title="Export Results Matrix" Link="/Content/Importers_Exporters/Export_Results.htm" />
+        <TocEntry Title="Export Product Data" Link="/Content/Importers_Exporters/Export_Product_Data.htm" />
+        <TocEntry Title="Export Shape File" Link="/Content/Importers_Exporters/Export_Shape_File.htm" />
+        <TocEntry Title="Data Set Properties" Link="/Content/Importers_Exporters/Options/Import_Data_Options.htm" />
+    </TocEntry>
+    <TocEntry Title="Options">
+        <TocEntry Title="Options" Link="/Content/Options/Options.htm" />
+        <TocEntry Title="Options: File Tab" />
+        <TocEntry Title="Options: Edit Tab" />
+        <TocEntry Title="Options: View Tab" />
+        <TocEntry Title="Options: Progress Tab" />
+        <TocEntry Title="Options: Project Tab" />
+        <TocEntry Title="Options: Layers Tab" />
+        <TocEntry Title="Options: Status Bar Tab" />
+    </TocEntry>
+    <TocEntry Title="Products">
+        <TocEntry Title="Product Windows" Link="/Content/Products/Product_Windows.htm" />
+        <TocEntry Title="Create a New Product" Link="/Content/Products/Create_a_New_Product.htm" />
+        <TocEntry Title="Derive a Product" Link="/Content/Products/Derive_a_Product.htm" />
+        <TocEntry Title="Load a Template" Link="/Content/Products/Load_a_Template.htm" />
+        <TocEntry Title="Edit Selected View" Link="/Content/Products/Edit_Selected_View.htm" />
+        <TocEntry Title="Save a Template" Link="/Content/Products/Save_a_Template.htm" />
+        <TocEntry Title="Select Product Paper Size" Link="/Content/Products/Select_Product_Paper_Size.htm" />
+    </TocEntry>
+    <TocEntry Title="Projects">
+        <TocEntry Title="Projects" />
+        <TocEntry Title="Open a Project" />
+        <TocEntry Title="Create a Project" />
+        <TocEntry Title="Close a Project" />
+        <TocEntry Title="Save a Project" />
+        <TocEntry Title="View Currently Open Projects" />
+    </TocEntry>
+    <TocEntry Title="Properties">
+        <TocEntry Title="Properties" Link="/Content/Properties/Properties.htm" />
+        <TocEntry Title="Data Elements Properties" Link="/Content/Properties/Data_Elements_Properties.htm" />
+        <TocEntry Title="Windows Properties" />
+        <TocEntry Title="Product Window Properties" Link="/Content/Properties/Product_Window_Properties.htm" />
+        <TocEntry Title="Histogram Window Properties" Link="/Content/Properties/Histogram_Window_Properties.htm" />
+        <TocEntry Title="Scripting Window Properties" Link="/Content/Properties/Scripting_Window_Properties.htm" />
+        <TocEntry Title="Spectrum Plot Properties" />
+        <TocEntry Title="Display Layer Properties" />
+        <TocEntry Title="GCP Layer Properties" Link="/Content/Properties/GCP_Layer_Properties.htm" />
+        <TocEntry Title="Annotation Layer Properties" Link="/Content/Properties/Annotation_Layer_Properties.htm" />
+        <TocEntry Title="AOI Layer Properties" Link="/Content/Properties/AOI_Layer_Properties.htm" />
+        <TocEntry Title="Latitude/Longitude Layer Properties" Link="/Content/Properties/Latitude_Longitude_Layer_Properties.htm" />
+        <TocEntry Title="Threshold Layer Properties" />
+        <TocEntry Title="Tie Point Layer Properties" Link="/Content/Properties/Tie_Point_Layer_Properties.htm" />
+        <TocEntry Title="Raster Layer Properties" Link="/Content/Properties/Raster_Layer_Properties.htm" />
+        <TocEntry Title="Raster Cube Layer Properties" />
+        <TocEntry Title="Plug-In Properties" Link="/Content/Properties/Plug-In_Properties.htm" />
+    </TocEntry>
+    <TocEntry Title="Security Markings">
+        <TocEntry Title="Security Markings" Link="/Content/Importers_Exporters/Options/Classification_Tab.htm" />
+    </TocEntry>
+    <TocEntry Title="Spectrum Window">
+        <TocEntry Title="Spectrum Window" />
+        <TocEntry Title="Working with the Spectrum Plot" />
+        <TocEntry Title="Spectrum Plot Mouse Mode" />
+        <TocEntry Title="Add a New Spectrum Plot" />
+        <TocEntry Title="Load a Predefined Signature" />
+        <TocEntry Title="Rename a Spectrum Plot" />
+        <TocEntry Title="Remove a Spectrum Plot" />
+        <TocEntry Title="Change the Colors in the Spectrum Plot" />
+        <TocEntry Title="Display Pixel Spectrum" />
+        <TocEntry Title="Print the Spectrum Window" />
+    </TocEntry>
+    <TocEntry Title="The Quick-Look Data Fusion Plug-In">
+        <TocEntry Title="About the Quick-Look Data Fusion Plug-In" Link="/Content/QuickLookDataFusion/about_the_quick-look_data_fusion_plug-in.htm" />
+        <TocEntry Title="Starting the Quick-Look Data Fusion Plug-In" Link="/Content/QuickLookDataFusion/starting_the_quick-look_data_fusion_plug-in.htm" />
+        <TocEntry Title="Importing Data Sets" />
+        <TocEntry Title="Creating Tie Points" Link="/Content/QuickLookDataFusion/creating_tie_points.htm" />
+        <TocEntry Title="Selecting a ROI and Output Views" Link="/Content/QuickLookDataFusion/Selecting_a_ROI_and_Output_Views.htm" />
+        <TocEntry Title="Manipulating Fused Views" Link="/Content/QuickLookDataFusion/manipulating_fused_views.htm" />
+    </TocEntry>
+    <TocEntry Title="Tie Points">
+        <TocEntry Title="Tie Points" Link="/Content/Tie_Points/Tie_Points.htm" />
+        <TocEntry Title="Tie Point Toolbar" Link="/Content/Toolbars/Tie_Point_Toolbar.htm" />
+        <TocEntry Title="Tie Point Editor" Link="/Content/Tie_Points/Tie_Point_Editor.htm" />
+        <TocEntry Title="Delete Tie Points" Link="/Content/Tie_Points/Delete_Tie_Points.htm" />
+    </TocEntry>
+    <TocEntry Title="Toolbars">
+        <TocEntry Title="Toolbars" Link="/Content/Toolbars/Toolbars.htm" />
+        <TocEntry Title="Standard Toolbar" Link="/Content/Toolbars/Standard_Toolbar.htm" />
+        <TocEntry Title="Toolbox Toolbar" Link="/Content/Toolbars/Toolbox_Toolbar.htm" />
+        <TocEntry Title="Display Toolbar" Link="/Content/Toolbars/Display_Toolbar.htm" />
+        <TocEntry Title="Layer Toolbar" />
+        <TocEntry Title="AOI Toolbar" Link="/Content/Toolbars/AOI_Toolbar.htm" />
+        <TocEntry Title="Geo Toolbar" Link="/Content/Toolbars/Geo_Toolbar.htm" />
+        <TocEntry Title="Tie Point Toolbar" Link="/Content/Toolbars/Tie_Point_Toolbar.htm" />
+        <TocEntry Title="Annotation Toolbar" Link="/Content/Toolbars/Annotation_Toolbar.htm" />
+        <TocEntry Title="Brightness Toolbar" Link="/Content/Toolbars/Brightness_Toolbar.htm" />
+        <TocEntry Title="Measurement Toolbar" Link="/Content/Toolbars/Measurement_Toolbar.htm" />
+    </TocEntry>
+    <TocEntry Title="Tutorials for COMET Studio">
+        <TocEntry Title="Tutorials" Link="/Content/Tutorials/Tutorials.htm" />
+    </TocEntry>
+    <TocEntry Title="Untitled">
+        <TocEntry Title="Welcome" Link="/Content/Welcome.htm" />
+    </TocEntry>
+    <TocEntry Title="Using the Wizard Builder">
+        <TocEntry Title="Using the Wizard Builder" Link="/Content/Wizard_Builder/Using_the_Wizard_Builder.htm" />
+        <TocEntry Title="Wizard Builder Toolbar" Link="/Content/Wizard_Builder/Wizard_Builder_Toolbar.htm" />
+        <TocEntry Title="Create a Wizard" Link="/Content/Wizard_Builder/Create_a_Wizard.htm" />
+        <TocEntry Title="Open a Wizard" Link="/Content/Wizard_Builder/Open_a_Wizard.htm" />
+        <TocEntry Title="Run a Wizard" Link="/Content/Wizard_Builder/Run_a_Wizard.htm" />
+        <TocEntry Title="Save a Wizard" Link="/Content/Wizard_Builder/Save_a_Wizard.htm" />
+        <TocEntry Title="Wizard Execution Mode" Link="/Content/Wizard_Builder/Wizard_Execution_Mode.htm" />
+        <TocEntry Title="Wizard Menu Location" Link="/Content/Wizard_Builder/Wizard_Menu_Location.htm" />
+        <TocEntry Title="Update Wizard List" />
+        <TocEntry Title="Wizard Items" Link="/Content/Wizard_Builder/Items/Wizard_Items.htm" />
+    </TocEntry>
+    <TocEntry Title="Working with COMET Windows">
+        <TocEntry Title="Moving and Hiding a Dock Window" Link="/Content/Tools/Histogram_Window/Moving_and_Hiding_a_Dock_Window.htm" />
+        <TocEntry Title="Display Gridlines on a Plot" Link="/Content/Tools/Histogram_Window/Display_Gridlines_on_a_Plot.htm" />
+        <TocEntry Title="Layer Information Window" />
+        <TocEntry Title="Message Log Window" Link="/Content/Tools/Message_Log_Window/Message_Log_Window.htm" />
+        <TocEntry Title="Scripting Window" Link="/Content/Tools/Scripting_Window.htm" />
+        <TocEntry Title="Background Plug-In Window" Link="/Content/Tools/Background_PlugIn_Window.htm" />
+    </TocEntry>
+    <TocEntry Title="Working with Images">
+        <TocEntry Title="Open a File" Link="/Content/Importers_Exporters/Import_Data.htm" />
+        <TocEntry Title="Pan" Link="/Content/View/Pan.htm" />
+        <TocEntry Title="Pan Mode" Link="/Content/View/Pan_Mode.htm" />
+        <TocEntry Title="Rotate" Link="/Content/View/Rotate.htm" />
+        <TocEntry Title="Zoom" Link="/Content/View/Zoom.htm" />
+        <TocEntry Title="Overview Window" Link="/Content/Tools/Overview_Window.htm" />
+        <TocEntry Title="Link/Unlink" Link="/Content/Tools/Link_Unlink.htm" />
+        <TocEntry Title="Image Chipping Window" Link="/Content/Tools/Image_Chipping_Window.htm" />
+        <TocEntry Title="Print the Active Window" Link="/Content/Print_the_Active_Window.htm" />
+        <TocEntry Title="Close a Window" Link="/Content/Close_a_Window.htm" />
+    </TocEntry>
+    <TocEntry Title="Working with Layers">
+        <TocEntry Title="Layer Information Window" />
+        <TocEntry Title="Modifying Layer Information" Link="/Content/Layers/Working_with_Layers.htm" />
+        <TocEntry Title="Layer Toolbar" />
+        <TocEntry Title="AOI" Link="/Content/AOI/AOI.htm" />
+        <TocEntry Title="Annotation Layer" Link="/Content/Annotation/Annotation_Layer.htm" />
+    </TocEntry>
+    <TocEntry Title="Working with the COMET Main Application Window">
+        <TocEntry Title="Working with the COMET Main Application Window" Link="/Content/Working_with_the_Main_Application_Window.htm" />
+        <TocEntry Title="Hot Keys" Link="/Content/Options/Keyboard_Shortcuts.htm" />
+        <TocEntry Title="Mouse Actions" Link="/Content/Mouse_Actions.htm" />
+    </TocEntry>
+</CatapultToc>

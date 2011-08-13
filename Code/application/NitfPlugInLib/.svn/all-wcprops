@@ -1,0 +1,173 @@
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svnroot/opticks/!svn/ver/13604/releases/4.7.0/trunk/Code/application/NitfPlugInLib
+END
+NitfChipConverter.h
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/svnroot/opticks/!svn/ver/13604/releases/4.7.0/trunk/Code/application/NitfPlugInLib/NitfChipConverter.h
+END
+NitfUtilities.h
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/svnroot/opticks/!svn/ver/13604/releases/4.7.0/trunk/Code/application/NitfPlugInLib/NitfUtilities.h
+END
+NitfConstants.h
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/svnroot/opticks/!svn/ver/13604/releases/4.7.0/trunk/Code/application/NitfPlugInLib/NitfConstants.h
+END
+StubString.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/svnroot/opticks/!svn/ver/13604/releases/4.7.0/trunk/Code/application/NitfPlugInLib/StubString.cpp
+END
+SConscript
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svnroot/opticks/!svn/ver/13604/releases/4.7.0/trunk/Code/application/NitfPlugInLib/SConscript
+END
+NitfPropertiesQWidgetWrapper.h
+K 25
+svn:wc:ra_dav:version-url
+V 114
+/svnroot/opticks/!svn/ver/13604/releases/4.7.0/trunk/Code/application/NitfPlugInLib/NitfPropertiesQWidgetWrapper.h
+END
+NitfResource.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/svnroot/opticks/!svn/ver/13604/releases/4.7.0/trunk/Code/application/NitfPlugInLib/NitfResource.cpp
+END
+NitfHeader.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/svnroot/opticks/!svn/ver/13604/releases/4.7.0/trunk/Code/application/NitfPlugInLib/NitfHeader.cpp
+END
+NitfFileHeader.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/svnroot/opticks/!svn/ver/13604/releases/4.7.0/trunk/Code/application/NitfPlugInLib/NitfFileHeader.cpp
+END
+NitfImporterShell.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/svnroot/opticks/!svn/ver/13604/releases/4.7.0/trunk/Code/application/NitfPlugInLib/NitfImporterShell.cpp
+END
+NitfResource.h
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/svnroot/opticks/!svn/ver/13604/releases/4.7.0/trunk/Code/application/NitfPlugInLib/NitfResource.h
+END
+NitfHeader.h
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svnroot/opticks/!svn/ver/13604/releases/4.7.0/trunk/Code/application/NitfPlugInLib/NitfHeader.h
+END
+NitfFileHeader.h
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/svnroot/opticks/!svn/ver/13604/releases/4.7.0/trunk/Code/application/NitfPlugInLib/NitfFileHeader.h
+END
+NitfPlugInLib.vcxproj
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/svnroot/opticks/!svn/ver/13604/releases/4.7.0/trunk/Code/application/NitfPlugInLib/NitfPlugInLib.vcxproj
+END
+NitfImporterShell.h
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/svnroot/opticks/!svn/ver/13604/releases/4.7.0/trunk/Code/application/NitfPlugInLib/NitfImporterShell.h
+END
+NitfDesSubheader.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/svnroot/opticks/!svn/ver/13604/releases/4.7.0/trunk/Code/application/NitfPlugInLib/NitfDesSubheader.cpp
+END
+NitfTreParserShell.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/svnroot/opticks/!svn/ver/13604/releases/4.7.0/trunk/Code/application/NitfPlugInLib/NitfTreParserShell.cpp
+END
+NitfProperties.h
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/svnroot/opticks/!svn/ver/13604/releases/4.7.0/trunk/Code/application/NitfPlugInLib/NitfProperties.h
+END
+NitfDesSubheader.h
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/svnroot/opticks/!svn/ver/13604/releases/4.7.0/trunk/Code/application/NitfPlugInLib/NitfDesSubheader.h
+END
+NitfMetadataParsing.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/svnroot/opticks/!svn/ver/13604/releases/4.7.0/trunk/Code/application/NitfPlugInLib/NitfMetadataParsing.cpp
+END
+NitfTreParserShell.h
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/svnroot/opticks/!svn/ver/13604/releases/4.7.0/trunk/Code/application/NitfPlugInLib/NitfTreParserShell.h
+END
+NitfImageSubheader.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/svnroot/opticks/!svn/ver/13604/releases/4.7.0/trunk/Code/application/NitfPlugInLib/NitfImageSubheader.cpp
+END
+NitfPlugInLib.vcxproj.filters
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/svnroot/opticks/!svn/ver/13604/releases/4.7.0/trunk/Code/application/NitfPlugInLib/NitfPlugInLib.vcxproj.filters
+END
+NitfMetadataParsing.h
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/svnroot/opticks/!svn/ver/13604/releases/4.7.0/trunk/Code/application/NitfPlugInLib/NitfMetadataParsing.h
+END
+NitfImageSubheader.h
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/svnroot/opticks/!svn/ver/13604/releases/4.7.0/trunk/Code/application/NitfPlugInLib/NitfImageSubheader.h
+END
+NitfChipConverter.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/svnroot/opticks/!svn/ver/13604/releases/4.7.0/trunk/Code/application/NitfPlugInLib/NitfChipConverter.cpp
+END
+NitfUtilities.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/svnroot/opticks/!svn/ver/13604/releases/4.7.0/trunk/Code/application/NitfPlugInLib/NitfUtilities.cpp
+END
+NitfTreParser.h
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/svnroot/opticks/!svn/ver/13604/releases/4.7.0/trunk/Code/application/NitfPlugInLib/NitfTreParser.h
+END

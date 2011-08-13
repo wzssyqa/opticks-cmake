@@ -1,0 +1,71 @@
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/svnroot/opticks/!svn/ver/13604/releases/4.7.0/trunk/Code/application/PlugIns/src/ConvolutionFilter
+END
+ConvolutionFilter.vcxproj
+K 25
+svn:wc:ra_dav:version-url
+V 125
+/svnroot/opticks/!svn/ver/13604/releases/4.7.0/trunk/Code/application/PlugIns/src/ConvolutionFilter/ConvolutionFilter.vcxproj
+END
+ConvolutionMatrixEditor.h
+K 25
+svn:wc:ra_dav:version-url
+V 125
+/svnroot/opticks/!svn/ver/13604/releases/4.7.0/trunk/Code/application/PlugIns/src/ConvolutionFilter/ConvolutionMatrixEditor.h
+END
+ModuleManager.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 117
+/svnroot/opticks/!svn/ver/13604/releases/4.7.0/trunk/Code/application/PlugIns/src/ConvolutionFilter/ModuleManager.cpp
+END
+ConvolutionFilterShell.h
+K 25
+svn:wc:ra_dav:version-url
+V 124
+/svnroot/opticks/!svn/ver/13604/releases/4.7.0/trunk/Code/application/PlugIns/src/ConvolutionFilter/ConvolutionFilterShell.h
+END
+ConvolutionMatrixWidget.ui
+K 25
+svn:wc:ra_dav:version-url
+V 126
+/svnroot/opticks/!svn/ver/13604/releases/4.7.0/trunk/Code/application/PlugIns/src/ConvolutionFilter/ConvolutionMatrixWidget.ui
+END
+ConvolutionFilter.vcxproj.filters
+K 25
+svn:wc:ra_dav:version-url
+V 133
+/svnroot/opticks/!svn/ver/13604/releases/4.7.0/trunk/Code/application/PlugIns/src/ConvolutionFilter/ConvolutionFilter.vcxproj.filters
+END
+SConscript
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/svnroot/opticks/!svn/ver/13604/releases/4.7.0/trunk/Code/application/PlugIns/src/ConvolutionFilter/SConscript
+END
+ConvolutionMatrixWidget.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 127
+/svnroot/opticks/!svn/ver/13604/releases/4.7.0/trunk/Code/application/PlugIns/src/ConvolutionFilter/ConvolutionMatrixWidget.cpp
+END
+ConvolutionMatrixEditor.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 127
+/svnroot/opticks/!svn/ver/13604/releases/4.7.0/trunk/Code/application/PlugIns/src/ConvolutionFilter/ConvolutionMatrixEditor.cpp
+END
+ConvolutionFilterShell.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 126
+/svnroot/opticks/!svn/ver/13604/releases/4.7.0/trunk/Code/application/PlugIns/src/ConvolutionFilter/ConvolutionFilterShell.cpp
+END
+ConvolutionMatrixWidget.h
+K 25
+svn:wc:ra_dav:version-url
+V 125
+/svnroot/opticks/!svn/ver/13604/releases/4.7.0/trunk/Code/application/PlugIns/src/ConvolutionFilter/ConvolutionMatrixWidget.h
+END

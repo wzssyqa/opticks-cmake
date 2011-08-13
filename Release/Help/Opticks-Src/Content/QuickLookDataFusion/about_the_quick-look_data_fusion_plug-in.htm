@@ -1,0 +1,51 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd">
+    <head><title>About the Quick-Look Data Fusion Plug-In</title>
+        <link rel="StyleSheet" href="../Opticks_Styles.css" />
+    </head>
+    <body>
+        <div placeholder="" id="header" style="width: 100%;position: relative;">
+        </div>
+        <h1>
+            <MadCap:keyword term="Quick-Look Data Fusion Plug-in" />
+            <MadCap:keyword term="plug-in:Quick-Look Data Fusion" />About the Quick-Look Data Fusion Plug-In</h1>
+        <p class="BodyText">The Opticks Quick-Look Data Fusion Plug-In fuses data from 
+ various sensors such as EO and Thermal IR, even if they were taken at 
+ different angles, skewed, rotated, or translated. This next-generation 
+ tool features faster performance and better memory management. It interacts 
+ with all of Opticks' features. This tool was originally designed to function 
+ with GeoTIFF and NITF imagery, but any data that is supported by Opticks 
+ and contains georeferencing information can be used.</p>
+        <p class="BodyText">While the plug-in is capable of fusing any two data sets, 
+ there are some restrictions:</p>
+        <ul style="list-style: square;" type="square">
+            <li class="BodyText">Only the first band of 
+ the Secondary Data set is fused with the Primary Data Set. </li>
+            <li class="BodyText">Only data sets with georeferencing 
+ information can be fused. Datasets lacking georeferencing information 
+ can be georeferenced using GCP (Ground Control Point) lists provided with 
+ Opticks, or by a custom Georeference Plug-in.</li>
+            <li class="BodyText">The Opticks interfaces 
+ allow you to add views containing multiple data sets. Some importers or 
+ algorithms may create special views that will not accurately represent 
+ the data to be fused. The side-by-side view is one such view. This is 
+ why you cannot fuse a side-by-side view with another data set. Some of 
+ the standard importers provided by the Opticks core fall under this category.</li>
+            <li class="BodyText">To save products with 
+ geolocation information, use the GeoTIFF Product Exporter. Any problems 
+ with exporting products should be directed to the Opticks Help Desk.</li>
+            <li class="BodyText">Some releases of Opticks 
+ will have “Not for Production Use” or “For Software Development Only” 
+ in addition to normal classification markings. These releases have not 
+ been tested or DODIIS certified and should not be used in operational 
+ environments. </li>
+        </ul>
+        <hr style="float: aligncenter;width: 50%;" align="center" width="50%" size="4" />
+        <h2>Related Topic</h2>
+        <p class="BodyText"><a href="starting_the_quick-look_data_fusion_plug-in.htm">Starting 
+ the Quick-Look Data Fusion Plug-In</a>
+        </p>
+        <div placeholder="" id="footer" style="width: 100%;position: relative;">
+        </div>
+    </body>
+</html>

@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html MadCap:ignoredWords="AOI;AOIs;GeoTiff;RGB;Homomorphic;Differencing;Pseudocolor;misregistration;Misregistration;RMS;differencing;ACD;IKONOS;NAIC;NADCA;Endmember;Coregistration;MSI;HSI;AVIRIS;CASI;NVIS;Boresight;GeoCorrection;GCP;Geo;ETM;IR;CEM;ModFull;NIDA;HYDICE;nm;IARR;MODTRAN;NSEC;*.sig;*.elm;SignatureScriptWizard.wiz;SupportFiles;SigScriptPrototype.bat;SigScriptPrototype.csh;Wavefile;FWHM;f;N;ROI;Steradian;µm;modh2o;CoRegistration;GCPs;coregistering;coregistration;geocoordinates;CADRG;ADRG;x²;y²;c²;C²;resampled;spline;Resmini;NSIG;nsig;sdb;CSV;ENVI;csv;sig;slb;XML;NASIC;IDD;Opticks’s;sli;hdr" MadCap:lastBlockDepth="2" MadCap:lastHeight="593" MadCap:lastWidth="565" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd">
+    <head><title>Wavelengths Tab Algorithm Information</title>
+        <link rel="StyleSheet" href="../Opticks_Styles.css" />
+    </head>
+    <body>
+        <div placeholder="" id="header" style="width: 100%;position: relative;">
+        </div>
+        <h1>Wavelengths Tab Algorithm Information</h1>
+        <p class="BodyText">The wavelength is the distance between adjacent peaks or valleys measured in the direction of propagation in a harmonic wave. </p>
+        <p class="BodyText">The wavelength <span style="font-family: Symbol, serif;"><img src="../Resources/Images/Wavelength_Symbol.jpg" style="border: none;width: 17px;height: 20px;float: none;border-style: none;border-style: none;" width="17" height="20" border="0" /></span> and the frequency <span style="font-style: italic;">f</span> are related by</p>
+        <p class="BodyTextIndent">v = f <img src="../Resources/Images/Wavelength_Symbol.jpg" style="border: none;width: 17px;height: 20px;float: none;border-style: none;border-style: none;" width="17" height="20" border="0" /></p>
+        <p class="BodyText">where v is the phase velocity of the waves.</p>
+        <p class="BodyText">The Full Width Half Maximum (FWHM) values are needed to calculate the Minimum and Maximum Channel Wavelengths. In most hyperspectral collections, the true FWHM values come from the sensor. If the input data does not contain sensor provided FWHM values, they can be estimated by the Wavelength Editor. </p>
+        <p class="BodyText">The <a href="wavelengths_tab_properties.htm">Wavelength Tab</a> uses the distance between N + 1 and N center wavelengths to approximate the width between channels, where N is equal to the current band center channel. The FWHM constant enables you to provide a scaling factor to manipulate the minimum and maximum channel wavelengths until the proper bandwidth is achieved. If the FWHM Constant is set to 1.0, then the bandwidths are not scaled. The default is 1.0.  </p>
+        <p class="BodyText">The formula for Band N is:</p>
+        <p class="BodyTextIndent">1. Value = ((Band N+1 center wavelength – Band N center wavelength) * FWHM constant) / 2</p>
+        <p class="BodyTextIndent">2. Band N Minimum channel wavelength = Band N center wavelength – Value</p>
+        <p class="BodyTextIndent">3. Band N Maximum channel wavelength = Band N center wavelength + Value</p>
+        <div placeholder="" id="footer" style="width: 100%;position: relative;">
+        </div>
+    </body>
+</html>

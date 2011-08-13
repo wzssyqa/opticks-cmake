@@ -1,0 +1,35 @@
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svnroot/opticks/!svn/ver/13604/releases/4.7.0/trunk/Dependencies
+END
+dependencies.sh
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svnroot/opticks/!svn/ver/13604/releases/4.7.0/trunk/Dependencies/dependencies.sh
+END
+retrieve-dependencies.sh
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svnroot/opticks/!svn/ver/13604/releases/4.7.0/trunk/Dependencies/retrieve-dependencies.sh
+END
+dependencies.bat
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svnroot/opticks/!svn/ver/13604/releases/4.7.0/trunk/Dependencies/dependencies.bat
+END
+build.xml
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svnroot/opticks/!svn/ver/13604/releases/4.7.0/trunk/Dependencies/build.xml
+END
+retrieve-dependencies.bat
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svnroot/opticks/!svn/ver/13604/releases/4.7.0/trunk/Dependencies/retrieve-dependencies.bat
+END

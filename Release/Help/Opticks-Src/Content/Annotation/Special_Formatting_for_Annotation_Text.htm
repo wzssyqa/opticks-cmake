@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" MadCap:lastBlockDepth="4" MadCap:lastHeight="549" MadCap:lastWidth="673">
+    <head>
+    </head>
+    <body>
+        <h1>Special Formatting for Annotation Text</h1>
+        <p class="BodyText">
+            <MadCap:keyword term="special formatting for annotation text;Annotation Text Boxes:special formatting" />You can use special formatting to display metadata values or classification markings in annotation text boxes.</p>
+        <h2>Metadata Fields</h2>
+        <p class="BodyText">Metadata fields can be included by specifying a metadata field using $M(specification) where specification is:</p>
+        <ul>
+            <li style="margin-top: 9pt;margin-bottom: 9pt;">A metadata path that will be loaded from a default location</li>
+            <li style="margin-top: 9pt;margin-bottom: 9pt;"><i>//dataset_name//path</i> where <i>dataset_name</i> is the name of the element</li>
+            <li style="margin-top: 9pt;margin-bottom: 9pt;"><i>//[view_object_name]//path</i> where <i>view_object_name</i> is the name of a view object in a product view</li>
+        </ul>
+        <h3>Examples</h3>
+        <p class="BodyTextIndent">$M(NITF/File Header/OName)</p>
+        <p class="BodyTextIndent">$M(//C:/Data/mydata.ntf-I1//NITF/File Header/ONAME)</p>
+        <p class="BodyTextIndent">$M(//[View 1]//NITF/File Header/ONAME)</p>
+        <h2>Other Special Replacements</h2>
+        <p class="BodyText">Other special replacements are specified with $S(specification) where specification uses the same rules as $M() but instead of a metadata path, it uses a variable name. The only variable currently supported is:</p>
+        <ul>
+            <li>CLASSIFICATION. Replace with the classification string of the specified data set.</li>
+        </ul>
+    </body>
+</html>

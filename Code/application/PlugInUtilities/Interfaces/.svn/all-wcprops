@@ -1,0 +1,425 @@
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svnroot/opticks/!svn/ver/13604/releases/4.7.0/trunk/Code/application/PlugInUtilities/Interfaces
+END
+LabeledSectionGroup.h
+K 25
+svn:wc:ra_dav:version-url
+V 118
+/svnroot/opticks/!svn/ver/13604/releases/4.7.0/trunk/Code/application/PlugInUtilities/Interfaces/LabeledSectionGroup.h
+END
+GlTextureResource.h
+K 25
+svn:wc:ra_dav:version-url
+V 116
+/svnroot/opticks/!svn/ver/13604/releases/4.7.0/trunk/Code/application/PlugInUtilities/Interfaces/GlTextureResource.h
+END
+RasterUtilities.h
+K 25
+svn:wc:ra_dav:version-url
+V 114
+/svnroot/opticks/!svn/ver/13604/releases/4.7.0/trunk/Code/application/PlugInUtilities/Interfaces/RasterUtilities.h
+END
+MatrixFunctions.h
+K 25
+svn:wc:ra_dav:version-url
+V 114
+/svnroot/opticks/!svn/ver/13604/releases/4.7.0/trunk/Code/application/PlugInUtilities/Interfaces/MatrixFunctions.h
+END
+AnimationFrameSpinBox.h
+K 25
+svn:wc:ra_dav:version-url
+V 120
+/svnroot/opticks/!svn/ver/13604/releases/4.7.0/trunk/Code/application/PlugInUtilities/Interfaces/AnimationFrameSpinBox.h
+END
+xmlwriter.h
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/svnroot/opticks/!svn/ver/13604/releases/4.7.0/trunk/Code/application/PlugInUtilities/Interfaces/xmlwriter.h
+END
+Modifier.h
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/svnroot/opticks/!svn/ver/13604/releases/4.7.0/trunk/Code/application/PlugInUtilities/Interfaces/Modifier.h
+END
+CustomTreeWidget.h
+K 25
+svn:wc:ra_dav:version-url
+V 115
+/svnroot/opticks/!svn/ver/13604/releases/4.7.0/trunk/Code/application/PlugInUtilities/Interfaces/CustomTreeWidget.h
+END
+ClassificationWidget.h
+K 25
+svn:wc:ra_dav:version-url
+V 119
+/svnroot/opticks/!svn/ver/13604/releases/4.7.0/trunk/Code/application/PlugInUtilities/Interfaces/ClassificationWidget.h
+END
+IntValidator.h
+K 25
+svn:wc:ra_dav:version-url
+V 111
+/svnroot/opticks/!svn/ver/13604/releases/4.7.0/trunk/Code/application/PlugInUtilities/Interfaces/IntValidator.h
+END
+MultiThreadedAlgorithm.h
+K 25
+svn:wc:ra_dav:version-url
+V 121
+/svnroot/opticks/!svn/ver/13604/releases/4.7.0/trunk/Code/application/PlugInUtilities/Interfaces/MultiThreadedAlgorithm.h
+END
+SafePtr.h
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/svnroot/opticks/!svn/ver/13604/releases/4.7.0/trunk/Code/application/PlugInUtilities/Interfaces/SafePtr.h
+END
+CachedPage.h
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/svnroot/opticks/!svn/ver/13604/releases/4.7.0/trunk/Code/application/PlugInUtilities/Interfaces/CachedPage.h
+END
+switchOnEncoding.h
+K 25
+svn:wc:ra_dav:version-url
+V 115
+/svnroot/opticks/!svn/ver/13604/releases/4.7.0/trunk/Code/application/PlugInUtilities/Interfaces/switchOnEncoding.h
+END
+PlugInResource.h
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/svnroot/opticks/!svn/ver/13604/releases/4.7.0/trunk/Code/application/PlugInUtilities/Interfaces/PlugInResource.h
+END
+AlgorithmDialog.h
+K 25
+svn:wc:ra_dav:version-url
+V 114
+/svnroot/opticks/!svn/ver/13604/releases/4.7.0/trunk/Code/application/PlugInUtilities/Interfaces/AlgorithmDialog.h
+END
+LatLonLineEdit.h
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/svnroot/opticks/!svn/ver/13604/releases/4.7.0/trunk/Code/application/PlugInUtilities/Interfaces/LatLonLineEdit.h
+END
+ProgressResource.h
+K 25
+svn:wc:ra_dav:version-url
+V 115
+/svnroot/opticks/!svn/ver/13604/releases/4.7.0/trunk/Code/application/PlugInUtilities/Interfaces/ProgressResource.h
+END
+ObjectResource.h
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/svnroot/opticks/!svn/ver/13604/releases/4.7.0/trunk/Code/application/PlugInUtilities/Interfaces/ObjectResource.h
+END
+ProgressTracker.h
+K 25
+svn:wc:ra_dav:version-url
+V 114
+/svnroot/opticks/!svn/ver/13604/releases/4.7.0/trunk/Code/application/PlugInUtilities/Interfaces/ProgressTracker.h
+END
+ImageHandler.h
+K 25
+svn:wc:ra_dav:version-url
+V 111
+/svnroot/opticks/!svn/ver/13604/releases/4.7.0/trunk/Code/application/PlugInUtilities/Interfaces/ImageHandler.h
+END
+XercesIncludes.h
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/svnroot/opticks/!svn/ver/13604/releases/4.7.0/trunk/Code/application/PlugInUtilities/Interfaces/XercesIncludes.h
+END
+AnimationFrameSubsetWidget.h
+K 25
+svn:wc:ra_dav:version-url
+V 125
+/svnroot/opticks/!svn/ver/13604/releases/4.7.0/trunk/Code/application/PlugInUtilities/Interfaces/AnimationFrameSubsetWidget.h
+END
+GeoPoint.h
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/svnroot/opticks/!svn/ver/13604/releases/4.7.0/trunk/Code/application/PlugInUtilities/Interfaces/GeoPoint.h
+END
+CachedPager.h
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/svnroot/opticks/!svn/ver/13604/releases/4.7.0/trunk/Code/application/PlugInUtilities/Interfaces/CachedPager.h
+END
+InterpreterUtilities.h
+K 25
+svn:wc:ra_dav:version-url
+V 119
+/svnroot/opticks/!svn/ver/13604/releases/4.7.0/trunk/Code/application/PlugInUtilities/Interfaces/InterpreterUtilities.h
+END
+Service.h
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/svnroot/opticks/!svn/ver/13604/releases/4.7.0/trunk/Code/application/PlugInUtilities/Interfaces/Service.h
+END
+DataVariantValidator.h
+K 25
+svn:wc:ra_dav:version-url
+V 119
+/svnroot/opticks/!svn/ver/13604/releases/4.7.0/trunk/Code/application/PlugInUtilities/Interfaces/DataVariantValidator.h
+END
+CustomColorButton.h
+K 25
+svn:wc:ra_dav:version-url
+V 116
+/svnroot/opticks/!svn/ver/13604/releases/4.7.0/trunk/Code/application/PlugInUtilities/Interfaces/CustomColorButton.h
+END
+ColorMap.h
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/svnroot/opticks/!svn/ver/13604/releases/4.7.0/trunk/Code/application/PlugInUtilities/Interfaces/ColorMap.h
+END
+PropertiesQWidgetWrapper.h
+K 25
+svn:wc:ra_dav:version-url
+V 123
+/svnroot/opticks/!svn/ver/13604/releases/4.7.0/trunk/Code/application/PlugInUtilities/Interfaces/PropertiesQWidgetWrapper.h
+END
+xmlreader.h
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/svnroot/opticks/!svn/ver/13604/releases/4.7.0/trunk/Code/application/PlugInUtilities/Interfaces/xmlreader.h
+END
+ElidedLabel.h
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/svnroot/opticks/!svn/ver/13604/releases/4.7.0/trunk/Code/application/PlugInUtilities/Interfaces/ElidedLabel.h
+END
+GlContextSave.h
+K 25
+svn:wc:ra_dav:version-url
+V 112
+/svnroot/opticks/!svn/ver/13604/releases/4.7.0/trunk/Code/application/PlugInUtilities/Interfaces/GlContextSave.h
+END
+GraphicTextWidget.h
+K 25
+svn:wc:ra_dav:version-url
+V 116
+/svnroot/opticks/!svn/ver/13604/releases/4.7.0/trunk/Code/application/PlugInUtilities/Interfaces/GraphicTextWidget.h
+END
+Resource.h
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/svnroot/opticks/!svn/ver/13604/releases/4.7.0/trunk/Code/application/PlugInUtilities/Interfaces/Resource.h
+END
+FileResource.h
+K 25
+svn:wc:ra_dav:version-url
+V 111
+/svnroot/opticks/!svn/ver/13604/releases/4.7.0/trunk/Code/application/PlugInUtilities/Interfaces/FileResource.h
+END
+TimeUtilities.h
+K 25
+svn:wc:ra_dav:version-url
+V 112
+/svnroot/opticks/!svn/ver/13604/releases/4.7.0/trunk/Code/application/PlugInUtilities/Interfaces/TimeUtilities.h
+END
+FontSizeComboBox.h
+K 25
+svn:wc:ra_dav:version-url
+V 115
+/svnroot/opticks/!svn/ver/13604/releases/4.7.0/trunk/Code/application/PlugInUtilities/Interfaces/FontSizeComboBox.h
+END
+SessionResource.h
+K 25
+svn:wc:ra_dav:version-url
+V 114
+/svnroot/opticks/!svn/ver/13604/releases/4.7.0/trunk/Code/application/PlugInUtilities/Interfaces/SessionResource.h
+END
+xmlbase.h
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/svnroot/opticks/!svn/ver/13604/releases/4.7.0/trunk/Code/application/PlugInUtilities/Interfaces/xmlbase.h
+END
+MessageLogResource.h
+K 25
+svn:wc:ra_dav:version-url
+V 117
+/svnroot/opticks/!svn/ver/13604/releases/4.7.0/trunk/Code/application/PlugInUtilities/Interfaces/MessageLogResource.h
+END
+SubjectAdapter.h
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/svnroot/opticks/!svn/ver/13604/releases/4.7.0/trunk/Code/application/PlugInUtilities/Interfaces/SubjectAdapter.h
+END
+PageCache.h
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/svnroot/opticks/!svn/ver/13604/releases/4.7.0/trunk/Code/application/PlugInUtilities/Interfaces/PageCache.h
+END
+SignatureSelector.h
+K 25
+svn:wc:ra_dav:version-url
+V 116
+/svnroot/opticks/!svn/ver/13604/releases/4.7.0/trunk/Code/application/PlugInUtilities/Interfaces/SignatureSelector.h
+END
+MutuallyExclusiveListWidget.h
+K 25
+svn:wc:ra_dav:version-url
+V 126
+/svnroot/opticks/!svn/ver/13604/releases/4.7.0/trunk/Code/application/PlugInUtilities/Interfaces/MutuallyExclusiveListWidget.h
+END
+Undo.h
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/svnroot/opticks/!svn/ver/13604/releases/4.7.0/trunk/Code/application/PlugInUtilities/Interfaces/Undo.h
+END
+MuHttpServer.h
+K 25
+svn:wc:ra_dav:version-url
+V 111
+/svnroot/opticks/!svn/ver/13604/releases/4.7.0/trunk/Code/application/PlugInUtilities/Interfaces/MuHttpServer.h
+END
+LabeledSection.h
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/svnroot/opticks/!svn/ver/13604/releases/4.7.0/trunk/Code/application/PlugInUtilities/Interfaces/LabeledSection.h
+END
+AttachmentPtr.h
+K 25
+svn:wc:ra_dav:version-url
+V 112
+/svnroot/opticks/!svn/ver/13604/releases/4.7.0/trunk/Code/application/PlugInUtilities/Interfaces/AttachmentPtr.h
+END
+SignalBlocker.h
+K 25
+svn:wc:ra_dav:version-url
+V 112
+/svnroot/opticks/!svn/ver/13604/releases/4.7.0/trunk/Code/application/PlugInUtilities/Interfaces/SignalBlocker.h
+END
+WavelengthUnitsComboBox.h
+K 25
+svn:wc:ra_dav:version-url
+V 122
+/svnroot/opticks/!svn/ver/13604/releases/4.7.0/trunk/Code/application/PlugInUtilities/Interfaces/WavelengthUnitsComboBox.h
+END
+ElidedButton.h
+K 25
+svn:wc:ra_dav:version-url
+V 111
+/svnroot/opticks/!svn/ver/13604/releases/4.7.0/trunk/Code/application/PlugInUtilities/Interfaces/ElidedButton.h
+END
+AlgorithmPattern.h
+K 25
+svn:wc:ra_dav:version-url
+V 115
+/svnroot/opticks/!svn/ver/13604/releases/4.7.0/trunk/Code/application/PlugInUtilities/Interfaces/AlgorithmPattern.h
+END
+OptionQWidgetWrapper.h
+K 25
+svn:wc:ra_dav:version-url
+V 119
+/svnroot/opticks/!svn/ver/13604/releases/4.7.0/trunk/Code/application/PlugInUtilities/Interfaces/OptionQWidgetWrapper.h
+END
+DataVariant.h
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/svnroot/opticks/!svn/ver/13604/releases/4.7.0/trunk/Code/application/PlugInUtilities/Interfaces/DataVariant.h
+END
+Endian.h
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/svnroot/opticks/!svn/ver/13604/releases/4.7.0/trunk/Code/application/PlugInUtilities/Interfaces/Endian.h
+END
+DataVariantAnyData.h
+K 25
+svn:wc:ra_dav:version-url
+V 117
+/svnroot/opticks/!svn/ver/13604/releases/4.7.0/trunk/Code/application/PlugInUtilities/Interfaces/DataVariantAnyData.h
+END
+StringUtilities.h
+K 25
+svn:wc:ra_dav:version-url
+V 114
+/svnroot/opticks/!svn/ver/13604/releases/4.7.0/trunk/Code/application/PlugInUtilities/Interfaces/StringUtilities.h
+END
+AppAssert.h
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/svnroot/opticks/!svn/ver/13604/releases/4.7.0/trunk/Code/application/PlugInUtilities/Interfaces/AppAssert.h
+END
+UndoAction.h
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/svnroot/opticks/!svn/ver/13604/releases/4.7.0/trunk/Code/application/PlugInUtilities/Interfaces/UndoAction.h
+END
+BitMaskIterator.h
+K 25
+svn:wc:ra_dav:version-url
+V 114
+/svnroot/opticks/!svn/ver/13604/releases/4.7.0/trunk/Code/application/PlugInUtilities/Interfaces/BitMaskIterator.h
+END
+SubjectImp.h
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/svnroot/opticks/!svn/ver/13604/releases/4.7.0/trunk/Code/application/PlugInUtilities/Interfaces/SubjectImp.h
+END
+SignaturePropertiesDlg.h
+K 25
+svn:wc:ra_dav:version-url
+V 121
+/svnroot/opticks/!svn/ver/13604/releases/4.7.0/trunk/Code/application/PlugInUtilities/Interfaces/SignaturePropertiesDlg.h
+END
+AppVerify.h
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/svnroot/opticks/!svn/ver/13604/releases/4.7.0/trunk/Code/application/PlugInUtilities/Interfaces/AppVerify.h
+END
+StringUtilitiesMacros.h
+K 25
+svn:wc:ra_dav:version-url
+V 120
+/svnroot/opticks/!svn/ver/13604/releases/4.7.0/trunk/Code/application/PlugInUtilities/Interfaces/StringUtilitiesMacros.h
+END
+TypeConverter.h
+K 25
+svn:wc:ra_dav:version-url
+V 112
+/svnroot/opticks/!svn/ver/13604/releases/4.7.0/trunk/Code/application/PlugInUtilities/Interfaces/TypeConverter.h
+END
+TestUtilities.h
+K 25
+svn:wc:ra_dav:version-url
+V 112
+/svnroot/opticks/!svn/ver/13604/releases/4.7.0/trunk/Code/application/PlugInUtilities/Interfaces/TestUtilities.h
+END
+SuppressibleMsgDlg.h
+K 25
+svn:wc:ra_dav:version-url
+V 117
+/svnroot/opticks/!svn/ver/13604/releases/4.7.0/trunk/Code/application/PlugInUtilities/Interfaces/SuppressibleMsgDlg.h
+END
+FileBrowser.h
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/svnroot/opticks/!svn/ver/13604/releases/4.7.0/trunk/Code/application/PlugInUtilities/Interfaces/FileBrowser.h
+END

@@ -1,0 +1,53 @@
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svnroot/opticks/!svn/ver/13604/releases/4.7.0/trunk/Code/application/PlugIns/src/WizardExecutor
+END
+WizardExecutor.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 115
+/svnroot/opticks/!svn/ver/13604/releases/4.7.0/trunk/Code/application/PlugIns/src/WizardExecutor/WizardExecutor.cpp
+END
+WizardExecutor.vcxproj.filters
+K 25
+svn:wc:ra_dav:version-url
+V 127
+/svnroot/opticks/!svn/ver/13604/releases/4.7.0/trunk/Code/application/PlugIns/src/WizardExecutor/WizardExecutor.vcxproj.filters
+END
+ModuleManager.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 114
+/svnroot/opticks/!svn/ver/13604/releases/4.7.0/trunk/Code/application/PlugIns/src/WizardExecutor/ModuleManager.cpp
+END
+BatchWizardExecutor.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 120
+/svnroot/opticks/!svn/ver/13604/releases/4.7.0/trunk/Code/application/PlugIns/src/WizardExecutor/BatchWizardExecutor.cpp
+END
+WizardExecutor.h
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/svnroot/opticks/!svn/ver/13604/releases/4.7.0/trunk/Code/application/PlugIns/src/WizardExecutor/WizardExecutor.h
+END
+BatchWizardExecutor.h
+K 25
+svn:wc:ra_dav:version-url
+V 118
+/svnroot/opticks/!svn/ver/13604/releases/4.7.0/trunk/Code/application/PlugIns/src/WizardExecutor/BatchWizardExecutor.h
+END
+SConscript
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/svnroot/opticks/!svn/ver/13604/releases/4.7.0/trunk/Code/application/PlugIns/src/WizardExecutor/SConscript
+END
+WizardExecutor.vcxproj
+K 25
+svn:wc:ra_dav:version-url
+V 119
+/svnroot/opticks/!svn/ver/13604/releases/4.7.0/trunk/Code/application/PlugIns/src/WizardExecutor/WizardExecutor.vcxproj
+END

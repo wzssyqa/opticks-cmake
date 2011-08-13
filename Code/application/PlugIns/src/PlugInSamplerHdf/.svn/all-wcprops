@@ -1,0 +1,41 @@
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/svnroot/opticks/!svn/ver/13604/releases/4.7.0/trunk/Code/application/PlugIns/src/PlugInSamplerHdf
+END
+SampleHdf4Importer.h
+K 25
+svn:wc:ra_dav:version-url
+V 119
+/svnroot/opticks/!svn/ver/13604/releases/4.7.0/trunk/Code/application/PlugIns/src/PlugInSamplerHdf/SampleHdf4Importer.h
+END
+ModuleManager.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 116
+/svnroot/opticks/!svn/ver/13604/releases/4.7.0/trunk/Code/application/PlugIns/src/PlugInSamplerHdf/ModuleManager.cpp
+END
+PlugInSamplerHdf.vcxproj.filters
+K 25
+svn:wc:ra_dav:version-url
+V 131
+/svnroot/opticks/!svn/ver/13604/releases/4.7.0/trunk/Code/application/PlugIns/src/PlugInSamplerHdf/PlugInSamplerHdf.vcxproj.filters
+END
+SConscript
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/svnroot/opticks/!svn/ver/13604/releases/4.7.0/trunk/Code/application/PlugIns/src/PlugInSamplerHdf/SConscript
+END
+SampleHdf4Importer.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 121
+/svnroot/opticks/!svn/ver/13604/releases/4.7.0/trunk/Code/application/PlugIns/src/PlugInSamplerHdf/SampleHdf4Importer.cpp
+END
+PlugInSamplerHdf.vcxproj
+K 25
+svn:wc:ra_dav:version-url
+V 123
+/svnroot/opticks/!svn/ver/13604/releases/4.7.0/trunk/Code/application/PlugIns/src/PlugInSamplerHdf/PlugInSamplerHdf.vcxproj
+END

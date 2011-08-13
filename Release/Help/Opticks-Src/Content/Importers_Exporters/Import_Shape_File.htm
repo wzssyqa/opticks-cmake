@@ -1,0 +1,97 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" MadCap:lastBlockDepth="4" MadCap:lastHeight="3019" MadCap:lastWidth="1451">
+    <head><title>Import Shape File</title>
+        <link rel="StyleSheet" href="..\Tutorials\Tutorials.css" />
+    </head>
+    <body>
+        <div placeholder="" id="header" style="width: 100%;position: relative;">
+        </div>
+        <h1>
+            <MadCap:keyword term="import shape file" />
+            <MadCap:keyword term="shape file:import" />Import Shape File</h1>
+        <p class="BodyText">A shape file is a group of files used to exchange <MadCap:popup><MadCap:popupHead style="color: #008000;font-weight: bold;" class="popupspot">GIS</MadCap:popupHead><MadCap:popupBody class="popupBody_1">Geographic Information System</MadCap:popupBody></MadCap:popup> features between 
+ application. GIS features are commonly used to represent roads, cities, 
+ rivers, lakes, and other geographic information.</p>
+        <p class="BodyText">The Shape File Importer enables ESRI shape files to be 
+ loaded into the current data set. </p>
+        <p class="BodyText">Opticks imports all shape files as annotations. Opticks can 
+ only import shape files that use the WGS84 coordinate system. If the imported 
+ shape file uses another coordinate system, Opticks can attempt to import 
+ the file but will treat the coordinates as WGS84. However, unless the 
+ coordinate system used is very close to WGS84, the import results will 
+ probably be unsatisfactory.</p>
+        <p class="BodyText">Opticks can import the following shape file types:</p>
+        <ul>
+            <li class="BulletList">Point</li>
+            <li class="BulletList">Point with Z component</li>
+            <li class="BulletList">Multipoint</li>
+            <li class="BulletList">Multipoint with Z 
+ component</li>
+            <li class="BulletList">Polyline</li>
+            <li class="BulletList">Polyline with Z component</li>
+            <li class="BulletList">Polygon</li>
+            <li class="BulletList">Polygon with Z component</li>
+        </ul>
+        <p class="BodyText">If you import shapes with Z components, the Z component 
+ is ignored.</p>
+        <p class="BodyText">If you import point and multipoint shape files, the points 
+ are drawn as small empty triangles.</p>
+        <h2>Before You Begin</h2>
+        <p class="BodyText">Before you import a shape file, you must <a href="Import_Data.htm">import a data file</a> and <a href="../Geo/Georeference.htm">georeference</a> it. 
+ Only shapes within the data set are imported.</p>
+        <h2>Import a Shape File</h2>
+        <ol>
+            <li class="NumberList">Go to the <span style="font-weight: bold;">File</span> 
+ menu and select <span style="font-weight: bold;">Import Data...</span>. </li>
+            <li class="NumberList">In the Import dialog box, navigate to the shape file you want to import.</li>
+            <li class="NumberList">If desired, click the Options button on the Import dialog box.</li>
+            <li class="NumberList">Go to the Auto Importer or Shape File Importer tab. Select the Connection tab. The <span style="font-weight: bold;">Layer name</span> is the name of the layer that the shape file will be 
+ imported into. This layer will be created if necessary. You can edit this 
+ field.</li>
+        </ol>
+        <p class="BodyTextIndent">
+            <img src="../Resources/Images/Import_Shape_1.gif" />
+        </p>
+        <ol start="4" style="list-style: decimal;list-style-type: decimal;" MadCap:continue="true">
+            <li class="NumberList">Go to the Display tab. </li>
+        </ol>
+        <p class="BodyTextIndent">
+            <img src="../Resources/Images/Import_Shape_2.gif" />
+        </p>
+        <p class="BodyTextIndent">The <b>Display </b>area enables you to customize the display</p>
+        <p class="BodyTextIndent"><span style="font-weight: bold;"></span>In the <span style="font-weight: bold;">Fields </span>area, the <span style="font-weight: bold;">Displayed 
+ <b>field</b></span><b><![CDATA[ ]]></b>shows the attributes for a sample shape within the file. 
+ If you select a row or rows in the table, the shapes will be labeled with 
+ the selected attributes.</p>
+        <p class="BodyTextIndent">The <b>File info</b> area displays general file information. This information cannot be changed.</p>
+        <ol MadCap:continue="true">
+            <li class="NumberList">Go to the Clipping tab.</li>
+        </ol>
+        <p class="BodyTextIndent">This tab enables you to specify how the shape will be clipped.</p>
+        <p class="BodyTextIndent">
+            <img src="../Resources/Images/Import_Shape_3.gif" />
+        </p>
+        <ol start="4" style="list-style: decimal;list-style-type: decimal;" MadCap:continue="true">
+            <li class="NumberList">To finish the import, 
+ click the <span style="font-weight: bold;">OK</span> button.</li>
+            <li class="NumberList">On the Import dialog, click the <b>Open</b> button.</li>
+        </ol>
+        <p class="BodyText">The shape file is now imported into Opticks.</p>
+        <h2 class="BodyText">Import from an ArcSDE Server</h2>
+        <p class="BodyText">You can also load shape data from an ArcSDE Server.</p>
+        <ol>
+            <li class="NumberList">Be sure the <a href="../Toolbars/Geographic_Features_Toolbar.htm">Geographic Features toolbar</a> is displayed.</li>
+            <li class="NumberList">Click the <b>Geographic Features</b> button and select <b>Import geodatabase</b>.</li>
+            <li class="NumberList">In the import dialog, select shape file on the <b>Connection</b> tab. </li>
+            <li class="NumberList">See Steps 4 through 6 about for other import information.</li>
+            <li class="NumberList">Click the <b>OK</b> button.</li>
+        </ol>
+        <hr style="float: aligncenter;width: 50%;" align="center" width="50%" size="4" />
+        <h2>Related Topics</h2>
+        <p class="BodyText"><a href="Export_Shape_File.htm">Export Shape File</a>
+        </p>
+        <p class="BodyText"><a href="../Tutorials/tutorial_import_display_shape_files.htm">Tutorial: Import/Display Shape Files</a>
+            <p class="BodyText" MadCap:conditions="">&#160;</p>
+        </p>
+    </body>
+</html>

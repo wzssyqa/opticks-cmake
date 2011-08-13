@@ -1,0 +1,7 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<CatapultConditionTagSet>
+  <ConditionTag BackgroundColor="#00ffff" Name="COMET Only" Comment="" Color="Normal" />
+  <ConditionTag BackgroundColor="#ffa07a" Name="Opticks Only" Comment="" Color="Normal" />
+  <ConditionTag BackgroundColor="#8b0000" Name="Release 4 OUT" Comment="" Color="Normal" />
+  <ConditionTag BackgroundColor="#3333cc" Name="Open Source" Comment="" Color="Normal" />
+</CatapultConditionTagSet>

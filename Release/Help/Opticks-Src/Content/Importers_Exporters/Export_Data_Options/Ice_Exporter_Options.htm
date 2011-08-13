@@ -1,0 +1,31 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" MadCap:lastBlockDepth="6" MadCap:lastHeight="2037" MadCap:lastWidth="549" class="">
+    <head><title>Ice Exporter Options</title>
+        <link href="../../Opticks_Styles.css" rel="stylesheet" type="text/css" />
+    </head>
+    <body>
+        <h1>Ice Exporter Options</h1>
+        <p class="BodyText">
+            <MadCap:keyword term="Ice Exporter options" />On the Ice Exporter Options window, you can specify a subset that you want to export and the compression.</p>
+        <h2>Subset Tab</h2>
+        <p class="BodyText">
+            <img src="../../Resources/Images/Ice_Exporter_Options.gif" />
+        </p>
+        <MadCap:snippetBlock src="../../Resources/Snippets/SubsetTab.flsnp" />
+        <h2>Ice Exporter Tab</h2>
+        <p class="BodyText">Use the Ice Exporter Tab to set the compression and chunk size options.</p>
+        <p class="BodyText">
+            <img src="../../Resources/Images/Ice_Exporter_Options_Ice_Tab.gif" />
+        </p>
+        <h3>Compression Options</h3>
+        <p class="BodyText">The compression options determine if and how an image is compressed. Compressing an image does not remove data. The options are:</p>
+        <ul style="list-style-type: square;">
+            <li style="margin-top: 7pt;margin-bottom: 7pt;">None.</li>
+            <li style="margin-top: 7pt;margin-bottom: 7pt;">GZIP. A zipped type of compression.</li>
+            <li style="margin-top: 7pt;margin-bottom: 7pt;">Shuffle+GZIP. Applies the HDF5 shuffle, which rearranges the data, and then compresses it.</li>
+        </ul>
+        <p class="BodyText">The GZIP Compression Level affects the speed of compression/decompression.</p>
+        <h3>Chunk Size Options</h3>
+        <p class="BodyText">The chunk size splits the image into chunks. The chunk size has some impact on the load speed. If the image is chunked, the compression is applied to each chunk.</p>
+    </body>
+</html>

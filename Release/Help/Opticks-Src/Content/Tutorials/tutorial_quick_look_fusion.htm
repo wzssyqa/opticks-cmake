@@ -1,0 +1,283 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" MadCap:conditions="" class="" MadCap:lastBlockDepth="6" MadCap:lastHeight="9273" MadCap:lastWidth="1136">
+    <head><title>Tutorial: Quick-Look Data Fusion Plug-In</title>
+        <meta name="Originator" content="ImportDoc" />
+        <meta name="OriginalFile" content="C:\Ball\COMET\Tutorials\scenario4.doc" />
+        <link rel="StyleSheet" href="Tutorials.css" />
+        <link href="../Resources/TableStyles/Inner.css" rel="stylesheet" MadCap:stylesheetType="table" />
+    </head>
+    <body lang="EN-US">
+        <div placeholder="" id="header" style="width: 100%;position: relative;">
+        </div>
+        <h1>
+            <MadCap:keyword term="Quick-Look Data Fusion Plug-in;tutorials" />Tutorial: Quick-Look Data Fusion Plug-In</h1>
+        <p class="BodyText"><b style="font-weight: bold;"><MadCap:keyword term="tutorials" />Learning Objective</b>: 
+ When finished with this tutorial, you will be able to examine construction 
+ changes that have taken place over a site during an 18-month period using 
+ the Quick-Look Data Fusion Plug-In.</p>
+        <p class="BodyText">In this tutorial, you’ll 
+ perform the following data fusion functions:</p>
+        <ul>
+            <li class="BulletList">Start the Quick-Look 
+ Data Fusion Plug-In</li>
+            <li class="BulletList">Load files</li>
+            <li class="BulletList">Use Tie Points</li>
+            <li class="BulletList">Designate Area of 
+ Interests </li>
+            <li class="BulletList">Manipulate fused 
+ views</li>
+        </ul>
+        <p class="BodyText"><b style="font-weight: bold;">Lesson</b>: The Opticks                   <![CDATA[ ]]><b>Quick-Look 
+ Data Fusion Plug-In</b> is a tool used to fuse data from various sensors 
+ even if they were taken at different angles, skewed, rotated, or translated. 
+ </p>
+        <p class="BodyText" style="font-weight: bold;">Toolbars used in this tutorial:</p>
+        <p class="BodyTextIndent"><a href="../Toolbars/Display_Toolbar.htm">Display 
+ Toolbar</a>
+        </p>
+        <p class="BodyTextIndent"><a href="../Toolbars/Geo_Toolbar.htm">Geo Toolbar</a>
+        </p>
+        <p class="BodyTextIndent"><a href="../Toolbars/AOI_Toolbar.htm">AOI Toolbar</a>
+        </p>
+        <p class="BodyTextIndent"><a href="../Toolbars/General_Algorithms_Toolbar.htm">General Algorithms Toolbar</a>
+        </p>
+        <MadCap:snippetBlock src="../Resources/Snippets/Access_Toolbars.flsnp" />
+        <MadCap:snippetBlock src="../Resources/Snippets/SampleFiles.flsnp" />
+        <h2>Start</h2>
+        <ol>
+            <li class="NumberList" style="margin-top: 9pt;margin-bottom: 9pt;">Import the following data sets from the sample files: <b>ir_bushehr_06jun02_ps.tif</b> and <b>ir_bushehr_28feb04_ps.tif</b>.</li>
+            <li class="NumberList" style="margin-top: 9pt;margin-bottom: 9pt;">Select the image <b>ir_bushehr_06jun02_ps.tif</b>. On the Display Toolbar, click the Zoom to Fit button. <img src="../Zoom_to_fit.gif" /></li>
+            <li style="margin-top: 9pt;margin-bottom: 9pt;">On the Geo Toolbar, select <b>Georeference</b>. In the Georeference dialog box, accept the defaults and click the <b>OK</b>&#160;button.</li>
+            <li style="margin-top: 9pt;margin-bottom: 9pt;">Repeat Steps 2 and 3 for the image <b>ir_bushehr_28feb04_ps.tif</b>.</li>
+            <li style="margin-top: 9pt; margin-bottom: 9pt;">Go to the <b>Window</b> menu and select <b>Tile Vertically</b>.</li>
+            <li style="margin-top: 9pt; margin-bottom: 9pt;">Zoom in so that the round building and the rectangular building set on a diagonal are easily visible.</li>
+        </ol>
+        <p style="margin-top: 9pt;margin-bottom: 9pt;">
+            <img src="../Resources/Images/QL_Data_Fusion_Zoomed_Images.gif" />
+        </p>
+        <ol MadCap:continue="true">
+            <li class="NumberList">Be sure the <b>General Algorithms</b> Toolbar is displayed. Click the <b>General Algorithms</b> button and select<b> Data Fusion</b> to 
+ start the Quick-Look Data Fusion Plug-In. </li>
+        </ol>
+        <p class="BodyTextIndent">
+            <img src="../Resources/Images/Select_Data_Fusion.gif" style="border: none;border-style: none;border-style: none;" border="0" />
+        </p>
+        <p class="BodyTextIndent">The Quick-Look Data Fusion wizard is displayed.</p>
+        <ol MadCap:continue="true">
+            <li class="NumberList">In the Quick-Look 
+ Data Fusion wizard, both the data sets you've already loaded are displayed.</li>
+        </ol>
+        <p class="BodyTextIndent">
+            <img src="../Resources/Images/QL_Data_Fusion_1.gif" style="border: none;border-style: none;border-style: none;" border="0" />
+        </p>
+        <ol start="3" style="list-style: decimal;list-style-type: decimal;" MadCap:continue="true">
+            <li class="NumberList">Highlight the <b>ir_bushehr_06jun02_ps.tif</b> 
+ data set in the Primary Data Set list and the <b>ir_bushehr_28feb04_ps.tif</b> 
+ data set in the Secondary Data Set list. </li>
+        </ol>
+        <p class="Note"><span style="font-weight: bold;">Note:</span> We 
+ recommend that you select the higher resolution data set as the Secondary 
+ Data set. The algorithm will use the higher resolution data set to produce 
+ a better product when fusing with the other data set. A warning notice 
+ is displayed if the Primary Data set has a higher resolution than the 
+ Secondary Data set and the higher resolution data is then degraded to 
+ the resolution of the other data set.</p>
+        <p class="BodyTextIndent"><span style="font-weight: bold;"></span>
+        </p>
+        <p class="BodyTextIndent">
+            <img src="../Resources/Images/QL_Data_Fusion_2.gif" style="border: none;" border="0" />
+        </p>
+        <ol start="9" style="list-style: decimal;list-style-type: decimal;" MadCap:continue="true">
+            <li class="NumberList">(<span style="font-style: italic;">Optional.</span>) 
+ Opticks provides you with the option of bypassing the Create Tie Points 
+ step. To bypass this step, go to the Algorithm Options box and select 
+ the Bypass Tie Point Step checkbox.</li>
+        </ol>
+        <p class="BodyTextIndent">Creating a tie point increases Data Fusion accuracy. 
+ We recommend that you bypass this step only if you are certain that the 
+ georeferencing information in the file is highly accurate (typically RPC 
+ georeferencing or higher order GCP georeferencing) and/or you have no 
+ context in which to find a tie point.</p>
+        <p class="BodyTextIndent">You can also bypass the tie point step every time 
+ you run the Quick-Look Data Fusion Plug-In by checking the Save Settings 
+ for future sessions checkbox. This checkbox applies only to the tie point 
+ step.</p>
+        <p class="BodyTextIndent">For this tutorial, leave both the <span style="font-weight: bold;">Bypass 
+ Tie Point Step</span> checkbox and the <span style="font-weight: bold;">Save 
+ Settings</span> checkbox unchecked.</p>
+        <ol start="10" style="list-style: decimal;list-style-type: decimal;" MadCap:continue="true">
+            <li class="NumberList">Click the <b>Next&gt;</b> 
+ button. The Quick-Look Data Fusion wizard now displays the window 
+ for creating tie point. You must create at least one tie point.</li>
+        </ol>
+        <p class="BodyTextIndent">
+            <img src="../Resources/Images/QL_Data_Fusion_3.gif" style="border: none;" border="0" />
+        </p>
+        <h2 class="BodyText">Create a Tie Point</h2>
+        <p class="BodyText">After the data sets are imported, you must create at 
+ least one tie point. A tie point represents the same location on two different 
+ images. You can use multiple tie points to correct inconsistencies in 
+ the geolocation between the data sets, but you need only one tie point 
+ to run the tool.</p>
+        <p class="BodyText">You might want to tile the images. </p>
+        <p class="BodyText">&#160;</p>
+        <ol>
+            <li style="margin-top: 9pt;margin-bottom: 9pt;">Move the Quick-Look 
+ Data Fusion wizard window to the side so you can work with the Opticks Main 
+ Application window.</li>
+            <li style="margin-top: 9pt;margin-bottom: 9pt;">Select the upper corner of the rectangular building in both images as shown below.</li>
+        </ol>
+        <p style="margin-top: 9pt;margin-bottom: 9pt;">
+            <img src="../Resources/Images/QL_Data_Fusion_Select_Corners.gif" />
+        </p>
+        <ol start="15" style="list-style: decimal;list-style-type: decimal;" MadCap:continue="true">
+            <li class="NumberList">Each pixel is automatically 
+ added to the appropriate list.</li>
+        </ol>
+        <p class="Note"><b>Note:</b> You can also use the GCP Editor to make changes 
+ to the GCP. The Data Fusion wizard automatically accepts the changes.</p>
+        <ol start="16" style="list-style: decimal;list-style-type: decimal;" MadCap:continue="true">
+            <li class="NumberList">Go back to the Data 
+ Fusion dialog box.</li>
+        </ol>
+        <p class="BodyTextIndent">Highlight the two GCPs and click the <b>Derive</b> 
+ button to create a tie point. </p>
+        <p class="BodyTextIndent">
+            <img src="../Resources/Images/QL_Data_Fusion_6.gif" style="border: none;border-style: none;border-style: none;" border="0" />
+        </p>
+        <ol start="17" style="list-style: decimal;list-style-type: decimal;" MadCap:continue="true">
+            <li class="NumberList">The GCP markers disappear 
+ and a Tie Point appears.</li>
+        </ol>
+        <p class="BodyTextIndent">
+            <img src="../Resources/Images/QL_Data_Fusion_7.gif" style="border: none;border-style: none;border-style: none;" border="0" />
+        </p>
+        <ol start="18" style="list-style: decimal;list-style-type: decimal;" MadCap:continue="true">
+            <li class="NumberList">In the Quick-Look Data Fusion dialog box, select the Tie Point. 
+ (Be sure it's highlighted.)</li>
+        </ol>
+        <ol start="19" style="list-style: decimal;list-style-type: decimal;" MadCap:continue="true">
+            <li class="NumberList">In the Quick-Look 
+ Data Fusion window, click the <b>Next&gt;</b> button to select an Area 
+ of Interest (AOI) and Output Views. </li>
+        </ol>
+        <p class="BodyTextIndent">
+            <img src="../Resources/Images/QL_Data_Fusion_9.gif" style="border: none;border-style: none;border-style: none;" border="0" />
+        </p>
+        <ol MadCap:continue="true">
+            <li>The next window enables you to select the Annotation Layers and AOI Layers that are available for fusion. We are not fusing any layers so just click the Next&gt; button.</li>
+        </ol>
+        <p class="BodyTextIndent">
+            <img src="../Resources/Images/QL_Select_Layers.gif" />
+        </p>
+        <h2>Select an AOI and Output Views</h2>
+        <p class="BodyText">After you create a tie point, you can define an AOI and 
+ view a fused version of the AOI using either the Flicker/Blend or Side-by-Side 
+ views. </p>
+        <ol>
+            <li style="margin-top: 9pt;margin-bottom: 9pt;">Move the dialog box 
+ aside again. If the Session Explorer isn't already open, go to <b>Tools, Session Explorer</b> to open the Session Explorer window.</li>
+            <li style="margin-top: 9pt;margin-bottom: 9pt;">Zoom out on the primary image to somewhere between 60% and 70%.</li>
+            <li class="NumberList" style="margin-top: 9pt;margin-bottom: 9pt;">Right-click on the primary image name. Select <b>New Layer, AOI</b> to create a new area of interest.</li>
+            <li class="NumberList" style="margin-top: 9pt;margin-bottom: 9pt;">Go to the AOI Toolbar. Under the AOI Pixel Selection Tool, select the rectangle.</li>
+        </ol>
+        <p class="BodyTextIndent">
+            <img src="../Resources/Images/QL_Data_Fusion_10.gif" />
+        </p>
+        <ol start="20" MadCap:continue="true">
+            <li class="NumberList">In the primary image, select a rectangular region to fuse. The region should be an area that both scenes contain.</li>
+        </ol>
+        <p class="BodyTextIndent">
+            <img src="../Resources/Images/QL_Data_Fusion_11.gif" style="border: none;border-style: none;border-style: none;" border="0" />
+        </p>
+        <ol start="23" MadCap:continue="true">
+            <li class="NumberList">Go back to the dialog 
+ box. Click the <b>Next&gt;</b> button.</li>
+            <li class="NumberList">On the primary image, draw a second rectangle that's slightly larger than the first.</li>
+        </ol>
+        <p>
+            <img src="../Resources/Images/QL_Data_Fusion_AOI_2.gif" />
+        </p>
+        <ol start="23" MadCap:continue="true">
+            <li class="NumberList">Select the output view: <b>Flicker/Blend</b>.</li>
+            <li class="NumberList">Select the <b>Run 
+ Flicker Tools</b> <![CDATA[ ]]><b>when done</b> check box to run the flicker tools 
+ that manipulate the fused flicker view.</li>
+        </ol>
+        <p class="BodyTextIndent">
+            <img src="../Resources/Images/QL_Data_Fusion_12.gif" />
+        </p>
+        <ol start="23" MadCap:continue="true">
+            <li class="NumberList">Click the <b>Execute</b> 
+ button to run the data fusion algorithm without closing the wizard. This 
+ gives you the option to run the algorithm on a different AOI on the same 
+ two images without restarting the wizard. </li>
+            <li class="NumberList">Click the <b>Finish</b> 
+ button to run the data fusion algorithm and close the wizard.</li>
+        </ol>
+        <p class="Note"><b>Note:</b> If both of the data sets are not already 
+ georeferenced, there will be a prompt before the algorithm begins. Also, 
+ if the Primary Data Set has a higher resolution input, a warning is displayed.</p>
+        <h2>Flicker/Blend View</h2>
+        <p class="BodyText">After you run the data fusion algorithm, a flicker/blend 
+ view is displayed. </p>
+        <p class="BodyText">
+            <img src="../Resources/Images/Flicker_Blend_View.gif" />
+        </p>
+        <p class="BodyText">The flicker tools enable you to manipulate the flicker/blend 
+ view to control the transparency, x/y translation of the secondary image 
+ chip, automated/manual flicker, and flicker rate.</p>
+        <p class="BodyText">If the flicker tools aren't automatically displayed, go to the <b>Tools</b> menu and select <b>Flicker Controls</b>.</p>
+        <p class="BodyText">
+            <img src="../Resources/Images/Flicker_Controls.gif" />
+        </p>
+        <p class="Note"><b>Note:</b> The flicker controls window automatically 
+ docks at the bottom of the screen, but can be moved or undocked.</p>
+        <p class="BodyText">To use the automated flicker feature:</p>
+        <ol>
+            <li class="NumberList">Set desired flicker 
+ rate (frames per second).</li>
+            <li class="NumberList">Click the <b>Start</b> 
+ button. The rate can be adjusted during flicker.</li>
+            <li class="NumberList">Click the <b>Stop</b> 
+ button to end flicker.</li>
+        </ol>
+        <p class="BodyText">To use the manual flicker feature:</p>
+        <ol>
+            <li class="NumberList">Set the flicker rate 
+ to <b>0</b>; click the <b>Stop</b> button.</li>
+            <li class="NumberList">Make sure the Secondary 
+ Data Set is not completely transparent.</li>
+            <li class="NumberList">Click the <b>Toggle</b> 
+ button to toggle between images.</li>
+        </ol>
+        <p class="BodyText">To use the transparency slide:</p>
+        <p class="BodyTextIndent">Click the button 
+ on the transparency slide to modify the transparency from transparent 
+ to opaque. This is helpful when trying to use the slide bars to line up 
+ the two images.</p>
+        <p class="BodyText">To use the x, y sliders:</p>
+        <p class="BodyTextIndent">Click the slider 
+ bar on either the x or y slide make adjustments to the secondary image 
+ in relation to the primary image. You can make finer adjustments to the 
+ image by placing the cursor over the slider bars and using the center 
+ scroll button.</p>
+        <h2>Manipulating Side-by-Side View</h2>
+        <p class="BodyText">To use the side-by-side view:</p>
+        <ol>
+            <li class="NumberList"><b style="font-weight: bold;">Close</b> 
+ the flicker window and the controls. Re-run the Quick-Look Data Fusion 
+ Plug-In. Select the primary and secondary data cubes, then add GCPs to 
+ each image and create a tie point. This time, use the side-by-side option.</li>
+            <li class="NumberList">Use the basic image 
+ manipulation tools to zoom, pan and rotate as desired. Both windows zoom 
+ to the same area if done correctly.</li>
+        </ol>
+        <p class="Note"><b>Note:</b> The side-by-side view is only available when 
+ the Quick-Look Data Fusion wizard is open.</p>
+        <ol start="34" style="list-style: decimal;list-style-type: decimal;" MadCap:continue="true">
+            <li class="NumberList"><b style="font-weight: bold;">Close</b> 
+ all files.</li>
+        </ol>
+    </body>
+</html>

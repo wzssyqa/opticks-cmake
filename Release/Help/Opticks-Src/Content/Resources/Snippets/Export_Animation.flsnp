@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" MadCap:lastBlockDepth="4" MadCap:lastHeight="1464" MadCap:lastWidth="582">
+    <head>
+    </head>
+    <body>
+        <p>
+            <img src="../Images/AVI_Exporter_Options.gif" />
+        </p>
+        <h2>Output Resolution</h2>
+        <p style="margin-top: 6pt;margin-bottom: 6pt;">If the <b>Use View Resolution</b> checkbox is checked, the default export will use the view resolution of the currently active view.</p>
+        <p class="BodyText">To set default values, uncheck the Use View Resolution checkbox. This enables the other image size fields.</p>
+        <p class="BodyText">Enter the <b>Width</b> and <b>Height</b> in pixels.</p>
+        <p style="margin-top: 6pt;margin-bottom: 6pt;">To lock the aspect ratio, click the Lock Aspect Ratio button. <img src="../Images/Lock_Aspect_Ratio_Button.gif" /> This button is a toggle.</p>
+        <h2>Playback</h2>
+        <p class="BodyText">Enter the bit rate and frame rate.</p>
+        <h2>Export Subset</h2>
+        <p class="BodyText">Use these options to set the <b>Start Frame</b> and <b>Stop Frame</b> of the animation you want to export. You can set these frames using the slider, by typing them into the Start Frame and Stop Frame field, or by clicking the up and down arrows to set the frame number.</p>
+        <h2>Advanced Options</h2>
+        <p>Expand this section to see advanced export options.</p>
+        <p>
+            <img src="../Images/Advanced_Options.gif" />
+        </p>
+    </body>
+</html>

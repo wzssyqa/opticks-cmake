@@ -1,0 +1,128 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" MadCap:id="Raster_Layer_Properties" MadCap:timeEstimate="0" MadCap:priority="0" MadCap:status="In Progress" MadCap:lastBlockDepth="5" MadCap:lastHeight="2602" MadCap:lastWidth="1438" class="">
+    <head><title>Raster Layer Properties</title>
+        <link rel="StyleSheet" href="../Opticks_Styles.css" />
+    </head>
+    <body>
+        <div placeholder="" id="header" style="width: 100%;position: relative;">
+        </div>
+        <h1>
+            <MadCap:keyword term="Raster Layer Properties" />
+            <MadCap:keyword term="properties:Raster Layer" />Raster Layer Properties</h1>
+        <p class="BodyText">A raster layer is an image with each pixel representing 
+ one data value. The contrast and brightness 
+ of the image are based on the values selected in the Properties dialog. 
+ A raster layer is sometimes created as results from an algorithm plug-in.</p>
+        <p class="BodyText">The values can be displayed so the range of pixel values 
+ is stretched to fit the display range of the screen.</p>
+        <p class="BodyText" style="font-weight: bold;">To open the Raster Layer Properties:</p>
+        <ol>
+            <li class="NumberList">Go to the <a href="../Sessions/session_explorer.htm">Session Explorer</a> window and select the image name.</li>
+            <li class="NumberList">Right click. On the Image Menu, select <b>Properties...</b>.The Properties window is displayed.</li>
+        </ol>
+        <p class="BodyTextIndent">
+            <img src="../Resources/Images/Raster_Layer_Properties_Select.gif" />
+        </p>
+        <ol MadCap:continue="true">
+            <li>When you're finished updating the properties:</li>
+        </ol>
+        <p class="BodyTextIndent"><span style="background-color: Transparent;">To 
+ apply the new properties and close the dialog box, click the <span style="font-weight: bold;">OK</span> 
+ button.</span>
+        </p>
+        <p class="BodyTextIndent">To apply the new properties and leave the dialog 
+ box open, click the <span style="font-weight: bold;">Apply</span> button.</p>
+        <p class="BodyTextIndent">To cancel the changes and close the dialog box, 
+ click the <span style="font-weight: bold;">Cancel</span> button.</p>
+        <h2>
+            <img src="../Resources/Images/Raster_Layer_Properties2.gif" />
+        </h2>
+        <h2>Display Configuration</h2>
+        <ul style="list-style-type: square;">
+            <li class="BulletList"><span style="font-weight: bold;">Display 
+ Mode</span>. Select grayscale or RGB.</li>
+            <li class="BulletList"><b>Complex Component.</b> <![CDATA[ ]]><span style="background-color: #ffffff;">This option is useful when loading complex data. It provides the means to select one of the four data display components of the data.</span></li>
+            <li class="BulletList"><span style="font-weight: bold;">Opacity</span>. 
+ Enter the opacity value.</li>
+        </ul>
+        <h2>Grayscale and RGB</h2>
+        <p>The Grayscale and RGB&#160;sections enable you to select how the grayscale and RGB&#160;bands are displayed in the image.</p>
+        <ul style="list-style-type: square;">
+            <li><b>Display Element</b>. <span style="background-color: #ffffff;">Enables you to select the raster data that is displayed. Different data can be displayed in each of the R, G, and B channels.</span></li>
+        </ul>
+        <ul>
+            <li class="BulletList"><span style="font-weight: bold;">Display 
+ Bands</span>. Enables you to select which bands are displayed. The data in 
+ the selected band depends on the parameters you select.</li>
+        </ul>
+        <p class="BodyTextIndent">Opticks also provides three predefined color composites for image display: <MadCap:glossaryTerm>NIR</MadCap:glossaryTerm>, <MadCap:glossaryTerm>SWIR</MadCap:glossaryTerm>, and True Color. You can customize these composites. You can also create new composites.</p>
+        <p class="BodyTextIndent">To select one of the predefined composites, click the <b>Presets</b> button and select the name of the color composite. </p>
+        <p class="BodyTextIndent">For more information, see <a href="../View/Color_Composites.htm">Color Composites</a>.</p>
+        <ul style="list-style-type: square;">
+            <li><span style="font-weight: bold;">Stretch 
+ Values</span>. The stretch values are the range of values the stretch 
+ is mapped over. You can enter the Lower and Upper values for each band. 
+ </li>
+        </ul>
+        <ul>
+            <li class="BulletList"><span style="font-weight: bold;">Stretch 
+ Units</span>. The stretch units determines the meaning of the numbers 
+ displayed in the “stretch values” field. Select from the drop-down list.</li>
+        </ul>
+        <blockquote>
+            <ul>
+                <li><span style="font-weight: bold;">Raw</span>. 
+ The numbers reflect the same units as the spectral data. For example, 
+ if the data cube is in reflectance scaled from 0–10,000, the stretch values 
+ will correspond directly to these 0-10,000 values.</li>
+                <li><span style="font-weight: bold;">Percentage</span>. 
+ The stretch values are represented in terms of their position relative 
+ to the maximum and minimum raw values in the data set.</li>
+                <li><span style="font-weight: bold;">Percentile</span>. 
+ The stretch values are represented in terms of their percentile within 
+ the data set. For example, a stretch value that is higher than half the 
+ data values in the cube and lower than the other half is represented as 
+ “50.” A value that is higher than 75% of the data and lower than the other 
+ 25% is represented as “75.”</li>
+                <li><span style="font-weight: bold;">Standard 
+ Deviation</span>. The stretch values are represented in terms of how many 
+ standard deviations they are from the average data value in the cube. 
+ A negative value indicates a stretch value that is less than the average 
+ and a positive value indicates a stretch value greater than the average.</li>
+            </ul>
+        </blockquote>
+        <ul style="list-style-type: square;">
+            <li class="BulletList"><span style="font-weight: bold;">Stretch Type</span>. 
+ Use the drop-down list to select the stretch type.</li>
+        </ul>
+        <blockquote>
+            <ul>
+                <li><span style="font-weight: bold;">Linear</span>. 
+ The stretch is linear from the lower stretch value to the upper one. A 
+ value halfway from the lower to the upper (at the median of the two values) 
+ is shaded at 50% brightness.</li>
+                <li class="BulletList2"><span style="font-weight: bold;">Logarithmic</span>. 
+ The contrast stretch is logarithmic in shape from the lower to the upper 
+ value. This has the effect of accentuating the weaker/darker features 
+ of the image.</li>
+                <li class="BulletList2"><span style="font-weight: bold;">Exponential</span>. 
+ The contrast stretch is exponential in shape from the lower to upper value. 
+ This has the effect of suppressing weaker/darker features in the image 
+ and accentuating the brighter ones.</li>
+                <li class="BulletList2"><span style="font-weight: bold;">Histogram 
+ Equalization</span>. Sets the raster layer to an equalized histogram contrast 
+ stretch. Every display value (0-255) has an equal number of pixels.</li>
+            </ul>
+        </blockquote>
+        <ul style="list-style-type: square;">
+            <li><b>Favorites</b>. Enables you to select, add, or remove favorites based on selected values.</li>
+        </ul>
+        <h2>Dynamic Texture Generation</h2>
+        <ul style="list-style-type: square;">
+            <li class="BulletList"><b>Enable Dynamic Generation</b>. This toggles the capability to dynamically generate textures for images. This is enabled only on systems with the hardware needed to support it.</li>
+            <li class="BulletList"><b>Filter</b>. Applies a filter to the data before it is displayed.</li>
+        </ul>
+        <p class="BodyText">
+        </p>
+    </body>
+</html>

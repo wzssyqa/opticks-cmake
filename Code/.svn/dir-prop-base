@@ -1,0 +1,41 @@
+K 10
+svn:ignore
+V 18
+Build
+build
+*.pyc
+
+K 13
+svn:mergeinfo
+V 1350
+/branches/4.6.0/OPTICKS-837/trunk/Code:12635-12865
+/branches/4.7.0/OPTICKS-1192/Code:13485
+/branches/future/OPTICKS-1026/Code:13198
+/branches/future/OPTICKS-1032/Code:12716-13099
+/branches/future/OPTICKS-1049/Code:12735-12964
+/branches/future/OPTICKS-1050/Code:12760
+/branches/future/OPTICKS-1055/Code:12606-12979
+/branches/future/OPTICKS-1065/Code:13241-13247
+/branches/future/OPTICKS-1074/Code:12669-12781
+/branches/future/OPTICKS-1096/Code:12670-13064
+/branches/future/OPTICKS-112/Code:12898-13003
+/branches/future/OPTICKS-1127/Code:13090
+/branches/future/OPTICKS-1128/Code:12916-13158
+/branches/future/OPTICKS-1131/Code:12971-13138
+/branches/future/OPTICKS-1134/trunk/Code:12799-13223
+/branches/future/OPTICKS-1135/trunk/Code:12800-12947
+/branches/future/OPTICKS-1141/Code:13006
+/branches/future/OPTICKS-1143/Code:12721
+/branches/future/OPTICKS-1147/Code:12747
+/branches/future/OPTICKS-1148/Code:13261-13301
+/branches/future/OPTICKS-1149/Code:13265-13319
+/branches/future/OPTICKS-1155/Code:12997-13128
+/branches/future/OPTICKS-1160/Code:12956
+/branches/future/OPTICKS-1168/trunk/Code:13017-13086
+/branches/future/OPTICKS-1169/Code:13027
+/branches/future/OPTICKS-1171/Code:13229
+/branches/future/OPTICKS-1186/Code:13380
+/branches/future/OPTICKS-879/Code:13060-13131
+/branches/future/ReleaseManager044/trunk/Code:13406-13407
+/trunk/4.6.0/Code:12866
+END

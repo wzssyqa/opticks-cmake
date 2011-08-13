@@ -1,0 +1,155 @@
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svnroot/opticks/!svn/ver/13604/releases/4.7.0/trunk/Code/application/SimpleApiLib
+END
+SimpleAnimation.h
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/svnroot/opticks/!svn/ver/13604/releases/4.7.0/trunk/Code/application/SimpleApiLib/SimpleAnimation.h
+END
+RasterData.h
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svnroot/opticks/!svn/ver/13604/releases/4.7.0/trunk/Code/application/SimpleApiLib/RasterData.h
+END
+GeographicData.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/svnroot/opticks/!svn/ver/13604/releases/4.7.0/trunk/Code/application/SimpleApiLib/GeographicData.cpp
+END
+ApiUtilities.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/svnroot/opticks/!svn/ver/13604/releases/4.7.0/trunk/Code/application/SimpleApiLib/ApiUtilities.cpp
+END
+SConscript
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svnroot/opticks/!svn/ver/13604/releases/4.7.0/trunk/Code/application/SimpleApiLib/SConscript
+END
+GeographicData.h
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/svnroot/opticks/!svn/ver/13604/releases/4.7.0/trunk/Code/application/SimpleApiLib/GeographicData.h
+END
+SimpleViews.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/svnroot/opticks/!svn/ver/13604/releases/4.7.0/trunk/Code/application/SimpleApiLib/SimpleViews.cpp
+END
+DynamicTypes.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/svnroot/opticks/!svn/ver/13604/releases/4.7.0/trunk/Code/application/SimpleApiLib/DynamicTypes.cpp
+END
+ApiUtilities.h
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/svnroot/opticks/!svn/ver/13604/releases/4.7.0/trunk/Code/application/SimpleApiLib/ApiUtilities.h
+END
+SimpleSignature.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/svnroot/opticks/!svn/ver/13604/releases/4.7.0/trunk/Code/application/SimpleApiLib/SimpleSignature.cpp
+END
+SimpleViews.h
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svnroot/opticks/!svn/ver/13604/releases/4.7.0/trunk/Code/application/SimpleApiLib/SimpleViews.h
+END
+SimpleExecution.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/svnroot/opticks/!svn/ver/13604/releases/4.7.0/trunk/Code/application/SimpleApiLib/SimpleExecution.cpp
+END
+DynamicTypes.h
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/svnroot/opticks/!svn/ver/13604/releases/4.7.0/trunk/Code/application/SimpleApiLib/DynamicTypes.h
+END
+SimpleApiErrors.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/svnroot/opticks/!svn/ver/13604/releases/4.7.0/trunk/Code/application/SimpleApiLib/SimpleApiErrors.cpp
+END
+Metadata.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svnroot/opticks/!svn/ver/13604/releases/4.7.0/trunk/Code/application/SimpleApiLib/Metadata.cpp
+END
+SimpleSignature.h
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/svnroot/opticks/!svn/ver/13604/releases/4.7.0/trunk/Code/application/SimpleApiLib/SimpleSignature.h
+END
+SimpleAoi.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svnroot/opticks/!svn/ver/13604/releases/4.7.0/trunk/Code/application/SimpleApiLib/SimpleAoi.cpp
+END
+SimpleExecution.h
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/svnroot/opticks/!svn/ver/13604/releases/4.7.0/trunk/Code/application/SimpleApiLib/SimpleExecution.h
+END
+SimpleApiLib.vcxproj
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/svnroot/opticks/!svn/ver/13604/releases/4.7.0/trunk/Code/application/SimpleApiLib/SimpleApiLib.vcxproj
+END
+Metadata.h
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svnroot/opticks/!svn/ver/13604/releases/4.7.0/trunk/Code/application/SimpleApiLib/Metadata.h
+END
+SimpleApiErrors.h
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/svnroot/opticks/!svn/ver/13604/releases/4.7.0/trunk/Code/application/SimpleApiLib/SimpleApiErrors.h
+END
+SimpleAoi.h
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svnroot/opticks/!svn/ver/13604/releases/4.7.0/trunk/Code/application/SimpleApiLib/SimpleAoi.h
+END
+SimpleAnimation.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/svnroot/opticks/!svn/ver/13604/releases/4.7.0/trunk/Code/application/SimpleApiLib/SimpleAnimation.cpp
+END
+RasterData.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/svnroot/opticks/!svn/ver/13604/releases/4.7.0/trunk/Code/application/SimpleApiLib/RasterData.cpp
+END
+SimpleApiLib.vcxproj.filters
+K 25
+svn:wc:ra_dav:version-url
+V 111
+/svnroot/opticks/!svn/ver/13604/releases/4.7.0/trunk/Code/application/SimpleApiLib/SimpleApiLib.vcxproj.filters
+END

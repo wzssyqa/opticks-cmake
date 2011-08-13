@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" MadCap:lastBlockDepth="4" MadCap:lastHeight="660" MadCap:lastWidth="596">
+    <head><title>Wavelength Text Importer File Format Specifications</title>
+    </head>
+    <body>
+        <h1>Wavelength Text Importer File Format Specifications</h1>
+        <p class="BodyText">The Wavelength Text Importer loads start, center, and end wavelength values from a file in one of the following ASCII text file formats:</p>
+        <ul>
+            <li style="margin-top: 7pt;margin-bottom: 7pt;"><b>One column</b>. One column of data containing the center wavelengths for the bands, in band order.</li>
+            <li style="margin-top: 7pt;margin-bottom: 7pt;"><b>Two columns</b>. Two columns of data containing the band number in the first column (assumes band numbers begin at 1 and 1 will be subtracted from each band number. If a 0 is found, assumes band numbers begin at 0) and the center wavelength in the second column.</li>
+            <li style="margin-top: 7pt;margin-bottom: 7pt;"><b>Three columns</b>. Three columns of data containing the center wavelength in the first column, the lower (or starting) wavelength in the second column, and the upper (or ending) wavelength in the third column. All data must be in band order.</li>
+            <li style="margin-top: 7pt;margin-bottom: 7pt;"><b>Four columns</b>. Four columns of data containing the band number in the first column (assumes band numbers begin at 1 and 1 will be subtracted from each band number. If a 0 is found, assumes band numbers begin at 0), the center wavelength in the second column, the lower (or starting) wavelength in the third column, and the upper (or ending) wavelength in the fourth column.</li>
+        </ul>
+        <p class="BodyText">The columns are delimited by any size white space.</p>
+        <p class="BodyText">For three and four column formats, the order within the file of the start, center, and end wavelengths is determined by looking at the first row of data, assuming that the start wavelength is less than the center wavelength, which is less than the end wavelength.</p>
+        <h2>Deprecated</h2>
+        <p class="BodyText">This file format is deprecated and is provided solely to load existing wavelength files. New wavelength files should be saved and loaded with the Wavelength Metadata Exporter and Wavelength Metadata Importer.</p>
+        <p class="BodyText">&#160;</p>
+    </body>
+</html>

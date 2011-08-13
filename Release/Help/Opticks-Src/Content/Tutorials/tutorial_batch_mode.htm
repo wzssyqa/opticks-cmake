@@ -1,0 +1,433 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" MadCap:conditions="" class="" MadCap:lastBlockDepth="8" MadCap:lastHeight="8854" MadCap:lastWidth="1435">
+    <head><title>Tutorial: Run a Wizard in Batch Mode</title>
+        <meta name="Originator" content="ImportDoc" />
+        <meta name="OriginalFile" content="scenario9.doc" />
+        <link rel="StyleSheet" href="Tutorials.css" />
+        <style>
+a:visited
+{
+	color: #800080;
+}
+a:link
+{
+	color: #0000EE;
+}
+
+</style>
+        <link href="../Resources/TableStyles/Inner.css" rel="stylesheet" MadCap:stylesheetType="table" />
+    </head>
+    <body lang="EN-US">
+        <h1><b style="font-weight: bold;"><MadCap:keyword term="batch mode;tutorials" />Tutorial: Run a Wizard in Batch Mode</b>
+        </h1>
+        <p class="BodyText"><b><MadCap:keyword term="tutorials" />Learning Objective</b>: When finished with this tutorial, 
+ you will be familiar with running a wizard in batch mode. Note that you 
+ will use the wizard you created and saved in <a href="tutorial_wizard_builder.htm">Tutorial: Wizard Builder</a>.</p>
+        <p class="BodyText">In this tutorial, you will perform these functions:</p>
+        <ul>
+            <li class="BulletList">Reload a previously 
+ saved wizard </li>
+            <li class="BulletList">Delete and add Desktop 
+ Item/Plug-In Item/Value items</li>
+            <li class="BulletList">Connect new algorithms 
+ and processes</li>
+            <li class="BulletList">Change Value Item 
+ numbers</li>
+            <li class="BulletList">Save the new wizard</li>
+            <li class="BulletList">Run the wizard in 
+ Batch Mode</li>
+        </ul>
+        <p class="BodyText"><b style="font-weight: bold;">Lesson</b>: In addition 
+ to wizards created in the Wizard Builder, Opticks supports <b>Batch Processing</b> 
+ using batch wizards. A batch wizard contains regular wizards and provides 
+ expanded batch processing capabilities including the following:</p>
+        <ul>
+            <li class="BulletList"><span style="font-size: 10.0pt;font-family: Verdana;">Multiple 
+ wizard files can be executed in sequence.</span>
+            </li>
+            <li class="BulletList"><span style="font-size: 10.0pt;font-family: Verdana;">Wizard 
+ files can be repeated multiple times consecutively with different input 
+ values on each wizard run.</span>
+            </li>
+            <li class="BulletList"><span style="font-size: 10.0pt;font-family: Verdana;">Wizards 
+ can be run completely in batch mode, without using the Opticks Main Application 
+ window.</span>
+            </li>
+            <li class="BulletList" style="font-size: 10.0pt;font-family: Verdana;">Wizards 
+ can be run interactively with little or no user input, but you can still 
+ see and manipulate results.</li>
+        </ul>
+        <p class="BodyText"><span style="font-weight: bold;">Toolbars used in this 
+ tutorial</span>:</p>
+        <p class="BodyText" style="margin-left: 40px;"><a href="../Wizard_Builder/Wizard_Builder_Toolbar.htm">Wizard 
+ Builder Toolbar</a>
+        </p>
+        <MadCap:snippetBlock src="../Resources/Snippets/Access_Toolbars.flsnp" />
+        <MadCap:snippetBlock src="../Resources/Snippets/SampleFiles.flsnp" />
+        <h2>Reload the Wizard</h2>
+        <ol>
+            <li class="NumberList">From the Opticks menu 
+ bar, select <b>Tools</b>, <b>Wizard Builder</b>. The Wizard Builder Window 
+ opens.</li>
+        </ol>
+        <p class="BodyTextIndent" style="font-size: 4.0pt;">
+            <img src="../Resources/Images/Wizard_Builder.png" style="border: none;border-style: none;border-style: none;" border="0" />
+        </p>
+        <ol start="2" style="list-style: decimal;list-style-type: decimal;">
+            <li class="NumberList">On the Wizard Builder 
+ Window go to the <b>File <span style="font-weight: normal;">menu and select</span> 
+ Open</b>. </li>
+        </ol>
+        <ol start="3" style="list-style: decimal;list-style-type: decimal;">
+            <li class="NumberList">The Open dialog box 
+ is displayed. Navigate to <span style="font-weight: bold;">MyWizard.wiz</span>, 
+ the wizard you created and saved in the Wizard Builder tutorial (<a href="tutorial_wizard_builder.htm">Tutorial: Wizard Builder</a>). Select <span style="font-weight: bold;">MyWizard.wiz</span> and click the <b>Open</b> button.</li>
+        </ol>
+        <ol start="4" style="list-style: decimal;list-style-type: decimal;">
+            <li class="NumberList">MyWizard is displayed 
+ in the Wizard Builder window.</li>
+        </ol>
+        <p class="BodyTextIndent">
+            <img src="../Resources/Images/Opened_Wizard.gif" style="border: none;" border="0" />
+        </p>
+        <ol MadCap:continue="true">
+            <li class="NumberList">On the Wizard Builder window, click the go to <b>Execution Mode</b> and select <b>Batch</b> from the drop-down list. This enables you to run the wizard completely in batch mode without interacting with Opticks.</li>
+        </ol>
+        <p class="BodyTextIndent">
+            <img src="../Resources/Images/Select_Execution_Mode.gif" />
+        </p>
+        <ol MadCap:continue="true">
+            <li class="NumberList">In the Wizard section of the Wizard Item Palette dock window, select the <b>Create Export File Descriptor</b> item. Click and drag the item onto the display area</li>
+        </ol>
+        <h2 class="NumberList">Add Second Plug-In Item</h2>
+        <ol>
+            <li>In the <b>Exporter</b> section of the Wizard Item Palette dock window, select the <b>GeoTIFF Exporter</b> item. Click and drag the item onto the display area</li>
+        </ol>
+        <ol start="12" style="list-style: decimal;list-style-type: decimal;" MadCap:continue="true">
+            <li class="NumberList">Arrange all the items so you can clearly see them.</li>
+        </ol>
+        <p class="BodyTextIndent">
+            <img src="../Resources/Images/Wizard_Batch_Mode_1.gif" style="border: none;" border="0" />
+        </p>
+        <h2>Add Value Items</h2>
+        <p>You’ll 
+ now create three value items.</p>
+        <ol>
+            <li class="BodyText">In the Value section of the Wizard Item Palette dock window, select the following value items item. Click and drag the item onto the display area Enter the values described below.</li>
+        </ol>
+        <p class="BodyTextIndent"><b style="font-weight: bold;">Value Item 1 </b>
+        </p>
+        <p class="BodyTextIndent">Type: bool</p>
+        <p class="BodyTextIndent">Name: useDegrees</p>
+        <p class="BodyTextIndent">Value: False</p>
+        <p class="BodyTextIndent">
+            <img src="../Resources/Images/Value_Item_1.gif" style="border: none;" border="0" />
+        </p>
+        <p class="BodyTextIndent"><b style="font-weight: bold;">Value Item 2</b>
+        </p>
+        <p class="BodyTextIndent">Type: Filename</p>
+        <p class="BodyTextIndent">Name: input</p>
+        <p class="BodyTextIndent">Value: Browse to and select the file <i style="font-style: normal;font-weight: bold;">AST_LIB_00305042006183231_05082006132132_TIR_Swath.tif</i></p>
+        <p class="BodyTextIndent">
+            <img src="../Resources/Images/Value_Item_2.gif" style="border: none;" border="0" />
+        </p>
+        <p class="BodyTextIndent"><b style="font-weight: bold;">Value Item 3</b>
+        </p>
+        <p class="BodyTextIndent">Type: Filename</p>
+        <p class="BodyTextIndent">Name: output</p>
+        <p class="BodyTextIndent">Value: Click the browse button. Select <i style="font-style: normal;font-weight: bold;">AST_LIB_00305042006183231_05082006132132_TIR_Swath.tif.</i> 
+ Click <b>Open</b>. In the Wizard Value Item dialog box, change the filename 
+ in the Value field to <b>new_AST_LIB_00305042006183231_05082006132132_TIR_Swath.tif</b>. 
+ </p>
+        <p class="BodyTextIndent">
+            <img src="../Resources/Images/Value_Item_3.gif" style="border: none;" border="0" />
+        </p>
+        <ol start="14" style="list-style: decimal;list-style-type: decimal;" MadCap:continue="true">
+            <li class="NumberList">After you add all 
+ the items, move the Value Item icons so the Wizard Builder window looks 
+ like this:</li>
+        </ol>
+        <p class="BodyTextIndent">
+            <img src="../Resources/Images/Wizard_Batch_Mode_2.gif" style="border: none;border-left-style: solid;border-left-width: 2px;border-left-color: ;border-right-style: solid;border-right-width: 2px;border-right-color: ;border-top-style: solid;border-top-width: 2px;border-top-color: ;border-bottom-style: solid;border-bottom-width: 2px;border-bottom-color: ;" border="0" />
+        </p>
+        <p class="Note"><b>Note:</b> The number at the top of each icon represents the 
+ order in which the algorithms or processes will be run.</p>
+        <p class="BodyText">Some input and output values support multiple types. 
+ These dots are represented with a down arrow next to the dot. Clicking 
+ on the down arrow cycles the current type through all of its valid types. 
+ When you hold the mouse pointer over the top of the dot, the current type 
+ and a list of valid types are displayed as well as the original type required 
+ by the item.</p>
+        <h2>Connect Algorithms and Processes</h2>
+        <p class="BodyText">Select the output by clicking your (left) mouse button 
+ and dragging the mouse to the input and releasing. </p>
+        <p class="NumberList">Use the table below to connect output to input.</p>
+        <table class="TableGrid" style="border: none;x-border-left: 1px table-solid;x-border-top: 1px table-solid;x-border-right: 1px table-solid;x-border-bottom: 1px table-solid;border-collapse: separate;border-spacing: 0px;border-spacing: 0px;border-left-style: none;border-right-style: none;border-top-style: none;border-bottom-style: none;margin-left: 0;margin-right: auto;" cellspacing="0">
+            <col />
+            <col style="width: 146px;" />
+            <col style="width: 183px;" />
+            <col style="width: 80px;" />
+            <tr>
+                <td colspan="2" style="width: 225.0pt;padding: 0in 5.4pt 0in 5.4pt;background-color: #008080;border-left-style: solid;border-left-width: 1px;border-left-color: #000000;border-right-style: solid;border-right-width: 1px;border-right-color: #000000;border-top-style: solid;border-top-width: 1px;border-top-color: #000000;border-bottom-style: solid;border-bottom-width: 1px;border-bottom-color: #000000;padding-left: 3px;padding-right: 3px;padding-top: 3px;padding-bottom: 3px;" bgcolor="#008080" valign="top" width="225pt">
+                    <p style="margin-top: 3pt;margin-bottom: 3pt;"><b style="font-weight: bold;"><span style="color: #ffffff;font-family: Verdana, sans-serif;font-size: 10pt;">OUTPUT</span></b>
+                    </p>
+                </td>
+                <td colspan="2" style="padding: 0in 5.4pt 0in 5.4pt;background-color: #008080;border-left-style: solid;border-left-width: 1px;border-left-color: #000000;border-right-style: solid;border-right-width: 1px;border-right-color: #000000;border-top-style: solid;border-top-width: 1px;border-top-color: #000000;border-bottom-style: solid;border-bottom-width: 1px;border-bottom-color: #000000;padding-left: 3px;padding-right: 3px;padding-top: 3px;padding-bottom: 3px;" bgcolor="#008080" valign="top">
+                    <p style="margin-top: 3pt;margin-bottom: 3pt;"><b style="font-weight: bold;"><span style="color: #ffffff;font-family: Verdana, sans-serif;font-size: 10pt;">INPUT</span></b>
+                    </p>
+                </td>
+            </tr>
+            <tr>
+                <td style="width: 117.0pt;padding: 0in 5.4pt 0in 5.4pt;border-left-style: solid;border-left-width: 1px;border-left-color: #000000;border-right-style: solid;border-right-width: 1px;border-right-color: #000000;border-top-style: solid;border-top-width: 1px;border-top-color: #000000;border-bottom-style: solid;border-bottom-width: 1px;border-bottom-color: #000000;padding-left: 3px;padding-right: 3px;padding-top: 3px;padding-bottom: 3px;" valign="top" width="117pt">
+                    <p style="margin-top: 3pt;margin-bottom: 3pt;"><span style="font-family: Verdana, sans-serif;font-size: 10pt;">ITEM</span>
+                    </p>
+                </td>
+                <td style="padding: 0in 5.4pt 0in 5.4pt;border-left-style: solid;border-left-width: 1px;border-left-color: #000000;border-right-style: solid;border-right-width: 1px;border-right-color: #000000;border-top-style: solid;border-top-width: 1px;border-top-color: #000000;border-bottom-style: solid;border-bottom-width: 1px;border-bottom-color: #000000;padding-left: 3px;padding-right: 3px;padding-top: 3px;padding-bottom: 3px;" valign="top">
+                    <p style="margin-top: 3pt;margin-bottom: 3pt;"><span style="font-family: Verdana, sans-serif;font-size: 10pt;">NAME</span>
+                    </p>
+                </td>
+                <td style="padding: 0in 5.4pt 0in 5.4pt;border-left-style: solid;border-left-width: 1px;border-left-color: #000000;border-right-style: solid;border-right-width: 1px;border-right-color: #000000;border-top-style: solid;border-top-width: 1px;border-top-color: #000000;border-bottom-style: solid;border-bottom-width: 1px;border-bottom-color: #000000;padding-left: 3px;padding-right: 3px;padding-top: 3px;padding-bottom: 3px;" valign="top">
+                    <p style="margin-top: 3pt;margin-bottom: 3pt;"><span style="font-family: Verdana, sans-serif;font-size: 10pt;">ITEM</span>
+                    </p>
+                </td>
+                <td style="padding: 0in 5.4pt 0in 5.4pt;border-left-style: solid;border-left-width: 1px;border-left-color: #000000;border-right-style: solid;border-right-width: 1px;border-right-color: #000000;border-top-style: solid;border-top-width: 1px;border-top-color: #000000;border-bottom-style: solid;border-bottom-width: 1px;border-bottom-color: #000000;padding-left: 3px;padding-right: 3px;padding-top: 3px;padding-bottom: 3px;" valign="top">
+                    <p style="margin-top: 3pt;margin-bottom: 3pt;"><span style="font-family: Verdana, sans-serif;font-size: 10pt;">NAME</span>
+                    </p>
+                </td>
+            </tr>
+            <tr>
+                <td style="width: 117.0pt;padding: 0in 5.4pt 0in 5.4pt;border-left-style: solid;border-left-width: 1px;border-left-color: #000000;border-right-style: solid;border-right-width: 1px;border-right-color: #000000;border-top-style: solid;border-top-width: 1px;border-top-color: #000000;border-bottom-style: solid;border-bottom-width: 1px;border-bottom-color: #000000;padding-left: 3px;padding-right: 3px;padding-top: 3px;padding-bottom: 3px;" valign="top" width="117pt">
+                    <p style="margin-top: 3pt;margin-bottom: 3pt;"><span style="font-family: Verdana, sans-serif;font-size: 10pt;">Value-input</span>
+                    </p>
+                </td>
+                <td style="padding: 0in 5.4pt 0in 5.4pt;border-left-style: solid;border-left-width: 1px;border-left-color: #000000;border-right-style: solid;border-right-width: 1px;border-right-color: #000000;border-top-style: solid;border-top-width: 1px;border-top-color: #000000;border-bottom-style: solid;border-bottom-width: 1px;border-bottom-color: #000000;padding-left: 3px;padding-right: 3px;padding-top: 3px;padding-bottom: 3px;" valign="top">
+                    <p style="margin-top: 3pt;margin-bottom: 3pt;"><span style="font-family: Verdana, sans-serif;font-size: 10pt;">input</span>
+                    </p>
+                </td>
+                <td style="padding: 0in 5.4pt 0in 5.4pt;border-left-style: solid;border-left-width: 1px;border-left-color: #000000;border-right-style: solid;border-right-width: 1px;border-right-color: #000000;border-top-style: solid;border-top-width: 1px;border-top-color: #000000;border-bottom-style: solid;border-bottom-width: 1px;border-bottom-color: #000000;padding-left: 3px;padding-right: 3px;padding-top: 3px;padding-bottom: 3px;" valign="top">
+                    <p style="margin-top: 3pt;margin-bottom: 3pt;"><span style="font-family: Verdana, sans-serif;font-size: 10pt;">Import Data Set</span>
+                    </p>
+                </td>
+                <td style="padding: 0in 5.4pt 0in 5.4pt;border-left-style: solid;border-left-width: 1px;border-left-color: #000000;border-right-style: solid;border-right-width: 1px;border-right-color: #000000;border-top-style: solid;border-top-width: 1px;border-top-color: #000000;border-bottom-style: solid;border-bottom-width: 1px;border-bottom-color: #000000;padding-left: 3px;padding-right: 3px;padding-top: 3px;padding-bottom: 3px;" valign="top">
+                    <p style="margin-top: 3pt;margin-bottom: 3pt;"><span style="font-family: Verdana, sans-serif;font-size: 10pt;">Filename</span>
+                    </p>
+                </td>
+            </tr>
+            <tr>
+                <td style="width: 117.0pt;padding: 0in 5.4pt 0in 5.4pt;border-left-style: solid;border-left-width: 1px;border-left-color: #000000;border-right-style: solid;border-right-width: 1px;border-right-color: #000000;border-top-style: solid;border-top-width: 1px;border-top-color: #000000;border-bottom-style: solid;border-bottom-width: 1px;border-bottom-color: #000000;padding-left: 3px;padding-right: 3px;padding-top: 3px;padding-bottom: 3px;" valign="top" width="117pt">
+                    <p style="margin-top: 3pt;margin-bottom: 3pt;"><span style="font-family: Verdana, sans-serif;font-size: 10pt;">Value-expression</span>
+                    </p>
+                </td>
+                <td style="padding: 0in 5.4pt 0in 5.4pt;border-left-style: solid;border-left-width: 1px;border-left-color: #000000;border-right-style: solid;border-right-width: 1px;border-right-color: #000000;border-top-style: solid;border-top-width: 1px;border-top-color: #000000;border-bottom-style: solid;border-bottom-width: 1px;border-bottom-color: #000000;padding-left: 3px;padding-right: 3px;padding-top: 3px;padding-bottom: 3px;" valign="top">
+                    <p style="margin-top: 3pt;margin-bottom: 3pt;"><span style="font-family: Verdana, sans-serif;font-size: 10pt;">expression</span>
+                    </p>
+                </td>
+                <td style="padding: 0in 5.4pt 0in 5.4pt;border-left-style: solid;border-left-width: 1px;border-left-color: #000000;border-right-style: solid;border-right-width: 1px;border-right-color: #000000;border-top-style: solid;border-top-width: 1px;border-top-color: #000000;border-bottom-style: solid;border-bottom-width: 1px;border-bottom-color: #000000;padding-left: 3px;padding-right: 3px;padding-top: 3px;padding-bottom: 3px;" valign="top">
+                    <p style="margin-top: 3pt;margin-bottom: 3pt;"><span style="font-family: Verdana, sans-serif;font-size: 10pt;">Band 
+ Math</span>
+                    </p>
+                </td>
+                <td style="padding: 0in 5.4pt 0in 5.4pt;border-left-style: solid;border-left-width: 1px;border-left-color: #000000;border-right-style: solid;border-right-width: 1px;border-right-color: #000000;border-top-style: solid;border-top-width: 1px;border-top-color: #000000;border-bottom-style: solid;border-bottom-width: 1px;border-bottom-color: #000000;padding-left: 3px;padding-right: 3px;padding-top: 3px;padding-bottom: 3px;" valign="top">
+                    <p style="margin-top: 3pt;margin-bottom: 3pt;"><span style="font-family: Verdana, sans-serif;font-size: 10pt;">Input 
+ Expression (first greeninput)</span>
+                    </p>
+                </td>
+            </tr>
+            <tr>
+                <td style="width: 117.0pt;padding: 0in 5.4pt 0in 5.4pt;border-left-style: solid;border-left-width: 1px;border-left-color: #000000;border-right-style: solid;border-right-width: 1px;border-right-color: #000000;border-top-style: solid;border-top-width: 1px;border-top-color: #000000;border-bottom-style: solid;border-bottom-width: 1px;border-bottom-color: #000000;padding-left: 3px;padding-right: 3px;padding-top: 3px;padding-bottom: 3px;" valign="top" width="117pt">
+                    <p style="margin-top: 3pt;margin-bottom: 3pt;"><span style="font-family: Verdana, sans-serif;font-size: 10pt;">Value-useDegrees</span>
+                    </p>
+                </td>
+                <td style="padding: 0in 5.4pt 0in 5.4pt;border-left-style: solid;border-left-width: 1px;border-left-color: #000000;border-right-style: solid;border-right-width: 1px;border-right-color: #000000;border-top-style: solid;border-top-width: 1px;border-top-color: #000000;border-bottom-style: solid;border-bottom-width: 1px;border-bottom-color: #000000;padding-left: 3px;padding-right: 3px;padding-top: 3px;padding-bottom: 3px;" valign="top">
+                    <p style="margin-top: 3pt;margin-bottom: 3pt;"><span style="font-family: Verdana, sans-serif;font-size: 10pt;">useDegrees</span>
+                    </p>
+                </td>
+                <td style="padding: 0in 5.4pt 0in 5.4pt;border-left-style: solid;border-left-width: 1px;border-left-color: #000000;border-right-style: solid;border-right-width: 1px;border-right-color: #000000;border-top-style: solid;border-top-width: 1px;border-top-color: #000000;border-bottom-style: solid;border-bottom-width: 1px;border-bottom-color: #000000;padding-left: 3px;padding-right: 3px;padding-top: 3px;padding-bottom: 3px;" valign="top">
+                    <p style="margin-top: 3pt;margin-bottom: 3pt;"><span style="font-family: Verdana, sans-serif;font-size: 10pt;">Band 
+ Math</span>
+                    </p>
+                </td>
+                <td style="padding: 0in 5.4pt 0in 5.4pt;border-left-style: solid;border-left-width: 1px;border-left-color: #000000;border-right-style: solid;border-right-width: 1px;border-right-color: #000000;border-top-style: solid;border-top-width: 1px;border-top-color: #000000;border-bottom-style: solid;border-bottom-width: 1px;border-bottom-color: #000000;padding-left: 3px;padding-right: 3px;padding-top: 3px;padding-bottom: 3px;" valign="top">
+                    <p style="margin-top: 3pt;margin-bottom: 3pt;"><span style="font-family: Verdana, sans-serif;font-size: 10pt;">Degrees</span>
+                    </p>
+                </td>
+            </tr>
+            <tr>
+                <td style="width: 117.0pt;padding: 0in 5.4pt 0in 5.4pt;border-left-style: solid;border-left-width: 1px;border-left-color: #000000;border-right-style: solid;border-right-width: 1px;border-right-color: #000000;border-top-style: solid;border-top-width: 1px;border-top-color: #000000;border-bottom-style: solid;border-bottom-width: 1px;border-bottom-color: #000000;padding-left: 3px;padding-right: 3px;padding-top: 3px;padding-bottom: 3px;" valign="top" width="117pt">
+                    <p style="margin-top: 3pt;margin-bottom: 3pt;"><span style="font-family: Verdana, sans-serif;font-size: 10pt;">Value-display</span>
+                    </p>
+                </td>
+                <td style="padding: 0in 5.4pt 0in 5.4pt;border-left-style: solid;border-left-width: 1px;border-left-color: #000000;border-right-style: solid;border-right-width: 1px;border-right-color: #000000;border-top-style: solid;border-top-width: 1px;border-top-color: #000000;border-bottom-style: solid;border-bottom-width: 1px;border-bottom-color: #000000;padding-left: 3px;padding-right: 3px;padding-top: 3px;padding-bottom: 3px;" valign="top">
+                    <p style="margin-top: 3pt;margin-bottom: 3pt;"><span style="font-family: Verdana, sans-serif;font-size: 10pt;">displayResults</span>
+                    </p>
+                </td>
+                <td style="padding: 0in 5.4pt 0in 5.4pt;border-left-style: solid;border-left-width: 1px;border-left-color: #000000;border-right-style: solid;border-right-width: 1px;border-right-color: #000000;border-top-style: solid;border-top-width: 1px;border-top-color: #000000;border-bottom-style: solid;border-bottom-width: 1px;border-bottom-color: #000000;padding-left: 3px;padding-right: 3px;padding-top: 3px;padding-bottom: 3px;" valign="top">
+                    <p style="margin-top: 3pt;margin-bottom: 3pt;"><span style="font-family: Verdana, sans-serif;font-size: 10pt;">Band 
+ Math</span>
+                    </p>
+                </td>
+                <td style="padding: 0in 5.4pt 0in 5.4pt;border-left-style: solid;border-left-width: 1px;border-left-color: #000000;border-right-style: solid;border-right-width: 1px;border-right-color: #000000;border-top-style: solid;border-top-width: 1px;border-top-color: #000000;border-bottom-style: solid;border-bottom-width: 1px;border-bottom-color: #000000;padding-left: 3px;padding-right: 3px;padding-top: 3px;padding-bottom: 3px;" valign="top">
+                    <p style="margin-top: 3pt;margin-bottom: 3pt;"><span style="font-family: Verdana, sans-serif;font-size: 10pt;">Display 
+ Results</span>
+                    </p>
+                </td>
+            </tr>
+            <tr>
+                <td style="width: 117.0pt;padding: 0in 5.4pt 0in 5.4pt;border-left-style: solid;border-left-width: 1px;border-left-color: #000000;border-right-style: solid;border-right-width: 1px;border-right-color: #000000;border-top-style: solid;border-top-width: 1px;border-top-color: #000000;border-bottom-style: solid;border-bottom-width: 1px;border-bottom-color: #000000;padding-left: 3px;padding-right: 3px;padding-top: 3px;padding-bottom: 3px;" valign="top" width="117pt">
+                    <p style="margin-top: 3pt;margin-bottom: 3pt;"><span style="font-family: Verdana, sans-serif;font-size: 10pt;">Value-output</span>
+                    </p>
+                </td>
+                <td style="padding: 0in 5.4pt 0in 5.4pt;border-left-style: solid;border-left-width: 1px;border-left-color: #000000;border-right-style: solid;border-right-width: 1px;border-right-color: #000000;border-top-style: solid;border-top-width: 1px;border-top-color: #000000;border-bottom-style: solid;border-bottom-width: 1px;border-bottom-color: #000000;padding-left: 3px;padding-right: 3px;padding-top: 3px;padding-bottom: 3px;" valign="top">
+                    <p style="margin-top: 3pt;margin-bottom: 3pt;"><span style="font-family: Verdana, sans-serif;font-size: 10pt;">output</span>
+                    </p>
+                </td>
+                <td style="padding: 0in 5.4pt 0in 5.4pt;border-left-style: solid;border-left-width: 1px;border-left-color: #000000;border-right-style: solid;border-right-width: 1px;border-right-color: #000000;border-top-style: solid;border-top-width: 1px;border-top-color: #000000;border-bottom-style: solid;border-bottom-width: 1px;border-bottom-color: #000000;padding-left: 3px;padding-right: 3px;padding-top: 3px;padding-bottom: 3px;" valign="top">
+                    <p style="margin-top: 3pt;margin-bottom: 3pt;"><span style="font-family: Verdana, sans-serif;font-size: 10pt;">Create Export File Descriptor</span>
+                    </p>
+                </td>
+                <td style="padding: 0in 5.4pt 0in 5.4pt;border-left-style: solid;border-left-width: 1px;border-left-color: #000000;border-right-style: solid;border-right-width: 1px;border-right-color: #000000;border-top-style: solid;border-top-width: 1px;border-top-color: #000000;border-bottom-style: solid;border-bottom-width: 1px;border-bottom-color: #000000;padding-left: 3px;padding-right: 3px;padding-top: 3px;padding-bottom: 3px;" valign="top">
+                    <p style="margin-top: 3pt;margin-bottom: 3pt;"><span style="font-family: Verdana, sans-serif;font-size: 10pt;">Filename</span>
+                    </p>
+                </td>
+            </tr>
+            <tr>
+                <td style="width: 117.0pt;padding: 0in 5.4pt 0in 5.4pt;border-left-style: solid;border-left-width: 1px;border-left-color: #000000;border-right-style: solid;border-right-width: 1px;border-right-color: #000000;border-top-style: solid;border-top-width: 1px;border-top-color: #000000;border-bottom-style: solid;border-bottom-width: 1px;border-bottom-color: #000000;padding-left: 3px;padding-right: 3px;padding-top: 3px;padding-bottom: 3px;" valign="top" width="117pt">
+                    <p style="margin-top: 3pt;margin-bottom: 3pt;"><span style="font-family: Verdana, sans-serif;font-size: 10pt;">Band 
+ Math</span>
+                    </p>
+                </td>
+                <td style="padding: 0in 5.4pt 0in 5.4pt;border-left-style: solid;border-left-width: 1px;border-left-color: #000000;border-right-style: solid;border-right-width: 1px;border-right-color: #000000;border-top-style: solid;border-top-width: 1px;border-top-color: #000000;border-bottom-style: solid;border-bottom-width: 1px;border-bottom-color: #000000;padding-left: 3px;padding-right: 3px;padding-top: 3px;padding-bottom: 3px;" valign="top">
+                    <p style="margin-top: 3pt;margin-bottom: 3pt;"><span style="font-family: Verdana, sans-serif;font-size: 10pt;">Band 
+ Math Result</span>
+                    </p>
+                </td>
+                <td style="padding: 0in 5.4pt 0in 5.4pt;border-left-style: solid;border-left-width: 1px;border-left-color: #000000;border-right-style: solid;border-right-width: 1px;border-right-color: #000000;border-top-style: solid;border-top-width: 1px;border-top-color: #000000;border-bottom-style: solid;border-bottom-width: 1px;border-bottom-color: #000000;padding-left: 3px;padding-right: 3px;padding-top: 3px;padding-bottom: 3px;" valign="top">
+                    <p style="margin-top: 3pt;margin-bottom: 3pt;"><span style="font-family: Verdana, sans-serif;font-size: 10pt;">GeoTIFF 
+ Exporter</span>
+                    </p>
+                </td>
+                <td style="padding: 0in 5.4pt 0in 5.4pt;border-left-style: solid;border-left-width: 1px;border-left-color: #000000;border-right-style: solid;border-right-width: 1px;border-right-color: #000000;border-top-style: solid;border-top-width: 1px;border-top-color: #000000;border-bottom-style: solid;border-bottom-width: 1px;border-bottom-color: #000000;padding-left: 3px;padding-right: 3px;padding-top: 3px;padding-bottom: 3px;" valign="top">
+                    <p style="margin-top: 3pt;margin-bottom: 3pt;"><span style="font-family: Verdana, sans-serif;font-size: 10pt;">Export Item</span>
+                    </p>
+                </td>
+            </tr>
+            <tr>
+                <td style="width: 117.0pt;padding: 0in 5.4pt 0in 5.4pt;border-left-style: solid;border-left-width: 1px;border-left-color: #000000;border-right-style: solid;border-right-width: 1px;border-right-color: #000000;border-top-style: solid;border-top-width: 1px;border-top-color: #000000;border-bottom-style: solid;border-bottom-width: 1px;border-bottom-color: #000000;padding-left: 3px;padding-right: 3px;padding-top: 3px;padding-bottom: 3px;" valign="top" width="117pt">
+                    <p style="margin-top: 3pt;margin-bottom: 3pt;"><span style="font-family: Verdana, sans-serif;font-size: 10pt;">**Import Data Set</span>
+                    </p>
+                </td>
+                <td style="padding: 0in 5.4pt 0in 5.4pt;border-left-style: solid;border-left-width: 1px;border-left-color: #000000;border-right-style: solid;border-right-width: 1px;border-right-color: #000000;border-top-style: solid;border-top-width: 1px;border-top-color: #000000;border-bottom-style: solid;border-bottom-width: 1px;border-bottom-color: #000000;padding-left: 3px;padding-right: 3px;padding-top: 3px;padding-bottom: 3px;" valign="top">
+                    <p style="margin-top: 3pt;margin-bottom: 3pt;"><span style="font-family: Verdana, sans-serif;font-size: 10pt;">Data Set</span>
+                    </p>
+                </td>
+                <td style="padding: 0in 5.4pt 0in 5.4pt;border-left-style: solid;border-left-width: 1px;border-left-color: #000000;border-right-style: solid;border-right-width: 1px;border-right-color: #000000;border-top-style: solid;border-top-width: 1px;border-top-color: #000000;border-bottom-style: solid;border-bottom-width: 1px;border-bottom-color: #000000;padding-left: 3px;padding-right: 3px;padding-top: 3px;padding-bottom: 3px;" valign="top">
+                    <p style="margin-top: 3pt;margin-bottom: 3pt;"><span style="font-family: Verdana, sans-serif;font-size: 10pt;">Band 
+ Math</span>
+                    </p>
+                </td>
+                <td style="padding: 0in 5.4pt 0in 5.4pt;border-left-style: solid;border-left-width: 1px;border-left-color: #000000;border-right-style: solid;border-right-width: 1px;border-right-color: #000000;border-top-style: solid;border-top-width: 1px;border-top-color: #000000;border-bottom-style: solid;border-bottom-width: 1px;border-bottom-color: #000000;padding-left: 3px;padding-right: 3px;padding-top: 3px;padding-bottom: 3px;" valign="top">
+                    <p style="margin-top: 3pt;margin-bottom: 3pt;"><span style="font-family: Verdana, sans-serif;font-size: 10pt;">Data Element</span>
+                    </p>
+                </td>
+            </tr>
+        </table>
+        <p class="BodyTextIndent" style="font-size: 10.0pt;">**To change the Band Math Data Element node from a Raster Element to a Data Element, click the down arrow (next to the output dot) until the dot turns brown.</p>
+        <p class="BodyTextIndent"><span style="font-size: 10.0pt;">Your wizard should 
+ now look like this:</span>
+        </p>
+        <p class="BodyText">
+            <img src="../Resources/Images/Wizard_Batch_Mode_3.gif" style="border: none;border-left-style: solid;border-left-width: 2px;border-left-color: ;border-right-style: solid;border-right-width: 2px;border-right-color: ;border-top-style: solid;border-top-width: 2px;border-top-color: ;border-bottom-style: solid;border-bottom-width: 2px;border-bottom-color: ;" border="0" />
+        </p>
+        <p class="Note"><b>Note:</b> If you make an incorrect connection, you 
+ can eliminate the connection by clicking the misconnected line and clicking 
+ the <span style="font-weight: bold;">Remove Item</span> button on the 
+ Wizard Builder toolbar or hitting the <b>Delete</b> key on the keyboard.</p>
+        <h2>Change Value Item Number</h2>
+        <p class="BodyText">The value items must have a higher execution number (lower 
+ number) than the plug-ins and desktop items they’re connected to. An item 
+ with an execution number of 1 is executed first and so on. Because value 
+ items only have a single output, they must be executed before the item(s) 
+ they are connected to. This means the value items will always have a lower 
+ numeric number than the connected item(s). </p>
+        <ol>
+            <li class="NumberList">To change the order 
+ of the value item <span style="font-weight: bold;">displayResults</span> 
+ from 4 to 5, select the item and click the up arrow <img src="../Resources/Images/Increase_Order_Button.png" style="border: none;width: 22px;height: 21px;" width="22" height="21" border="0" /> on 
+ the Wizard Builder Toolbar. This also changes the value of the useDegrees 
+ item from 5 to 4.</li>
+            <li class="NumberList">Make sure the wizard 
+ items are assigned the following order numbers:</li>
+        </ol>
+        <p class="BodyTextIndent">1. Value-input </p>
+        <p class="BodyTextIndent">2. Import Data Set</p>
+        <p class="BodyTextIndent">3. Value-expression</p>
+        <p class="BodyTextIndent">4. Value-display</p>
+        <p class="BodyTextIndent">5. Value-useDegrees</p>
+        <p class="BodyTextIndent">6. Band Math</p>
+        <p class="BodyTextIndent">7. Value-output</p>
+        <p class="BodyTextIndent">8. Create Export File Descriptor</p>
+        <p class="BodyTextIndent">9. GeoTIFF&#160;Exporter</p>
+        <p class="BodyTextIndent">Your wizard should now look like this:</p>
+        <p class="BodyTextIndent">
+            <img src="../Resources/Images/Wizard_Batch_Mode_4.gif" style="border: none;border-left-style: solid;border-left-width: 2px;border-left-color: ;border-right-style: solid;border-right-width: 2px;border-right-color: ;border-top-style: solid;border-top-width: 2px;border-top-color: ;border-bottom-style: solid;border-bottom-width: 2px;border-bottom-color: ;" border="0" />
+        </p>
+        <h2>Save Wizard</h2>
+        <ol>
+            <li class="NumberList">To save the wizard, 
+ go to the <b>File <span style="font-weight: normal;">menu on the Wizard 
+ Builder Window and select</span></b> <![CDATA[ ]]><b>Save As.<span style="font-weight: normal;"> 
+ (Use "Save As" rather than "Save" so you don't overwrite 
+ the wizard that was created in Tutorial 9.)</span></b></li>
+            <li class="NumberList">Save the file to 
+ the Wizards directory. Name the file <i style="font-style: normal;font-weight: bold;">BandMath.wiz</i>. 
+ When the wizard file is saved in full Batch Mode, a .batchwizfile is also 
+ saved. </li>
+        </ol>
+        <p class="BodyTextIndent">If you want the new wizard to appear in the previously 
+ created MyWizard menu structure, you will also have to save the file to 
+ the default location, which is the temp directory.</p>
+        <h2>Run Wizard in Batch Mode through Command Prompt</h2>
+        <ol>
+            <li class="NumberList">Close the Wizard 
+ Builder. Close Opticks by selecting <b>File</b>, <b>Exit </b>in the Opticks 
+ Main Application window. When the dialog is displayed that asks if you want to save the session, click<b> No.</b></li>
+            <li class="NumberList"><b>Windows:</b>
+            </li>
+        </ol>
+        <p class="BodyTextIndent">On <span style="font-weight: bold;">Windows</span>, 
+ go to the <b>Start</b> menu and select <b>Run…</b>. </p>
+        <p class="BodyTextIndent">Type <span style="font-weight: bold;">cmd</span> 
+ in the Run window.</p>
+        <p class="BodyTextIndent">
+            <img src="../Resources/Images/Run_cmd.jpg" style="border-style: none;" border="0" />
+        </p>
+        <p class="BodyTextIndent"> Click the <b>OK <span style="font-weight: normal;">button.</span></b></p>
+        <p class="BodyTextIndent">A command prompt window is displayed. </p>
+        <p class="BodyTextIndent"><b>Solaris:</b>
+        </p>
+        <p class="BodyTextIndent">On <span style="font-weight: bold;">Solaris</span>, 
+ open a terminal window.</p>
+        <p class="BodyTextIndent">Navigate to the Opticks installation directory. On 
+ Windows, the default location is <i>C:\Program Files\Opticks\4.0.</i> On 
+ Solaris, the default location is <i>/opt/Opticks/4.0</i>. </p>
+        <p class="BodyTextIndent">Press the <span style="font-weight: bold;">Enter</span> 
+ key on your keyboard. </p>
+        <ol start="22" style="list-style: decimal;list-style-type: decimal;" MadCap:continue="true">
+            <li class="NumberList">At the <span style="font-weight: bold;">Windows</span> 
+ command prompt, type:</li>
+        </ol>
+        <p class="BodyTextIndent" style="margin-left: 80px;">bin\opticksbatch /input:wizards\bandmath.batchwiz</p>
+        <p class="BodyTextIndent">On <span style="font-weight: bold;">Solaris</span>, 
+ type:</p>
+        <p class="BodyTextIndent" style="margin-left: 80px;">OpticksBatch -input:wizards/bandmath.batchwiz</p>
+        <p class="BodyTextIndent">Press the <b>Enter</b> key on your keyboard.</p>
+        <ol start="23" style="list-style: decimal;list-style-type: decimal;" MadCap:continue="true">
+            <li class="NumberList">The batch processing 
+ will start without a user interface and write out the GeoTIFF file to 
+ the specified folder (…/SampleData/GeoTIFF). </li>
+        </ol>
+        <p class="BodyText"><b style="font-weight: bold;">Summary:</b> You should 
+ now be familiar with the procedures for using a previously saved wizard 
+ to perform batch processing in Opticks.</p>
+    </body>
+</html>

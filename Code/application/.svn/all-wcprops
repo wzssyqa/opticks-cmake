@@ -1,0 +1,59 @@
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svnroot/opticks/!svn/ver/13604/releases/4.7.0/trunk/Code/application
+END
+App.rc
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svnroot/opticks/!svn/ver/13604/releases/4.7.0/trunk/Code/application/App.rc
+END
+ArcIntegration.sln
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svnroot/opticks/!svn/ver/13604/releases/4.7.0/trunk/Code/application/ArcIntegration.sln
+END
+Main.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svnroot/opticks/!svn/ver/13604/releases/4.7.0/trunk/Code/application/Main.cpp
+END
+Opticks.vcxproj
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svnroot/opticks/!svn/ver/13604/releases/4.7.0/trunk/Code/application/Opticks.vcxproj
+END
+Opticks.sln
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svnroot/opticks/!svn/ver/13604/releases/4.7.0/trunk/Code/application/Opticks.sln
+END
+SConstruct
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svnroot/opticks/!svn/ver/13604/releases/4.7.0/trunk/Code/application/SConstruct
+END
+dummyjvm.zip
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svnroot/opticks/!svn/ver/13604/releases/4.7.0/trunk/Code/application/dummyjvm.zip
+END
+Opticks.vcxproj.filters
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svnroot/opticks/!svn/ver/13604/releases/4.7.0/trunk/Code/application/Opticks.vcxproj.filters
+END
+SamplePlugIns.sln
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svnroot/opticks/!svn/ver/13604/releases/4.7.0/trunk/Code/application/SamplePlugIns.sln
+END

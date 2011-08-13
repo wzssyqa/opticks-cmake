@@ -1,0 +1,106 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" MadCap:id="Image_Chipping_Window" MadCap:timeEstimate="0" MadCap:priority="0" MadCap:status="Complete" MadCap:lastBlockDepth="6" MadCap:lastHeight="2732" MadCap:lastWidth="931">
+    <head><title>Image Chipping Window</title>
+        <link rel="StyleSheet" href="../Opticks_Styles.css" />
+    </head>
+    <body>
+        <div placeholder="" id="header" style="width: 100%;position: relative;">
+            <MadCap:keyword term="chip of image" />
+        </div>
+        <h1>
+            <MadCap:keyword term="Image Chipping Window" />Image Chipping Window</h1>
+        <p class="BodyText">The Image Chipping Window allows you to create a chip, 
+ or subset, of the current image. After you select the chip image, you 
+ can create a new window with the chip image or you can export it to a 
+ file.</p>
+        <p class="BodyText">The Image Chipping Window has <a href="../View/Zoom.htm">zoom</a> 
+ and <a href="../View/Pan.htm">pan</a> capabilities. </p>
+        <p class="BodyText">If you create an image chip without first <a href="../Geo/Georeference.htm">georeferencing</a> 
+ the original data set, the new window or file will not contain the Corner 
+ Coordinates GCP list. A warning message is displayed.</p>
+        <p class="BodyText" style="font-weight: bold;">To create an Image Chipping Window:</p>
+        <ol>
+            <li class="NumberList">Be sure a spatial 
+ data window is currently active.</li>
+            <li class="NumberList">On the Opticks Main 
+ Application window, go to the <span style="font-weight: bold;">Tools</span> 
+ menu and select <span style="font-weight: bold;">Image Chipping Window</span>.</li>
+        </ol>
+        <p class="BodyTextIndent">OR</p>
+        <p class="BodyTextIndent">On the <a href="../Toolbars/Toolbox_Toolbar.htm">Toolbox 
+ Toolbar</a>, click the Image Chipping Window button. <img src="../Image_Chipping_Window_Button.gif" style="border: none;width: 22px;height: 21px;float: none;border-style: none;border-style: none;" width="22" height="21" border="0" /></p>
+        <p class="BodyTextIndent">The Create Image Chip dialog box is displayed.</p>
+        <p class="BodyTextIndent">
+            <img src="../Resources/Images/Create_Image_Chip_Dialog_1.gif" style="border: none;border-style: none;border-style: none;" border="0" />
+        </p>
+        <ol start="2" style="list-style: decimal;list-style-type: decimal;" MadCap:continue="true">
+            <li class="NumberList">Use your mouse to 
+ draw a rectangle to indicate the exact area of the chip. The <span style="font-weight: bold;">Pixel</span> 
+ field displays the cursor location (in pixel coordinates).</li>
+        </ol>
+        <p class="BodyTextIndent">
+            <img src="../Draw_Image_Chip.gif" style="border: none;border-style: none;border-style: none;" border="0" />
+        </p>
+        <ol start="3" MadCap:continue="true">
+            <li class="NumberList">The default <span style="font-weight: bold;">Chip Size</span> is “Custom” 
+ and is based on the area you selected. You can also select a chip size 
+ from the drop-down list. The sizes indicate the number of rows and columns 
+ in the chip.</li>
+        </ol>
+        <p class="BodyTextIndent">When you hover your mouse in this area, a tool tip is displayed showing the start row, the stop row, the start column, stop column, and the row and column skip factors.</p>
+        <p class="BodyTextIndent">
+            <img src="../Resources/Images/Tool_Tip_Chipping.gif" />
+        </p>
+        <p class="BodyTextIndent">You can also select the specific rows, columns, and bands you want to use for the subset chip. Click the <b>Advanced...</b> button.</p>
+        <p class="BodyTextIndent">
+            <img src="../Resources/Images/Select_Image_Subset.gif" />
+        </p>
+        <MadCap:dropDown>
+            <MadCap:dropDownHead>
+                <MadCap:dropDownHotspot>In the Select Image Subset dialog box, you can: </MadCap:dropDownHotspot>
+            </MadCap:dropDownHead>
+            <MadCap:dropDownBody>
+                <ul style="list-style-type: square;">
+                    <li style="margin-top: 9pt;margin-bottom: 9pt;">Select the <b>Start Row</b>, <b>End Row</b>, and <b>Skip Factor</b>.</li>
+                    <li style="margin-top: 9pt;margin-bottom: 9pt;">Select the <b>Start Column</b>, <b>End Column</b>, and <b>Skip Factor</b>.</li>
+                    <li style="margin-top: 9pt;margin-bottom: 9pt;">Select the <b>Bands</b> and customize the selection by clicking the <b>Custom Selection...</b> button. This button opens the Band Selection Options dialog box.</li>
+                </ul>
+                <p class="BodyTextIndent">
+                    <img src="../Resources/Images/Band_Selection_Options_Chipping.gif" />
+                </p>
+                <p class="BodyTextIndent">Select the <b>Subset</b> or <b>Bad Bands File</b> radio button to customize the subset selection.</p>
+                <p class="BodyTextIndent">If you select Subset, select the <i style="font-style: normal;font-weight: bold;">Start Band</i> and <b>End Band</b> from the drop-down lists. Type or use the arrow buttons to select the <b>Skip Factor</b>.</p>
+                <p class="BodyTextIndent">If you select the Bad Bands File, browse to and select the file you want to use.</p>
+            </MadCap:dropDownBody>
+        </MadCap:dropDown>
+        <ol MadCap:continue="true">
+            <li style="margin-top: 9pt;margin-bottom: 9pt;">Select the <span style="font-weight: bold;">Chipping Mode</span>. The default is “Create 
+ new window.” 
+ “Export 
+ to file” 
+ allows you export the chip selection to a file.</li>
+            <li style="background-color: Transparent;margin-top: 9pt;margin-bottom: 9pt;">When 
+ you select a custom chip area with the mouse or a default chip size, the 
+ view is zoomed in to increase the displayed area of the chip.</li>
+        </ol>
+        <p class="BodyTextIndent">The Zoom to Fit button <img src="../Zoom_to_fit.gif" style="border: none;border-style: none;" border="0" /> returns the 
+ view to the full extents in case you want to select a different area that 
+ is outside the current view area.</p>
+        <p class="BodyTextIndent">When the view is zoomed in on a chip area, you 
+ can also pan the chip around the scene by holding down the <b>Shift</b> key and clicking and dragging the left mouse button..</p>
+        <p class="BodyTextIndent">You can also zoom in and out with the mouse wheel. 
+ The view tries to keep the chip area in the center of the view. When you 
+ pan or zoom, the chip area may become off-center. Use the <span style="font-weight: bold;">Center 
+ View</span> button to return the chip area to the center of the view. 
+ It may also modify the zoom to ensure that the entire chip area is displayed.</p>
+        <ol MadCap:continue="true">
+            <li>Click <span style="font-weight: bold;">OK</span>. 
+ If you chose “Export 
+ to file,” 
+ an Export dialog box is displayed. Enter the location and file name of 
+ the export file in this dialog box.</li>
+        </ol>
+        <div placeholder="" id="footer" style="width: 100%;position: relative;">
+        </div>
+    </body>
+</html>

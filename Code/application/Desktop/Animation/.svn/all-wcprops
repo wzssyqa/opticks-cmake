@@ -1,0 +1,89 @@
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svnroot/opticks/!svn/ver/13604/releases/4.7.0/trunk/Code/application/Desktop/Animation
+END
+AnimationControllerImp.h
+K 25
+svn:wc:ra_dav:version-url
+V 112
+/svnroot/opticks/!svn/ver/13604/releases/4.7.0/trunk/Code/application/Desktop/Animation/AnimationControllerImp.h
+END
+AnimationServicesImp.h
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/svnroot/opticks/!svn/ver/13604/releases/4.7.0/trunk/Code/application/Desktop/Animation/AnimationServicesImp.h
+END
+AnimationAdapter.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/svnroot/opticks/!svn/ver/13604/releases/4.7.0/trunk/Code/application/Desktop/Animation/AnimationAdapter.cpp
+END
+AnimationToolBarAdapter.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 115
+/svnroot/opticks/!svn/ver/13604/releases/4.7.0/trunk/Code/application/Desktop/Animation/AnimationToolBarAdapter.cpp
+END
+AnimationControllerAdapter.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 118
+/svnroot/opticks/!svn/ver/13604/releases/4.7.0/trunk/Code/application/Desktop/Animation/AnimationControllerAdapter.cpp
+END
+AnimationAdapter.h
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/svnroot/opticks/!svn/ver/13604/releases/4.7.0/trunk/Code/application/Desktop/Animation/AnimationAdapter.h
+END
+AnimationImp.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/svnroot/opticks/!svn/ver/13604/releases/4.7.0/trunk/Code/application/Desktop/Animation/AnimationImp.cpp
+END
+AnimationToolBarAdapter.h
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/svnroot/opticks/!svn/ver/13604/releases/4.7.0/trunk/Code/application/Desktop/Animation/AnimationToolBarAdapter.h
+END
+AnimationToolBarImp.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 111
+/svnroot/opticks/!svn/ver/13604/releases/4.7.0/trunk/Code/application/Desktop/Animation/AnimationToolBarImp.cpp
+END
+AnimationControllerAdapter.h
+K 25
+svn:wc:ra_dav:version-url
+V 116
+/svnroot/opticks/!svn/ver/13604/releases/4.7.0/trunk/Code/application/Desktop/Animation/AnimationControllerAdapter.h
+END
+AnimationControllerImp.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 114
+/svnroot/opticks/!svn/ver/13604/releases/4.7.0/trunk/Code/application/Desktop/Animation/AnimationControllerImp.cpp
+END
+AnimationServicesImp.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 112
+/svnroot/opticks/!svn/ver/13604/releases/4.7.0/trunk/Code/application/Desktop/Animation/AnimationServicesImp.cpp
+END
+AnimationImp.h
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/svnroot/opticks/!svn/ver/13604/releases/4.7.0/trunk/Code/application/Desktop/Animation/AnimationImp.h
+END
+AnimationToolBarImp.h
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/svnroot/opticks/!svn/ver/13604/releases/4.7.0/trunk/Code/application/Desktop/Animation/AnimationToolBarImp.h
+END

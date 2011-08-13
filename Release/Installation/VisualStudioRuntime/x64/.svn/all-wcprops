@@ -1,0 +1,23 @@
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/svnroot/opticks/!svn/ver/13604/releases/4.7.0/trunk/Release/Installation/VisualStudioRuntime/x64
+END
+vcomp100.dll
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/svnroot/opticks/!svn/ver/13604/releases/4.7.0/trunk/Release/Installation/VisualStudioRuntime/x64/vcomp100.dll
+END
+msvcp100.dll
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/svnroot/opticks/!svn/ver/13604/releases/4.7.0/trunk/Release/Installation/VisualStudioRuntime/x64/msvcp100.dll
+END
+msvcr100.dll
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/svnroot/opticks/!svn/ver/13604/releases/4.7.0/trunk/Release/Installation/VisualStudioRuntime/x64/msvcr100.dll
+END

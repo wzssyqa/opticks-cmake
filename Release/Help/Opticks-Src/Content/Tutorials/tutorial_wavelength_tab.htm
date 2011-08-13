@@ -1,0 +1,70 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html MadCap:ignoredWords="AOI;AOIs;GeoTiff;RGB;Homomorphic;Differencing;Pseudocolor;misregistration;Misregistration;RMS;differencing;ACD;IKONOS;NAIC;NADCA;Endmember;Coregistration;MSI;HSI;AVIRIS;CASI;NVIS;Boresight;GeoCorrection;GCP;Geo;ETM;IR;CEM;ModFull;NIDA;HYDICE;nm;IARR;MODTRAN;NSEC;*.sig;*.elm;SignatureScriptWizard.wiz;SupportFiles;SigScriptPrototype.bat;SigScriptPrototype.csh;Wavefile;FWHM;f;N;Multispectral;NITF;SIO;GSD;ntf;sio;GCPs;gcp;resampling;multispectral;TTCP;ENVI;dsto2605n;ROI;hyperspectral;recompute;Hydice;Chip.hdr;hdr;Steradian;µm;modh2o;CoRegistration;coregistering;coregistration;geocoordinates;CADRG;ADRG;x²;y²;c²;C²;resampled;spline;Resmini;NSIG;nsig;sdb;CSV;csv;sig;slb;XML;NASIC;IDD;Opticks’s;sli;txt;SampleData;NSECSignature;NSEC_Spectrum;coregister;resamples;coregistered;HDR;Hymap;endmembers;endmember;wav;dataset;Hydice_Chip" MadCap:lastBlockDepth="5" MadCap:lastHeight="3400" MadCap:lastWidth="1438" class="" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd">
+    <head>
+        <link href="../Resources/TableStyles/Inner.css" rel="stylesheet" MadCap:stylesheetType="table" /><title>Tutorial: Using the Wavelengths Tab and Wavelength Importer</title>
+        <link rel="StyleSheet" href="../Opticks_Styles.css" />
+    </head>
+    <body>
+        <div placeholder="" id="header" style="width: 100%;position: relative;">
+        </div>
+        <h1>
+            <MadCap:keyword term="Wavelength Tab;Wavelength Importer" />Tutorial: Using the Wavelengths Tab and Wavelength Importer</h1>
+        <p class="BodyText"><span style="font-weight: bold;">Learning Objective:</span> When finished with this tutorial, you will be familiar with using the Wavelengths Tab to import wavelength data and to generate start and end wavelengths.</p>
+        <p class="BodyText">In this tutorial, you will perform the following:</p>
+        <ul>
+            <li class="BulletList">Begin importing a hyperspectral data cube.</li>
+            <li class="BulletList">Import wavelength data into the Wavelengths Tab.</li>
+            <li class="BulletList">Calculate the start and end wavelengths based on the center wavelengths and the Full Width at Half Max (FWHM). </li>
+            <li class="BulletList">Export the wavelengths to a file. </li>
+            <li class="BulletList">Complete the hyperspectral data cube import.</li>
+            <li class="BulletList">View the wavelengths of the imported dataset.</li>
+        </ul>
+        <p><span style="font-weight: bold;">Lesson:</span> The Wavelengths Tab allows you to import wavelength data from a loaded dataset or from a wavelength file. It allows you to calculate the start and end wavelengths when given the center wavelengths. You will save the newly calculated wavelength information and associate them against the hyperspectral dataset. </p>
+        <MadCap:snippetBlock src="../Resources/Snippets/SampleFiles.flsnp" />
+        <h2>Open File</h2>
+        <ol>
+            <li>On the Opticks menu bar, select <span style="font-weight: bold;">File,</span> <![CDATA[ ]]><b>Import Data...</b>.</li>
+            <li class="NumberList">In the Import window, go to the Importer field and select the <span style="font-weight: bold;">ENVI Importer</span>. Navigate to and select the sample data file <span style="font-weight: bold;">f970620t01p02_r03_sc01.a.hdr</span> and select <span style="font-weight: bold;">Options</span>.</li>
+            <li class="NumberList">Click on the <b>Wavelengths</b> Tab.</li>
+        </ol>
+        <p class="BodyTextIndent">Notice the current wavelength data is limited to the center wavelength.</p>
+        <p class="BodyTextIndent">
+            <img src="../Resources/Images/Wavelength_Ed_Tutorial_1.gif" style="border: none;float: none;border-style: none;border-style: none;" border="0" />
+        </p>
+        <ol MadCap:continue="true">
+            <li style="margin-top: 7pt;margin-bottom: 7pt;">Click the FWHM button to calculate the start and end wavelengths data.</li>
+            <li style="margin-top: 7pt;margin-bottom: 7pt;">Keep <b>1.00</b> in the FWHM Constant field and click the <b>OK</b> button.</li>
+        </ol>
+        <p class="BodyTextIndent">
+            <img src="../Resources/Images/Calculate_FWHM.gif" />
+        </p>
+        <p class="BodyTextIndent">The start and end wavelengths are calculated based on the FWHM values in the sensor's metadata, or estimates the FWHM based in the input constant value. For more information on the FWHM Constant and calculation, see <a href="../Wavelengths/wavelengths_tab_properties.htm">Wavelengths Tab</a>.</p>
+        <p class="BodyTextIndent">
+            <img src="../Resources/Images/Wavelength_Ed_Tutorial_2.gif" style="border: none;float: none;border-style: none;border-style: none;" border="0" />
+        </p>
+        <p class="BodyTextIndent">Notice the start and end wavelengths have now been calculated and populated in the table. You are now ready to export the data into a file for future use.</p>
+        <ol MadCap:continue="true">
+            <li style="margin-top: 7pt;margin-bottom: 7pt;">Click the <b>Save</b> button. </li>
+            <li style="margin-top: 7pt;margin-bottom: 7pt;">In the Save Wavelengths Window, navigate to the directory where you want to save the file enter a filename that you can associate with the cube for later use on import. Click the <b>Save</b> button.</li>
+        </ol>
+        <p class="BodyTextIndent">
+            <img src="../Resources/Images/Save_Wavelengths.gif" style="border: none;float: none;border-style: none;border-style: none;" border="0" />
+        </p>
+        <ol MadCap:continue="true">
+            <li style="margin-top: 7pt;margin-bottom: 7pt;">A dialog box displays the message "Wavelength export completed successfully." Click <b>OK</b>.</li>
+            <li style="margin-top: 7pt;margin-bottom: 7pt;">You are now finished with the wavelengths, so click the <span style="font-weight: bold;">OK</span> button. On the Import window, click <b>Open</b> to import the data set.</li>
+        </ol>
+        <p class="BodyText">You have now successfully calculated all the wavelength data needed to improve processing and exploitation results. </p>
+        <h2>Wavelength Properties</h2>
+        <ol>
+            <li style="margin-top: 7pt;margin-bottom: 7pt;">On the <span style="font-weight: normal;">Session Explorer, select the <b>Elements</b> Tab. Right-click on <b>f970620t01p02_r03_sc01.a.bip</b> and select <b>Properties</b>.</span></li>
+            <li style="margin-top: 7pt;margin-bottom: 7pt;">Select the <b>Wavelength</b> tab. The start, center, and end wavelengths set during import are displayed.</li>
+        </ol>
+        <p class="BodyTextIndent">
+            <img src="../Resources/Images/Wavelength_Properties_1.gif" />
+        </p>
+        <p class="BodyText"><span style="font-weight: bold;">Summary/Review:</span> You should now be able to import a hyperspectral dataset using the Wavelengths tab to associate wavelengths with the data set.</p>
+        <div placeholder="" id="footer" style="width: 100%;position: relative;">
+        </div>
+    </body>
+</html>

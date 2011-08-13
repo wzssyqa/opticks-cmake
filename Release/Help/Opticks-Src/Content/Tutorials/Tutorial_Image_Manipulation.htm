@@ -1,0 +1,434 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" MadCap:conditions="" class="" MadCap:lastBlockDepth="6" MadCap:lastHeight="13514" MadCap:lastWidth="1136">
+    <head><title>Tutorial: Image Manipulation and Export</title>
+        <meta name="Originator" content="ImportDoc" />
+        <meta name="OriginalFile" content="C:\Ball\COMET\Tutorials\scenario1.doc" />
+        <link rel="StyleSheet" href="Tutorials.css" />
+        <style>
+a:visited
+{
+	color: #800080;
+}
+a:link
+{
+	color: #0000ee;
+}
+
+</style>
+        <link href="../Resources/TableStyles/Inner.css" rel="stylesheet" MadCap:stylesheetType="table" />
+    </head>
+    <body lang="EN-US">
+        <div placeholder="" id="header" style="width: 100%;position: relative;">
+            <p class="TopicHeader">
+            </p>
+        </div>
+        <h1><b style="font-weight: bold;"><MadCap:keyword term="image manipulation" /><MadCap:keyword term="export" /> Tutorial: Image Manipulation and Export</b>
+        </h1>
+        <p class="BodyText"><b style="font-weight: bold;"><MadCap:keyword term="tutorials" />Learning Objective</b>: 
+ When finished with this tutorial, you will be familiar with data importing, 
+ basic image manipulation, and data exporting.</p>
+        <p class="BodyText">In this tutorial, you’ll 
+ manipulate and export data in the following sequence:</p>
+        <ul>
+            <li class="BulletList">Open a file</li>
+            <li class="BulletList">Image manipulation: pan, 
+ zoom, flip, rotate, reset</li>
+            <li class="BulletList">Histogram</li>
+            <li class="BulletList">
+                <MadCap:keyword term="brightness/contrast" />Brightness/contrast</li>
+            <li class="BulletList">Export a data cube 
+ in ICE Exporter</li>
+            <li class="BulletList">
+                <MadCap:keyword term="Image Chipping Window" />Image Chipping Window</li>
+            <li class="BulletList">Close the file</li>
+        </ul>
+        <p class="BodyText"><b style="font-weight: bold;">Lesson</b>: Opticks is not 
+ designed to be an imagery tool, but it does have some basic image manipulation 
+ functions. Within Opticks, you can rotate, zoom in and out, and pan around 
+ the data display.&#160;</p>
+        <p class="BodyText">The <b><MadCap:keyword term="histogram window" />Histogram Window</b> displays a graph of the number 
+ of pixels in the image display for each intensity brightness levels. The 
+ intensity is displayed on the x-axis and the number of pixels of each 
+ intensity is displayed on the y-axis. The Histogram Window enables you 
+ to manipulate data and to modify display characteristics such as contrast 
+ and algorithm thresholds. </p>
+        <p class="BodyText"><b style="font-weight: bold;">Brightness/Contrast</b> 
+ enables you to manipulate the brightness and contrast for individual bands 
+ or an entire RGB display.</p>
+        <p class="BodyText">The <b>ICE Exporter</b> enables you to select 
+ the parameters for data format/scaling, cropping, and sampling, and to 
+ produce a corresponding ICE-formatted data cube. A ICE data set is created whenever the data is saved. The format contains 
+ header information obtained from the original sensor, data, and data statistics 
+ and optimizations calculated. Original sensor data cannot be overwritten, 
+ so Opticks uses the ICE Format to save processing results.</p>
+        <p class="BodyText">The <b>Image Chipping Window</b> enables you to create 
+ an image that is a subset of a larger image.</p>
+        <p class="BodyText" style="font-weight: bold;">Toolbars used in this tutorial:</p>
+        <p class="BodyText" style="margin-left: 40px;"><span style="font-size: 10.0pt;font-family: Verdana;"><a href="../Toolbars/Display_Toolbar.htm"><span style="font-size: 10.0pt;font-family: Verdana;">D</span>isplay Toolbar</a></span>
+        </p>
+        <p class="BodyText" style="margin-left: 40px;"><a href="../Toolbars/Toolbox_Toolbar.htm">Toolbox 
+ Toolbar</a>
+        </p>
+        <p class="BodyText" style="margin-left: 40px;"><a href="../Toolbars/Brightness_Toolbar.htm">Brightness 
+ Toolbar</a>
+        </p>
+        <p class="BodyText" style="margin-left: 40px;"><a href="../Toolbars/Standard_Toolbar.htm">Standard 
+ Toolbar</a>
+        </p>
+        <MadCap:snippetBlock src="../Resources/Snippets/Access_Toolbars.flsnp" />
+        <MadCap:snippetBlock src="../Resources/Snippets/SampleFiles.flsnp" />
+        <h2>Import Data</h2>
+        <ol>
+            <li class="NumberList">On the Opticks menu 
+ bar, select <b>File</b>, <b>Import Data.</b></li>
+        </ol>
+        <p class="BodyTextIndent">
+            <img src="../Resources/Images/Import_Data_Select.gif" />
+        </p>
+        <ol start="3" MadCap:continue="true">
+            <li class="NumberList">Navigate to and select 
+ the file <i style="font-style: normal;font-weight: bold;">f970620t01p02_r03_sc01.a.bip.</i></li>
+            <li class="NumberList">Be sure either the 
+ <b>Auto Importer</b> or the <b>GeoTIFF Importer</b> is selected 
+ from the Importer drop-down. Click the <b>Open</b> button.</li>
+        </ol>
+        <p class="BodyTextIndent">
+            <img src="../Resources/Images/Select_File_Image_Man.gif" style="border: none;border-style: none;border-style: none;" border="0" />
+        </p>
+        <ol start="5" style="list-style: decimal;list-style-type: decimal;" MadCap:continue="true">
+            <li class="NumberList">When the import is 
+ complete, click the <b>Close</b> button on the Importer dialog box.</li>
+            <li class="NumberList">Drag the lower right corner of the image so it fills the work area.</li>
+        </ol>
+        <p class="BodyTextIndent">
+            <img src="../Resources/Images/Enlarge_Image_2.gif" />
+        </p>
+        <h2><b style="font-weight: bold;"><i><span style="font-style: normal;">Image 
+ Manipulation</span></i></b>
+        </h2>
+        <ol>
+            <li class="NumberList">On the Opticks menu 
+ bar, select <b>View</b>, <b>Zoom</b>, <b>Rectangle.</b></li>
+        </ol>
+        <p class="BodyTextIndent">OR</p>
+        <p class="BodyTextIndent">Click the Zoom to Rectangle button <img src="../Zoom_Rectangle.gif" style="border: none;width: 22px;height: 21px;border-style: none;border-style: none;" width="22" height="21" border="0" />&#160;on the Display Toolbar. </p>
+        <p class="BodyTextIndent">Using the left mouse button, click and drag an 
+ area in the data window that is smaller than the spatial area of the data. 
+ Release the mouse button. This zooms the display to the selected area.</p>
+        <p class="BodyTextIndent">
+            <img src="../Resources/Images/Zoomed_Image.gif" style="border: none;border-style: none;border-style: none;" border="0" />
+        </p>
+        <ol start="7" style="list-style: decimal;list-style-type: decimal;" MadCap:continue="true">
+            <li class="NumberList">Open a separate overview 
+ window by going to the Opticks menu bar and selecting <b>Tools</b>, <b>Overview 
+ Window.</b></li>
+        </ol>
+        <p class="BodyTextIndent">A rectangle appears in the overview window outlining 
+ the zoomed-in area displayed in the data window. You can see the location 
+ of the zoomed-in window within the full-size image. </p>
+        <p class="Note"><b>Note:</b> Some images have ground control points (GCPs) 
+ that allow for image mapping to geo-spatial coordinates.</p>
+        <p class="BodyTextIndent">
+            <img src="../Resources/Images/Overview_Window.gif" style="border: none;border-style: none;border-style: none;" border="0" />
+        </p>
+        <ol start="8" style="list-style: decimal;list-style-type: decimal;" MadCap:continue="true">
+            <li class="NumberList">Close the overview 
+ window by clicking the Close control “X” in the upper right corner of 
+ the window. </li>
+        </ol>
+        <p class="BodyTextIndent">To restore the normal view of the data cube, elect 
+ the Zoom to Fit button <img src="../Zoom_to_fit.gif" style="border: none;width: 22px;height: 21px;float: none;border-style: none;border-style: none;" width="22" height="21" border="0" />&#160;on the Display Toolbar.</p>
+        <p class="BodyTextIndent">OR</p>
+        <p class="BodyTextIndent">On the Opticks menu bar, select <b>View</b>, <b>Zoom</b> <![CDATA[ ]]><b>To Fit</b>. </p>
+        <p class="BodyTextIndent">The total spatial area of the data is sized to 
+ fit within the current size of the data window. Resize the data window 
+ to see how Zoom to Fit automatically increases or decreases the zoom level 
+ to fit the window size.</p>
+        <ol start="9" style="list-style: decimal;list-style-type: decimal;" MadCap:continue="true">
+            <li class="NumberList">On the Display Toolbar, 
+ select the Zoom In button <img src="../Resources/Images/Zoom_In.gif" style="border: none;float: none;border-style: none;border-style: none;" border="0" />&#160;and Zoom Out button <img src="../Zoom_Out.gif" style="border: none;float: none;border-style: none;border-style: none;" border="0" />&#160;to change zoom percentage incrementally. This affects 
+ the zoom of the active image. </li>
+        </ol>
+        <p class="Note"><b>Note:</b> The mouse scroll 
+ wheel and middle button can also control zoom.</p>
+        <ol start="10" MadCap:continue="true">
+            <li class="NumberList">On the Display Toolbar, 
+ select the Zoom In on Mouse button <img src="../Zoom_in_mouse.gif" style="border: none;float: none;border-style: none;border-style: none;" border="0" />&#160;and Zoom Out on 
+ Mouse button <img src="../Resources/Images/Zoom_out_mouse.gif" style="border: none;float: none;border-style: none;border-style: none;" border="0" />&#160;to zoom in and out based on the location 
+ of the mouse pointer. Activate the zoom by moving the mouse pointer to 
+ the location you want to enlarge and clicking the left mouse button.&#160;</li>
+            <li class="NumberList">On the Display Toolbar, 
+ select the Pan button <img src="../Pan_Button.gif" style="border: none;width: 22px;height: 21px;float: none;border-style: none;border-style: none;" width="22" height="21" border="0" />.</li>
+        </ol>
+        <p class="BodyTextIndent">OR</p>
+        <p class="BodyTextIndent">On the Opticks menu bar, select<b> View</b>, <b>Pan</b>. 
+ </p>
+        <p class="BodyTextIndent">Hold down the left mouse button and drag to move 
+ the image within the data display.</p>
+        <ol start="12" MadCap:continue="true">
+            <li class="NumberList">On the Display Toolbar, 
+ select the Flip Vertically button. <img src="../Flip_Vert.gif" style="border: none;width: 22px;height: 21px;float: none;border-style: none;border-style: none;" width="22" height="21" border="0" />&#160;This flips the scene 
+ 180 degrees on its horizontal-axis.</li>
+            <li class="NumberList">On the Display Toolbar, 
+ select the Free Rotate button <img src="../Free_Rotate.gif" style="border: none;width: 22px;height: 21px;float: none;border-style: none;border-style: none;" width="22" height="21" border="0" />&#160;and move the mouse around 
+ the screen while holding down the left mouse button. This rotates the 
+ scene around its center. </li>
+        </ol>
+        <p class="Note"><b>Note:</b> All of the rotation tools can also be accessed 
+ through the <b>View</b>, <b>Rotate</b> menu on the Opticks menu bar.</p>
+        <ol start="14" style="list-style: decimal;list-style-type: decimal;" MadCap:continue="true">
+            <li class="NumberList">On the Display Toolbar, 
+ select the Reset button <img src="../Reset_Display.gif" style="border: none;width: 22px;height: 21px;float: none;border-style: none;border-style: none;" width="22" height="21" border="0" />&#160;to reset the image to the 
+ original data cube orientation.</li>
+        </ol>
+        <h2 class="NumberList">Histogram Window</h2>
+        <p class="Normal"><span style="font-size: 10.0pt;font-family: Verdana;">A 
+ histogram is a two-dimensional representation of data. It shows the distribution 
+ of pixel intensities. The x-axis represents the data value of a pixel 
+ in that band. The y-axis represents the number of pixels with a data value 
+ of the corresponding x-axis value.</span>
+        </p>
+        <ol>
+            <li class="NumberList">To open the Histogram 
+ Window, go to the Opticks menu bar and select <span style="font-weight: bold;">Tools, 
+ Histogram Windo</span><b>w</b>.</li>
+        </ol>
+        <p class="BodyTextIndent">OR</p>
+        <p class="BodyTextIndent">Click the Histogram Window button <img src="../Histogram_Window_Button.gif" style="border: none;width: 22px;height: 21px;border-style: none;border-style: none;" width="22" height="21" border="0" /> on the Toolbox Toolbar.</p>
+        <p class="BodyTextIndent">
+            <img src="../Resources/Images/Open_Histogram.png" style="border: none;border-style: none;border-style: none;" border="0" />
+        </p>
+        <ol start="34" style="list-style: decimal;list-style-type: decimal;" MadCap:continue="true">
+            <li class="NumberList">The Histogram Window 
+ is displayed. </li>
+        </ol>
+        <p class="BodyTextIndent">By default, the Histogram Window shows a histogram 
+ of the band that is displayed in the data window. If the data window is 
+ in RGB mode, the Histogram Window shows a histogram in either the red, 
+ green, or blue band. If the data window is in grayscale mode, the Histogram 
+ Window shows a histogram of the currently displayed grayscale band. </p>
+        <p class="BodyTextIndent">Each tab on the bottom of the Histogram Window 
+ represents a different layer or band. The active layer has a white tab; 
+ inactive layers have gray tabs. To activate a different layer, click on 
+ the tab.</p>
+        <p class="BodyTextIndent">
+            <img src="../Resources/Images/Histogram_Window_1.gif" style="border: none;border-style: none;border-style: none;" border="0" />
+        </p>
+        <p class="BodyTextIndent">The red overlay on the Histogram Window represents 
+ what is being displayed in the data window. The graphic above illustrates 
+ that only pixels with a value of between approximately 8 (left edge) and 
+ 19 (right edge) are being displayed in the red band on the data window. 
+ Any pixels not meeting those criteria will be displayed but are set to 
+ the maximum or minimum value. If this were the blue band, the overlay 
+ would be blue. If it were the green band, the overlay would be green, 
+ and if it were the grayscale band, the overlay would be gray.</p>
+        <ol start="35" MadCap:continue="true">
+            <li class="NumberList">To adjust the overlay 
+ size, click near the edge of one side of the overlay and drag the edge. 
+ The side of the overlay moves with the mouse. Notice the change in the 
+ display.</li>
+        </ol>
+        <p class="BodyTextIndent">
+            <img src="../Resources/Images/Histogram_Window_2.gif" style="border: none;border-style: none;border-style: none;" border="0" />
+        </p>
+        <p class="BodyTextIndent">The purpose of moving the overlay is to adjust 
+ the contrast of the data display. Generally, making the overlay very large 
+ will decrease the contrast, while making it small will increase the contrast. 
+ Experiment by changing the overlay size in the Histogram Window, observing 
+ the data window. Use the different tabs (Red, Green, and Blue).</p>
+        <ol start="36" style="list-style: decimal;list-style-type: decimal;" MadCap:continue="true">
+            <li class="NumberList">Right-click in the 
+ Histogram Window to display the Histogram Window menu. This menu enables 
+ you to manipulate the data within the Histogram Window.</li>
+        </ol>
+        <p class="BodyTextIndent">
+            <img src="../Resources/Images/Histogram_Menu.gif" style="border: none;border-style: none;border-style: none;" border="0" />
+        </p>
+        <p class="BodyTextIndent">The <span style="font-weight: bold;">Save</span> 
+ function on the Histogram Window menu&#160;saves the current histogram 
+ to an ASCII text file with the extension <i style="font-style: normal;font-weight: bold;">hst</i>. 
+ This allows the histogram to be imported into other tools such as spreadsheets 
+ for more detailed data analysis. </p>
+        <ol start="37" MadCap:continue="true">
+            <li class="NumberList">The <span style="font-weight: bold;">Mouse 
+ Mode</span> function on the Histogram Window menu enables you to control 
+ the functionality of the mouse within the Histogram Window. There are 
+ four mouse functions available: Set Value, Zoom, Pan, and Annotation. 
+ The Set Value function (the default setting) changes the overlay for the 
+ spectral band in the Histogram Window. </li>
+        </ol>
+        <p class="BodyTextIndent">On the Histogram Window menu, select <span style="font-weight: bold;">Mouse 
+ Mode</span>, <b>Zoom</b> to zoom in on a section of the histogram. Click 
+ slightly in the middle of the histogram color overlay. Hold the left mouse 
+ button down while moving the mouse to the right of the overlay. Release 
+ the mouse button to see a zoomed-in histogram.</p>
+        <ol start="38" MadCap:continue="true">
+            <li class="NumberList">On the Histogram 
+ Window menu, select <b>Mouse Mode</b>, <b>Pan</b>. The Pan function allows 
+ you to change the displayed region of a zoomed histogram. Click and hold 
+ the left mouse button moving the mouse left, right, up, or down to view 
+ other areas of the zoomed histogram.</li>
+            <li class="NumberList">To reset the histogram, 
+ on the Histogram Window menu, select <b>Rescale Axes</b>. </li>
+            <li class="NumberList">Close the Histogram Window (click the X in the upper right corner).</li>
+        </ol>
+        <p class="Note"><b>Note:</b> Mouse Mode does not automatically change back to Set Value after Rescale 
+ Axes has been chosen. Zoom mode will still be in effect.</p>
+        <ol start="40" style="list-style: decimal;list-style-type: decimal;" MadCap:continue="true">
+        </ol>
+        <h2>Brightness and Contrast Toolbar</h2>
+        <p class="BodyText">Using the Brightness Toolbar is similar to adjusting 
+ the overlay in the Histogram Window. The toolbar allows you to adjust 
+ the brightness and contrast of a selected band incrementally.&#160; </p>
+        <ol>
+            <li class="NumberList">To display the Brightness 
+ Toolbar, go to the Opticks menu bar and select <b>View, Toolbars, Brightness</b>. 
+ </li>
+            <li class="NumberList">Adjust the Brightness 
+ slider on the left of the toolbar and notice the changes in the displayed 
+ data.</li>
+        </ol>
+        <p class="BodyTextIndent">
+            <img src="../Resources/Images/Adjust_Brightness.gif" style="border: none;border-style: none;border-style: none;" border="0" />
+        </p>
+        <ol start="43" style="list-style: decimal;list-style-type: decimal;" MadCap:continue="true">
+            <li class="NumberList">Adjust the Contrast 
+ slider and observe the changes in the data. </li>
+        </ol>
+        <p class="BodyTextIndent">
+            <img src="../Resources/Images/Adjust_Contrast.gif" style="border: none;border-style: none;border-style: none;" border="0" />
+        </p>
+        <ol start="44" MadCap:continue="true">
+            <li class="NumberList">Open the Histogram Window again by clicking the Histogram Window button <img src="../Histogram_Window_Button.gif" style="border: none;width: 22px;height: 21px;border-style: none;border-style: none;" width="22" height="21" border="0" />&#160;on the Toolbox Toolbar. Adjust the brightness and contrast 
+ sliders again and observe the changes in the overlay in the Histogram 
+ Window. Experiment with adjusting the brightness and contrast sliders 
+ as well as the overlay in the Histogram Window to get a feel for their 
+ relationship.</li>
+            <li class="NumberList">From the Brightness 
+ Toolbar, you can also select which displayed band is affected by the slider 
+ adjustments. Click the drop-down menu on the right of the toolbar and 
+ select Band 1-Gray to change the data to grayscale. This particular image will go black in grayscale. Go back to RGB by selecting the red, blue, or green band. Experiment with 
+ the brightness and contrast.</li>
+        </ol>
+        <p class="BodyTextIndent">
+            <img src="../Resources/Images/Adjust_Band.gif" style="border: none;border-style: none;border-style: none;" border="0" />
+        </p>
+        <ol start="46" style="list-style: decimal;list-style-type: decimal;" MadCap:continue="true">
+            <li class="NumberList"> 
+ The brightness/contrast adjustments affect only the band selected. Select 
+ <b>RGB</b> from the drop-down menu to adjust all three RGB bands at once. 
+ </li>
+        </ol>
+        <p class="BodyTextIndent">Click the Reset button <img src="../Resources/Images/Reset_Button.gif" style="border: none;border-style: none;border-style: none;" border="0" />&#160;on the 
+ Brightness Toolbar to reset all changes to their default values.</p>
+        <ol start="47" style="list-style: decimal;list-style-type: decimal;" MadCap:continue="true">
+            <li class="NumberList">Adjust the <span style="font-weight: bold;">Brightness</span> 
+ down to about <b>32</b> and the <span style="font-weight: bold;">Contrast</span> <![CDATA[ ]]>up to about <b>69</b>. Doing so makes the vegetative areas appear more 
+ green. The graphic below shows a before (top) and after (bottom) view 
+ (assuming a true color composite image was loaded and displayed with R3G2B1).</li>
+        </ol>
+        <p class="BodyTextIndent">
+            <img src="../Resources/Images/Veg_1.gif" />
+        </p>
+        <p class="BodyTextIndent">
+            <img src="../Resources/Images/Veg_2.gif" />
+        </p>
+        <h2>Data Export</h2>
+        <ol>
+            <li class="NumberList">On the Opticks menu 
+ bar, select <b>File</b>, <b>Export</b><b>.</b></li>
+        </ol>
+        <p class="BodyTextIndent">The Export dialog is displayed. </p>
+        <ol start="49" style="list-style: decimal;list-style-type: decimal;" MadCap:continue="true">
+            <li class="NumberList">Leave the default file name and exporter.</li>
+        </ol>
+        <p class="BodyTextIndent">
+            <img src="../Resources/Images/Export_File.gif" style="border: none;border-style: none;border-style: none;" border="0" />
+        </p>
+        <ol start="50" MadCap:continue="true">
+            <li class="NumberList">Choose a location 
+ for the file.</li>
+            <li class="NumberList">Click the <b>Save</b> button.</li>
+        </ol>
+        <h2>Image Chipping Window – Export </h2>
+        <ol>
+            <li class="NumberList">On the Opticks menu 
+ bar, select <b>Tools, Image Chipping Window.</b></li>
+        </ol>
+        <p class="BodyTextIndent">OR</p>
+        <p class="BodyTextIndent">Click the Image Chipping Window button <img src="../Image_Chipping_Window_Button.gif" style="border: none;width: 22px;height: 21px;border-style: none;border-style: none;" width="22" height="21" border="0" />&#160;on the Toolbox Toolbar. </p>
+        <ol start="53" style="list-style: decimal;list-style-type: decimal;" MadCap:continue="true">
+            <li class="NumberList">The Create Image 
+ Chip dialog box is displayed. </li>
+        </ol>
+        <p class="BodyTextIndent">
+            <img src="../Resources/Images/Create_Image_Chip.gif" style="border: none;border-style: none;border-style: none;" border="0" />
+        </p>
+        <ol start="54" style="list-style: decimal;list-style-type: decimal;" MadCap:continue="true">
+            <li class="NumberList">Select the <span style="font-weight: bold;">Export to file</span> radio button. With the 
+ mouse cursor on the image, hold down the left mouse button and drag. A 
+ white box appears around the area you selected.</li>
+        </ol>
+        <ol start="55" style="list-style: decimal;list-style-type: decimal;" MadCap:continue="true">
+            <li class="NumberList">Release the left 
+ mouse button. The selected area will appear in the Create Image Chip display 
+ window. Under <b>Chipping Mode</b>, select <b>Export to file</b>.</li>
+        </ol>
+        <p class="BodyTextIndent">
+            <img src="../Resources/Images/Image_Chip_Export_1.gif" style="border: none;border-style: none;border-style: none;" border="0" />
+        </p>
+        <ol start="56" style="list-style: decimal;list-style-type: decimal;" MadCap:continue="true">
+            <li class="NumberList">Click <span style="font-weight: bold;">OK</span>. 
+ A message window may appear stating the created chip will not contain 
+ a GCP List. Click the <span style="font-weight: bold;">Continue</span> 
+ button.</li>
+        </ol>
+        <p class="BodyTextIndent">
+            <img src="../Resources/Images/Create_Image_Chip_Dialog.gif" style="border: none;border-style: none;border-style: none;" border="0" />
+        </p>
+        <ol start="57" style="list-style: decimal;list-style-type: decimal;" MadCap:continue="true">
+            <li class="NumberList">An Export window 
+ is displayed. For 
+ this tutorial, keep the default settings. Click the <span style="font-weight: bold;">Save 
+ </span>button.</li>
+        </ol>
+        <p class="BodyTextIndent">
+            <img src="../Resources/Images/Export_Image_Chip.gif" style="border: none;border-style: none;border-style: none;" border="0" />
+        </p>
+        <ol start="58" style="list-style: decimal;list-style-type: decimal;" MadCap:continue="true">
+            <li class="NumberList">An ICE Format 
+ Exporter message dialog box appears stating that ICE export is complete. 
+ Click the <span style="font-weight: bold;">Close </span>button.</li>
+        </ol>
+        <h2>Close File</h2>
+        <ol>
+            <li class="NumberList">On the Opticks menu 
+ bar, click on <b>File</b>, <b>Close</b>.</li>
+            <li class="NumberList">In the Confirm Close 
+ dialog box, click <b>Yes</b>.</li>
+        </ol>
+        <p class="BodyTextIndent">
+            <img src="../Resources/Images/Confirm_Close.gif" style="border: none;border-style: none;border-style: none;" border="0" />
+        </p>
+        <h2>Reload Chipped Image</h2>
+        <ol>
+            <li class="NumberList">On the Opticks menu 
+ bar, select <b>File, Import Data</b>. Select the <i><span style="font-style: normal;font-weight: bold;">f970620t01p02_r03_sc01.re.ice.h5 </span></i>file. Click the <span style="font-weight: bold;">Open</span> button.</li>
+        </ol>
+        <ol start="62" style="list-style: decimal;list-style-type: decimal;" MadCap:continue="true">
+            <li class="NumberList">The chipped image 
+ will load in the display window.</li>
+        </ol>
+        <p class="BodyTextIndent">
+            <img src="../Resources/Images/Reload_Chip.png" style="border: none;border-style: none;border-style: none;" border="0" />
+        </p>
+        <ol start="63" style="list-style: decimal;list-style-type: decimal;" MadCap:continue="true">
+            <li class="NumberList">Close all files.</li>
+        </ol>
+        <p class="BodyText"><b style="font-weight: bold;">Summary/Review</b>: You 
+ should now be able to import, manipulate, and export an image using many 
+ of the common core tools in Opticks including pan, zoom, histogram, and 
+ spectrum window tools.</p>
+        <p class="BodyText">&#160;</p>
+    </body>
+</html>

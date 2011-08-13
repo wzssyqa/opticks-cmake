@@ -1,0 +1,47 @@
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/svnroot/opticks/!svn/ver/13604/releases/4.7.0/trunk/Code
+END
+commonutils.py
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svnroot/opticks/!svn/ver/13604/releases/4.7.0/trunk/Code/commonutils.py
+END
+update-build-revision.bat
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svnroot/opticks/!svn/ver/13604/releases/4.7.0/trunk/Code/update-build-revision.bat
+END
+update-build-revision.py
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svnroot/opticks/!svn/ver/13604/releases/4.7.0/trunk/Code/update-build-revision.py
+END
+build.bat
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svnroot/opticks/!svn/ver/13604/releases/4.7.0/trunk/Code/build.bat
+END
+README.windows
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svnroot/opticks/!svn/ver/13604/releases/4.7.0/trunk/Code/README.windows
+END
+build.py
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svnroot/opticks/!svn/ver/13604/releases/4.7.0/trunk/Code/build.py
+END
+README.solaris
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svnroot/opticks/!svn/ver/13604/releases/4.7.0/trunk/Code/README.solaris
+END

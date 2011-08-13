@@ -1,0 +1,473 @@
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/svnroot/opticks/!svn/ver/13604/releases/4.7.0/trunk/Code/application/PlugIns/src/PlugInSamplerQt
+END
+OptionsSuppressibleMsgDlg.h
+K 25
+svn:wc:ra_dav:version-url
+V 125
+/svnroot/opticks/!svn/ver/13604/releases/4.7.0/trunk/Code/application/PlugIns/src/PlugInSamplerQt/OptionsSuppressibleMsgDlg.h
+END
+DemoGuiImp.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 112
+/svnroot/opticks/!svn/ver/13604/releases/4.7.0/trunk/Code/application/PlugIns/src/PlugInSamplerQt/DemoGuiImp.cpp
+END
+DemoAlgorithm.h
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/svnroot/opticks/!svn/ver/13604/releases/4.7.0/trunk/Code/application/PlugIns/src/PlugInSamplerQt/DemoAlgorithm.h
+END
+OptionsSample.h
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/svnroot/opticks/!svn/ver/13604/releases/4.7.0/trunk/Code/application/PlugIns/src/PlugInSamplerQt/OptionsSample.h
+END
+MouseModeTest.h
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/svnroot/opticks/!svn/ver/13604/releases/4.7.0/trunk/Code/application/PlugIns/src/PlugInSamplerQt/MouseModeTest.h
+END
+DataPlotterPlugIn.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 119
+/svnroot/opticks/!svn/ver/13604/releases/4.7.0/trunk/Code/application/PlugIns/src/PlugInSamplerQt/DataPlotterPlugIn.cpp
+END
+DesktopAPITest.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 116
+/svnroot/opticks/!svn/ver/13604/releases/4.7.0/trunk/Code/application/PlugIns/src/PlugInSamplerQt/DesktopAPITest.cpp
+END
+MouseModeTestGui.h
+K 25
+svn:wc:ra_dav:version-url
+V 116
+/svnroot/opticks/!svn/ver/13604/releases/4.7.0/trunk/Code/application/PlugIns/src/PlugInSamplerQt/MouseModeTestGui.h
+END
+DesktopAPITestGui.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 119
+/svnroot/opticks/!svn/ver/13604/releases/4.7.0/trunk/Code/application/PlugIns/src/PlugInSamplerQt/DesktopAPITestGui.cpp
+END
+SampleGeoref.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 114
+/svnroot/opticks/!svn/ver/13604/releases/4.7.0/trunk/Code/application/PlugIns/src/PlugInSamplerQt/SampleGeoref.cpp
+END
+DataPlotterDlg.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 116
+/svnroot/opticks/!svn/ver/13604/releases/4.7.0/trunk/Code/application/PlugIns/src/PlugInSamplerQt/DataPlotterDlg.cpp
+END
+AnimationTest.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 115
+/svnroot/opticks/!svn/ver/13604/releases/4.7.0/trunk/Code/application/PlugIns/src/PlugInSamplerQt/AnimationTest.cpp
+END
+MouseModePlugIn.h
+K 25
+svn:wc:ra_dav:version-url
+V 115
+/svnroot/opticks/!svn/ver/13604/releases/4.7.0/trunk/Code/application/PlugIns/src/PlugInSamplerQt/MouseModePlugIn.h
+END
+PlotPropertiesDlg.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 119
+/svnroot/opticks/!svn/ver/13604/releases/4.7.0/trunk/Code/application/PlugIns/src/PlugInSamplerQt/PlotPropertiesDlg.cpp
+END
+PixelAspectRatioGui.h
+K 25
+svn:wc:ra_dav:version-url
+V 119
+/svnroot/opticks/!svn/ver/13604/releases/4.7.0/trunk/Code/application/PlugIns/src/PlugInSamplerQt/PixelAspectRatioGui.h
+END
+DemoAlgorithm.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 115
+/svnroot/opticks/!svn/ver/13604/releases/4.7.0/trunk/Code/application/PlugIns/src/PlugInSamplerQt/DemoAlgorithm.cpp
+END
+MultiLayerMovie.h
+K 25
+svn:wc:ra_dav:version-url
+V 115
+/svnroot/opticks/!svn/ver/13604/releases/4.7.0/trunk/Code/application/PlugIns/src/PlugInSamplerQt/MultiLayerMovie.h
+END
+OptionsSample.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 115
+/svnroot/opticks/!svn/ver/13604/releases/4.7.0/trunk/Code/application/PlugIns/src/PlugInSamplerQt/OptionsSample.cpp
+END
+MouseModeTest.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 115
+/svnroot/opticks/!svn/ver/13604/releases/4.7.0/trunk/Code/application/PlugIns/src/PlugInSamplerQt/MouseModeTest.cpp
+END
+MultiMovie.h
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/svnroot/opticks/!svn/ver/13604/releases/4.7.0/trunk/Code/application/PlugIns/src/PlugInSamplerQt/MultiMovie.h
+END
+DataPlotterPlugIn.h
+K 25
+svn:wc:ra_dav:version-url
+V 117
+/svnroot/opticks/!svn/ver/13604/releases/4.7.0/trunk/Code/application/PlugIns/src/PlugInSamplerQt/DataPlotterPlugIn.h
+END
+RasterTimingTest.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 118
+/svnroot/opticks/!svn/ver/13604/releases/4.7.0/trunk/Code/application/PlugIns/src/PlugInSamplerQt/RasterTimingTest.cpp
+END
+CloseNotificationTest.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 123
+/svnroot/opticks/!svn/ver/13604/releases/4.7.0/trunk/Code/application/PlugIns/src/PlugInSamplerQt/CloseNotificationTest.cpp
+END
+DockWindowWidget.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 118
+/svnroot/opticks/!svn/ver/13604/releases/4.7.0/trunk/Code/application/PlugIns/src/PlugInSamplerQt/DockWindowWidget.cpp
+END
+DesktopAPITestGui.h
+K 25
+svn:wc:ra_dav:version-url
+V 117
+/svnroot/opticks/!svn/ver/13604/releases/4.7.0/trunk/Code/application/PlugIns/src/PlugInSamplerQt/DesktopAPITestGui.h
+END
+DataPlotterDlg.h
+K 25
+svn:wc:ra_dav:version-url
+V 114
+/svnroot/opticks/!svn/ver/13604/releases/4.7.0/trunk/Code/application/PlugIns/src/PlugInSamplerQt/DataPlotterDlg.h
+END
+PixelAspectRatioGui.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 121
+/svnroot/opticks/!svn/ver/13604/releases/4.7.0/trunk/Code/application/PlugIns/src/PlugInSamplerQt/PixelAspectRatioGui.cpp
+END
+PlugInSelectorDlg.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 119
+/svnroot/opticks/!svn/ver/13604/releases/4.7.0/trunk/Code/application/PlugIns/src/PlugInSamplerQt/PlugInSelectorDlg.cpp
+END
+PlotPropertiesDlg.h
+K 25
+svn:wc:ra_dav:version-url
+V 117
+/svnroot/opticks/!svn/ver/13604/releases/4.7.0/trunk/Code/application/PlugIns/src/PlugInSamplerQt/PlotPropertiesDlg.h
+END
+MultiLayerMovie.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 117
+/svnroot/opticks/!svn/ver/13604/releases/4.7.0/trunk/Code/application/PlugIns/src/PlugInSamplerQt/MultiLayerMovie.cpp
+END
+AnimationTimingTest.h
+K 25
+svn:wc:ra_dav:version-url
+V 119
+/svnroot/opticks/!svn/ver/13604/releases/4.7.0/trunk/Code/application/PlugIns/src/PlugInSamplerQt/AnimationTimingTest.h
+END
+LogContextMenuActions.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 123
+/svnroot/opticks/!svn/ver/13604/releases/4.7.0/trunk/Code/application/PlugIns/src/PlugInSamplerQt/LogContextMenuActions.cpp
+END
+TiePointTesterAlgorithm.h
+K 25
+svn:wc:ra_dav:version-url
+V 123
+/svnroot/opticks/!svn/ver/13604/releases/4.7.0/trunk/Code/application/PlugIns/src/PlugInSamplerQt/TiePointTesterAlgorithm.h
+END
+MenuAndToolBarTest.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 120
+/svnroot/opticks/!svn/ver/13604/releases/4.7.0/trunk/Code/application/PlugIns/src/PlugInSamplerQt/MenuAndToolBarTest.cpp
+END
+DynamicColormap.ui
+K 25
+svn:wc:ra_dav:version-url
+V 116
+/svnroot/opticks/!svn/ver/13604/releases/4.7.0/trunk/Code/application/PlugIns/src/PlugInSamplerQt/DynamicColormap.ui
+END
+RasterTimingTest.h
+K 25
+svn:wc:ra_dav:version-url
+V 116
+/svnroot/opticks/!svn/ver/13604/releases/4.7.0/trunk/Code/application/PlugIns/src/PlugInSamplerQt/RasterTimingTest.h
+END
+PlotManager.h
+K 25
+svn:wc:ra_dav:version-url
+V 111
+/svnroot/opticks/!svn/ver/13604/releases/4.7.0/trunk/Code/application/PlugIns/src/PlugInSamplerQt/PlotManager.h
+END
+AddPlotDlg.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 112
+/svnroot/opticks/!svn/ver/13604/releases/4.7.0/trunk/Code/application/PlugIns/src/PlugInSamplerQt/AddPlotDlg.cpp
+END
+SampleGeorefGui.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 117
+/svnroot/opticks/!svn/ver/13604/releases/4.7.0/trunk/Code/application/PlugIns/src/PlugInSamplerQt/SampleGeorefGui.cpp
+END
+PixelAspectRatio.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 118
+/svnroot/opticks/!svn/ver/13604/releases/4.7.0/trunk/Code/application/PlugIns/src/PlugInSamplerQt/PixelAspectRatio.cpp
+END
+ModuleManager.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 115
+/svnroot/opticks/!svn/ver/13604/releases/4.7.0/trunk/Code/application/PlugIns/src/PlugInSamplerQt/ModuleManager.cpp
+END
+Modeless.h
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/svnroot/opticks/!svn/ver/13604/releases/4.7.0/trunk/Code/application/PlugIns/src/PlugInSamplerQt/Modeless.h
+END
+DesktopAPITestProperties.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 126
+/svnroot/opticks/!svn/ver/13604/releases/4.7.0/trunk/Code/application/PlugIns/src/PlugInSamplerQt/DesktopAPITestProperties.cpp
+END
+CloseNotificationTest.h
+K 25
+svn:wc:ra_dav:version-url
+V 121
+/svnroot/opticks/!svn/ver/13604/releases/4.7.0/trunk/Code/application/PlugIns/src/PlugInSamplerQt/CloseNotificationTest.h
+END
+DockWindowWidget.h
+K 25
+svn:wc:ra_dav:version-url
+V 116
+/svnroot/opticks/!svn/ver/13604/releases/4.7.0/trunk/Code/application/PlugIns/src/PlugInSamplerQt/DockWindowWidget.h
+END
+TiePointTester.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 116
+/svnroot/opticks/!svn/ver/13604/releases/4.7.0/trunk/Code/application/PlugIns/src/PlugInSamplerQt/TiePointTester.cpp
+END
+MenuAndToolBarTestGui.h
+K 25
+svn:wc:ra_dav:version-url
+V 121
+/svnroot/opticks/!svn/ver/13604/releases/4.7.0/trunk/Code/application/PlugIns/src/PlugInSamplerQt/MenuAndToolBarTestGui.h
+END
+Demo.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/svnroot/opticks/!svn/ver/13604/releases/4.7.0/trunk/Code/application/PlugIns/src/PlugInSamplerQt/Demo.cpp
+END
+AnimationTimingTest.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 121
+/svnroot/opticks/!svn/ver/13604/releases/4.7.0/trunk/Code/application/PlugIns/src/PlugInSamplerQt/AnimationTimingTest.cpp
+END
+TiePointTesterAlgorithm.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 125
+/svnroot/opticks/!svn/ver/13604/releases/4.7.0/trunk/Code/application/PlugIns/src/PlugInSamplerQt/TiePointTesterAlgorithm.cpp
+END
+OptionsSuppressibleMsgDlg.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 127
+/svnroot/opticks/!svn/ver/13604/releases/4.7.0/trunk/Code/application/PlugIns/src/PlugInSamplerQt/OptionsSuppressibleMsgDlg.cpp
+END
+Node.h
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/svnroot/opticks/!svn/ver/13604/releases/4.7.0/trunk/Code/application/PlugIns/src/PlugInSamplerQt/Node.h
+END
+PlugInTester.h
+K 25
+svn:wc:ra_dav:version-url
+V 112
+/svnroot/opticks/!svn/ver/13604/releases/4.7.0/trunk/Code/application/PlugIns/src/PlugInSamplerQt/PlugInTester.h
+END
+TiePointTesterInputs.h
+K 25
+svn:wc:ra_dav:version-url
+V 120
+/svnroot/opticks/!svn/ver/13604/releases/4.7.0/trunk/Code/application/PlugIns/src/PlugInSamplerQt/TiePointTesterInputs.h
+END
+PlugInSelectorDlg.h
+K 25
+svn:wc:ra_dav:version-url
+V 117
+/svnroot/opticks/!svn/ver/13604/releases/4.7.0/trunk/Code/application/PlugIns/src/PlugInSamplerQt/PlugInSelectorDlg.h
+END
+DemoInputs.h
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/svnroot/opticks/!svn/ver/13604/releases/4.7.0/trunk/Code/application/PlugIns/src/PlugInSamplerQt/DemoInputs.h
+END
+PlugInSamplerQt.vcxproj
+K 25
+svn:wc:ra_dav:version-url
+V 121
+/svnroot/opticks/!svn/ver/13604/releases/4.7.0/trunk/Code/application/PlugIns/src/PlugInSamplerQt/PlugInSamplerQt.vcxproj
+END
+LogContextMenuActions.h
+K 25
+svn:wc:ra_dav:version-url
+V 121
+/svnroot/opticks/!svn/ver/13604/releases/4.7.0/trunk/Code/application/PlugIns/src/PlugInSamplerQt/LogContextMenuActions.h
+END
+MouseModeTestGui.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 118
+/svnroot/opticks/!svn/ver/13604/releases/4.7.0/trunk/Code/application/PlugIns/src/PlugInSamplerQt/MouseModeTestGui.cpp
+END
+DemoGuiImp.h
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/svnroot/opticks/!svn/ver/13604/releases/4.7.0/trunk/Code/application/PlugIns/src/PlugInSamplerQt/DemoGuiImp.h
+END
+SConscript
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/svnroot/opticks/!svn/ver/13604/releases/4.7.0/trunk/Code/application/PlugIns/src/PlugInSamplerQt/SConscript
+END
+PlugInSamplerQt.vcxproj.filters
+K 25
+svn:wc:ra_dav:version-url
+V 129
+/svnroot/opticks/!svn/ver/13604/releases/4.7.0/trunk/Code/application/PlugIns/src/PlugInSamplerQt/PlugInSamplerQt.vcxproj.filters
+END
+DesktopAPITest.h
+K 25
+svn:wc:ra_dav:version-url
+V 114
+/svnroot/opticks/!svn/ver/13604/releases/4.7.0/trunk/Code/application/PlugIns/src/PlugInSamplerQt/DesktopAPITest.h
+END
+PlotManager.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/svnroot/opticks/!svn/ver/13604/releases/4.7.0/trunk/Code/application/PlugIns/src/PlugInSamplerQt/PlotManager.cpp
+END
+Modeless.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/svnroot/opticks/!svn/ver/13604/releases/4.7.0/trunk/Code/application/PlugIns/src/PlugInSamplerQt/Modeless.cpp
+END
+MouseModePlugIn.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 117
+/svnroot/opticks/!svn/ver/13604/releases/4.7.0/trunk/Code/application/PlugIns/src/PlugInSamplerQt/MouseModePlugIn.cpp
+END
+SampleGeoref.h
+K 25
+svn:wc:ra_dav:version-url
+V 112
+/svnroot/opticks/!svn/ver/13604/releases/4.7.0/trunk/Code/application/PlugIns/src/PlugInSamplerQt/SampleGeoref.h
+END
+MenuAndToolBarTestGui.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 123
+/svnroot/opticks/!svn/ver/13604/releases/4.7.0/trunk/Code/application/PlugIns/src/PlugInSamplerQt/MenuAndToolBarTestGui.cpp
+END
+MenuAndToolBarTest.h
+K 25
+svn:wc:ra_dav:version-url
+V 118
+/svnroot/opticks/!svn/ver/13604/releases/4.7.0/trunk/Code/application/PlugIns/src/PlugInSamplerQt/MenuAndToolBarTest.h
+END
+AddPlotDlg.h
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/svnroot/opticks/!svn/ver/13604/releases/4.7.0/trunk/Code/application/PlugIns/src/PlugInSamplerQt/AddPlotDlg.h
+END
+SampleGeorefGui.h
+K 25
+svn:wc:ra_dav:version-url
+V 115
+/svnroot/opticks/!svn/ver/13604/releases/4.7.0/trunk/Code/application/PlugIns/src/PlugInSamplerQt/SampleGeorefGui.h
+END
+AnimationTest.h
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/svnroot/opticks/!svn/ver/13604/releases/4.7.0/trunk/Code/application/PlugIns/src/PlugInSamplerQt/AnimationTest.h
+END
+PixelAspectRatio.h
+K 25
+svn:wc:ra_dav:version-url
+V 116
+/svnroot/opticks/!svn/ver/13604/releases/4.7.0/trunk/Code/application/PlugIns/src/PlugInSamplerQt/PixelAspectRatio.h
+END
+DesktopAPITestProperties.h
+K 25
+svn:wc:ra_dav:version-url
+V 124
+/svnroot/opticks/!svn/ver/13604/releases/4.7.0/trunk/Code/application/PlugIns/src/PlugInSamplerQt/DesktopAPITestProperties.h
+END
+PlugInTester.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 114
+/svnroot/opticks/!svn/ver/13604/releases/4.7.0/trunk/Code/application/PlugIns/src/PlugInSamplerQt/PlugInTester.cpp
+END
+TiePointTester.h
+K 25
+svn:wc:ra_dav:version-url
+V 114
+/svnroot/opticks/!svn/ver/13604/releases/4.7.0/trunk/Code/application/PlugIns/src/PlugInSamplerQt/TiePointTester.h
+END
+Demo.h
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/svnroot/opticks/!svn/ver/13604/releases/4.7.0/trunk/Code/application/PlugIns/src/PlugInSamplerQt/Demo.h
+END
+MultiMovie.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 112
+/svnroot/opticks/!svn/ver/13604/releases/4.7.0/trunk/Code/application/PlugIns/src/PlugInSamplerQt/MultiMovie.cpp
+END

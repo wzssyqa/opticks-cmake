@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<CatapultSkin Version="1" Title="Opticks Help" Top="5%" Left="5%" Width="90%" Height="90%" Tabs="TOC,Index,Search,Glossary">
+    <Toc LinesBetweenItems="True" LinesFromRoot="False" SingleClick="False" PlusMinusSquares="False" AlwaysShowSelection="False" UseFolderIcons="False" ImageListWidth="16" BinaryStorage="False" />
+    <Stylesheet>
+        <Styles>
+            <Style Name="ToolbarItem">
+                <Classes>
+                    <StyleClass Name="Logo">
+                        <Properties>
+                            <Property Name="Icon">none</Property>
+                        </Properties>
+                    </StyleClass>
+                </Classes>
+            </Style>
+        </Styles>
+    </Stylesheet>
+</CatapultSkin>

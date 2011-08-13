@@ -1,0 +1,149 @@
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svnroot/opticks/!svn/ver/13604/releases/4.7.0/trunk/Code/CubeCreator/tclap
+END
+SwitchArg.h
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svnroot/opticks/!svn/ver/13604/releases/4.7.0/trunk/Code/CubeCreator/tclap/SwitchArg.h
+END
+Makefile.in
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svnroot/opticks/!svn/ver/13604/releases/4.7.0/trunk/Code/CubeCreator/tclap/Makefile.in
+END
+CmdLineOutput.h
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svnroot/opticks/!svn/ver/13604/releases/4.7.0/trunk/Code/CubeCreator/tclap/CmdLineOutput.h
+END
+CmdLineInterface.h
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svnroot/opticks/!svn/ver/13604/releases/4.7.0/trunk/Code/CubeCreator/tclap/CmdLineInterface.h
+END
+Visitor.h
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svnroot/opticks/!svn/ver/13604/releases/4.7.0/trunk/Code/CubeCreator/tclap/Visitor.h
+END
+UnlabeledMultiArg.h
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svnroot/opticks/!svn/ver/13604/releases/4.7.0/trunk/Code/CubeCreator/tclap/UnlabeledMultiArg.h
+END
+IgnoreRestVisitor.h
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svnroot/opticks/!svn/ver/13604/releases/4.7.0/trunk/Code/CubeCreator/tclap/IgnoreRestVisitor.h
+END
+DocBookOutput.h
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svnroot/opticks/!svn/ver/13604/releases/4.7.0/trunk/Code/CubeCreator/tclap/DocBookOutput.h
+END
+ValuesConstraint.h
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svnroot/opticks/!svn/ver/13604/releases/4.7.0/trunk/Code/CubeCreator/tclap/ValuesConstraint.h
+END
+VersionVisitor.h
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svnroot/opticks/!svn/ver/13604/releases/4.7.0/trunk/Code/CubeCreator/tclap/VersionVisitor.h
+END
+MultiSwitchArg.h
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svnroot/opticks/!svn/ver/13604/releases/4.7.0/trunk/Code/CubeCreator/tclap/MultiSwitchArg.h
+END
+ValueArg.h
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svnroot/opticks/!svn/ver/13604/releases/4.7.0/trunk/Code/CubeCreator/tclap/ValueArg.h
+END
+XorHandler.h
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svnroot/opticks/!svn/ver/13604/releases/4.7.0/trunk/Code/CubeCreator/tclap/XorHandler.h
+END
+HelpVisitor.h
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svnroot/opticks/!svn/ver/13604/releases/4.7.0/trunk/Code/CubeCreator/tclap/HelpVisitor.h
+END
+Arg.h
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svnroot/opticks/!svn/ver/13604/releases/4.7.0/trunk/Code/CubeCreator/tclap/Arg.h
+END
+StdOutput.h
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svnroot/opticks/!svn/ver/13604/releases/4.7.0/trunk/Code/CubeCreator/tclap/StdOutput.h
+END
+CmdLine.h
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svnroot/opticks/!svn/ver/13604/releases/4.7.0/trunk/Code/CubeCreator/tclap/CmdLine.h
+END
+OptionalUnlabeledTracker.h
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/svnroot/opticks/!svn/ver/13604/releases/4.7.0/trunk/Code/CubeCreator/tclap/OptionalUnlabeledTracker.h
+END
+COPYING
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svnroot/opticks/!svn/ver/13604/releases/4.7.0/trunk/Code/CubeCreator/tclap/COPYING
+END
+UnlabeledValueArg.h
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svnroot/opticks/!svn/ver/13604/releases/4.7.0/trunk/Code/CubeCreator/tclap/UnlabeledValueArg.h
+END
+Makefile.am
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svnroot/opticks/!svn/ver/13604/releases/4.7.0/trunk/Code/CubeCreator/tclap/Makefile.am
+END
+MultiArg.h
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svnroot/opticks/!svn/ver/13604/releases/4.7.0/trunk/Code/CubeCreator/tclap/MultiArg.h
+END
+Constraint.h
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svnroot/opticks/!svn/ver/13604/releases/4.7.0/trunk/Code/CubeCreator/tclap/Constraint.h
+END
+ArgException.h
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svnroot/opticks/!svn/ver/13604/releases/4.7.0/trunk/Code/CubeCreator/tclap/ArgException.h
+END

@@ -1,0 +1,138 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<CatapultGlossary>
+  <GlossaryEntry>
+    <Terms>
+      <Term>AOI</Term>
+    </Terms>
+    <Definition>Area Of Interest</Definition>
+  </GlossaryEntry>
+  <GlossaryEntry>
+    <Terms>
+      <Term>ASPAM</Term>
+    </Terms>
+    <Definition>Atmospheric Slant Path Analysis Model</Definition>
+  </GlossaryEntry>
+  <GlossaryEntry>
+    <Terms>
+      <Term>DEM</Term>
+    </Terms>
+    <Definition>Digital Elevation Map</Definition>
+  </GlossaryEntry>
+  <GlossaryEntry>
+    <Terms>
+      <Term>ENVI</Term>
+    </Terms>
+    <Definition>ENvironment for Visualizing Images</Definition>
+  </GlossaryEntry>
+  <GlossaryEntry>
+    <Terms>
+      <Term>GCP</Term>
+    </Terms>
+    <Definition>Ground Control Point</Definition>
+  </GlossaryEntry>
+  <GlossaryEntry>
+    <Terms>
+      <Term>GeoTIFF</Term>
+    </Terms>
+    <Definition>Georeference Tagged Image File Format</Definition>
+  </GlossaryEntry>
+  <GlossaryEntry>
+    <Terms>
+      <Term>GIS</Term>
+    </Terms>
+    <Definition>Geographic Information System</Definition>
+  </GlossaryEntry>
+  <GlossaryEntry>
+    <Terms>
+      <Term>JPEG</Term>
+      <Term>JPG</Term>
+    </Terms>
+    <Definition>Joint Photographic Experts Group</Definition>
+  </GlossaryEntry>
+  <GlossaryEntry>
+    <Terms>
+      <Term>MGRS</Term>
+    </Terms>
+    <Definition>Military Grid Reference System</Definition>
+  </GlossaryEntry>
+  <GlossaryEntry>
+    <Terms>
+      <Term>NITF</Term>
+    </Terms>
+    <Definition>National Imagery Transmission Format</Definition>
+  </GlossaryEntry>
+  <GlossaryEntry>
+    <Terms>
+      <Term>PCA</Term>
+    </Terms>
+    <Definition>Principal Component Analysis</Definition>
+  </GlossaryEntry>
+  <GlossaryEntry>
+    <Terms>
+      <Term>PNG</Term>
+    </Terms>
+    <Definition>Portable Network Graphic</Definition>
+  </GlossaryEntry>
+  <GlossaryEntry>
+    <Terms>
+      <Term>RGB</Term>
+    </Terms>
+    <Definition>Red-Green-Blue</Definition>
+  </GlossaryEntry>
+  <GlossaryEntry>
+    <Terms>
+      <Term>ROI</Term>
+    </Terms>
+    <Definition>Region of Interest</Definition>
+  </GlossaryEntry>
+  <GlossaryEntry>
+    <Terms>
+      <Term>RPC</Term>
+    </Terms>
+    <Definition>Rapid Positioning Coefficient</Definition>
+  </GlossaryEntry>
+  <GlossaryEntry>
+    <Terms>
+      <Term>signature</Term>
+    </Terms>
+    <Definition>A signature is a distinctive mark or characteristic indicating the identity of a target.</Definition>
+  </GlossaryEntry>
+  <GlossaryEntry>
+    <Terms>
+      <Term>TIFF</Term>
+    </Terms>
+    <Definition>Tagged Image File Format</Definition>
+  </GlossaryEntry>
+  <GlossaryEntry>
+    <Terms>
+      <Term>UTM</Term>
+    </Terms>
+    <Definition>Universal Transverse Mercator</Definition>
+  </GlossaryEntry>
+  <GlossaryEntry>
+    <Terms>
+      <Term>NIR</Term>
+    </Terms>
+    <Definition>Near Infrared</Definition>
+  </GlossaryEntry>
+  <GlossaryEntry>
+    <Terms>
+      <Term>SWIR</Term>
+    </Terms>
+    <Definition>Short-wave Infrared</Definition>
+  </GlossaryEntry>
+  <GlossaryEntry>
+    <Terms>
+      <Term>AVI</Term>
+    </Terms>
+    <Definition
+      Link="">Audio Video Interleaved</Definition>
+  </GlossaryEntry>
+  <GlossaryEntry>
+    <Terms>
+      <Term>MPEG</Term>
+    </Terms>
+    <Definition
+      Link="">Moving Picture Experts Group</Definition>
+  </GlossaryEntry>
+</CatapultGlossary>

@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" MadCap:lastBlockDepth="4" MadCap:lastHeight="696" MadCap:lastWidth="484">
+    <head>
+    </head>
+    <body>
+        <ol>
+            <li class="BodyText">In the <b>Rows</b> area, select the Start Row, the End Row, and Skip Factor.</li>
+            <li class="BodyText">In the <b>Columns</b> area, select the Start Column, the End Column, and the Skip Factor. </li>
+            <li class="BodyText">In the <b>Bands</b> area, select the bands you want to use. If you want to customize the selection, click the <b>Custom Selection...</b> button.</li>
+        </ol>
+        <h2>Custom Selection</h2>
+        <p class="BodyText">
+            <img src="../Images/Band_Selection_Options.gif" />
+        </p>
+        <ol>
+            <li>Select the <b>Subset</b> or <b>Bad Bands File</b> radio button to customize the subset selection.</li>
+        </ol>
+        <p class="BodyTextIndent">If you select Subset, select the <i style="font-style: normal;font-weight: bold;">Start Band</i> and <b>End Band</b> from the drop-down lists. Type or use the arrow buttons to select the <b>Skip Factor</b>.</p>
+        <ol MadCap:continue="true">
+            <li>If you select the Bad Bands File, browse to and select the file you want to use.</li>
+            <li class="BodyText">After you finish your selections, click <b>OK</b>.</li>
+        </ol>
+    </body>
+</html>

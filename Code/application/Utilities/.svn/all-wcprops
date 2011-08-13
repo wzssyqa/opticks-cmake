@@ -1,0 +1,389 @@
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svnroot/opticks/!svn/ver/13604/releases/4.7.0/trunk/Code/application/Utilities
+END
+ImportAgentAdapter.h
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/svnroot/opticks/!svn/ver/13604/releases/4.7.0/trunk/Code/application/Utilities/ImportAgentAdapter.h
+END
+MessageLogImp.h
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svnroot/opticks/!svn/ver/13604/releases/4.7.0/trunk/Code/application/Utilities/MessageLogImp.h
+END
+MessageLogMgrImp.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/svnroot/opticks/!svn/ver/13604/releases/4.7.0/trunk/Code/application/Utilities/MessageLogMgrImp.cpp
+END
+DateTimeImp.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svnroot/opticks/!svn/ver/13604/releases/4.7.0/trunk/Code/application/Utilities/DateTimeImp.cpp
+END
+ThreadSafeProgressImp.h
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/svnroot/opticks/!svn/ver/13604/releases/4.7.0/trunk/Code/application/Utilities/ThreadSafeProgressImp.h
+END
+MruFile.h
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svnroot/opticks/!svn/ver/13604/releases/4.7.0/trunk/Code/application/Utilities/MruFile.h
+END
+ExecutableAgentImp.h
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/svnroot/opticks/!svn/ver/13604/releases/4.7.0/trunk/Code/application/Utilities/ExecutableAgentImp.h
+END
+UtilityServicesImp.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/svnroot/opticks/!svn/ver/13604/releases/4.7.0/trunk/Code/application/Utilities/UtilityServicesImp.cpp
+END
+ApplicationServicesImp.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/svnroot/opticks/!svn/ver/13604/releases/4.7.0/trunk/Code/application/Utilities/ApplicationServicesImp.cpp
+END
+ProgressImp.h
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svnroot/opticks/!svn/ver/13604/releases/4.7.0/trunk/Code/application/Utilities/ProgressImp.h
+END
+GeocoordLinkFunctor.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/svnroot/opticks/!svn/ver/13604/releases/4.7.0/trunk/Code/application/Utilities/GeocoordLinkFunctor.cpp
+END
+SerializableImp.h
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/svnroot/opticks/!svn/ver/13604/releases/4.7.0/trunk/Code/application/Utilities/SerializableImp.h
+END
+Utilities.vcxproj
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/svnroot/opticks/!svn/ver/13604/releases/4.7.0/trunk/Code/application/Utilities/Utilities.vcxproj
+END
+ImportDescriptorImp.h
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/svnroot/opticks/!svn/ver/13604/releases/4.7.0/trunk/Code/application/Utilities/ImportDescriptorImp.h
+END
+FilenameImp.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svnroot/opticks/!svn/ver/13604/releases/4.7.0/trunk/Code/application/Utilities/FilenameImp.cpp
+END
+SessionManagerImp.h
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/svnroot/opticks/!svn/ver/13604/releases/4.7.0/trunk/Code/application/Utilities/SessionManagerImp.h
+END
+Utilities.vcxproj.filters
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/svnroot/opticks/!svn/ver/13604/releases/4.7.0/trunk/Code/application/Utilities/Utilities.vcxproj.filters
+END
+SettableSessionItemAdapter.h
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/svnroot/opticks/!svn/ver/13604/releases/4.7.0/trunk/Code/application/Utilities/SettableSessionItemAdapter.h
+END
+ThreadSafeProgressImp.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/svnroot/opticks/!svn/ver/13604/releases/4.7.0/trunk/Code/application/Utilities/ThreadSafeProgressImp.cpp
+END
+DataVariantFactoryImp.h
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/svnroot/opticks/!svn/ver/13604/releases/4.7.0/trunk/Code/application/Utilities/DataVariantFactoryImp.h
+END
+MruFile.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svnroot/opticks/!svn/ver/13604/releases/4.7.0/trunk/Code/application/Utilities/MruFile.cpp
+END
+ImportAgentImp.h
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svnroot/opticks/!svn/ver/13604/releases/4.7.0/trunk/Code/application/Utilities/ImportAgentImp.h
+END
+MessageLogMgrImp.h
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/svnroot/opticks/!svn/ver/13604/releases/4.7.0/trunk/Code/application/Utilities/MessageLogMgrImp.h
+END
+DateTimeImp.h
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svnroot/opticks/!svn/ver/13604/releases/4.7.0/trunk/Code/application/Utilities/DateTimeImp.h
+END
+SessionItemImp.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/svnroot/opticks/!svn/ver/13604/releases/4.7.0/trunk/Code/application/Utilities/SessionItemImp.cpp
+END
+ImportDescriptorImp.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/svnroot/opticks/!svn/ver/13604/releases/4.7.0/trunk/Code/application/Utilities/ImportDescriptorImp.cpp
+END
+DynamicObjectAdapter.h
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/svnroot/opticks/!svn/ver/13604/releases/4.7.0/trunk/Code/application/Utilities/DynamicObjectAdapter.h
+END
+GeocoordLinkFunctor.h
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/svnroot/opticks/!svn/ver/13604/releases/4.7.0/trunk/Code/application/Utilities/GeocoordLinkFunctor.h
+END
+SettableSessionItemAdapter.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/svnroot/opticks/!svn/ver/13604/releases/4.7.0/trunk/Code/application/Utilities/SettableSessionItemAdapter.cpp
+END
+FilenameImp.h
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svnroot/opticks/!svn/ver/13604/releases/4.7.0/trunk/Code/application/Utilities/FilenameImp.h
+END
+ConfigurationSettingsImp.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/svnroot/opticks/!svn/ver/13604/releases/4.7.0/trunk/Code/application/Utilities/ConfigurationSettingsImp.cpp
+END
+ImportAgentImp.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/svnroot/opticks/!svn/ver/13604/releases/4.7.0/trunk/Code/application/Utilities/ImportAgentImp.cpp
+END
+SessionItemSerializerImp.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/svnroot/opticks/!svn/ver/13604/releases/4.7.0/trunk/Code/application/Utilities/SessionItemSerializerImp.cpp
+END
+ObjectFactoryImp.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/svnroot/opticks/!svn/ver/13604/releases/4.7.0/trunk/Code/application/Utilities/ObjectFactoryImp.cpp
+END
+ExportAgentAdapter.h
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/svnroot/opticks/!svn/ver/13604/releases/4.7.0/trunk/Code/application/Utilities/ExportAgentAdapter.h
+END
+ExportAgentImp.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/svnroot/opticks/!svn/ver/13604/releases/4.7.0/trunk/Code/application/Utilities/ExportAgentImp.cpp
+END
+SessionItemImp.h
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svnroot/opticks/!svn/ver/13604/releases/4.7.0/trunk/Code/application/Utilities/SessionItemImp.h
+END
+SessionItemDeserializerImp.h
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/svnroot/opticks/!svn/ver/13604/releases/4.7.0/trunk/Code/application/Utilities/SessionItemDeserializerImp.h
+END
+FileFinderImp.h
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svnroot/opticks/!svn/ver/13604/releases/4.7.0/trunk/Code/application/Utilities/FileFinderImp.h
+END
+DynamicObjectImp.h
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/svnroot/opticks/!svn/ver/13604/releases/4.7.0/trunk/Code/application/Utilities/DynamicObjectImp.h
+END
+MessageLogAdapter.h
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/svnroot/opticks/!svn/ver/13604/releases/4.7.0/trunk/Code/application/Utilities/MessageLogAdapter.h
+END
+MessageLogImp.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/svnroot/opticks/!svn/ver/13604/releases/4.7.0/trunk/Code/application/Utilities/MessageLogImp.cpp
+END
+ThreadSafeProgressAdapter.h
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/svnroot/opticks/!svn/ver/13604/releases/4.7.0/trunk/Code/application/Utilities/ThreadSafeProgressAdapter.h
+END
+WavelengthsImp.h
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svnroot/opticks/!svn/ver/13604/releases/4.7.0/trunk/Code/application/Utilities/WavelengthsImp.h
+END
+ConfigurationSettingsImp.h
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/svnroot/opticks/!svn/ver/13604/releases/4.7.0/trunk/Code/application/Utilities/ConfigurationSettingsImp.h
+END
+SConscript
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svnroot/opticks/!svn/ver/13604/releases/4.7.0/trunk/Code/application/Utilities/SConscript
+END
+ExecutableAgentImp.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/svnroot/opticks/!svn/ver/13604/releases/4.7.0/trunk/Code/application/Utilities/ExecutableAgentImp.cpp
+END
+ExecutableAgentAdapter.h
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/svnroot/opticks/!svn/ver/13604/releases/4.7.0/trunk/Code/application/Utilities/ExecutableAgentAdapter.h
+END
+SessionItemSerializerImp.h
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/svnroot/opticks/!svn/ver/13604/releases/4.7.0/trunk/Code/application/Utilities/SessionItemSerializerImp.h
+END
+ObjectFactoryImp.h
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/svnroot/opticks/!svn/ver/13604/releases/4.7.0/trunk/Code/application/Utilities/ObjectFactoryImp.h
+END
+ProgressImp.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svnroot/opticks/!svn/ver/13604/releases/4.7.0/trunk/Code/application/Utilities/ProgressImp.cpp
+END
+ProgressAdapter.h
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/svnroot/opticks/!svn/ver/13604/releases/4.7.0/trunk/Code/application/Utilities/ProgressAdapter.h
+END
+SessionItemDeserializerImp.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/svnroot/opticks/!svn/ver/13604/releases/4.7.0/trunk/Code/application/Utilities/SessionItemDeserializerImp.cpp
+END
+ExportAgentImp.h
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svnroot/opticks/!svn/ver/13604/releases/4.7.0/trunk/Code/application/Utilities/ExportAgentImp.h
+END
+SerializableImp.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/svnroot/opticks/!svn/ver/13604/releases/4.7.0/trunk/Code/application/Utilities/SerializableImp.cpp
+END
+DataValueWrapper.h
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/svnroot/opticks/!svn/ver/13604/releases/4.7.0/trunk/Code/application/Utilities/DataValueWrapper.h
+END
+FileFinderImp.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/svnroot/opticks/!svn/ver/13604/releases/4.7.0/trunk/Code/application/Utilities/FileFinderImp.cpp
+END
+DynamicObjectImp.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/svnroot/opticks/!svn/ver/13604/releases/4.7.0/trunk/Code/application/Utilities/DynamicObjectImp.cpp
+END
+UtilityServicesImp.h
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/svnroot/opticks/!svn/ver/13604/releases/4.7.0/trunk/Code/application/Utilities/UtilityServicesImp.h
+END
+ApplicationServicesImp.h
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/svnroot/opticks/!svn/ver/13604/releases/4.7.0/trunk/Code/application/Utilities/ApplicationServicesImp.h
+END
+SessionManagerImp.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/svnroot/opticks/!svn/ver/13604/releases/4.7.0/trunk/Code/application/Utilities/SessionManagerImp.cpp
+END
+MessageLogAdapter.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/svnroot/opticks/!svn/ver/13604/releases/4.7.0/trunk/Code/application/Utilities/MessageLogAdapter.cpp
+END
+DataVariantFactoryImp.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/svnroot/opticks/!svn/ver/13604/releases/4.7.0/trunk/Code/application/Utilities/DataVariantFactoryImp.cpp
+END
+WavelengthsImp.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/svnroot/opticks/!svn/ver/13604/releases/4.7.0/trunk/Code/application/Utilities/WavelengthsImp.cpp
+END

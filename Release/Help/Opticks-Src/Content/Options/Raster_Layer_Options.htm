@@ -1,0 +1,150 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" class="" MadCap:lastBlockDepth="5" MadCap:lastHeight="2259" MadCap:lastWidth="1438">
+    <head><title>Raster Layer Options</title>
+        <link href="../Opticks_Styles.css" rel="stylesheet" type="text/css" />
+        <link href="../Resources/TableStyles/Information.css" rel="stylesheet" MadCap:stylesheetType="table" />
+    </head>
+    <body>
+        <h1>Raster Layer Options</h1>
+        <p class="BodyText">
+            <MadCap:keyword term="raster layer options" />Use the Raster Layer Options to set the default options for the raster layer.</p>
+        <MadCap:snippetBlock src="../Resources/Snippets/Default_Options.flsnp" />
+        <p class="BodyText"><b>To open the Raster layer options:</b>
+        </p>
+        <ol>
+            <li class="NumberList">On the Opticks Main Application Window, go to the <b>Tools</b> menu and select <b>Options...</b>.</li>
+            <li class="NumberList">In the structure tree on the left side of the Options window, click the plus sign (+) next to Layers to display a list of layers. Click <b>Raster</b>.</li>
+            <li style="margin-top: 7pt;margin-bottom: 7pt;">Select the option properties you want to use. There are four general groups of option properties: default image, default RGB stretch, default grayscale stretch, and color composites.</li>
+            <li style="margin-top: 7pt;margin-bottom: 7pt;">When finished, click <b>OK</b> to accept the selected options.</li>
+        </ol>
+        <p class="BodyTextIndent">Click Cancel to cancel the changes.</p>
+        <p class="BodyText">
+            <img src="../Resources/Images/Options_Layers_Raster.gif" />
+        </p>
+        <h2>Default Image Properties</h2>
+        <ul style="list-style-type: square;">
+            <li class="BodyText"><b>Complex Component.</b> <![CDATA[ ]]><span style="background-color: #ffffff;">This option controls how data is generated for complex components. The options are magnitude, phase, in phase (real data), and quadrature (imaginary data).</span></li>
+            <li class="BodyText"><b>Enable Dynamic Texture Generation</b>. This enables you to generate an image in real time. You can only use this option if your graphics card supports it. You should select it only if you know you need it.</li>
+            <li class="BodyText"><b>Fast Contrast</b>.</li>
+            <li class="BodyText"><b>Background Tile Generation</b>. This option enables you to generate textures in the background. This option is only useful if you can allow it to run for long periods without doing anything else on your PC.</li>
+        </ul>
+        <h2 class="BodyText">Default RGB Stretch</h2>
+        <p class="BodyText"><b style="font-weight: normal;"><span style="font-family: Verdana;"><span style="font-size: 10pt;">These options apply to the stretch values of RGB histograms.</span></span></b>
+        </p>
+        <ul style="list-style-type: square;">
+            <li style="margin-top: 9pt;margin-bottom: 9pt;"><span style="font-weight: bold;">Lower and Upper 
+ Values</span>. The stretch values are the range of values the stretch 
+ is mapped over. You can enter the Lower and Upper values for each band. The meaning is dependent on the stretch units.</li>
+            <li style="margin-top: 9pt;margin-bottom: 9pt;"><b>Units.</b> Use the drop-down list to select the stretch units. The stretch units determines the meaning of the numbers 
+ displayed in the “stretch values” field. Stretch units are applied by band (for RGB there is one for red, one for green, and one for blue).&#160;</li>
+        </ul>
+        <blockquote>
+            <ul>
+                <li style="margin-top: 9pt;margin-bottom: 9pt;"><span style="font-weight: bold;">Raw</span>. 
+ The numbers reflect the same units as the raster data. For example, 
+ if the data cube is in reflectance scaled from 0–10,000, the stretch values 
+ will correspond directly to these 0-10,000 values.</li>
+                <li style="margin-top: 9pt;margin-bottom: 9pt;"><span style="font-weight: bold;">Percentage</span>. 
+ The stretch values are represented in terms of their position relative 
+ to the maximum and minimum raw values in the data set.</li>
+                <li style="margin-top: 9pt;margin-bottom: 9pt;"><span style="font-weight: bold;">Percentile</span>. 
+ The stretch values are represented in terms of their percentile within 
+ the data set. For example, a stretch value that is higher than half the 
+ data values in the cube and lower than the other half is represented as 
+ “50.” A value that is higher than 75% of the data and lower than the other 
+ 25% is represented as “75.”</li>
+                <li style="margin-top: 9pt;margin-bottom: 9pt;"><span style="font-weight: bold;">Standard 
+ Deviation</span>. The stretch values are represented in terms of how many 
+ standard deviations they are from the average data value in the cube. 
+ A negative value indicates a stretch value that is less than the average 
+ and a positive value indicates a stretch value greater than the average.</li>
+            </ul>
+        </blockquote>
+        <ul style="list-style-type: square;">
+            <li style="margin-top: 9pt;margin-bottom: 9pt;"><span style="font-weight: bold;">Type</span> Use the drop-down list to select the stretch type. This applies to the entire display.</li>
+        </ul>
+        <p>
+            <ul>
+                <li style="font-weight: normal;margin-left: 25px;margin-top: 9pt;margin-bottom: 9pt;"><span style="font-weight: bold;">Linear</span>. 
+ The stretch is linear from the lower stretch value to the upper one. A 
+ value halfway from the lower to the upper (at the median of the two values) 
+ is shaded at 50% brightness.</li>
+                <li class="BodyText" style="margin-left: 25px;margin-top: 9pt;margin-bottom: 9pt;"><span style="font-weight: bold;">Exponential</span>. 
+ The contrast stretch is exponential in shape from the lower to upper value. 
+ This has the effect of suppressing weaker/darker features in the image 
+ and accentuating the brighter ones.</li>
+                <li class="BodyText" style="margin-left: 25px;margin-top: 9pt;margin-bottom: 9pt;"><span style="font-weight: bold;">Logarithmic</span>. 
+ The contrast stretch is logarithmic in shape from the lower to the upper 
+ value. This has the effect of accentuating the weaker/darker features 
+ of the image.</li>
+                <li class="BodyText" style="margin-left: 25px;margin-top: 9pt;margin-bottom: 9pt;"><span style="font-weight: bold;">Histogram 
+ Equalization</span>. Sets the raster layer to an equalized histogram contrast 
+ stretch. Every display value (0-255) has an equal number of pixels.</li>
+            </ul>
+        </p>
+        <ul style="list-style-type: square;">
+            <li><b>Favorites</b>. Select, add, or remove favorites based on selected values.</li>
+        </ul>
+        <h2 class="BodyText">Default Grayscale Stretch</h2>
+        <p class="BodyText"><b style="font-weight: normal;"><span style="font-family: Verdana;"><span style="font-size: 10pt;">These options apply to the stretch values of grayscale histograms.</span></span></b>
+        </p>
+        <ul style="list-style-type: square;">
+            <li style="margin-top: 9pt;margin-bottom: 9pt;"><span style="font-weight: bold;">Lower and Upper 
+ Values</span>. The stretch values are the range of values the stretch 
+ is mapped over. You can enter the Lower and Upper values for each band. The meaning is dependent on the stretch units.</li>
+            <li style="margin-top: 9pt;margin-bottom: 9pt;"><b>Units.</b> Use the drop-down list to select the stretch units. The stretch units determines the meaning of the numbers 
+ displayed in the “stretch values” field. Stretch units are applied by band (for RGB there is one for red, one for green, and one for blue).&#160;</li>
+        </ul>
+        <blockquote>
+            <ul>
+                <li style="margin-top: 9pt;margin-bottom: 9pt;"><span style="font-weight: bold;">Raw</span>. 
+ The numbers reflect the same units as the raster data. For example, 
+ if the data cube is in reflectance scaled from 0–10,000, the stretch values 
+ will correspond directly to these 0-10,000 values.</li>
+                <li style="margin-top: 9pt;margin-bottom: 9pt;"><span style="font-weight: bold;">Percentage</span>. 
+ The stretch values are represented in terms of their position relative 
+ to the maximum and minimum raw values in the data set.</li>
+                <li style="margin-top: 9pt;margin-bottom: 9pt;"><span style="font-weight: bold;">Percentile</span>. 
+ The stretch values are represented in terms of their percentile within 
+ the data set. For example, a stretch value that is higher than half the 
+ data values in the cube and lower than the other half is represented as 
+ “50.” A value that is higher than 75% of the data and lower than the other 
+ 25% is represented as “75.”</li>
+                <li style="margin-top: 9pt;margin-bottom: 9pt;"><span style="font-weight: bold;">Standard 
+ Deviation</span>. The stretch values are represented in terms of how many 
+ standard deviations they are from the average data value in the cube. 
+ A negative value indicates a stretch value that is less than the average 
+ and a positive value indicates a stretch value greater than the average.</li>
+            </ul>
+        </blockquote>
+        <ul style="list-style-type: square;">
+            <li style="margin-top: 9pt;margin-bottom: 9pt;"><span style="font-weight: bold;">Type</span> Use the drop-down list to select the stretch type. This applies to the entire display.</li>
+        </ul>
+        <p>
+            <ul>
+                <li style="font-weight: normal;margin-left: 25px;margin-top: 9pt;margin-bottom: 9pt;"><span style="font-weight: bold;">Linear</span>. 
+ The stretch is linear from the lower stretch value to the upper one. A 
+ value halfway from the lower to the upper (at the median of the two values) 
+ is shaded at 50% brightness.</li>
+                <li class="BodyText" style="margin-left: 25px;margin-top: 9pt;margin-bottom: 9pt;"><span style="font-weight: bold;">Exponential</span>. 
+ The contrast stretch is exponential in shape from the lower to upper value. 
+ This has the effect of suppressing weaker/darker features in the image 
+ and accentuating the brighter ones.</li>
+                <li class="BodyText" style="margin-left: 25px;margin-top: 9pt;margin-bottom: 9pt;"><span style="font-weight: bold;">Logarithmic</span>. 
+ The contrast stretch is logarithmic in shape from the lower to the upper 
+ value. This has the effect of accentuating the weaker/darker features 
+ of the image.</li>
+                <li class="BodyText" style="margin-left: 25px;margin-top: 9pt;margin-bottom: 9pt;"><span style="font-weight: bold;">Histogram 
+ Equalization</span>. Sets the raster layer to an equalized histogram contrast 
+ stretch. Every display value (0-255) has an equal number of pixels.</li>
+            </ul>
+        </p>
+        <ul style="list-style-type: square;">
+            <li><b>Favorites</b>. Select, add, or remove favorites based on selected values.</li>
+        </ul>
+        <h2>Color Composites</h2>
+        <p class="BodyText">Opticks provides three predefined color composites for image display: <MadCap:glossaryTerm>NIR</MadCap:glossaryTerm>, <MadCap:glossaryTerm>SWIR</MadCap:glossaryTerm>, and True Color. </p>
+        <p class="BodyText">You can customize these composites. You can also create new composites. For more information, see <a href="../View/Color_Composites.htm">Color Composites</a>.</p>
+        <p class="BodyText">&#160;</p>
+    </body>
+</html>

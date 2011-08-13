@@ -1,0 +1,41 @@
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svnroot/opticks/!svn/ver/13604/releases/4.7.0/trunk/Code/application/ArcProxyLib
+END
+ArcProxyLib.vcxproj.filters
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/svnroot/opticks/!svn/ver/13604/releases/4.7.0/trunk/Code/application/ArcProxyLib/ArcProxyLib.vcxproj.filters
+END
+Feature.h
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svnroot/opticks/!svn/ver/13604/releases/4.7.0/trunk/Code/application/ArcProxyLib/Feature.h
+END
+FeatureClassProperties.h
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/svnroot/opticks/!svn/ver/13604/releases/4.7.0/trunk/Code/application/ArcProxyLib/FeatureClassProperties.h
+END
+FormatStringProcessor.h
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/svnroot/opticks/!svn/ver/13604/releases/4.7.0/trunk/Code/application/ArcProxyLib/FormatStringProcessor.h
+END
+ArcProxyLib.vcxproj
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/svnroot/opticks/!svn/ver/13604/releases/4.7.0/trunk/Code/application/ArcProxyLib/ArcProxyLib.vcxproj
+END
+ConnectionParameters.h
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/svnroot/opticks/!svn/ver/13604/releases/4.7.0/trunk/Code/application/ArcProxyLib/ConnectionParameters.h
+END
